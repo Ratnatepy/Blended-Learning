@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blended-learning"
+version = "0.1.0"
+description = "A blended learning analysis and recommendation system"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "adjustText",
+    "missingno",
+    "scikit-learn",
+    "kmodes",
+    "prince",
+    "umap-learn",
+    "nltk",
+    "vaderSentiment",
+    "sentence-transformers",
+    "langdetect",
+    "wordcloud",
+    "torch",
+    "transformers",
+    "sentencepiece",
+    "deep_translator",
+    "networkx",
+    "streamlit",
+    "streamlit-option-menu",
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "alembic",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "flake8",
+    "mypy",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/blended-learning"
+Repository = "https://github.com/yourusername/blended-learning.git"
+Issues = "https://github.com/yourusername/blended-learning/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

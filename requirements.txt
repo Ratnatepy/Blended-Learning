@@ -1,0 +1,59 @@
+# Core data processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+adjustText
+missingno
+
+# Machine Learning / Clustering
+scikit-learn
+kmodes
+prince
+umap-learn
+gower
+
+# NLP
+nltk
+vaderSentiment
+sentence-transformers
+langdetect
+wordcloud
+
+# Deep Learning / Translation (NLLB)
+torch
+transformers
+sentencepiece
+
+# Translation (alternative to NLLB)
+deep_translator
+
+
+# LLM
+openai
+
+# App / UI
+streamlit
+streamlit-option-menu
+
+# Backend / API
+fastapi
+uvicorn
+
+# Database
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Utilities
+tqdm
+requests
+python-dotenv
+pyarrow
+openpyxl
+
+# Notebook ( for development only)
+jupyter
