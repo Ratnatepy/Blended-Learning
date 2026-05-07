@@ -52,3 +52,20 @@ __pycache__/
 # Ignore distribution files
 dist/
 build/
+*.egg-info/
+*.egg
+# Ignore coverage reports
+coverage/
+htmlcov/
+*.cover
+*.coveragerc
+# Ignore compiled extensions
+*.pyd
+*.so
+*.dll
+*.dylib
+# Ignore executables
+*.exe
+*.app
+*.msi
+

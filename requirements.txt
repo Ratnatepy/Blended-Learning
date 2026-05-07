@@ -16,6 +16,9 @@ prince
 umap-learn
 gower
 
+# Saving clustering model ( k-modes)
+joblib
+
 # NLP
 nltk
 vaderSentiment

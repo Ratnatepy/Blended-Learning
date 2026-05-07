@@ -1,0 +1,14 @@
+{
+  "description": "K-Modes input preprocessing",
+  "steps": [
+    "Select the same 33 clustering features",
+    "Convert each feature to integer",
+    "Convert each feature to string",
+    "Pass the resulting array to kmodes_model.predict()",
+    "Add +1 to prediction output because the saved K-Modes model returns zero-based labels"
+  ],
+  "n_features": 33,
+  "model_input_type": "categorical strings",
+  "k": 2,
+  "random_state": 43
+}
