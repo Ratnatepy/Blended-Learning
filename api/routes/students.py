@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
 from api.database import get_db
@@ -9,28 +9,31 @@ router = APIRouter()
 
 
 @router.get("/")
-def get_students(limit: int = 20, db: Session = Depends(get_db)):
+def get_all_students(
+    limit: int = Query(1000, ge=1, le=5000),
+    db: Session = Depends(get_db)
+):
+    """
+    Return student recommendation records for the Student Records page.
+
+    Default limit is 1000, enough for your original 420 records plus new demo records.
+    """
     students = (
         db.query(StudentRecommendation)
-        .order_by(StudentRecommendation.student_id)
+        .order_by(StudentRecommendation.created_at.desc(), StudentRecommendation.student_id.asc())
         .limit(limit)
         .all()
     )
 
-    total = db.query(StudentRecommendation).count()
-
-    return {
-        "total": total,
-        "students": [
-            {
-                "student_id": student.student_id,
-                "student_segment_label": student.student_segment_label,
-                "final_recommendation_tags": student.final_recommendation_tags,
-                "llm_recommendation_report": student.llm_recommendation_report,
-            }
-            for student in students
-        ]
-    }
+    return [
+        {
+            "student_id": student.student_id,
+            "student_segment_label": student.student_segment_label,
+            "final_recommendation_tags": student.final_recommendation_tags,
+            "created_at": student.created_at,
+        }
+        for student in students
+    ]
 
 
 @router.get("/summary")
@@ -38,7 +41,6 @@ def get_dashboard_summary(db: Session = Depends(get_db)):
     students = db.query(StudentRecommendation).all()
 
     total_students = len(students)
-
     segment_distribution = {}
 
     for student in students:
@@ -49,6 +51,35 @@ def get_dashboard_summary(db: Session = Depends(get_db)):
         "total_students": total_students,
         "total_segments": len(segment_distribution),
         "segment_distribution": segment_distribution
+    }
+
+
+@router.get("/recent")
+def get_recent_students(
+    limit: int = Query(10, ge=1, le=100),
+    db: Session = Depends(get_db)
+):
+    """
+    Optional endpoint for checking recently added records.
+    """
+    students = (
+        db.query(StudentRecommendation)
+        .order_by(StudentRecommendation.created_at.desc())
+        .limit(limit)
+        .all()
+    )
+
+    return {
+        "total_returned": len(students),
+        "students": [
+            {
+                "student_id": student.student_id,
+                "student_segment_label": student.student_segment_label,
+                "final_recommendation_tags": student.final_recommendation_tags,
+                "created_at": student.created_at,
+            }
+            for student in students
+        ]
     }
 
 
