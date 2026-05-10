@@ -30,23 +30,11 @@ The project supports:
 
 The purpose of this thesis prototype is to demonstrate how student survey data can be used to support personalized blended-learning guidance.
 
-The system is best described as an:
+This project is best described as an **exploratory segment-based blended-learning recommendation prototype**. It combines survey-based learner segmentation, NLP-supported recommendation tags, and LLM-generated reports to produce personalized guidance based on structured survey responses and open-ended feedback.
 
-> Exploratory segment-based blended-learning recommendation prototype.
+The system is intended for research demonstration and student-support guidance. It should not be interpreted as a fully validated high-stakes prediction system or as a tool that accurately determines each student's learning needs.
 
-It should not be presented as a fully validated high-stakes prediction system. The learner segments and recommendations are intended for research demonstration and student-support guidance.
-
-Recommended thesis wording:
-
-> The system is a prototype that demonstrates how survey-based learner segmentation and NLP-supported recommendation tags can be combined with LLM generation to produce personalized blended-learning guidance.
-
-Avoid claiming:
-
-> The system accurately predicts each student's learning needs.
-
-Use instead:
-
-> The system provides segment-informed personalized recommendations based on survey responses and open-ended feedback.
+In this thesis, the system provides **segment-informed personalized recommendations** based on students' blended-learning experiences, learner profiles, and self-reported challenges.
 
 ---
 
