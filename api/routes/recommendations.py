@@ -5,99 +5,10 @@ from api.database import get_db
 from api.models import StudentRecommendation, StudentResponseInput
 from api.schemas import NewStudentInput, NewStudentRecommendation
 from api.ml_model import assign_kmodes_cluster
+from api.nlp_tags import extract_open_response_tags, tags_to_json
+from api.llm_service import generate_new_student_report_with_llm
 
 router = APIRouter()
-
-
-def get_recommendation_tags(cluster_id: int):
-    if cluster_id == 1:
-        return '["interaction", "learning_support", "motivation", "self_paced"]'
-
-    if cluster_id == 2:
-        return '["content_access", "digital_skill", "engagement", "self_paced"]'
-
-    return '["balanced_support", "learning_guidance"]'
-
-
-def generate_report(
-    student_id: str,
-    cluster_label: str,
-    recommendation_tags: str,
-    strengths: str | None = None,
-    challenges: str | None = None
-):
-    report = f"""
-**Student Learning Profile**
-
-- **Student ID:** {student_id}
-- **Assigned Segment:** {cluster_label}
-
-The student was assigned to this learner segment using the saved K-Modes clustering model based on the submitted 33 blended-learning survey responses.
-
----
-
-### Recommendation Tags
-
-{recommendation_tags}
-
----
-
-### Personalized Recommendation
-
-"""
-
-    if "Cluster 1" in cluster_label:
-        report += """
-This student appears to match the profile of a moderately engaged or more passive blended-learning student. The recommendation should focus on increasing interaction, strengthening motivation, providing clearer learning support, and encouraging regular self-paced study habits.
-
-Suggested actions:
-
-1. Join short Q&A or discussion sessions.
-2. Use clear weekly study checklists.
-3. Review recorded lessons before or after class.
-4. Participate in peer collaboration activities.
-5. Request feedback when instructions or tasks are unclear.
-"""
-
-    elif "Cluster 2" in cluster_label:
-        report += """
-This student appears to match the profile of a highly engaged active learner. The recommendation should focus on maintaining engagement, providing early access to content, supporting self-paced learning, and offering advanced or interactive learning activities.
-
-Suggested actions:
-
-1. Access lecture slides, videos, and learning materials early.
-2. Participate in quizzes, forums, and practical activities.
-3. Use recorded lessons for flexible review.
-4. Explore advanced or enrichment learning resources.
-5. Continue using digital tools to support independent learning.
-"""
-
-    else:
-        report += """
-This student should receive balanced blended-learning support, including structured teacher guidance, online resources, and regular progress monitoring.
-"""
-
-    if strengths:
-        report += f"""
-
----
-
-### Student Strengths / Positive Feedback
-
-{strengths}
-"""
-
-    if challenges:
-        report += f"""
-
----
-
-### Student Challenges / Suggestions
-
-{challenges}
-"""
-
-    return report
 
 
 @router.post("/generate", response_model=NewStudentRecommendation)
@@ -139,24 +50,47 @@ def generate_recommendation(
         raise HTTPException(status_code=400, detail=str(e))
 
     # ---------------------------------------------------
-    # Generate recommendation
+    # Extract NLP tags from the two open-ended text fields
     # ---------------------------------------------------
-    recommendation_tags = get_recommendation_tags(cluster_id)
-
-    report = generate_report(
-        student_id=payload.student_id,
-        cluster_label=cluster_label,
-        recommendation_tags=recommendation_tags,
-        strengths=payload.strengths_positive_aspects,
-        challenges=payload.challenges_suggestions
+    nlp_result = extract_open_response_tags(
+        strengths_positive_aspects=payload.strengths_positive_aspects,
+        challenges_suggestions=payload.challenges_suggestions,
+        segment_label=cluster_label
     )
+
+    recommendation_tags = tags_to_json(nlp_result["final_recommendation_tags"])
+
+    # ---------------------------------------------------
+    # Generate the final report with OpenRouter LLM when configured.
+    # If OPENROUTER_API_KEY is missing or OpenRouter fails, this returns
+    # a rule-based fallback report instead of breaking the endpoint.
+    # ---------------------------------------------------
+    llm_result = generate_new_student_report_with_llm(
+        student_id=payload.student_id,
+        cluster_id=cluster_id,
+        cluster_label=cluster_label,
+        nlp_result=nlp_result,
+        strengths_positive_aspects=payload.strengths_positive_aspects,
+        challenges_suggestions=payload.challenges_suggestions,
+    )
+
+    report = llm_result["report"]
+    llm_generation_source = llm_result["generation_source"]
 
     # ---------------------------------------------------
     # Save raw 33-feature input for future model tuning
     # ---------------------------------------------------
     new_response_input = StudentResponseInput(
         student_id=payload.student_id,
-        response_data=payload.responses,
+        response_data={
+            "survey_responses": payload.responses,
+            "open_ended_responses": {
+                "strengths_positive_aspects": payload.strengths_positive_aspects,
+                "challenges_suggestions": payload.challenges_suggestions
+            },
+            "nlp_extraction": nlp_result,
+            "llm_generation_source": llm_generation_source
+        },
         assigned_cluster_label=cluster_label
     )
 
@@ -185,5 +119,6 @@ def generate_recommendation(
         "student_id": payload.student_id,
         "student_segment_label": cluster_label,
         "final_recommendation_tags": recommendation_tags,
-        "llm_recommendation_report": report
+        "llm_recommendation_report": report,
+        "llm_generation_source": llm_generation_source
     }

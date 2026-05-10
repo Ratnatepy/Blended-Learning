@@ -37,8 +37,11 @@ class OpenRouterStudentRecommender:
     ):
         self.api_key = api_key or os.getenv("OPENROUTER_API_KEY")
         self.model = os.getenv("OPENROUTER_MODEL", model)
-        self.base_url = base_url
-        self.app_title = app_title
+        self.base_url = os.getenv("OPENROUTER_BASE_URL", base_url)
+        self.app_title = os.getenv("OPENROUTER_APP_TITLE", app_title)
+        self.last_generation_source = None
+        self.last_generation_error = None
+        self.last_error = None
 
         if prompt_path is None:
             self.prompt_path = (
@@ -279,11 +282,22 @@ Rules:
         max_tokens=900
     ):
         """
-        Generate one LLM recommendation report.
+        Generate one recommendation report.
 
-        If OpenRouter is unavailable, return rule-based fallback.
+        With OPENROUTER_API_KEY configured, this calls OpenRouter.
+        If the key is missing or the request fails, it returns the
+        rule-based fallback so the prototype remains usable.
+        FastAPI can inspect last_generation_source and
+        last_generation_error after this method returns.
         """
+        self.last_generation_source = None
+        self.last_generation_error = None
+        self.last_error = None
+
         if not self.client:
+            self.last_generation_source = "rule_based_fallback_no_api_key"
+            self.last_generation_error = "OPENROUTER_API_KEY is not configured."
+            self.last_error = self.last_generation_error
             return self.build_rule_based_report(student_package)
 
         user_prompt = self.build_user_prompt(student_package)
@@ -304,14 +318,23 @@ Rules:
                 temperature=temperature,
                 max_tokens=max_tokens,
                 extra_headers={
-                    "HTTP-Referer": "http://localhost",
+                    "HTTP-Referer": os.getenv(
+                        "OPENROUTER_HTTP_REFERER",
+                        "http://localhost"
+                    ),
                     "X-Title": self.app_title
                 }
             )
 
+            self.last_generation_source = "openrouter_llm"
+            self.last_generation_error = None
+            self.last_error = None
             return response.choices[0].message.content
 
         except Exception as error:
+            self.last_generation_source = "rule_based_fallback_openrouter_error"
+            self.last_generation_error = str(error)
+            self.last_error = self.last_generation_error
             print("OpenRouter generation failed:", error)
             print("Returning rule-based fallback report.")
             return self.build_rule_based_report(student_package)

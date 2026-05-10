@@ -27,3 +27,4 @@ class NewStudentRecommendation(BaseModel):
     student_segment_label: str
     final_recommendation_tags: str
     llm_recommendation_report: str
+    llm_generation_source: Optional[str] = None
