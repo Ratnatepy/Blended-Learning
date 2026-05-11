@@ -2010,7 +2010,7 @@ elif page == "New Student Input":
                 "challenges_suggestions": challenges
             }
 
-            with st.spinner("Generating recommendation. This may take up to a few minutes if OpenRouter LLM is used..."):
+            with st.spinner("Analyzing the learner profile and generating a recommendation..."):
                 response, error_type, error_message = api_post(
                     "/recommendations/generate",
                     payload,
@@ -2021,7 +2021,7 @@ elif page == "New Student Input":
                 show_api_error(error_type, error_message)
 
                 st.info(
-                    "Important: if this was a timeout, the backend may still have saved the record. "
+                    "Important: if this was a timeout, the recommendation may still have been saved. "
                     "Before clicking Generate again, search this ID in ITC Student Lookup or Student Records:"
                 )
                 st.code(final_student_id)
@@ -2038,7 +2038,7 @@ elif page == "New Student Input":
             elif response.status_code == 409:
                 st.warning(
                     "This student ID already exists in the database. "
-                    "The first click probably generated and saved the recommendation successfully."
+                
                 )
 
                 try:
@@ -2193,7 +2193,7 @@ st.markdown(
     """
     <div class="footer-box">
         <b>Prototype Note:</b> This system provides segment-based personalized recommendations for blended learning.
-        It supports both ITC students and non-ITC/external respondents, while the lookup function is limited to official ITC student IDs.
+        It supports both ITC students and non-ITC/external respondents.
     </div>
     """,
     unsafe_allow_html=True
