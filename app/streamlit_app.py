@@ -1,8 +1,10 @@
 import os
+from pathlib import Path
 import re
 import json
 import html
 import uuid
+import base64
 import requests
 import pandas as pd
 import streamlit as st
@@ -12,10 +14,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+APP_ICON_PATH = "assets/itc_logo.png"
 
 st.set_page_config(
     page_title="Blended Learning Recommendation System",
-    page_icon="🎓",
+    page_icon=APP_ICON_PATH if os.path.exists(APP_ICON_PATH) else None,
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -265,6 +268,49 @@ st.markdown(
             padding: 0.5rem;
             border: 1px solid rgba(255,255,255,0.06);
         }
+
+        .inline-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.15em;
+            height: 1.15em;
+            margin-right: 0.45rem;
+            vertical-align: -0.15em;
+            color: #f8fafc;
+        }
+
+        .inline-icon svg {
+            width: 100%;
+            height: 100%;
+            stroke: currentColor;
+        }
+
+        .sidebar-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.55rem;
+            font-size: 1.08rem;
+            font-weight: 900;
+            color: #f8fafc;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar-brand-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.35rem;
+            height: 1.35rem;
+            color: #f8fafc;
+        }
+
+        .sidebar-brand-icon svg {
+            width: 100%;
+            height: 100%;
+            stroke: currentColor;
+        }
+
     </style>
     """,
     unsafe_allow_html=True
@@ -274,6 +320,68 @@ st.markdown(
 # -----------------------------
 # Helper functions
 # -----------------------------
+
+def image_to_base64(image_path: str):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode()
+
+
+def icon_svg(svg_path: str, size: int = 18, color: str = "#f8fafc") -> str:
+    """
+    Return an SVG loaded from a file as an HTML string.
+    Use with st.markdown(..., unsafe_allow_html=True).
+    """
+
+    path = Path(svg_path)
+
+    if not path.exists():
+        return ""
+
+    svg = path.read_text(encoding="utf-8")
+
+    # Set width and height
+    if "width=" in svg:
+        svg = svg.replace('width="24"', f'width="{size}"')
+    else:
+        svg = svg.replace("<svg", f'<svg width="{size}"', 1)
+
+    if "height=" in svg:
+        svg = svg.replace('height="24"', f'height="{size}"')
+    else:
+        svg = svg.replace("<svg", f'<svg height="{size}"', 1)
+
+    # Set stroke color when the SVG uses common stroke values
+    safe_color = html.escape(color)
+    svg = svg.replace('stroke="currentColor"', f'stroke="{safe_color}"')
+    svg = svg.replace('stroke="#f8fafc"', f'stroke="{safe_color}"')
+    svg = svg.replace('stroke="black"', f'stroke="{safe_color}"')
+
+    # Add inline style
+    svg = svg.replace(
+        "<svg",
+        '<svg style="vertical-align:-3px; margin-right:6px;"',
+        1,
+    )
+
+    return svg
+
+
+def icon_span(name: str, text: str, size: int = 18, color: str = "#f8fafc") -> str:
+    path = f"assets/icons/{name}.svg"
+    return f'{icon_svg(path, size=size, color=color)}<span>{html.escape(text)}</span>'
+
+
+def icon_title(name: str, text: str, level: int = 3, color: str = "#f8fafc") -> str:
+    level = max(1, min(level, 6))
+    path = f"assets/icons/{name}.svg"
+
+    return f"""
+    <h{level} style="display:flex; align-items:center; gap:0.35rem; color:{color};">
+        {icon_svg(path, size=22, color=color)}
+        <span>{html.escape(text)}</span>
+    </h{level}>
+    """
+
 def api_get(endpoint: str, timeout: int = 20):
     """
     GET request helper.
@@ -543,6 +651,22 @@ def get_recommendation_report(data: dict):
     return ""
 
 
+
+
+def clean_recommendation_text(text):
+    """Convert stored HTML line breaks into readable Markdown-style line breaks."""
+    if not text:
+        return ""
+
+    cleaned = str(text)
+    cleaned = cleaned.replace("<br>•", "\n•")
+    cleaned = cleaned.replace("<br/>•", "\n•")
+    cleaned = cleaned.replace("<br />•", "\n•")
+    cleaned = cleaned.replace("<br>", "\n")
+    cleaned = cleaned.replace("<br/>", "\n")
+    cleaned = cleaned.replace("<br />", "\n")
+    return cleaned.strip()
+
 def render_generated_recommendation_result(data: dict, final_student_id: str, respondent_type: str):
     """
     Render successful recommendation generation result.
@@ -581,7 +705,7 @@ def render_generated_recommendation_result(data: dict, final_student_id: str, re
     col1, col2 = st.columns([1, 1])
 
     with col1:
-        st.markdown("### 🧩 Assigned Learner Segment")
+        st.markdown("### Assigned Learner Segment")
         st.markdown(
             f"""
             <div class="info-card">
@@ -594,11 +718,11 @@ def render_generated_recommendation_result(data: dict, final_student_id: str, re
         )
 
     with col2:
-        st.markdown("### 🏷️ Recommendation Tags")
+        st.markdown("### Recommendation Tags")
         tags = get_nested_recommendation_tags(data)
         render_tags(tags)
 
-    st.markdown("### 📄 Generated Recommendation Report")
+    st.markdown("### Generated Recommendation Report")
 
     if generation_source == "openrouter_llm":
         st.success("Generated using OpenRouter LLM.")
@@ -640,7 +764,7 @@ def require_admin_login():
             st.rerun()
         return True
 
-    st.markdown("### 🔐 Admin Login Required")
+    st.markdown(icon_title("lock", "Admin Login Required", level=3), unsafe_allow_html=True)
     st.info("Please log in to access the Admin dashboard.")
 
     with st.form("admin_login_form"):
@@ -661,7 +785,26 @@ def require_admin_login():
 # -----------------------------
 # Sidebar Navigation
 # -----------------------------
-st.sidebar.markdown("## 🎓 Blended Learning System")
+logo_path = "assets/itc_logo.png"
+logo_base64 = image_to_base64(logo_path)
+st.sidebar.markdown(
+    f"""
+    <div class="sidebar-brand">
+        <img src="data:image/png;base64,{logo_base64}" style="
+                        width: 60px;
+                        height: 60px;
+                        object-fit: contain;
+                        background: transparent;
+                        padding: 0;
+                        border: none;
+                        border-radius: 0;
+                        box-shadow: none;
+                    ">
+        <span>Blended Learning System</span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 st.sidebar.markdown(
     """
@@ -687,19 +830,19 @@ st.sidebar.markdown(
 menu_group = st.sidebar.selectbox(
     "Choose Area",
     [
-        "🎓 Student Portal",
-        "🛠️ Admin",
-        "ℹ️ System Information"
+        "Student Portal",
+        "Admin",
+        "System Information"
     ]
 )
 
-if menu_group == "🎓 Student Portal":
+if menu_group == "Student Portal":
     page = st.sidebar.radio(
         "Student Pages",
         [
-            "🔍 ITC Student Lookup",
-            "🗂️ Saved Record Lookup",
-            "📝 New Student Input"
+            "ITC Student Lookup",
+            "Saved Record Lookup",
+            "New Student Input"
         ]
     )
 
@@ -707,13 +850,13 @@ if menu_group == "🎓 Student Portal":
         "Use this section for student lookup and new recommendation generation."
     )
 
-elif menu_group == "🛠️ Admin":
+elif menu_group == "Admin":
     page = st.sidebar.radio(
         "Admin Pages",
         [
-            "📊 Dashboard",
-            "👥 Student Records",
-            "📈 Survey Analytics"
+            "Dashboard",
+            "Student Records",
+            "Survey Analytics"
         ]
     )
 
@@ -722,7 +865,7 @@ elif menu_group == "🛠️ Admin":
     )
 
 else:
-    page = "ℹ️ About Prototype"
+    page = "About Prototype"
 
     st.sidebar.info(
         "System overview, architecture, data flow, and thesis positioning."
@@ -731,16 +874,16 @@ else:
 health_response, health_error_type, health_error_message = api_get("/")
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("### ⚙️ Backend Status")
+st.sidebar.markdown(icon_title("settings", "Backend Status", level=3), unsafe_allow_html=True)
 
 if health_response and health_response.status_code == 200:
     st.sidebar.markdown(
-        '<span class="status-pill-ok">● Backend connected</span>',
+        '<span class="status-pill-ok">Backend connected</span>',
         unsafe_allow_html=True
     )
 else:
     st.sidebar.markdown(
-        '<span class="status-pill-bad">● Backend not connected</span>',
+        '<span class="status-pill-bad">Backend not connected</span>',
         unsafe_allow_html=True
     )
 
@@ -766,21 +909,21 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-st.sidebar.caption("🎓 Blended Learning Thesis Prototype")
-st.sidebar.caption("Streamlit + FastAPI + PostgreSQL")
+st.sidebar.caption("Blended Learning Thesis Prototype")
+st.sidebar.caption("Built with Streamlit, FastAPI, and PostgreSQL")
 
 
 # -----------------------------
 # Hero section
 # -----------------------------
 page_subtitles = {
-    "🔍 ITC Student Lookup": "Search an official ITC student ID and view the learner recommendation report.",
-    "🗂️ Saved Record Lookup": "Search any stored recommendation record, including demo, external, and ITC IDs.",
-    "📝 New Student Input": "Submit blended learning survey responses and generate a new recommendation.",
-    "📊 Dashboard": "Monitor total records, learner segments, and recommendation system summary.",
-    "👥 Student Records": "Review stored student and respondent recommendation records.",
-    "📈 Survey Analytics": "Explore preprocessing, survey features, learner clusters, and recommendation tags.",
-    "ℹ️ About Prototype": "Understand the system architecture, thesis positioning, and data flow."
+    "ITC Student Lookup": "Search an official ITC student ID and view the learner recommendation report.",
+    "Saved Record Lookup": "Search any stored recommendation record, including demo, external, and ITC IDs.",
+    "New Student Input": "Submit blended learning survey responses and generate a new recommendation.",
+    "Dashboard": "Monitor total records, learner segments, and recommendation system summary.",
+    "Student Records": "Review stored student and respondent recommendation records.",
+    "Survey Analytics": "Explore preprocessing, survey features, learner clusters, and recommendation tags.",
+    "About Prototype": "Understand the system architecture, thesis positioning, and data flow."
 }
 
 st.markdown(
@@ -802,7 +945,7 @@ st.markdown(
 )
 
 # Protect Admin pages
-if menu_group == "🛠️ Admin":
+if menu_group == "Admin":
     if not require_admin_login():
         st.stop()
 
@@ -810,9 +953,9 @@ if menu_group == "🛠️ Admin":
 # -----------------------------
 # Dashboard
 # -----------------------------
-if page == "📊 Dashboard":
+if page == "Dashboard":
     st.markdown(
-        '<div class="section-title">📊 Dashboard Summary</div>',
+        icon_title("chart", "Dashboard Summary", level=3),
         unsafe_allow_html=True
     )
 
@@ -837,26 +980,26 @@ if page == "📊 Dashboard":
 
         with col1:
             render_metric_card(
-                "👥 Total Records",
+                "Total Records",
                 total_students,
                 "ITC + external/demo records in PostgreSQL"
             )
 
         with col2:
             render_metric_card(
-                "🧩 Total Segments",
+                "Total Segments",
                 total_segments,
                 "Detected learner profiles"
             )
 
         with col3:
             render_metric_card(
-                "🎯 Recommendation Type",
+                " Recommendation Type",
                 "Segment-based",
                 "K-Modes + rule-based tags"
             )
-
-        st.markdown("### 📈 Student Segment Distribution")
+            
+        st.markdown("###  Student Segment Distribution")
 
         if segment_distribution:
             segment_df = pd.DataFrame(
@@ -950,7 +1093,7 @@ if page == "📊 Dashboard":
                     use_container_width=True
                 )
 
-            st.markdown("### 📋 Segment Data Table")
+            st.markdown("### Segment Data Table")
             st.dataframe(
                 segment_df,
                 use_container_width=True,
@@ -970,9 +1113,9 @@ if page == "📊 Dashboard":
 # -----------------------------
 # Student Records
 # -----------------------------
-elif page == "👥 Student Records":
+elif page == "Student Records":
     st.markdown(
-        '<div class="section-title">👥 Student Records</div>',
+        icon_title("clipboard", "Student Records", level=3),
         unsafe_allow_html=True
     )
 
@@ -996,7 +1139,7 @@ elif page == "👥 Student Records":
         if students:
             records_df = pd.DataFrame(students)
 
-            st.markdown("### 📋 All Stored Records")
+            st.markdown("### All Stored Records")
 
             col1, col2 = st.columns([1, 1])
 
@@ -1064,9 +1207,9 @@ elif page == "👥 Student Records":
 # -----------------------------
 # Survey Analytics
 # -----------------------------
-elif page == "📈 Survey Analytics":
+elif page == "Survey Analytics":
     st.markdown(
-        '<div class="section-title">📈 Survey Analytics</div>',
+        '<div class="section-title"> Survey Analytics</div>',
         unsafe_allow_html=True
     )
 
@@ -1079,7 +1222,7 @@ elif page == "📈 Survey Analytics":
         "the learner segmentation and recommendation prototype."
     )
 
-    st.markdown("### 🧹 Data Preparation Summary")
+    st.markdown("### Data Preparation Summary")
 
     col1, col2, col3, col4 = st.columns(4)
 
@@ -1118,7 +1261,7 @@ After automated cleaning and preprocessing, **420 valid responses** remained for
 """
     )
 
-    st.markdown("### 🔄 Automated Cleaning and Preprocessing Pipeline")
+    st.markdown("### Automated Cleaning and Preprocessing Pipeline")
 
     pipeline_steps = pd.DataFrame(
         [
@@ -1176,7 +1319,7 @@ After automated cleaning and preprocessing, **420 valid responses** remained for
         hide_index=True
     )
 
-    st.markdown("### 👥 Respondent Composition")
+    st.markdown("### Respondent Composition")
 
     respondent_df = pd.DataFrame(
         {
@@ -1218,7 +1361,7 @@ After automated cleaning and preprocessing, **420 valid responses** remained for
     )
 
    
-    st.markdown("### 🏷️ Top Recommendation Tags")
+    st.markdown("### Top Recommendation Tags")
 
     records_response, records_error_type, records_error_message = api_get("/students/")
 
@@ -1276,7 +1419,7 @@ After automated cleaning and preprocessing, **420 valid responses** remained for
     else:
         st.warning("Could not load recommendation tags from PostgreSQL records.")
 
-    st.markdown("### 📝 Interpretation")
+    st.markdown("### Interpretation")
 
     st.markdown(
         """
@@ -1292,9 +1435,9 @@ The feature-group and cluster-comparison charts summarize the behavioral pattern
 # -----------------------------
 # ITC Student Lookup
 # -----------------------------
-elif page == "🔍 ITC Student Lookup":
+elif page == "ITC Student Lookup":
     st.markdown(
-        '<div class="section-title">🔍 ITC Student Lookup</div>',
+        '<div class="section-title">ITC Student Lookup</div>',
         unsafe_allow_html=True
     )
 
@@ -1341,7 +1484,7 @@ elif page == "🔍 ITC Student Lookup":
                 col1, col2 = st.columns([1, 1])
 
                 with col1:
-                    st.markdown("### 👤 ITC Student Profile")
+                    st.markdown("### Student Profile")
 
                     st.markdown(
                         f"""
@@ -1354,10 +1497,10 @@ elif page == "🔍 ITC Student Lookup":
                     )
 
                 with col2:
-                    st.markdown("### 🏷️ Recommendation Tags")
+                    st.markdown("### Recommendation Tags")
                     render_tags(data.get("final_recommendation_tags"))
 
-                st.markdown("### 📄 Recommendation Report")
+                st.markdown("### Recommendation Report")
 
                 report = data.get("llm_recommendation_report")
 
@@ -1405,7 +1548,7 @@ elif page == "🔍 ITC Student Lookup":
                         unsafe_allow_html=True
                     )
 
-                    st.link_button("📋 Open Survey Form", survey_url)
+                    st.link_button("Open Survey Form", survey_url)
 
             else:
                 try:
@@ -1417,9 +1560,9 @@ elif page == "🔍 ITC Student Lookup":
 # -----------------------------
 # Saved Record Lookup
 # -----------------------------
-elif page == "🗂️ Saved Record Lookup":
+elif page == "Saved Record Lookup":
     st.markdown(
-        '<div class="section-title">🗂️ Saved Record Lookup</div>',
+        '<div class="section-title"> Saved Record Lookup</div>',
         unsafe_allow_html=True
     )
 
@@ -1458,7 +1601,7 @@ elif page == "🗂️ Saved Record Lookup":
                 col1, col2 = st.columns([1, 1])
 
                 with col1:
-                    st.markdown("### 👤 Saved Record Profile")
+                    st.markdown("### Saved Record Profile")
 
                     student_id_value = data.get("student_id", cleaned_id)
 
@@ -1483,10 +1626,10 @@ elif page == "🗂️ Saved Record Lookup":
                     )
 
                 with col2:
-                    st.markdown("### 🏷️ Recommendation Tags")
+                    st.markdown("### Recommendation Tags")
                     render_tags(get_nested_recommendation_tags(data))
 
-                st.markdown("### 📄 Recommendation Report")
+                st.markdown("### Recommendation Report")
 
                 report = get_recommendation_report(data)
 
@@ -1519,9 +1662,9 @@ elif page == "🗂️ Saved Record Lookup":
 # -----------------------------
 # New Student Input
 # -----------------------------
-elif page == "📝 New Student Input":
+elif page == "New Student Input":
     st.markdown(
-        '<div class="section-title">📝 New Student / Respondent Input</div>',
+        '<div class="section-title"> New Student / Respondent Input</div>',
         unsafe_allow_html=True
     )
 
@@ -1773,7 +1916,7 @@ elif page == "📝 New Student Input":
             key=f"student_id_input_{respondent_type}"
         )
 
-        st.markdown("### 🧾 Student Learning Profile Questions")
+        st.markdown("### Student Learning Profile Questions")
         st.caption(
             "Choose one answer for each question. The system automatically converts your answer into a numeric value for the model."
         )
@@ -1781,41 +1924,41 @@ elif page == "📝 New Student Input":
         responses = {}
 
         tabs = st.tabs([
-            "📚 Content Use",
-            "🤝 Interaction",
-            "👩‍🏫 Lecturer Support",
-            "🧠 Self-Regulation",
-            "🌟 Benefits"
+            "Content Use",
+            "Interaction",
+            "Lecturer Support",
+            "Self-Regulation",
+            "Benefits"
         ])
 
         feature_keys = list(feature_labels.keys())
 
         with tabs[0]:
-            st.markdown("#### 📚 Content and Digital Learning Resources")
+            st.markdown("#### Content and Digital Learning Resources")
             st.caption("These questions ask how often the student uses digital learning materials.")
             render_feature_group(feature_keys[0:6])
 
         with tabs[1]:
-            st.markdown("#### 🤝 Interaction and Learning Experience")
+            st.markdown("#### Interaction and Learning Experience")
             st.caption("These questions ask about participation, collaboration, comfort, community, and course integration.")
             render_feature_group(feature_keys[6:12])
 
         with tabs[2]:
-            st.markdown("#### 👩‍🏫 Lecturer Support")
+            st.markdown("#### Lecturer Support")
             st.caption("These questions ask how students perceive lecturer instructions, support, tools, feedback, and interaction.")
             render_feature_group(feature_keys[12:17])
 
         with tabs[3]:
-            st.markdown("#### 🧠 Self-Regulation and Learning Readiness")
+            st.markdown("#### Self-Regulation and Learning Readiness")
             st.caption("These questions ask about study habits, readiness, technical issues, LMS usability, satisfaction, and career preparation.")
             render_feature_group(feature_keys[17:27])
 
         with tabs[4]:
-            st.markdown("#### 🌟 Perceived Benefits of Blended Learning")
+            st.markdown("#### Perceived Benefits of Blended Learning")
             st.caption("These questions ask how beneficial students find different aspects of blended learning.")
             render_feature_group(feature_keys[27:33])
 
-        st.markdown("### 💬 Open-ended Responses")
+        st.markdown("### Open-ended Responses")
 
         strengths = st.text_area(
             "In your opinion, what are the biggest strengths or most positive aspects of the blended learning approach?",
@@ -1908,7 +2051,7 @@ elif page == "📝 New Student Input":
                 except Exception:
                     pass
 
-                st.info("Search this ID in Student Portal → 🗂️ Saved Record Lookup instead of clicking Generate again:")
+                st.info("Search this ID in Student Portal → Saved Record Lookup instead of clicking Generate again:")
                 st.code(final_student_id)
 
             elif response.status_code == 422:
@@ -1933,9 +2076,9 @@ elif page == "📝 New Student Input":
 # -----------------------------
 # About Prototype
 # -----------------------------
-elif page == "ℹ️ About Prototype":
+elif page == "About Prototype":
     st.markdown(
-        '<div class="section-title">ℹ️ About the Prototype</div>',
+        '<div class="section-title"> About the Prototype</div>',
         unsafe_allow_html=True
     )
 
@@ -1947,7 +2090,7 @@ elif page == "ℹ️ About Prototype":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown("### 🏗️ System Architecture")
+        st.markdown("### System Architecture")
         st.markdown(
             """
 This prototype follows a three-layer architecture:
@@ -1961,7 +2104,7 @@ This prototype follows a three-layer architecture:
         )
 
     with col2:
-        st.markdown("### ✅ Prototype Capabilities")
+        st.markdown("### Prototype Capabilities")
         st.markdown(
             """
 The current prototype supports:
@@ -1983,7 +2126,7 @@ The current prototype supports:
 
     st.markdown("---")
 
-    st.markdown("### 🎓 Thesis Positioning")
+    st.markdown("### Thesis Positioning")
     st.markdown(
         """
 The prototype demonstrates a **segment-based personalized recommendation system** for blended learning.  
@@ -2001,7 +2144,7 @@ The system does **not automatically retrain** the clustering model during predic
 """
     )
 
-    st.markdown("### 🔄 Data Flow")
+    st.markdown("### Data Flow")
     st.markdown(
         """
 **Original Dataset Preparation**  
