@@ -650,22 +650,38 @@ def get_recommendation_report(data: dict):
 
     return ""
 
-
-
-
 def clean_recommendation_text(text):
-    """Convert stored HTML line breaks into readable Markdown-style line breaks."""
+    """
+    Clean recommendation report text before showing it in Streamlit.
+
+    This fixes cases where <br>• appears directly in the UI by allowing
+    <br> to render as a real line break inside Markdown tables.
+    """
     if not text:
         return ""
 
     cleaned = str(text)
-    cleaned = cleaned.replace("<br>•", "\n•")
-    cleaned = cleaned.replace("<br/>•", "\n•")
-    cleaned = cleaned.replace("<br />•", "\n•")
-    cleaned = cleaned.replace("<br>", "\n")
-    cleaned = cleaned.replace("<br/>", "\n")
-    cleaned = cleaned.replace("<br />", "\n")
+
+    # Decode escaped HTML if backend/database saved it as text
+    cleaned = cleaned.replace("&lt;br&gt;", "<br>")
+    cleaned = cleaned.replace("&lt;br/&gt;", "<br>")
+    cleaned = cleaned.replace("&lt;br /&gt;", "<br>")
+
+    # Normalize all break formats
+    cleaned = cleaned.replace("<br />", "<br>")
+    cleaned = cleaned.replace("<br/>", "<br>")
+
     return cleaned.strip()
+
+
+def render_recommendation_report(report):
+    """
+    Render the recommendation report correctly in Streamlit.
+    """
+    cleaned_report = clean_recommendation_text(report)
+
+    if cleaned_report:
+        st.markdown(cleaned_report, unsafe_allow_html=True)
 
 def render_generated_recommendation_result(data: dict, final_student_id: str, respondent_type: str):
     """
@@ -735,7 +751,7 @@ def render_generated_recommendation_result(data: dict, final_student_id: str, re
     generated_report = get_recommendation_report(data)
 
     if generated_report:
-        st.markdown(generated_report)
+        render_recommendation_report(generated_report)
     else:
         st.info(
             "The backend returned NLP extraction and recommendation tags, "
@@ -1505,7 +1521,7 @@ elif page == "ITC Student Lookup":
                 report = data.get("llm_recommendation_report")
 
                 if report:
-                    st.markdown(report)
+                    render_recommendation_report(report)
                 else:
                     st.info("No recommendation report found.")
 
@@ -1634,7 +1650,7 @@ elif page == "Saved Record Lookup":
                 report = get_recommendation_report(data)
 
                 if report:
-                    st.markdown(report)
+                    render_recommendation_report(report)
                 else:
                     st.info("No recommendation report found.")
 
