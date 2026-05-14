@@ -504,10 +504,8 @@ def show_api_error(error_type: str, error_message: str = ""):
     """
     if error_type == "connection_error":
         st.error(
-            "Could not connect to FastAPI backend. "
-            "Please make sure FastAPI is running on the correct port."
+            "Could not connect to FastAPI backend."
         )
-        st.code(f"API_BASE_URL = {API_BASE_URL}")
 
     elif error_type == "timeout_error":
         st.warning(
