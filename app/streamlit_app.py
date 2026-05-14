@@ -36,11 +36,77 @@ st.markdown(
                 linear-gradient(135deg, #020617 0%, #0f172a 55%, #111827 100%);
         }
 
-        .block-container {
-            padding-top: 1.5rem;
-            padding-bottom: 2rem;
-            max-width: 1280px;
-        }
+        /* -----------------------------
+   Fix cut page header on mobile/tablet
+   ----------------------------- */
+
+/* Keep Streamlit top header clean but reserve space */
+header[data-testid="stHeader"] {
+    background: transparent;
+    height: 3.2rem;
+}
+
+/* Desktop spacing */
+.block-container {
+    padding-top: 3.8rem !important;
+    padding-bottom: 2rem;
+    max-width: 1280px;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+    .block-container {
+        padding-top: 4.8rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .hero-box {
+        padding: 1.1rem 1.2rem !important;
+        border-radius: 18px !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+
+    .hero-title {
+        font-size: 1.45rem !important;
+        line-height: 1.3 !important;
+        word-break: break-word;
+        white-space: normal;
+    }
+
+    .hero-subtitle {
+        font-size: 0.86rem !important;
+        line-height: 1.45 !important;
+    }
+
+    .hero-badge {
+        font-size: 0.68rem !important;
+        padding: 0.28rem 0.55rem !important;
+        margin: 0.12rem 0.18rem 0.12rem 0;
+    }
+
+    .section-title {
+        font-size: 1.25rem !important;
+        line-height: 1.35 !important;
+        margin-top: 0.6rem !important;
+    }
+}
+
+/* Very small phone screen */
+@media (max-width: 420px) {
+    .block-container {
+        padding-top: 5.2rem !important;
+    }
+
+    .hero-title {
+        font-size: 1.3rem !important;
+    }
+
+    .hero-box {
+        padding: 1rem !important;
+    }
+}
 
         section[data-testid="stSidebar"] {
             background: linear-gradient(180deg, #020617 0%, #111827 100%);
