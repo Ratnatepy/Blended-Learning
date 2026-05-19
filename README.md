@@ -13,7 +13,7 @@ This project was developed as part of a thesis on personalized recommendations f
 The system allows students or respondents to submit blended-learning survey responses. The backend assigns a learner segment, extracts recommendation themes from open-ended responses, generates a recommendation report, and stores the result in PostgreSQL.
 
 The project supports:
-
+- KoboToolbox API data fetching for updated survey export data
 - ITC student lookup using official ITC student IDs
 - Saved record lookup for ITC, demo, and external respondent records
 - New student/respondent input
@@ -67,7 +67,9 @@ The ordinal features are used by the saved K-Modes model to assign learner segme
 The system follows a full pipeline architecture from survey data collection to recommendation output and dashboard visualization.
 
 ```text
-Survey Data
+KoBoToolbox Survey Data
+    ↓
+Kobo API Fetch / Export Update
     ↓
 Preprocessing Pipeline
     ↓
@@ -98,7 +100,7 @@ Streamlit Dashboard
 
 ## Quick Start
 
-Create a `.env` file in the project root and configure the database connection, API base URL, OpenRouter API key, and admin credentials.
+Create a `.env` file in the project root and configure the KoboToolbox API settings, database connection, API base URL, OpenRouter API key, and admin credentials.
 
 Install dependencies from the project root:
 
@@ -109,7 +111,7 @@ pip install -r requirements.txt
 Start PostgreSQL:
 
 ```bash
-docker compose up -d postgres
+docker compose up -d
 ```
 
 Start FastAPI backend:
@@ -135,6 +137,47 @@ The Streamlit application will usually run at:
 ```text
 http://localhost:8501
 ```
+
+---
+
+## Environment Variables
+
+This project uses a `.env` file to manage local configuration values such as KoboToolbox API access, database connection settings, OpenRouter API access, application URLs, and admin credentials.
+
+Example `.env` structure:
+
+```env
+# KoboToolbox API settings
+KOBO_EXPORT_FORMAT=xls
+KOBO_BASE_URL=kobotoolbox_base_url
+KOBO_TOKEN=your_kobo_api_token_here
+KOBO_ASSET_UID=your_kobo_asset_uid_here
+
+# PostgreSQL database connection settings
+POSTGRES_USER=your_postgres_username
+POSTGRES_PASSWORD=your_postgres_password
+POSTGRES_HOST=your_postgres_host
+POSTGRES_PORT=your_postgres_port
+POSTGRES_DB=your_database_name
+
+# pgAdmin connection settings
+PGADMIN_DEFAULT_EMAIL=your_pgadmin_email
+PGADMIN_DEFAULT_PASSWORD=your_pgadmin_password
+
+# OpenRouter API key
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+# Application settings
+DATABASE_URL=postgresql://your_postgres_username:your_postgres_password@your_postgres_host:your_postgres_port/your_database_name
+API_BASE_URL=http://127.0.0.1:8000
+
+# Admin credentials for prototype demonstration
+ADMIN_EMAIL=your_admin_email
+ADMIN_PASSWORD=your_admin_password
+```
+
+The `.env` file should not be pushed to GitHub because it may contain private API tokens, passwords, and local configuration values. Make sure `.env` is included in `.gitignore`.
+
 
 ---
 
