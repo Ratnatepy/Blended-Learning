@@ -60,36 +60,52 @@ The two open-ended response fields are:
 
 The ordinal features are used by the saved K-Modes model to assign learner segments. The open-ended responses are processed separately to extract themes such as flexibility, interaction, technical issues, learning support, and learning environment needs.
 
----
 
+---
 ## System Architecture
 
-The system follows a three-layer architecture:
+The system follows a full pipeline architecture from survey data collection to recommendation output and dashboard visualization.
 
 ```text
-Streamlit Frontend
-        ↓
+Survey Data
+    ↓
+Preprocessing Pipeline
+    ↓
+Clustering + NLP
+    ↓
+Recommendation Engine
+    ↓
 FastAPI Backend
-        ↓
+    ↓
 PostgreSQL Database
+    ↓
+Streamlit Dashboard
+```
 
-## Quick Start
+---
 
-Install dependencies from the project root:
+## Screenshots
 
-```bash
-pip install -r requirements.txt
+### Student Portal
 
+![Student Portal](screenshots/student.png)
 
-Start PostgreSQL:
+### Admin Portal
 
-docker compose up -d postgres
+![Admin Portal](screenshots/admin.png)
 
-Start FastAPI:
+---
 
-uvicorn api.main:app --reload
+## Ethics and Privacy
 
-Start Streamlit:
+Because this project uses student survey data, ethical and privacy considerations are important.
 
-```bash
-streamlit run app/streamlit_app.py
+This project follows the following principles:
+
+- Student data is used for educational research purposes only.
+- Personally identifiable information is not stored in the recommendation output.
+- Student identifiers are used only for lookup and record-matching purposes.
+- The system is designed for thesis demonstration and student-support guidance, not for high-stakes academic decision-making.
+- Survey participation is based on consent.
+- Data anonymization is applied where possible during analysis and reporting.
+- The generated recommendation should be interpreted as supportive guidance, not as a final judgment of a student's learning ability or performance.
