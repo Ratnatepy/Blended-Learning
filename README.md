@@ -98,7 +98,7 @@ Streamlit Dashboard
 
 ---
 
-### Tools and Technologies
+## Tools and Technologies
 
 ![Tools and Technologies](screenshots/tech_stack.png)
 
@@ -108,10 +108,12 @@ Streamlit Dashboard
 
 Create a `.env` file in the project root and configure the KoboToolbox API settings, database connection, API base URL, OpenRouter API key, and admin credentials.
 
-Install dependencies from the project root:
+Install project dependencies and register the project package in editable mode:
+
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
 
 Start PostgreSQL:
