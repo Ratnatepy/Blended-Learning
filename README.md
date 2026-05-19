@@ -98,6 +98,12 @@ Streamlit Dashboard
 
 ---
 
+### Tools and Technologies
+
+![Tools and Technologies](screenshots/tech_stack.png)
+
+---
+
 ## Quick Start
 
 Create a `.env` file in the project root and configure the KoboToolbox API settings, database connection, API base URL, OpenRouter API key, and admin credentials.
