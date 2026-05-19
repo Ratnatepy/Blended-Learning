@@ -60,8 +60,8 @@ The two open-ended response fields are:
 
 The ordinal features are used by the saved K-Modes model to assign learner segments. The open-ended responses are processed separately to extract themes such as flexibility, interaction, technical issues, learning support, and learning environment needs.
 
-
 ---
+
 ## System Architecture
 
 The system follows a full pipeline architecture from survey data collection to recommendation output and dashboard visualization.
@@ -93,6 +93,48 @@ Streamlit Dashboard
 ### Admin Portal
 
 ![Admin Portal](screenshots/admin.png)
+
+---
+
+## Quick Start
+
+Create a `.env` file in the project root and configure the database connection, API base URL, OpenRouter API key, and admin credentials.
+
+Install dependencies from the project root:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start PostgreSQL:
+
+```bash
+docker compose up -d postgres
+```
+
+Start FastAPI backend:
+
+```bash
+uvicorn api.main:app --reload
+```
+
+Start Streamlit frontend:
+
+```bash
+streamlit run app/streamlit_app.py
+```
+
+After starting FastAPI, the API documentation can be accessed at FastAPI Swagger UI:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+The Streamlit application will usually run at:
+
+```text
+http://localhost:8501
+```
 
 ---
 
