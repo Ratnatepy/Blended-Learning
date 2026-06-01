@@ -1,0 +1,860 @@
+{
+  "info": {
+    "_postman_id": "3dfa2501-43a5-437f-b6f8-4baad4f3c51c",
+    "name": "Blended Learning Recommendation API - Thesis Project",
+    "description": "Complete Postman collection for the FastAPI backend in the Blended Learning thesis prototype. Base URL defaults to http://127.0.0.1:8000. Run the FastAPI server first: uvicorn api.main:app --reload",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000",
+      "type": "string"
+    },
+    {
+      "key": "student_id",
+      "value": "ext_38168b33f9",
+      "type": "string"
+    },
+    {
+      "key": "last_student_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "limit",
+      "value": "10",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health & Documentation",
+      "item": [
+        {
+          "name": "Root - API Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": []
+            },
+            "description": "Checks whether the FastAPI backend is running."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "OpenAPI JSON",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/openapi.json",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "openapi.json"
+              ]
+            },
+            "description": "Returns the generated OpenAPI schema from FastAPI."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Swagger UI",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/docs",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "docs"
+              ]
+            },
+            "description": "Opens the interactive FastAPI Swagger UI. In Postman this returns HTML."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "ReDoc UI",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/redoc",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "redoc"
+              ]
+            },
+            "description": "Opens the FastAPI ReDoc documentation page. In Postman this returns HTML."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Students",
+      "item": [
+        {
+          "name": "Get All Student Recommendation Records",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/?limit={{limit}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students"
+              ],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "{{limit}}"
+                }
+              ]
+            },
+            "description": "Returns stored student recommendation records for the Student Records page."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "pm.test('Response is an array', function () { pm.expect(pm.response.json()).to.be.an('array'); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get Dashboard Summary",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/summary",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "summary"
+              ]
+            },
+            "description": "Returns total students, number of segments, and segment distribution."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Summary fields exist', function () { pm.expect(json).to.have.keys(['total_students','total_segments','segment_distribution']); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get Recent Students",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/recent?limit={{limit}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "recent"
+              ],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "{{limit}}"
+                }
+              ]
+            },
+            "description": "Returns recently added recommendation records."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Recent response fields exist', function () { pm.expect(json).to.have.property('total_returned'); pm.expect(json).to.have.property('students'); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get Student by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/{{student_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "{{student_id}}"
+              ]
+            },
+            "description": "Looks up one stored student recommendation by student_id. Change collection variable student_id to an existing ID."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Student ID exists in response', function () { pm.expect(json).to.have.property('student_id'); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get Last Generated Student by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/{{last_student_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "{{last_student_id}}"
+              ]
+            },
+            "description": "Run a Generate Recommendation request first. This request uses the saved last_student_id collection variable."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Returned the last generated student', function () { pm.expect(json.student_id).to.eql(pm.collectionVariables.get('last_student_id')); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get Unknown Student - Expected 404",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/not_found_demo_id_999",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "not_found_demo_id_999"
+              ]
+            },
+            "description": "Negative test: checks the API returns 404 when a student ID is not found."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 404', function () { pm.response.to.have.status(404); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recommendations",
+      "item": [
+        {
+          "name": "Generate Recommendation - Active Learner Demo",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"demo_active_{{$timestamp}}\",\n  \"responses\": {\n    \"use_lecture_slides\": 5,\n    \"use_video_lectures\": 5,\n    \"use_quizzes\": 5,\n    \"use_articles\": 5,\n    \"use_forums\": 5,\n    \"use_simulations\": 5,\n    \"online_discussion_participation\": 5,\n    \"peer_collaboration\": 5,\n    \"comfort_asking_questions\": 5,\n    \"sense_of_community\": 5,\n    \"integration_quality\": 5,\n    \"overall_understanding\": 5,\n    \"lect_clear_instructions\": 5,\n    \"lect_responsive\": 5,\n    \"lect_diverse_tools\": 5,\n    \"lect_timely_feedback\": 5,\n    \"lect_foster_interaction\": 5,\n    \"self_prioritize_deadlines\": 5,\n    \"self_study_schedule\": 5,\n    \"self_prepare_class\": 5,\n    \"self_responsibility\": 5,\n    \"career_preparation\": 5,\n    \"video_helpfulness\": 5,\n    \"digital_literacy_improvement\": 5,\n    \"tech_issues_freq\": 2,\n    \"lms_usability\": 5,\n    \"overall_satisfaction\": 5,\n    \"benefit_flexibility\": 5,\n    \"benefit_variety\": 5,\n    \"benefit_recorded_access\": 5,\n    \"benefit_self_study_time\": 5,\n    \"benefit_life_balance\": 5,\n    \"benefit_self_directed\": 5\n  },\n  \"strengths_positive_aspects\": \"I like the flexibility of blended learning, recorded lectures, quizzes, and online materials because they help me study at my own pace.\",\n  \"challenges_suggestions\": \"Sometimes I still need clearer instructions and more interaction in online discussions. More feedback and structured weekly tasks would help.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/recommendations/generate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "recommendations",
+                "generate"
+              ]
+            },
+            "description": "Creates a new demo student, assigns a K-Modes cluster, extracts tags from open-ended answers, generates a recommendation report, and saves the result. The student_id uses Postman's {{$timestamp}} dynamic variable to avoid duplicates."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Contains recommendation fields', function () {",
+                  "  pm.expect(json).to.have.property('student_id');",
+                  "  pm.expect(json).to.have.property('student_segment_label');",
+                  "  pm.expect(json).to.have.property('final_recommendation_tags');",
+                  "  pm.expect(json).to.have.property('llm_recommendation_report');",
+                  "});",
+                  "pm.collectionVariables.set('last_student_id', json.student_id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Generate Recommendation - Passive Learner Demo",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"demo_passive_{{$timestamp}}\",\n  \"responses\": {\n    \"use_lecture_slides\": 2,\n    \"use_video_lectures\": 2,\n    \"use_quizzes\": 2,\n    \"use_articles\": 2,\n    \"use_forums\": 2,\n    \"use_simulations\": 2,\n    \"online_discussion_participation\": 2,\n    \"peer_collaboration\": 2,\n    \"comfort_asking_questions\": 2,\n    \"sense_of_community\": 2,\n    \"integration_quality\": 2,\n    \"overall_understanding\": 2,\n    \"lect_clear_instructions\": 2,\n    \"lect_responsive\": 2,\n    \"lect_diverse_tools\": 2,\n    \"lect_timely_feedback\": 2,\n    \"lect_foster_interaction\": 2,\n    \"self_prioritize_deadlines\": 2,\n    \"self_study_schedule\": 2,\n    \"self_prepare_class\": 2,\n    \"self_responsibility\": 2,\n    \"career_preparation\": 2,\n    \"video_helpfulness\": 2,\n    \"digital_literacy_improvement\": 2,\n    \"tech_issues_freq\": 4,\n    \"lms_usability\": 3,\n    \"overall_satisfaction\": 2,\n    \"benefit_flexibility\": 2,\n    \"benefit_variety\": 2,\n    \"benefit_recorded_access\": 2,\n    \"benefit_self_study_time\": 2,\n    \"benefit_life_balance\": 2,\n    \"benefit_self_directed\": 2\n  },\n  \"strengths_positive_aspects\": \"Recorded lessons are useful when I miss class, and lecture slides help me review important points.\",\n  \"challenges_suggestions\": \"I do not participate much online. I often feel less engaged, have some technical issues, and need clearer guidance from lecturers.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/recommendations/generate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "recommendations",
+                "generate"
+              ]
+            },
+            "description": "Creates a second demo student with lower engagement responses for testing another learner profile."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Contains recommendation fields', function () {",
+                  "  pm.expect(json).to.have.property('student_id');",
+                  "  pm.expect(json).to.have.property('student_segment_label');",
+                  "  pm.expect(json).to.have.property('final_recommendation_tags');",
+                  "  pm.expect(json).to.have.property('llm_recommendation_report');",
+                  "});",
+                  "pm.collectionVariables.set('last_student_id', json.student_id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Generate Recommendation - Khmer/Open Text Demo",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"demo_khmer_{{$timestamp}}\",\n  \"responses\": {\n    \"use_lecture_slides\": 3,\n    \"use_video_lectures\": 3,\n    \"use_quizzes\": 3,\n    \"use_articles\": 3,\n    \"use_forums\": 3,\n    \"use_simulations\": 3,\n    \"online_discussion_participation\": 3,\n    \"peer_collaboration\": 3,\n    \"comfort_asking_questions\": 3,\n    \"sense_of_community\": 3,\n    \"integration_quality\": 3,\n    \"overall_understanding\": 3,\n    \"lect_clear_instructions\": 3,\n    \"lect_responsive\": 3,\n    \"lect_diverse_tools\": 3,\n    \"lect_timely_feedback\": 3,\n    \"lect_foster_interaction\": 3,\n    \"self_prioritize_deadlines\": 3,\n    \"self_study_schedule\": 3,\n    \"self_prepare_class\": 3,\n    \"self_responsibility\": 3,\n    \"career_preparation\": 3,\n    \"video_helpfulness\": 3,\n    \"digital_literacy_improvement\": 3,\n    \"tech_issues_freq\": 3,\n    \"lms_usability\": 3,\n    \"overall_satisfaction\": 3,\n    \"benefit_flexibility\": 3,\n    \"benefit_variety\": 3,\n    \"benefit_recorded_access\": 3,\n    \"benefit_self_study_time\": 3,\n    \"benefit_life_balance\": 3,\n    \"benefit_self_directed\": 3\n  },\n  \"strengths_positive_aspects\": \"ខ្ញុំចូលចិត្តការរៀន blended learning ព្រោះអាចមើលមេរៀនថតទុក និងរៀនតាមពេលវេលារបស់ខ្លួនបាន។\",\n  \"challenges_suggestions\": \"បញ្ហាសំខាន់គឺអ៊ីនធឺណិតមិនស្ថេរ និងត្រូវការការណែនាំច្បាស់ជាងមុនពីគ្រូ។\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/recommendations/generate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "recommendations",
+                "generate"
+              ]
+            },
+            "description": "Tests the open-ended NLP/translation handling with Khmer text while keeping numeric responses valid."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Contains recommendation fields', function () {",
+                  "  pm.expect(json).to.have.property('student_id');",
+                  "  pm.expect(json).to.have.property('student_segment_label');",
+                  "  pm.expect(json).to.have.property('final_recommendation_tags');",
+                  "  pm.expect(json).to.have.property('llm_recommendation_report');",
+                  "});",
+                  "pm.collectionVariables.set('last_student_id', json.student_id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Generate Recommendation - Duplicate ID Expected 409",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"{{last_student_id}}\",\n  \"responses\": {\n    \"use_lecture_slides\": 5,\n    \"use_video_lectures\": 5,\n    \"use_quizzes\": 5,\n    \"use_articles\": 5,\n    \"use_forums\": 5,\n    \"use_simulations\": 5,\n    \"online_discussion_participation\": 5,\n    \"peer_collaboration\": 5,\n    \"comfort_asking_questions\": 5,\n    \"sense_of_community\": 5,\n    \"integration_quality\": 5,\n    \"overall_understanding\": 5,\n    \"lect_clear_instructions\": 5,\n    \"lect_responsive\": 5,\n    \"lect_diverse_tools\": 5,\n    \"lect_timely_feedback\": 5,\n    \"lect_foster_interaction\": 5,\n    \"self_prioritize_deadlines\": 5,\n    \"self_study_schedule\": 5,\n    \"self_prepare_class\": 5,\n    \"self_responsibility\": 5,\n    \"career_preparation\": 5,\n    \"video_helpfulness\": 5,\n    \"digital_literacy_improvement\": 5,\n    \"tech_issues_freq\": 2,\n    \"lms_usability\": 5,\n    \"overall_satisfaction\": 5,\n    \"benefit_flexibility\": 5,\n    \"benefit_variety\": 5,\n    \"benefit_recorded_access\": 5,\n    \"benefit_self_study_time\": 5,\n    \"benefit_life_balance\": 5,\n    \"benefit_self_directed\": 5\n  },\n  \"strengths_positive_aspects\": \"Duplicate test using the previous generated student ID.\",\n  \"challenges_suggestions\": \"This should be rejected because the backend protects existing student records.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/recommendations/generate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "recommendations",
+                "generate"
+              ]
+            },
+            "description": "Negative test: after running any successful Generate Recommendation request, this should return 409 because the student_id already exists."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 409', function () { pm.response.to.have.status(409); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Generate Recommendation - Missing Features Expected 400",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"demo_missing_{{$timestamp}}\",\n  \"responses\": {\n    \"use_lecture_slides\": 5\n  },\n  \"strengths_positive_aspects\": \"Testing invalid request with missing model features.\",\n  \"challenges_suggestions\": \"The backend should return a clear missing-features error.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/recommendations/generate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "recommendations",
+                "generate"
+              ]
+            },
+            "description": "Negative test: only one of the 33 required features is provided, so the backend should return 400."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 400', function () { pm.response.to.have.status(400); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "pm.test('Error detail mentions missing features', function () { pm.expect(pm.response.json().detail).to.include('Missing'); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Generate Recommendation - Invalid Numeric Value Expected 500 or 422",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"demo_invalid_value_{{$timestamp}}\",\n  \"responses\": {\n    \"use_lecture_slides\": \"not_a_number\",\n    \"use_video_lectures\": 5,\n    \"use_quizzes\": 5,\n    \"use_articles\": 5,\n    \"use_forums\": 5,\n    \"use_simulations\": 5,\n    \"online_discussion_participation\": 5,\n    \"peer_collaboration\": 5,\n    \"comfort_asking_questions\": 5,\n    \"sense_of_community\": 5,\n    \"integration_quality\": 5,\n    \"overall_understanding\": 5,\n    \"lect_clear_instructions\": 5,\n    \"lect_responsive\": 5,\n    \"lect_diverse_tools\": 5,\n    \"lect_timely_feedback\": 5,\n    \"lect_foster_interaction\": 5,\n    \"self_prioritize_deadlines\": 5,\n    \"self_study_schedule\": 5,\n    \"self_prepare_class\": 5,\n    \"self_responsibility\": 5,\n    \"career_preparation\": 5,\n    \"video_helpfulness\": 5,\n    \"digital_literacy_improvement\": 5,\n    \"tech_issues_freq\": 2,\n    \"lms_usability\": 5,\n    \"overall_satisfaction\": 5,\n    \"benefit_flexibility\": 5,\n    \"benefit_variety\": 5,\n    \"benefit_recorded_access\": 5,\n    \"benefit_self_study_time\": 5,\n    \"benefit_life_balance\": 5,\n    \"benefit_self_directed\": 5\n  },\n  \"strengths_positive_aspects\": \"Testing invalid non-numeric response value.\",\n  \"challenges_suggestions\": \"This helps check validation behavior for the model input.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/recommendations/generate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "recommendations",
+                "generate"
+              ]
+            },
+            "description": "Negative test: the current backend does not explicitly catch non-numeric conversion errors, so it may return 500. If you later add Pydantic validation, change this expected status to 422 or 400."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code indicates validation/server rejection', function () { pm.expect([400,422,500]).to.include(pm.response.code); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recommended Test Flow",
+      "item": [
+        {
+          "name": "1. Check API is Running",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": []
+            },
+            "description": "Start here after launching uvicorn."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "2. Check Dashboard Before Create",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/summary",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "summary"
+              ]
+            },
+            "description": "Baseline dashboard count before adding a demo student."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3. Create New Demo Recommendation",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"flow_demo_{{$timestamp}}\",\n  \"responses\": {\n    \"use_lecture_slides\": 5,\n    \"use_video_lectures\": 5,\n    \"use_quizzes\": 5,\n    \"use_articles\": 5,\n    \"use_forums\": 5,\n    \"use_simulations\": 5,\n    \"online_discussion_participation\": 5,\n    \"peer_collaboration\": 5,\n    \"comfort_asking_questions\": 5,\n    \"sense_of_community\": 5,\n    \"integration_quality\": 5,\n    \"overall_understanding\": 5,\n    \"lect_clear_instructions\": 5,\n    \"lect_responsive\": 5,\n    \"lect_diverse_tools\": 5,\n    \"lect_timely_feedback\": 5,\n    \"lect_foster_interaction\": 5,\n    \"self_prioritize_deadlines\": 5,\n    \"self_study_schedule\": 5,\n    \"self_prepare_class\": 5,\n    \"self_responsibility\": 5,\n    \"career_preparation\": 5,\n    \"video_helpfulness\": 5,\n    \"digital_literacy_improvement\": 5,\n    \"tech_issues_freq\": 2,\n    \"lms_usability\": 5,\n    \"overall_satisfaction\": 5,\n    \"benefit_flexibility\": 5,\n    \"benefit_variety\": 5,\n    \"benefit_recorded_access\": 5,\n    \"benefit_self_study_time\": 5,\n    \"benefit_life_balance\": 5,\n    \"benefit_self_directed\": 5\n  },\n  \"strengths_positive_aspects\": \"I benefit from flexible learning, recorded lectures, online quizzes, and good lecturer support.\",\n  \"challenges_suggestions\": \"I would like more peer discussion, faster feedback, and clearer weekly learning instructions.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/recommendations/generate",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "recommendations",
+                "generate"
+              ]
+            },
+            "description": "Creates one demo record and stores the new ID as last_student_id."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Contains recommendation fields', function () {",
+                  "  pm.expect(json).to.have.property('student_id');",
+                  "  pm.expect(json).to.have.property('student_segment_label');",
+                  "  pm.expect(json).to.have.property('final_recommendation_tags');",
+                  "  pm.expect(json).to.have.property('llm_recommendation_report');",
+                  "});",
+                  "pm.collectionVariables.set('last_student_id', json.student_id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "4. Read Newly Created Student",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/{{last_student_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "{{last_student_id}}"
+              ]
+            },
+            "description": "Uses last_student_id saved from step 3."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });",
+                  "const json = pm.response.json();",
+                  "pm.test('Matches created student ID', function () { pm.expect(json.student_id).to.eql(pm.collectionVariables.get('last_student_id')); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "5. Check Recent Students",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/recent?limit=5",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "recent"
+              ],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "5"
+                }
+              ]
+            },
+            "description": "The newly created record should appear near the top."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "6. Check Dashboard After Create",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/summary",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "summary"
+              ]
+            },
+            "description": "Dashboard count should increase after creation."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Response is JSON', function () { pm.response.to.be.json; });"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
