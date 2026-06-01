@@ -4,7 +4,7 @@ This notebook was generated from:
 
 `C:\Users\Tepy\Documents\tepy\Final Internship Docs\blended_learning\data\processed\student_recommendation_reports.csv`
 
-**Total student records:** 420
+**Total student records:** 606
 
 Each section below contains:
 
@@ -22323,6 +22323,9933 @@ Because the open‑ended responses are brief, the recommendations below are draw
 | 11‑14| Watch a recorded lecture, pause, and write a brief summary in your own words. | Supports self‑paced review and deepens personal understanding. |
 
 Follow these steps, and you’ll leverage your strong time management while building confidence in expressing your own ideas. Good luck!
+
+
+
+---
+
+## Student ID: `e20230560`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "self_paced", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230560*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+- You value the **flexibility** that blended learning offers and are generally positive about the experience.  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you appreciate being able to study when and where it suits you best.  
+
+### 3. Main Challenges  
+- **Learning Difficulty & Clarity:** occasional confusing instructions from lecturers.  
+- **Interaction & Communication:** need for clearer, quicker feedback.  
+- **Assessment & Workload:** feeling pressure from assignments and unclear deadlines.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Try | Why it Helps |
+|------|-------------|--------------|
+| **Interaction** | Join scheduled Q&A sessions, take part in group discussions or peer‑collaboration activities, and request faster feedback on your work. | Improves communication, reduces confusion, and keeps you connected with classmates and the lecturer. |
+| **Learning Support** | Look for recorded explanations, step‑by‑step guides, and concrete examples for each task. | Gives you clearer instructions and a reference you can revisit whenever needed. |
+| **Self‑Paced Learning** | Use the recorded lessons and weekly learning paths to review material at your own speed. | Lets you take full advantage of the flexibility you already enjoy. |
+| **Workload Support** | Keep a personal calendar of assignment deadlines, and ask the lecturer to clarify how online tasks align with in‑person sessions. | Helps you balance the workload and reduces uncertainty about assessments. |
+
+These suggestions are drawn directly from the rule‑based recommendations matched to the challenges you reported and the strengths of your learner segment.  
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+1. **Set up a weekly schedule** – block time for recorded lessons and a 30‑minute slot for Q&A or discussion forums.  
+2. **Gather resources** – download any step‑by‑step guides or example videos for the current module.  
+3. **Clarify deadlines** – email the lecturer to confirm due dates and how online tasks fit with face‑to‑face sessions.  
+4. **Engage with peers** – join a study group or create a small chat group to share questions and feedback quickly.  
+
+Follow this plan to turn flexibility into deeper understanding and smoother workload management. You’re already highly engaged—these steps will help you stay on track and make the most of blended learning.
+
+
+
+---
+
+## Student ID: `e20241337`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241337*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster label:** Moderately Engaged (Passive) Learners  
+
+You are a highly engaged student who already shows good **flexibility and time‑management** skills.  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you are able to organise your schedule and make use of flexible learning options.  
+
+---
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline** – maintaining steady motivation and self‑discipline can be difficult at times.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Support motivation and self‑discipline** (motivation) | Keep your drive high and build habits that sustain study effort. | • Set up **weekly check‑ins** with yourself or a peer tutor. <br>• Use **reminders** (calendar alerts, app notifications). <br>• Track progress with a simple checklist or a digital dashboard. <br>• Follow a **structured study schedule** that breaks tasks into manageable blocks. |
+| **Support self‑paced learning** (self_paced) | Take advantage of materials you can access anytime, matching your strong time‑management skill. | • Use **recorded lectures** and **weekly learning paths** to study when it suits you. <br>• Review notes and resources **at your own pace** before deadlines. <br>• Combine these with the structured schedule above to stay on track. |
+
+These suggestions align with the “motivation” and “self‑paced” tags identified for you and are reinforced by your segment’s typical needs.  
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Create a simple weekly study calendar (30 min). |
+| **Tuesday** | Record a short self‑check‑in note (5 min) – what you’ll accomplish this week. |
+| **Wednesday** | Watch the first set of recorded lessons for your course. |
+| **Thursday** | Set up automated reminders for study blocks (e.g., 1 hour each afternoon). |
+| **Friday** | Review progress on your checklist; adjust the schedule if needed. |
+| **Weekend** | Reflect on motivation levels; note any obstacles and plan how to address them next week. |
+| **Repeat** | Follow the same pattern next week, adding any new resources or adjustments. |
+
+Stick to the schedule, use the reminders, and keep tracking your progress. This routine will help strengthen self‑discipline while leveraging your strong time‑management abilities.  
+
+---  
+
+**You have the tools and habits to succeed—use the structure above to keep motivation high and make the most of self‑paced learning.**
+
+
+
+---
+
+## Student ID: `e20240662`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240662  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – you are generally interested in the material but tend to take a more passive role in class activities.  
+
+**Main Strengths**  
+- You value **access to learning materials** and are interested in improving your **digital skills**.  
+- Your comment “improve with another platform” shows a positive attitude toward using new tools to support your studies.  
+
+**Main Challenges**  
+- You experience **internet and technical issues**, which can limit your ability to engage with online content.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** (content_access) | Having all slides, videos, readings, and exercises available early helps you study at your own pace. | Look for course folders that are uploaded before class. If anything is missing, request the instructor to share it or download it for offline use. |
+| **Develop digital learning skills** (digital_skill) | Knowing how to navigate the LMS, use online research tools, and work with educational tech will make learning smoother. | Attend any short LMS tutorials offered, explore the help centre, and practice using features like discussion boards and quiz tools. |
+| **Improve technical access and reliability** (tech_issue) | Stable internet and clear platform instructions reduce frustration and keep you connected. | Use campus Wi‑Fi or a reliable hotspot when possible. Download lecture videos for offline viewing. Keep a list of technical support contacts handy and follow any provided guides for troubleshooting. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Day 1‑3:** Check the course’s online folder; download all available slides, videos, and readings to a local device.  
+2. **Day 4‑7:** Complete a quick LMS tutorial (many universities provide a 15‑minute “Getting Started” video). Practice posting a question in the discussion forum.  
+3. **Day 8‑10:** Test your internet connection in the places you usually study. Identify a reliable backup (e.g., campus library Wi‑Fi or a mobile hotspot).  
+4. **Day 11‑14:** If any material is still missing, email the instructor requesting the files or ask a classmate to share them. Keep a note of any technical problems and contact the IT help desk for assistance.  
+
+By focusing on early access to materials, building your digital confidence, and securing reliable internet, you’ll be able to engage more actively with your blended courses while staying on track with your studies. Good luck!
+
+
+
+---
+
+## Student ID: `e20240245`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20240245  
+**Student Segment:** Highly Engaged (Active) Learners  
+**Cluster Label:** Moderately Engaged (Passive) Learners  
+
+---
+
+### 1. Student Learning Profile
+You are classified as a **Highly Engaged (Active) Learner**, which means you tend to take initiative in your studies and benefit from rich, readily‑available learning resources. Your open‑ended response highlighted that you “can review after classes,” indicating a preference for having course materials you can revisit on your own time.
+
+### 2. Main Strengths
+- **Access to Learning Materials:** You already make good use of reviewing slides, videos, and other resources after class sessions.
+
+### 3. Main Challenges
+- No specific challenges were reported.
+
+### 4. Personalized Recommendations
+Based on your segment profile and the strength you identified, the key recommendation is:
+
+- **Strengthen access to learning materials** – Ensure that all course content (slides, video recordings, reference documents, exercises, and any additional materials) is uploaded **early and kept up‑to‑date** on the learning platform. This will let you continue reviewing and deepening your understanding at your own pace.
+
+### 5. Short Action Plan
+| Step | Action | When |
+|------|--------|------|
+| 1 | Check the course portal each week for newly uploaded materials. | Weekly |
+| 2 | If any material is missing (e.g., slides or videos), request the instructor or teaching assistant to upload it promptly. | As needed |
+| 3 | Set a regular review schedule (e.g., 30 min after each class) to go over the posted resources. | After every class |
+| 4 | Use the available materials to create brief summary notes or flashcards for quick revision before assessments. | Ongoing |
+
+By keeping learning resources readily accessible, you can maintain your high level of engagement and continue to succeed in a blended learning environment. If you encounter any new challenges, feel free to update your profile so we can refine the recommendations.
+
+
+
+---
+
+## Student ID: `e20240267`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "motivation"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240267  
+- **Segment:** Moderately Engaged (Passive) Learners (segment 2) – you tend to participate but often prefer a more guided, low‑pressure environment.  
+
+**Main Strengths**  
+- You value **access to learning materials** (you mentioned “recording video”). Having clear, well‑organized resources helps you stay on track.  
+
+**Main Challenges**  
+- You experience **feelings of isolation** and find it hard to stay motivated and disciplined.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Make sure all slides, videos, reference links, and practice exercises are uploaded early in the course. | • Check the course portal at the start of each week for new content.<br>• Download or bookmark materials you’ll need for upcoming assignments. |
+| **Support motivation and self‑discipline** | Use structured supports to keep momentum and reduce isolation. | • Set a weekly study schedule and stick to it.<br>• Take advantage of weekly check‑ins or reminder emails from the instructor.<br>• Track your progress (e.g., tick off completed readings or videos).<br>• Join a small study group or discussion forum to stay connected with peers. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Day 1–2:** Review the course’s content calendar; download all slides and videos for Week 1.  
+2. **Day 3:** Create a simple study timetable (e.g., 1 hour on Monday, Wednesday, Friday). Add reminder alerts on your phone.  
+3. **Day 5:** Participate in the first weekly check‑in (online poll or short reflection). Note any gaps in motivation.  
+4. **Day 7:** Join a peer discussion thread or set up a 30‑minute virtual meet‑up with a classmate.  
+5. **Day 10:** Update your progress tracker (e.g., “Completed video 1, read article X”). Celebrate the small win.  
+6. **Day 14:** Reflect on how the early access to materials and the check‑ins helped your focus; adjust the schedule if needed.  
+
+By securing timely access to all learning resources and building regular motivation checkpoints, you’ll reduce feelings of isolation and improve your self‑discipline while staying comfortably engaged in the course. Good luck!
+
+
+
+---
+
+## Student ID: `e20240774`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "engagement", "learning_effectiveness", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240774*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+- You feel comfortable asking questions, have time to research lessons, and value easy access to study materials.  
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You appreciate having slides, videos, and references available early.  
+- **Learning Convenience & Effectiveness:** You find it easy to study and can research topics in depth.  
+- **Student Engagement:** You are comfortable participating and asking questions in class.  
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline:** You would like classes to be more interesting and help you stay focused together with your peers.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What to Do | Why it Helps you |
+|----------------|------------|------------------|
+| **Strengthen access to learning materials** | Upload slides, videos, reference links, and exercises **before** each class. | Gives you the early material you already value, letting you prepare and research in advance. |
+| **Increase learner engagement** | Include short quizzes, quick games, practical tasks, and brief discussion prompts during sessions. | Makes classes more interesting and keeps your attention, addressing the desire for more engaging lessons. |
+| **Improve learning effectiveness** | Pair online review resources (e.g., recorded explanations) with in‑person practice and immediate feedback. | Lets you consolidate knowledge quickly and use the convenience you enjoy while getting hands‑on reinforcement. |
+| **Support motivation and self‑discipline** | Set up weekly check‑ins, automated reminders, and a simple progress‑tracking dashboard. | Provides structure and visible progress, helping you stay motivated and focused throughout the term. |
+
+### 5. Short Action Plan (First 4 Weeks)
+
+| Week | Action | How to Implement |
+|------|--------|-------------------|
+| 1 | **Materials posted early** – Instructor uploads all slides and video links 2 days before class. | Check the course portal on Monday; note any questions for the first session. |
+| 2 | **Interactive kickoff** – Begin the class with a 5‑minute quiz or poll. | Participate actively; use the instant feedback to gauge your understanding. |
+| 3 | **Practice + feedback** – After the lecture, complete a short hands‑on task and receive quick feedback. | Allocate 30 min after class for the activity; review the instructor’s comments. |
+| 4 | **Motivation check‑in** – Receive a brief email reminder and update your personal progress tracker. | Log your completed tasks and reflect on what helped you stay on track. |
+
+Follow these steps and adjust as needed. Your strong engagement and love of accessible resources set a solid foundation—these targeted actions will help you stay motivated, deepen learning, and make each class more interesting. Good luck!
+
+
+
+---
+
+## Student ID: `e20240865`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240865*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners – you have the potential to be more active in class.  
+
+Your open‑ended responses gave limited detail (“study on my speed” for strengths and “i don’t know” for challenges). Because of this, the recommendations below are drawn primarily from the characteristics of your segment and the associated recommendation tags.
+
+---
+
+### 2. Main Strengths  
+- You are aware of your study speed, which suggests some self‑monitoring ability.
+
+---
+
+### 3. Main Challenges  
+- Uncertainty about specific learning challenges (no clear issues identified).
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Work on short peer‑collaboration tasks.<br>• Request quicker feedback from lecturers. | Increases active participation and helps you move from passive to more engaged learning. |
+| **Learning Support** | • Look for clear, step‑by‑step guides and recorded explanations for new topics.<br>• Use example problems provided by the instructor. | Improves understanding when instructions are ambiguous, giving you a solid foundation. |
+| **Motivation & Self‑Discipline** | • Set a weekly check‑in with yourself or a study buddy.<br>• Use reminders or a simple progress tracker (e.g., a checklist).<br>• Follow a structured study schedule each week. | Keeps you focused, builds routine, and boosts confidence in meeting goals. |
+| **Self‑Paced Learning** | • Access recorded lectures and review them at your own speed.<br>• Follow the weekly learning path outlines provided in the LMS.<br>• Keep a personal “review folder” for materials you want to revisit. | Lets you control the pace of learning, matching your personal speed and reinforcing mastery. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Watch the recorded lecture for this week and note any unclear points. |
+| **Tuesday** | Post a question about those points in the course Q&A forum. |
+| **Wednesday** | Join a 30‑minute peer discussion group (or start a small study chat). |
+| **Thursday** | Complete a short self‑check: mark which topics you understand and which need review. |
+| **Friday** | Set a reminder for next week’s check‑in and update your progress tracker. |
+| **Weekend** | Review the recorded lessons again, focusing on the unclear points from Monday. |
+
+Repeat the cycle, adding a brief reflection each Friday on what interaction helped most and adjusting your schedule as needed.
+
+---
+
+**Remember:** These steps are based on the typical needs of Moderately Engaged (Passive) learners. As you try them out, you’ll discover which strategies work best for you and can fine‑tune your approach. Good luck!
+
+
+
+---
+
+## Student ID: `e20241237`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241237*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+- **Overall attitude:** Positive about blended learning; sees it as convenient and cost‑effective.  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate that blended learning lets you study when it fits your schedule.  
+- **Learning Convenience & Effectiveness:** You believe a mixed online/offline approach can make studying easier and more effective.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unreliable network connections cause missed classes and make it hard to follow live sessions.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | Why it helps |
+|----------------|----------------------|--------------|
+| **Improve learning effectiveness** | Pair the online review materials you already like with short, in‑person (or live‑online) sessions where you can ask questions, practice, and receive feedback. | Combines the convenience you value with the clarity of direct explanation. |
+| **Support self‑paced learning** | Use recorded lessons and weekly learning paths that you can access anytime, review as needed, and fit around your schedule. | Lets you keep the flexibility you enjoy while ensuring you don’t miss content when the network is down. |
+| **Improve technical access and reliability** | Access stable internet (e.g., campus Wi‑Fi hotspots or a data‑boost plan), download offline versions of videos/materials, and follow clear platform guides. Technical support is available for quick help. | Reduces the risk of missed classes caused by poor connectivity. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Day 1–2** | Identify a reliable internet source on campus (library, student lounge) or arrange a mobile data plan. |
+| **Day 3–4** | Download the first week’s recorded lectures and any supplemental PDFs for offline study. |
+| **Week 1** | Follow the provided weekly learning path: watch recordings, then attend the scheduled in‑person (or live‑online) Q&A session. |
+| **Week 2** | After each session, spend 15 min reviewing notes and completing a short practice activity; use the feedback to adjust your study plan. |
+| **Ongoing** | If you encounter technical problems, contact the tech‑support helpdesk (email/phone) using the quick‑guide link provided in the LMS. |
+
+---
+
+**Keep in mind:** Your enthusiasm for blended learning is a strong asset. By pairing flexible, self‑paced resources with reliable technical support and occasional face‑to‑face feedback, you can maintain high engagement while overcoming connectivity hurdles. Good luck, and enjoy the convenience of a blended approach!
+
+
+
+---
+
+## Student ID: `e20241247`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241247*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+Your open‑ended responses indicate a strength in **explaining** concepts and a challenge in **conversing** or interacting with others. Because the open‑ended data are brief, the recommendations below rely primarily on the characteristics of the *Moderately Engaged (Passive)* segment and the associated tags.
+
+---
+
+### 2. Main Strengths  
+- Ability to give clear explanations (evidence: “explanation”).  
+
+### 3. Main Challenges  
+- Limited participation in conversations or discussions (evidence: “converse”).  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and small‑group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from lecturers. | Increases active communication, addressing the “converse” challenge. |
+| **Learning Support** | • Use provided step‑by‑step guides and recorded explanations.<br>• Look for clear instructions and concrete examples in the course material. | Enhances understanding and builds confidence when you explain concepts. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (with yourself or a study buddy).<br>• Use reminders and a simple progress tracker.<br>• Follow a structured study schedule. | Keeps you on track and sustains motivation throughout the term. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them at your own speed.<br>• Follow the weekly learning path outlines and revisit any material as needed. | Allows you to consolidate explanations you already know while giving extra time for interaction practice. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | • Register for the upcoming Q&A session and a peer‑study group.<br>• Download the step‑by‑step guide for the current module.<br>• Set a 30‑minute daily study schedule with a reminder. |
+| **2** | • Attend the Q&A and contribute at least one comment or question.<br>• Review one recorded lesson twice, noting any unclear points.<br>• Complete a brief self‑check‑in (e.g., “What did I learn? What do I need help with?”). |
+
+Stick to these simple steps, and you’ll strengthen both your explanatory ability and your participation in conversations—key to moving from a passive to a more active learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20241317`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241317  
+- **Segment:** Moderately Engaged (Passive) Learners (you are also grouped with Highly Engaged (Active) Learners)  
+
+**Main Strengths**  
+- You have a “great explanation” skill, which supports learning convenience and effectiveness.
+
+**Main Challenges**  
+- Unreliable internet connection (technical issue).
+
+**Personalized Recommendations**  
+
+1. **Improve learning effectiveness** – Pair the online review materials you already use with in‑person activities such as explanations, guided practice, and timely feedback. This blend will let you apply your strong explanatory ability while reinforcing concepts.
+
+2. **Improve technical access and reliability** – Arrange for a stable internet connection (e.g., campus Wi‑Fi, a hotspot, or a wired link). Keep offline copies of essential readings and videos, follow clear platform instructions, and know how to reach technical support when problems arise.
+
+**Short Action Plan**  
+
+| Week | Action | How to Do It |
+|------|--------|--------------|
+| 1 | Test internet reliability | Run a speed test at home; note any drop‑outs. |
+| 2 | Download offline materials | Save lecture PDFs and videos to your device before class. |
+| 3 | Schedule a short in‑person session | Meet with a tutor or study group to explain a recent topic you reviewed online. |
+| 4 | Use feedback loops | After the in‑person session, ask for quick feedback (peer or instructor) and note areas to improve. |
+| Ongoing | Keep technical support contacts handy | Save the help‑desk email/phone in your notes for quick access. |
+
+By combining strong explanations with reliable technical access and a mix of online/offline study, you’ll boost both engagement and learning outcomes.
+
+
+
+---
+
+## Student ID: `e20240879`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240879*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster)  
+- You indicated a desire to build confidence and improve soft‑skill abilities.  
+
+### 2. Main Strengths  
+- You describe yourself as “often” (indicating frequent participation or effort).  
+
+### 3. Main Challenges  
+- Confidence and soft‑skill development are areas you would like to strengthen.  
+
+### 4. Personalized Recommendations  
+
+| Focus | What the recommendation means for you | Practical steps you can take |
+|-------|----------------------------------------|------------------------------|
+| **Content Access** | Make sure all learning materials are available early so you can review them as often as needed. | • Upload or download slides, videos, readings, and exercises at the start of each week.<br>• Keep a personal folder (cloud or local) for quick reference. |
+| **Digital Skills** | Build competence with the learning platform and online tools, which supports confidence in digital environments. | • Attend a short LMS tutorial or watch a “how‑to” video.<br>• Practice using discussion boards, citation tools, and digital research databases. |
+| **Engagement** | Increase active participation through interactive elements that also help develop communication and teamwork skills. | • Join quizzes, games, or practical tasks that require collaboration.<br>• Participate in discussion forums or small‑group activities to practice soft‑skill interaction. |
+| **Self‑Paced Learning** | Use flexible study options to review material at your own speed, reinforcing understanding and confidence. | • Watch recorded lessons before class and revisit them after.<br>• Follow a weekly learning path that outlines what to study each day, allowing you to pause and reflect as needed. |
+
+*Because the open‑ended responses were brief, these recommendations are primarily based on the characteristics of the “Highly Engaged (Active) Learners” segment.*
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Locate and download all upcoming week’s slides, videos, and readings. |
+| **Day 3** | Watch a 10‑minute LMS tutorial; try posting a question in the forum. |
+| **Day 4–5** | Complete the first interactive quiz or game; note any confidence gains. |
+| **Day 6** | Review the recorded lesson again, focusing on a soft‑skill you want to improve (e.g., presenting an idea). |
+| **Day 7** | Summarize what you learned in a short discussion post or peer chat. |
+| **Week 2** | Repeat the cycle with the next set of materials, adding a brief reflection on confidence after each activity. |
+
+Stay consistent with these steps, and you’ll reinforce both your academic knowledge and the confidence/soft‑skill growth you’re aiming for. Good luck!
+
+
+
+---
+
+## Student ID: `e20240544`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "learning_effectiveness"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240544  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You find it easy to retrieve past lessons through video recordings, which supports quick review and reinforces learning.  
+
+**Main Challenges**  
+- You reported no significant difficulties with your current study routine.  
+
+**Personalized Recommendations**  
+
+| Recommendation | Why it matters for you | What to do |
+|----------------|------------------------|------------|
+| **Strengthen access to learning materials** (content access) | You already benefit from video recordings; expanding the range of materials will make review even smoother. | • Upload or request early access to slides, reference documents, and exercise files for each topic. <br>• Keep a well‑organized digital folder so you can locate any resource quickly. |
+| **Improve learning effectiveness** (learning effectiveness) | Combining your video reviews with live interaction can deepen understanding and give you immediate feedback. | • After watching a video, attend the related in‑person session for explanation, practice activities, and Q&A. <br>• Use the class time to apply concepts, ask questions, and get corrective feedback from the instructor. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Create a resource hub** – Set up a cloud folder (e.g., Google Drive) for each course and add slides, readings, and exercises as soon as they are released.  
+2. **Schedule review‑plus‑practice sessions** – For each video you watch, book a 30‑minute slot before the next face‑to‑face class to go over key points and prepare questions.  
+3. **Seek feedback** – During in‑person sessions, actively request quick feedback on any practice problems you attempted after the video review.  
+
+By expanding the types of materials you can access and pairing video review with hands‑on classroom work, you’ll keep your strong engagement level while boosting overall learning effectiveness.
+
+
+
+---
+
+## Student ID: `e20240900`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240900*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+- You appreciate the **flexibility, time‑management benefits, and the chance to develop digital skills** that blended learning offers.  
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You value being able to review slides, videos, and exercises whenever you need them.  
+- **Digital Skills Development:** Using the LMS and online tools helps you improve your technology competence.  
+- **Flexibility & Time Management:** The ability to study at your own pace fits your schedule well.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unreliable connection makes it hard to follow online sessions.  
+- **Interaction & Communication:** You find it difficult to stay focused and engage with peers and instructors online.  
+- **Learning Clarity & Motivation:** Instructions can be unclear, and maintaining self‑discipline is sometimes a struggle.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | All course content (slides, videos, references, exercises) will be available early. | Check the LMS weekly for newly uploaded resources; download them when you have a good connection. |
+| **Develop digital learning skills** | Guidance on using LMS tools, online research, and educational tech. | Attend the short “LMS Tips” tutorial and use the provided quick‑start guides. |
+| **Increase interaction and communication** | More live Q&A, group discussions, and faster lecturer feedback. | Participate in scheduled discussion boards and join the weekly peer‑collaboration breakout rooms. |
+| **Improve clarity and learning support** | Clearer instructions, examples, and step‑by‑step guides. | Look for the “Learning Guide” PDFs attached to each module; watch the recorded explanations before attempting exercises. |
+| **Support motivation and self‑discipline** | Weekly check‑ins, reminders, and progress tracking. | Use the personal dashboard to set weekly goals; respond to the instructor’s brief check‑in emails. |
+| **Support self‑paced learning** | Recorded lessons and structured weekly learning paths. | Follow the suggested weekly path, but feel free to revisit any recorded lecture as needed. |
+| **Improve technical access and reliability** | Options for offline materials and dedicated tech support. | Download offline copies of videos when you have good Wi‑Fi; contact the campus IT helpdesk for any connectivity problems. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Log into the LMS and download all current week’s materials (slides, videos, exercises). |
+| **Day 2** | Watch the “LMS Tips” tutorial (15 min) and bookmark the digital‑skill guide. |
+| **Day 3** | Set up your personal dashboard: enter study goals for the week and enable reminder notifications. |
+| **Day 4** | Join the scheduled Q&A session; post at least one question in the discussion forum. |
+| **Day 5** | Review the “Learning Guide” for the upcoming module; note any unclear steps. |
+| **Day 6** | Test your internet connection; if unstable, download offline copies of next week’s videos. |
+| **Day 7** | Reflect on progress: complete the weekly check‑in questionnaire sent by the instructor. |
+| **Day 8‑14** | Follow the weekly learning path, using recorded lessons as needed; continue participating in peer discussions and reach out to tech support if connectivity issues arise. |
+
+---
+
+**Keep in mind:** Your strong engagement and appreciation for flexibility give you a solid foundation. By improving access, interaction, clarity, motivation, and technical reliability, you’ll be able to make the most of blended learning and stay on track with your studies. Good luck!
+
+
+
+---
+
+## Student ID: `e20240751`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "learning_support", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240751*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+- **Typical traits:** Strong interest in self‑studying, comfortable using digital resources, but may struggle with focus and clear guidance.  
+
+---
+
+### 2. Main Strengths  
+- **Self‑studying:** You prefer to learn independently and find convenience and effectiveness in online materials.  
+
+---
+
+### 3. Main Challenges  
+- **Difficulty staying focused** – you find it hard to maintain attention during study sessions.  
+- **Clarity & motivation:** Instructions can feel unclear, and keeping self‑discipline is sometimes a challenge.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Improve learning effectiveness** | Pair the online review content you like with short, face‑to‑face (or live‑online) explanations, practice activities, and feedback. | • After watching a video, attend a 15‑minute tutorial or office‑hour session to discuss key points.<br>• Complete practice quizzes and get quick feedback from the instructor or peers. |
+| **Improve clarity and learning support** | Get clearer instructions, concrete examples, and step‑by‑step guides to reduce confusion. | • Use recorded explanations that break down complex topics.<br>• Follow structured learning guides provided in the LMS.<br>• Ask for example problems before starting assignments. |
+| **Support motivation and self‑discipline** | Build routine and track progress to keep motivation high. | • Set a weekly study schedule with specific goals.<br>• Use the platform’s progress tracker or a simple checklist.<br>• Participate in brief weekly check‑ins (e.g., a 5‑minute poll or chat with the tutor) and set reminder alerts for study blocks. |
+
+These suggestions are drawn directly from the recommendations linked to your segment and the challenges you reported.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Choose one online module and schedule a 20‑minute live explanation session for the same topic. |
+| **Wednesday** | Review the step‑by‑step guide for the module; complete at least two practice questions. |
+| **Friday** | Record a brief note on what you understood and any remaining doubts; share it in the course forum for feedback. |
+| **Next Monday** | Set a study schedule for the week (e.g., 1 hour on Tuesday, 45 min on Thursday) and enable reminder alerts. |
+| **Mid‑week** | Attend a 5‑minute weekly check‑in (via chat or poll) to report progress and get a quick tip from the tutor. |
+| **End of Week 2** | Review your progress tracker; note improvements in focus and clarity, and adjust the schedule if needed. |
+
+Follow this plan, and adjust the timing to fit your personal rhythm. Consistently combining online resources with brief in‑person support, clear guides, and regular check‑ins will help you stay focused, understand the material better, and keep motivation high. Good luck!
+
+
+
+---
+
+## Student ID: `e20240869`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240869*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+You are classified as a highly engaged learner, which means you tend to take initiative, enjoy interacting with course material, and are motivated to apply what you learn.  
+
+---
+
+### 2. Main Strengths  
+- You expressed a positive view of learning, noting that you like to understand methods and apply them to your major.  
+- You appreciate online study as a useful way to support your learning.  
+
+---
+
+### 3. Main Challenges  
+- Your main concern relates to **assessment and workload** – balancing assignments, deadlines, and the mix of online and face‑to‑face tasks.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Manage workload and assessment pressure** (workload_support) | Keep your assignments, quizzes, and project deadlines clear and realistic, and make sure online tasks complement your in‑person sessions. | • Create a weekly planner that lists all due dates (both online and on‑campus). <br>• Break larger projects into smaller milestones and set personal mini‑deadlines. <br>• When a deadline is unclear, ask the instructor early for clarification. <br>• Use the same study blocks for online activities that you would for classroom work, so the two formats reinforce each other. |
+
+Because your open‑ended responses were brief, this recommendation is drawn primarily from your learner segment and the identified challenge of workload.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | List every upcoming assignment, quiz, and project deadline in a single spreadsheet or planner. |
+| **Day 2–3** | Split each large assignment into 2–3 smaller tasks with their own due dates. |
+| **Day 4** | Contact any instructor where a deadline is unclear and note the confirmed date. |
+| **Day 5** | Set a recurring 1‑hour “online study block” that aligns with your regular class schedule. |
+| **Day 6–7** | Review the planner each evening; adjust tasks if you feel overloaded. |
+| **Week 2** | Continue the weekly review, and add a brief reflection on how the new system is affecting your stress and performance. |
+
+Following this simple plan will help you keep control of your workload, reduce assessment pressure, and make the most of both online and face‑to‑face learning.  
+
+---  
+
+**Remember:** Your high engagement is a strong asset—use it to stay organized, ask questions early, and keep your learning purposeful. Good luck!
+
+
+
+---
+
+## Student ID: `e20240934`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_environment"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240934*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current engagement style:** Moderately Engaged (Passive) Learners (as indicated by the cluster label)  
+
+You are a motivated student who values the convenience and cost‑savings that blended learning can provide.
+
+---
+
+### 2. Main Strengths  
+- **Convenience:** You appreciate that blended learning saves you time and money on commuting and meals.  
+
+---
+
+### 3. Main Challenges  
+- **Learning Resources & Environment:** You feel that the current offering lacks sufficient video resources and reference materials, making it harder to study effectively.
+
+---
+
+### 4. Personalized Recommendations  
+**Improve Learning Resources and Environment**  
+- **Organise Materials Clearly:** Use a consistent folder structure or a learning‑management system (LMS) dashboard so you can locate PDFs, slides, and readings quickly.  
+- **Add Video Content:** Request or search for short, captioned video explanations that complement textbook chapters or lecture notes.  
+- **Update References:** Keep a shared bibliography or link list that includes up‑to‑date articles, open‑access papers, and reputable websites.  
+- **Enhance Study Spaces:** Choose a quiet, well‑lit area (library study room, campus lounge, or a dedicated home desk) and equip it with comfortable seating and minimal distractions.  
+
+These steps align with the “learning_environment” recommendation derived from your segment and the specific challenge you reported.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action | How it Helps |
+|-----|--------|--------------|
+| **Day 1–2** | Review the LMS and create a personal folder hierarchy (e.g., *Week 1 → Slides, Readings, Videos*). | Saves time locating materials. |
+| **Day 3–5** | Search for 2–3 short video tutorials related to your current module and bookmark them. | Provides the missing video resources you need. |
+| **Day 6** | Compile a list of 5 reliable reference links or open‑access articles for the same topic. | Improves the depth of your study material. |
+| **Day 7** | Choose a dedicated study spot (library room or quiet corner at home) and set it up with good lighting and a comfortable chair. | Boosts focus and comfort while studying. |
+| **Day 8–10** | Test the new setup: spend a study session using the organised folders, video, and references. Note any gaps. | Ensures the environment meets your needs. |
+| **Day 11–14** | Adjust the folder structure or add more videos/references based on your notes. | Refines the system for ongoing use. |
+
+---
+
+**Keep in mind:** Because you are a highly engaged learner, taking a few minutes each week to fine‑tune your learning environment will pay off in smoother, more effective study sessions. If you need additional video resources, consider asking your instructor or checking the university’s open‑educational‑resource (OER) portal.  
+
+Good luck, and enjoy the flexibility that blended learning offers!
+
+
+
+---
+
+## Student ID: `e20240461`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_support", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240461*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners  
+
+You tend to follow the course material but often do so passively, waiting for clear guidance before fully engaging.
+
+---
+
+### 2. Main Strengths  
+- You recognize that “make‑up classes” can be problematic for busy students, showing awareness of scheduling issues and a practical view of class timing.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unreliable connectivity sometimes blocks participation.  
+- **Learning Difficulty & Clarity:** You find some lessons hard to follow, feel hesitant to ask questions, and occasionally miss key points.
+
+Both challenges were expressed with a negative tone, indicating they are affecting your learning experience.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Tag | Recommendation (what to try) |
+|-----|------------------------------|
+| **learning_support** | • Ask the instructor for clearer written instructions and concrete examples.<br>• Use recorded explanations or step‑by‑step guides that you can review at your own pace.<br>• Keep a personal “key points” notebook after each lesson to capture the most important ideas. |
+| **tech_issue** | • Check if the university can provide a stable internet connection or a hotspot loan.<br>• Download offline versions of lecture slides or videos when you have good connectivity.<br>• Review the platform’s “how‑to” guides and keep the technical support contact info handy for quick help. |
+
+These suggestions come directly from the rule‑based recommendations matched to the challenges you reported.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Contact the IT help desk to confirm any campus Wi‑Fi or hotspot options. |
+| **Day 3–4** | Locate and download the recorded explanations for the last two lessons. |
+| **Day 5** | Create a one‑page summary (key points + examples) for each of those lessons. |
+| **Day 6–7** | Share your summary with a classmate and ask them to clarify any missed details. |
+| **Day 8–10** | Test the platform’s “how‑to” guide; note any steps that still cause trouble and send a quick query to technical support. |
+| **Day 11–14** | Review the summaries and recorded videos again, adding any new questions to a “questions list” to bring up in the next live session. |
+
+Follow this plan to improve both the clarity of the material and the reliability of your technical access. If you encounter new obstacles, reach out to your instructor or the support services identified above.  
+
+Good luck, and keep building on your practical awareness of scheduling—it's a valuable strength for successful blended learning!
+
+
+
+---
+
+## Student ID: `e20240312`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240312  
+- **Segment:** Highly Engaged (Active) Learners (clustered as Moderately Engaged – Passive)  
+- **Key strength you reported:** Flexibility & good time‑management  
+- **Area you’d like to improve:** Finding ways to stay more engaged  
+
+**Main Strengths**  
+- You are flexible and can adapt your schedule, which helps you manage coursework effectively.  
+
+**Main Challenges**  
+- You would like to increase your level of engagement with the material. (Because the open‑ended challenge description is brief, the recommendation below leans heavily on the characteristics of your learner segment.)  
+
+**Personalized Recommendations**  
+- **Support self‑paced learning** – Take advantage of recorded lectures, weekly learning paths, and downloadable resources. Reviewing material at your own speed lets you stay flexible while giving you the opportunity to dive deeper into topics that interest you, which can boost engagement.  
+
+**Short Action Plan**  
+1. **Set a weekly learning path** – Choose a set of recorded lessons and readings each week that align with your course goals.  
+2. **Schedule review sessions** – Allocate short, regular blocks (e.g., 30 min) to revisit key concepts and note questions.  
+3. **Use the recordings actively** – Pause, annotate, and re‑watch sections that feel less engaging to reinforce understanding.  
+4. **Track progress** – Keep a simple log of completed videos and materials to see your steady advancement and stay motivated.  
+
+By using self‑paced resources, you can maintain the flexibility you already excel at while creating more intentional, engaging study habits.
+
+
+
+---
+
+## Student ID: `e20240193`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240193*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You show a positive attitude toward flexibility and time‑management, but you miss the social interaction that comes with classroom learning.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – You appreciate being able to study when it best fits your schedule.
+
+---
+
+### 3. Main Challenges  
+- **Reduced Social Interaction** – You feel that the social aspects of learning are missing in the current format.
+
+---
+
+### 4. Personalized Recommendations  
+**Support self‑paced learning**  
+- Use recorded lectures and video tutorials that you can watch at any time.  
+- Follow the weekly learning paths provided by the course; they outline what to study each week and let you progress at your own speed.  
+- Keep all reading materials, slides, and supplemental resources in a personal folder for easy review whenever you need a refresher.
+
+These resources will let you maintain the flexibility you value while giving you control over the pace of your study.
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action | How it Helps |
+|------|--------|--------------|
+| 1 | Access the first set of recorded lessons and create a simple weekly schedule. | Gives you a clear, flexible roadmap. |
+| 2 | Review the weekly learning path and mark any topics you want to revisit later. | Reinforces time‑management and self‑regulation. |
+| 3 | Save all lecture videos and PDFs in a dedicated folder; set a 30‑minute “review slot” each day. | Ensures you can revisit material whenever needed. |
+| 4 | Reflect on your progress and note any gaps; request additional resources or clarification from the instructor if needed. | Keeps you engaged and compensates for reduced social interaction. |
+
+By following this self‑paced structure, you can keep the flexibility you enjoy while staying on track with your coursework. If you ever feel isolated, consider joining an online study group or discussion forum to add a social element to your learning.
+
+
+
+---
+
+## Student ID: `e20241167`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_environment", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241167*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you show many of the habits of active learners but still tend to stay on the passive side of participation.  
+
+---
+
+### 2. Main Strengths  
+- **Access & Flexibility:** You value the ability to reach course materials anytime and to study at your own pace.  
+- **Student Engagement:** You recognize that blended learning lets you combine online convenience with face‑to‑face interaction.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication:** Online sessions feel less interactive, and you would like more opportunities for discussion and quick feedback.  
+- **Internet & Technical Issues:** Unreliable connectivity sometimes blocks access to lectures and resources.  
+- **Learning Environment:** You need clearer organization of materials and a more comfortable study setting, both online and on campus.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based tags) |
+|------|----------------------------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** so you can review them whenever you need. |
+| **Engagement** | Include short quizzes, games, practical tasks, and discussion prompts in each module to keep you actively involved. |
+| **Interaction** | Add regular Q&A slots, small‑group discussions, peer‑collaboration activities, and ensure lecturers give faster feedback on your work. |
+| **Learning Environment** | Organise all resources in a clear folder structure, keep them up‑to‑date, and improve both online study spaces and on‑campus classrooms for comfort. |
+| **Self‑Paced Support** | Provide recorded lessons and a weekly learning path that you can follow or revisit at your own speed. |
+| **Technical Issues** | Offer stable campus Wi‑Fi or loaned hotspots, make key materials available for offline download, give clear platform guides, and provide a dedicated tech‑support channel. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | How It Helps |
+|------|--------|--------------|
+| 1 | Check that all lecture slides and videos are uploaded to the course portal **at least 24 h before class**. | Guarantees early access for self‑paced review. |
+| 2 | Participate in a **live Q&A** session after the next online lecture. | Boosts interaction and quick feedback. |
+| 3 | Complete the weekly **quiz** and share one comment in the discussion forum. | Increases engagement and reinforces learning. |
+| 4 | Download the week’s recorded lessons and any supplemental PDFs for **offline study**; report any connectivity problems to tech support. | Reduces impact of internet issues and supports self‑paced study. |
+
+---
+
+**Remember:** Your strengths in flexibility and a desire for engagement are solid foundations. By improving access, interaction, and technical reliability, you can move from a passive to a more active learner in the blended environment. Good luck!
+
+
+
+---
+
+## Student ID: `e20240798`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240798  
+- **Segment:** Moderately Engaged (Passive) Learners (also identified in a highly‑engaged cluster)  
+
+**Main Strengths**  
+- No specific strengths were mentioned in the open‑ended response.  
+
+**Main Challenges**  
+- The student reports a *lack of interaction between lecturer and students* (Interaction & Communication).  
+
+**Personalized Recommendations**  
+Because the primary challenge is limited interaction, the recommendation focuses on increasing opportunities for communication and collaboration:  
+
+- **Add Q&A sessions** – schedule short, regular times for you to ask questions and receive immediate answers.  
+- **Join group discussions** – participate in online forums or breakout rooms where you can discuss course material with peers.  
+- **Engage in peer collaboration** – work on short assignments or study tasks together with classmates.  
+- **Seek faster lecturer feedback** – request quicker responses to submitted work or queries, and use any available office‑hour slots.  
+
+These steps are designed to create more frequent, meaningful contact with both the instructor and fellow students, helping you move from passive to more active engagement.  
+
+**Short Action Plan (Next 2 Weeks)**  
+
+| Day | Action | How to Do It |
+|-----|--------|--------------|
+| 1–2 | Identify a Q&A slot | Check the course platform for scheduled live Q&A or propose a short 15‑minute session via the forum. |
+| 3–5 | Post a question in the discussion board | Write a clear question about the current topic and invite classmates to reply. |
+| 6–8 | Form a small study group | Use the class chat to invite 2–3 peers to meet (online or in‑person) for a 30‑minute review. |
+| 9–11 | Submit an assignment draft early | Ask the lecturer for feedback within 48 hours. |
+| 12–14 | Reflect and adjust | Note which interaction helped most and plan to repeat it in the next module. |
+
+By consistently adding these interaction points, you’ll strengthen communication with the lecturer and peers, supporting a more engaged blended‑learning experience.
+
+
+
+---
+
+## Student ID: `e20240160`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240160  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the “Moderately Engaged (Passive) Learners” cluster)  
+
+**Main Strengths**  
+1. **Access to Learning Materials** – You already see the value of using internet resources such as YouTube videos that complement class lessons.  
+2. **Digital Skills Development** – You are comfortable with blended‑learning tools and have been using this approach since your second year.  
+
+**Main Challenges**  
+- You reported no challenges with blended learning, indicating a positive experience overall.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | Why it matters |
+|----------------|----------------------|----------------|
+| **Strengthen access to learning materials** | Make sure that slides, videos, reference links, exercises and any other course resources are uploaded to the LMS **early** in the semester. | Early access lets you preview content, plan your study time, and deepen understanding before class discussions. |
+| **Develop digital learning skills** | Take short guides or short workshops on using LMS features (e.g., discussion boards, quizzes, file sharing), effective online research, and other educational technologies. | Even strong users benefit from tips that save time, improve the quality of your digital work, and keep you up‑to‑date with new tools. |
+
+**Short Action Plan (Next 4 Weeks)**  
+
+| Week | Action |
+|------|--------|
+| 1 | Check your course’s LMS page. If materials are missing, request the instructor to upload slides or videos at least 2 days before the first class meeting. |
+| 2 | Spend 30 minutes exploring LMS tutorials (often found in the “Help” or “Resources” section). Focus on features you use least (e.g., setting reminders, using the built‑in citation tool). |
+| 3 | Identify one external video or article that supports a current lesson. Share the link in the class forum and note how it helped your understanding. |
+| 4 | Reflect on the new resources and tools you used. Write a brief note on what worked best and any remaining questions to discuss with your instructor. |
+
+By keeping materials available early and sharpening your digital toolset, you’ll continue to thrive in a blended‑learning environment while supporting your peers as a highly engaged learner.
+
+
+
+---
+
+## Student ID: `e20240146`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240146  
+- **Segment:** Highly Engaged (Active) Learners (clustered as Moderately Engaged – Passive)  
+
+**Main Strengths**  
+Your open‑ended response did not highlight specific strengths, so this report draws on the typical strengths of the *Highly Engaged* segment—e.g., enthusiasm for participating and a willingness to take initiative in learning.
+
+**Main Challenges**  
+Similarly, no particular challenges were mentioned. The recommendations therefore focus on areas that commonly support learners in this segment to sustain and deepen their engagement.
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Having all slides, videos, readings, and exercises available early lets you plan and review efficiently. | Upload or request early access to all course resources; create a personal folder for quick reference. |
+| **Develop digital learning skills** | Mastering the LMS, online research tools, and educational tech saves time and expands what you can do independently. | Attend a short LMS tutorial, explore built‑in help guides, and practice using digital libraries and citation tools. |
+| **Increase learner engagement** | Interactive elements such as quizzes, games, and discussion prompts keep motivation high and deepen understanding. | Participate in live polls, join discussion boards, and complete optional low‑stakes quizzes after each topic. |
+| **Support self‑paced learning** | Recorded lessons and weekly learning paths let you review concepts whenever it fits your schedule. | Watch recorded lectures before class, follow the weekly roadmap, and revisit tricky sections at your own pace. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Day 1‑2:** Locate the course’s shared drive or LMS folder; download all available slides, videos, and reading lists.  
+2. **Day 3‑4:** Complete a 30‑minute LMS tutorial (many platforms offer a quick “Getting Started” video).  
+3. **Day 5‑7:** Set up a personal weekly learning path (e.g., “Monday – video, Wednesday – quiz, Friday – discussion post”).  
+4. **Week 2:** Participate in at least one interactive activity (quiz, poll, or discussion) each class and review any recorded lessons you missed.  
+
+By following these steps, you’ll keep your strong engagement level while building the digital and self‑paced skills that help you succeed in a blended learning environment.
+
+
+
+---
+
+## Student ID: `e20240140`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240140*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster)  
+- This segment typically benefits from rich, interactive resources, clear digital guidance, and opportunities to control the pace of study.
+
+### 2. Main Strengths  
+- The open‑ended response did not specify particular strengths.  
+- Because the student belongs to the Highly Engaged segment, we can assume a natural willingness to participate and take advantage of engaging learning activities.
+
+### 3. Main Challenges  
+- The open‑ended response did not list specific challenges.  
+- Recommendations are therefore drawn primarily from the typical needs of the student’s segment.
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Content Access** | Upload all slides, videos, reference links, exercises, and other course materials **early** in the semester. | Gives you immediate, reliable access to what you need for self‑study and preparation. |
+| **Digital Skills** | Provide short guides or short video demos on how to use the LMS, locate online resources, and conduct digital research. | Strengthens your ability to navigate the platform efficiently, saving time and reducing frustration. |
+| **Engagement** | Include regular quizzes, quick games, practical tasks, and discussion prompts within each module. | Keeps the learning experience lively and lets you apply concepts right away, matching your active learning style. |
+| **Self‑Paced Learning** | Offer recorded lectures and a weekly learning path that you can follow or revisit at any time. | Allows you to review difficult topics and progress according to your own schedule. |
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **Week 1** | Check that all lecture slides and videos are uploaded to the LMS. Download the week’s materials to your device. |
+| **Week 2** | Watch the “LMS Basics” tutorial (5 min) and try a practice search for a scholarly article. |
+| **Week 3** | Complete the first interactive quiz and post one comment in the discussion forum. |
+| **Week 4** | Review the recorded lesson for any unclear points; note questions for the next live session. |
+| **Ongoing** | Follow the weekly learning path, use the provided resources, and participate in at least one interactive activity each week. |
+
+---
+
+**Remember:** These suggestions are based on the characteristics of the Highly Engaged (Active) learner segment, which aligns with your profile. By following the actions above, you’ll maximize the benefits of blended learning and keep your studies both effective and enjoyable.
+
+
+
+---
+
+## Student ID: `e20230070`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["motivation"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20230070  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+**Main Strengths**  
+- You note that you manage your **time** well.
+
+**Main Challenges**  
+- You experience **focus/distraction** issues.  
+- The challenge is linked to **motivation & self‑discipline** (negative sentiment).
+
+**Personalized Recommendations**  
+Because your open‑ended responses are brief, the advice below draws primarily on the characteristics of the *Moderately Engaged (Passive)* segment and the “motivation” tag identified by the system:
+
+- **Support motivation and self‑discipline** – Use weekly check‑ins, set up reminders, track your progress, and follow a structured study schedule.
+
+**Short Action Plan**  
+
+| Week | Action | How to Do It | What to Track |
+|------|--------|--------------|---------------|
+| 1 | Set a weekly check‑in | Choose a consistent day/time (e.g., Sunday evening) to review what you’ll study next week. | List of topics, planned study hours |
+| 2 | Add reminders | Use a phone app or calendar to push reminders 15 minutes before each study block. | Completion of each reminder |
+| 3 | Start progress tracking | Create a simple log (paper or digital) to mark finished readings, assignments, or quiz scores. | Number of items completed per day |
+| 4 | Build a structured schedule | Divide your week into fixed study slots (e.g., Mon/Wed/Fri 10‑12 pm) and stick to them. | Adherence to the schedule (percentage of slots used) |
+| Ongoing | Review & adjust | At each weekly check‑in, note what helped focus and what distracted you, then tweak reminders or schedule as needed. | Changes in focus level and motivation (self‑rating 1‑5) |
+
+Follow this plan for at least four weeks, then reassess your focus and motivation. Small, regular habits are the key to turning passive engagement into active, self‑directed learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20241289`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_environment"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241289*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+- You are motivated and make good use of the resources that are available online, but you notice that the digital format can feel isolating when interaction with lecturers and peers is limited.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials** – You appreciate that blended learning gives you quick access to slides, videos, references, and exercises.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication** – You feel a lack of direct contact with lecturers, which can reduce the sense of connection.  
+- **Learning Resources & Environment** – You would like more in‑person elements and clearer organization of study spaces.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What to Do | Why it Helps |
+|----------------|------------|--------------|
+| **Strengthen access to learning materials** | Upload slides, videos, reference links, and practice exercises **early** in the course week. | Keeps the material you value readily available and supports your active learning style. |
+| **Increase interaction and communication** | Add scheduled **Q&A sessions**, small‑group discussions, and peer‑collaboration activities; ensure lecturers provide **prompt feedback** on assignments. | Improves the sense of connection you miss in a fully digital setting. |
+| **Improve learning resources and environment** | Organise all course files in a clear folder structure, regularly **update resources**, and provide information about comfortable on‑campus study spaces or hybrid classroom options. | Makes the blended environment feel more structured and supportive, especially when you prefer some physical interaction. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Expected Outcome |
+|------|--------|-------------------|
+| 1 | Check the course platform for a **clear folder layout**; suggest any needed re‑organisation to the instructor. | Easier navigation of materials. |
+| 2 | Participate in a **live Q&A** or schedule a short virtual meeting with the lecturer. | Immediate feedback and stronger lecturer connection. |
+| 3 | Form a **study group** with 2‑3 classmates for weekly peer discussions (online or in a campus study room). | More peer interaction and shared resources. |
+| 4 | Review the **uploaded materials** (slides, videos, exercises) early in the week and note any gaps to request from the instructor. | Continues strong access to content and keeps you ahead. |
+
+---
+
+By focusing on timely content delivery, richer interaction opportunities, and a well‑structured learning environment, you can keep leveraging your high engagement while reducing the sense of isolation that sometimes comes with blended learning. Feel free to share this plan with your course coordinator to help shape the upcoming weeks. Good luck!
+
+
+
+---
+
+## Student ID: `e20240866`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240866  
+- **Segment:** Moderately Engaged (Passive) Learners (you are also grouped with Highly Engaged (Active) Learners)  
+
+**Main Strengths**  
+- You appreciate the **flexibility and time‑saving** aspects of blended learning (“save time and money”).  
+
+**Main Challenges**  
+- You would like **more in‑person interaction** and communication with classmates and instructors.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | Why it helps |
+|----------------|----------------------|--------------|
+| **Increase interaction and communication** | Join scheduled Q&A sessions, take part in small‑group discussions, collaborate on short peer projects, and look for quicker feedback from lecturers. | Gives you the face‑to‑face‑type contact you miss in fully online classes, building the interaction you value. |
+| **Support self‑paced learning** | Use recorded lectures, follow weekly learning paths, and review provided materials whenever it fits your schedule. | Keeps the flexibility you enjoy while letting you study at your own speed. |
+
+**Short Action Plan**  
+
+1. **Weekly**: Attend at least one live Q&A or discussion session (often offered via video conference).  
+2. **Bi‑weekly**: Participate in a short peer‑collaboration activity (e.g., a discussion board post or group worksheet).  
+3. **Daily**: Review recorded lessons or supplemental materials for 15‑30 minutes to reinforce concepts at your own pace.  
+4. **After each activity**: Request brief feedback from the lecturer or teaching assistant to close the interaction loop.  
+
+By balancing more interactive moments with the freedom to study when it suits you, you’ll get the best of both worlds in your blended courses.
+
+
+
+---
+
+## Student ID: `e20240707`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20240707  
+**Student Segment:** Highly Engaged (Active) Learners – you tend to take initiative and make good use of learning opportunities.  
+
+---
+
+### 1. Student Learning Profile
+You are classified as a **Highly Engaged (Active) Learner**. This segment typically benefits from rich content access, interactive activities, and opportunities to work at their own pace while developing digital skills.
+
+### 2. Main Strengths
+- **Time Availability:** You noted that you “have more time,” which gives you flexibility to explore materials and practice independently.
+
+### 3. Main Challenges
+- **Learning Difficulty & Clarity:** You indicated that some material is “not explain[ed]” clearly, suggesting that instructions or concepts sometimes feel ambiguous.
+
+### 4. Personalized Recommendations
+Based on your segment profile and the specific challenge you reported, the following support is recommended:
+
+| Recommendation | What It Means for You |
+|----------------|----------------------|
+| **Improve clarity and learning support** | • Look for courses that provide **clear, step‑by‑step guides** and **recorded explanations**.<br>• Use resources that include **concrete examples** and **illustrations** of key concepts.<br>• When a topic feels unclear, seek out supplemental videos or short tutorials that break the material down into smaller steps. |
+
+### 5. Short Action Plan
+| Week | Action |
+|------|--------|
+| **1** | Identify one upcoming module and locate any **recorded explanations** or **step‑by‑step guides** offered by the instructor or on the learning platform. |
+| **2** | Allocate a short, focused study session (e.g., 30 min) to review the material using the extra examples. Note any remaining questions. |
+| **3** | Use the platform’s discussion forum or office‑hours to ask for clarification on the points that are still unclear. |
+| **4** | Reflect on whether the additional support improved your understanding; adjust your study routine accordingly. |
+
+By taking advantage of clearer instructional resources and using your available time strategically, you can turn the current challenge into an opportunity for deeper learning. Keep leveraging your active engagement style, and don’t hesitate to request the extra support you need.
+
+
+
+---
+
+## Student ID: `e20231124`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "learning_support"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20231124  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- Values both in‑person and online learning for their convenience and overall usefulness.  
+
+**Main Challenges**  
+- Finds online classes time‑intensive and would like a clearer way to ask questions when material is confusing.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | Why it helps |
+|----------------|----------------------|--------------|
+| **Improve learning effectiveness** | Pair the online review materials you already use with short, in‑person sessions where the instructor explains key concepts, gives you practice tasks, and provides feedback. | This mix lets you keep the convenience of online resources while gaining the clarity and reinforcement that come from face‑to‑face interaction. |
+| **Improve clarity and learning support** | Look for courses that offer clear written instructions, concrete examples, recorded explanations, and step‑by‑step guides. Use any “question box” or online forum the instructor provides to post doubts as soon as they arise. | Better‑structured materials and easy access to help reduce the time you spend feeling stuck, making your study time more efficient. |
+
+**Short Action Plan**  
+
+1. **Select a blended module** – Choose a course that supplies both online videos/notes *and* scheduled in‑person workshops or tutorials.  
+2. **Use the “question box”** – Before each class, write down any unclear points and post them in the provided Q&A space (forum, chat, or physical box).  
+3. **Schedule review sessions** – After watching online material, attend a short in‑person or live‑online session to practice the concepts and receive feedback.  
+4. **Follow step‑by‑step guides** – When available, download the instructor’s detailed guides and use them as a checklist while studying.  
+
+By combining the flexibility you appreciate with targeted support and clearer instructions, you can make your study time more productive and reduce the feeling of wasted effort.
+
+
+
+---
+
+## Student ID: `e20240510`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** e20240510  
+- **Segment:** Highly Engaged (Active) Learners (Cluster: Moderately Engaged – Passive)  
+
+You are motivated and have the time to study, often re‑watching video lectures.  
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You appreciate being able to review slides, videos and other resources repeatedly.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication:** You find it hard to get answers when you have questions, especially when contacting professors.  
+- **Learning Difficulty & Clarity:** Some explanations do not provide the detail you need to fully understand the material.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Strengthen access to learning materials** | Keep having all course content (slides, videos, references, exercises) available early and in one place. | Look for a course portal or shared drive where the instructor uploads the full set of materials before each class. |
+| **Increase interaction and communication** | More opportunities to ask questions and receive quick feedback. | Participate in scheduled Q&A sessions, join small‑group discussions or peer‑collaboration groups, and use any chat or forum where lecturers respond promptly. |
+| **Improve clarity and learning support** | Get clearer instructions, concrete examples, and step‑by‑step guides. | Request recorded explanations or supplemental walkthroughs, and use any provided learning guides that break down complex topics. |
+
+These suggestions are drawn directly from the evidence about your strengths, challenges, and the “content_access,” “interaction,” and “learning_support” tags that apply to your segment.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Verify that all lecture slides, videos, and reference links are uploaded to the course platform. Bookmark the folder for easy access. |
+| **Day 3–5** | Join a peer‑study group or schedule a short virtual meeting with classmates to discuss the current topic. |
+| **Day 6** | Attend a live Q&A or office‑hour session; prepare 2–3 specific questions in advance. |
+| **Day 7–9** | Request (or locate) a recorded walkthrough of a concept you found unclear; watch it and take notes. |
+| **Day 10–12** | Complete any available practice exercises and compare your answers with the provided solutions or discuss them with peers. |
+| **Day 13–14** | Reflect on which resources helped most, and send brief feedback to the lecturer about the clarity of instructions and responsiveness of communication. |
+
+Follow these steps to make the most of the materials, improve interaction, and gain clearer guidance—all aligned with your learning profile. Good luck!
+
+
+
+---
+
+## Student ID: `e20240468`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240468*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+- You value flexibility and the ability to manage your time effectively while learning online.  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate that blended learning lets you study when it fits your schedule.  
+- **Learning Convenience & Effectiveness:** You find the online format useful for reviewing material quickly.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unreliable connectivity sometimes disrupts your study sessions.  
+- **Learning Difficulty & Clarity:** Instructions can be unclear, leading to misunderstandings of tasks.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Use It |
+|----------------|----------------------|---------------|
+| **Improve learning effectiveness** | Pair the online review resources you already like with short, in‑person (or live‑online) sessions where concepts are explained, practiced, and you receive feedback. | Attend scheduled tutorial labs or live Q&A sessions after reviewing the online material. |
+| **Improve clarity and learning support** | Get clearer directions, concrete examples, and step‑by‑step guides to reduce misunderstandings. | Look for recorded explanations and written guides that accompany each assignment; ask the instructor to share sample solutions. |
+| **Support self‑paced learning** | Keep using recorded lessons and weekly learning paths that let you study at your own speed. | Follow the weekly roadmap provided in the LMS, replay any recorded lecture you missed, and pause/review as needed. |
+| **Improve technical access and reliability** | Ensure you have stable internet or offline options so technical glitches don’t halt your progress. | Download lecture videos and reading materials when you have good connectivity; use the campus Wi‑Fi or university‑provided hotspot if needed; contact tech support for platform issues. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Review the weekly learning path and download all video lectures for offline use. |
+| **Day 3** | Attend the first live tutorial (or schedule a short in‑person session) to clarify any confusing topics from the week’s readings. |
+| **Day 4–5** | Follow the step‑by‑step guide for the upcoming assignment; compare your work with the provided example. |
+| **Day 6** | Test your internet connection; if unstable, arrange a campus hotspot or schedule study time in a reliable location. |
+| **Day 7** | Submit any questions to the instructor or tech support; note the response time for future reference. |
+| **Day 8–10** | Re‑watch any recorded explanations you found helpful; use pause/replay to reinforce understanding. |
+| **Day 11** | Complete the assignment using the feedback from the tutorial; reflect on what clarified your understanding. |
+| **Day 12–14** | Review the week’s progress, adjust your personal schedule if needed, and plan the next week’s learning path. |
+
+---
+
+**Remember:** Your strong engagement and appreciation for flexible, self‑paced study are assets. By adding clearer guidance, reliable technical access, and brief in‑person support, you can turn those assets into even higher learning effectiveness. Good luck!
+
+
+
+---
+
+## Student ID: `e20230740`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20230740  
+**Student Segment:** 2 – *Moderately Engaged (Passive) Learners*  
+
+---
+
+### 1. Student Learning Profile
+You make good use of the flexibility that online study offers, especially when holidays or other commitments arise. This shows strong time‑management skills and a preference for self‑directed study.  
+
+A current difficulty is keeping up with important messages in a busy group chat, which can lead to missed information and reduced interaction with peers and instructors.
+
+---
+
+### 2. Main Strengths
+- **Flexibility & Time Management** – You choose online sessions to fit your schedule, avoiding extra time pressures.  
+
+---
+
+### 3. Main Challenges
+- **Interaction & Communication** – Important announcements can be lost in a busy chat, and you may miss opportunities for timely feedback or discussion.
+
+---
+
+### 4. Personalized Recommendations
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Increase interaction and communication** | Add structured Q&A sessions, group discussions, and peer collaboration; seek quicker feedback from lecturers. | • Join scheduled live Q&A or discussion slots each week.<br>• Use a dedicated channel (e.g., a “Announcements” thread) for important messages.<br>• Pair up with a classmate for brief check‑ins after each lesson. |
+| **Support self‑paced learning** | Keep using recorded lessons and weekly learning paths that you can review whenever it fits your schedule. | • Follow the weekly learning path provided in the LMS.<br>• Re‑watch recorded lectures before assignments or exams.<br>• Create a personal study timetable that aligns with the recorded content. |
+
+These recommendations are drawn directly from the rule‑based guidance for your segment and the tags identified in your profile (“interaction” and “self‑paced”).
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Mon** | Review the week’s learning path and note any recorded videos you need to watch. |
+| **Tue** | Set up a “Pinned Announcements” folder in the group chat or ask the instructor to create one. |
+| **Wed** | Attend the first live Q&A session; prepare one question in advance. |
+| **Thu** | Schedule a 15‑minute check‑in with a peer to discuss the day’s material. |
+| **Fri** | Watch any missed recorded lessons and add notes to your study planner. |
+| **Weekend** | Reflect on any communication gaps you experienced and adjust your notification settings or chat habits accordingly. |
+
+Repeat this cycle each week, adjusting the timing as needed. By combining more purposeful interaction with the flexibility you already value, you’ll stay informed, engaged, and in control of your learning.
+
+
+
+---
+
+## Student ID: `e20241304`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241304*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You are generally motivated and take an active role in your studies, but recent feedback shows you sometimes struggle with the clarity of instructional content.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials** – You value having the course slides, videos, references, and exercises available for review.
+
+---
+
+### 3. Main Challenges  
+- **Learning Difficulty & Clarity** – You find it hard when explanations repeat the same information on screen without clear, step‑by‑step guidance.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** (content_access) | Ensure all course resources are uploaded early so you can review them at your own pace. | • Ask your instructor to post slides, video recordings, reading lists, and practice exercises at the start of each module.<br>• Use the learning platform’s “download” feature to keep copies for offline study. |
+| **Improve clarity and learning support** (learning_support) | Get clearer instructions, concrete examples, and recorded explanations that break tasks into manageable steps. | • Request short video walkthroughs or step‑by‑step guides for complex topics.<br>• Use the platform’s discussion board to ask for additional examples when a concept isn’t clear.<br>• Take advantage of any tutoring or office‑hour sessions offered. |
+
+These recommendations are drawn from your segment profile (Highly Engaged learners) and the specific strengths and challenges you reported.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Review the syllabus and note which weeks have missing slides or videos. Send a brief email to the instructor asking for early uploads. |
+| **Day 3–5** | Locate any existing recorded explanations. If they are unclear, post a question in the forum asking for a step‑by‑step example. |
+| **Day 6–9** | Download all available materials and create a personal “quick‑reference” folder for each topic. |
+| **Day 10–12** | Attend a virtual office hour or tutoring session focused on a concept you found confusing. |
+| **Day 13–14** | Reflect: Did the earlier access to materials and clearer explanations help your understanding? Note any remaining gaps and plan the next steps. |
+
+Follow this plan to make the most of the resources you need and to improve the clarity of your learning experience. You have the engagement to succeed—these steps will help you translate that energy into deeper understanding.
+
+
+
+---
+
+## Student ID: `e20241024`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241024  
+- **Segment:** Highly Engaged (Active) Learners (also grouped with Moderately Engaged – Passive Learners)  
+
+**Main Strengths**  
+- Values the **flexibility and convenience** of blended learning, which helps you balance academic work with personal responsibilities and learn at your own pace.  
+
+**Main Challenges**  
+- Experience **unstable internet connections** that can interrupt online activities.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Support self‑paced learning** (self_paced) | Access recorded lessons, weekly learning paths, and downloadable materials so you can study whenever your connection is reliable. | • Watch recordings after class or when you have a strong connection.<br>• Follow the weekly learning path to stay on track.<br>• Keep PDFs or slides for offline review. |
+| **Improve technical access and reliability** (tech_issue) | Ensure you have stable internet or offline options and clear guidance on using the platform. | • Use campus Wi‑Fi, library computers, or a personal hotspot when possible.<br>• Download lecture videos and readings in advance.<br>• Follow the platform’s quick‑start guide and contact technical support if problems arise. |
+
+**Short Action Plan**  
+
+1. **Download weekly materials** (videos, slides, readings) as soon as they are posted.  
+2. **Create a personal study schedule** that aligns with your peak internet times (e.g., evenings when the network is less congested).  
+3. **Test your connection** before live sessions; if it’s weak, switch to the downloaded offline versions.  
+4. **Bookmark technical support resources** (help desk email, chat, FAQ) and keep them handy for quick troubleshooting.  
+
+By leveraging self‑paced resources and securing reliable access, you can maintain your high level of engagement while minimizing disruptions from technical issues. Good luck!
+
+
+
+---
+
+## Student ID: `e20210687`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20210687*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1) – you tend to take initiative and enjoy taking charge of your learning.  
+- **Current cluster:** Moderately Engaged (Passive) Learners – indicates occasional difficulty staying fully active, especially when technical or interaction issues arise.  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you value the ability to adapt your study schedule to different situations and can manage your time well.  
+
+### 3. Main Challenges  
+- **Technical / Internet issues:** Unreliable connection makes it hard to follow some subjects that need live examples.  
+- **Interaction & Communication:** You need clearer, more immediate guidance from lecturers and peers.  
+- **Assessment & Workload:** The current mix of online and face‑to‑face tasks feels overwhelming at times.  
+
+*(The open‑ended comments were brief, so the recommendations below rely heavily on your segment profile and the identified challenge themes.)*  
+
+### 4. Personalized Recommendations  
+
+| Tag | What it means for you | Practical steps |
+|-----|----------------------|-----------------|
+| **Interaction** | Boost communication with lecturers and classmates. | • Join scheduled Q&A or live‑chat sessions.<br>• Participate in small‑group discussions or peer‑review activities.<br>• Request quicker feedback on assignments. |
+| **Self‑paced** | Use your flexibility to learn at your own speed. | • Access recorded lectures and supplemental videos.<br>• Follow weekly learning paths that outline what to study each day.<br>• Review materials before and after class as needed. |
+| **Tech_issue** | Reduce disruptions caused by internet or platform problems. | • Use campus Wi‑Fi or a reliable hotspot for critical sessions.<br>• Download offline copies of readings and videos when possible.<br>• Keep the platform’s help guide handy and contact technical support early if issues arise. |
+| **Workload_support** | Make the amount and timing of assignments more manageable. | • Keep a personal calendar that marks all deadlines clearly.<br>• Ask the instructor to clarify which online tasks are essential and which can be optional.<br>• Break larger projects into smaller, timed milestones. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Locate the recorded versions of this week’s lectures and download them for offline use. |
+| **Day 3** | Add all assignment due dates to a digital calendar with reminders 48 hours before each deadline. |
+| **Day 4** | Join a scheduled Q&A session or set up a short meeting with a peer group to discuss any unclear concepts. |
+| **Day 5** | Test your internet connection; if unstable, arrange access to campus Wi‑Fi or a reliable hotspot for upcoming live sessions. |
+| **Day 6–7** | Review the week’s material at your own pace using the recorded lessons; note any questions for the next Q&A. |
+| **Day 8** | Contact technical support for any platform issues you encountered and keep the support guide bookmarked. |
+| **Day 9–10** | Submit the next assignment, using the broken‑down milestones you set in your calendar. |
+| **Day 11** | Reflect on how the added interaction and self‑paced resources helped your understanding; adjust the plan if needed. |
+| **Day 12–14** | Continue the cycle: download new recordings, attend interaction sessions, and keep the workload calendar up to date. |
+
+---
+
+**Remember:** Your flexibility is a strong asset. By adding structured interaction, reliable technical access, and clear workload planning, you can turn those strengths into even better academic outcomes. Good luck!
+
+
+
+---
+
+## Student ID: `e20230072`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230072*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster)  
+- You thrive when you can control the pace of your study and have flexibility in managing your time.
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate being able to learn at your own speed, which helps you stay organized and make the most of your study time.
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline:** You notice that when a lecture feels unengaging, it’s easy to become distracted and lose focus.
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Apply It |
+|----------------|----------------------|-----------------|
+| **Support motivation and self‑discipline** | Build habits that keep you on track even when content feels less lively. | • Set up a **weekly check‑in** (e.g., a short self‑review or a quick chat with a tutor). <br>• Use **reminders** or calendar alerts for study blocks. <br>• Track your progress with a simple checklist or digital tracker. <br>• Follow a **structured study schedule** that includes short breaks and varied activities. |
+| **Support self‑paced learning** | Continue leveraging the flexibility you value while ensuring you cover all required material. | • Access **recorded lectures** so you can pause, rewind, or revisit difficult parts. <br>• Follow the **weekly learning path** provided by the course (outline of topics and suggested order). <br>• Use the **downloadable resources** (slides, notes, practice quizzes) to review at your own speed. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Day 1** | Create a weekly study schedule (30 min blocks) and add it to your digital calendar. |
+| **Day 2** | Set up a reminder for a 5‑minute “focus check” before each study block. |
+| **Day 3** | Locate the recorded lectures for the upcoming module and bookmark them. |
+| **Day 4** | Choose a progress‑tracking tool (e.g., a simple spreadsheet or a learning‑app checklist). |
+| **Day 5** | Complete a brief self‑reflection (2‑3 sentences) on what kept you motivated this week. |
+| **Week 2** | Attend a short virtual check‑in with a tutor or peer to discuss any distractions you experienced and adjust your schedule if needed. |
+| **End of Week 2** | Review your progress tracker; celebrate completed tasks and plan the next week’s schedule. |
+
+---
+
+**Remember:** Your ability to learn independently is a strong asset. By adding a few structured habits and using the available self‑paced resources, you’ll stay motivated and make steady progress throughout the course. Good luck!
+
+
+
+---
+
+## Student ID: `e20210348`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20210348  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You are able to study flexibly “anywhere, anytime,” which shows strong adaptability to blended formats.
+
+**Main Challenges**  
+- Managing your time effectively.  
+- Unreliable internet/technical issues that can disrupt online learning.
+
+**Personalized Recommendations**  
+Because your primary challenge is technical access, the following steps are recommended:  
+
+1. **Secure stable internet** – Explore campus Wi‑Fi hotspots, local libraries, or a mobile data plan that offers reliable coverage.  
+2. **Use offline resources** – Download lecture videos, readings, and assignments when you have a good connection so you can study without interruption.  
+3. **Follow clear platform guides** – Review any short tutorials or FAQs provided by the university to avoid confusion with the learning system.  
+4. **Access technical support** – Keep the help‑desk contact information handy and reach out early if you encounter connectivity or platform problems.  
+
+**Short Action Plan (Next 2 weeks)**  
+
+| Day | Action | Goal |
+|-----|--------|------|
+| 1‑2 | Test your current internet speed and note any dead zones on campus or at home. | Identify where you need better connectivity. |
+| 3‑4 | Register for a campus Wi‑Fi hotspot or arrange a backup mobile data plan. | Ensure you have a reliable backup connection. |
+| 5‑7 | Download all course materials for the upcoming week while on a strong connection. | Create an offline study buffer. |
+| 8‑9 | Review the university’s platform quick‑start guide (5‑10 min). | Reduce platform‑related confusion. |
+| 10‑12 | Contact technical support to confirm you have access to help channels. | Know where to get assistance quickly. |
+| 13‑14 | Reflect on your time‑management routine and adjust study blocks based on the offline material you now have. | Improve time management while minimizing internet disruptions. |
+
+By strengthening your technical setup and using offline options, you can keep leveraging your flexibility and stay fully engaged in your blended courses. Good luck!
+
+
+
+---
+
+## Student ID: `e20230777`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230777*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current situation:** You appreciate the flexibility, accessibility, and the richer learning experience that blended learning offers. At the same time, you notice challenges with staying motivated, managing distractions, technical reliability, and balancing online and face‑to‑face work.
+
+---
+
+### 2. Main Strengths  
+- **Access & Flexibility:** You value being able to study both in‑class and online, review materials anytime, and adapt learning to your own pace.  
+- **Digital Skills Development:** You see blended learning as a way to improve your use of technology and digital research tools.  
+- **Engagement & Interaction:** You enjoy the mix of in‑person discussions, videos, quizzes, and group work that makes lessons more interesting.  
+
+---
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline:** Staying focused during online sessions can be difficult.  
+- **Technical Issues:** Unstable internet or limited device access sometimes disrupts learning.  
+- **Interaction & Communication:** Feeling less connected with classmates and lecturers online.  
+- **Workload Management:** Balancing online assignments with in‑person classes and keeping track of deadlines.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What the university can do for you | How you can use it |
+|------|-------------------------------------|--------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** in the LMS. | Review the materials before class and use them for revision at any time. |
+| **Digital Skills** | Provide short guides and workshops on LMS tools, online research, and educational technologies. | Follow the guides, practice using the tools, and ask for help when needed. |
+| **Engagement** | Include regular quizzes, games, practical tasks, and discussion prompts in both online and face‑to‑face sessions. | Participate actively; use the quizzes to check your understanding and stay involved. |
+| **Interaction** | Schedule Q&A slots, peer‑collaboration groups, and ensure faster lecturer feedback on assignments. | Join the discussion groups, ask questions during Q&A, and review feedback promptly. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations, practice activities, and feedback loops. | Use the online resources to prepare for class and consolidate what you learn after each session. |
+| **Learning Environment** | Organise all materials clearly, keep resources up‑to‑date, and improve study spaces (both virtual and physical). | Follow the clear folder structures, and choose a quiet, comfortable spot for online work. |
+| **Learning Support** | Offer clearer instructions, concrete examples, recorded explanations, and step‑by‑step guides. | Refer to the step‑by‑step guides when a task is unclear; watch recorded explanations as needed. |
+| **Motivation** | Implement weekly check‑ins, reminders, progress‑tracking dashboards, and structured study schedules. | Review your progress each week, set small goals, and use reminders to stay on track. |
+| **Self‑Paced Learning** | Provide recorded lessons and weekly learning paths that you can follow at your own speed. | Watch recordings before class or when you need a refresher; follow the weekly path to stay organized. |
+| **Technical Issues** | Ensure stable campus Wi‑Fi, offer offline copies of key materials, give clear platform instructions, and provide a help desk. | Download offline copies when you anticipate connectivity problems and contact support early if issues arise. |
+| **Workload Support** | Balance the number of assignments, clarify deadlines, and align online tasks with in‑person sessions. | Keep a personal calendar with all deadlines, and break larger tasks into smaller, manageable steps. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Goal | Concrete Step |
+|------|------|----------------|
+| 1 | **Set up your digital workspace** | Locate the early‑uploaded course folder; download the LMS guide and install any required apps. |
+| 2 | **Boost motivation & planning** | Use the weekly check‑in tool to set two short study goals; add all deadlines to a personal calendar. |
+| 3 | **Increase interaction** | Join a peer‑collaboration group for one upcoming discussion; attend a scheduled Q&A session. |
+| 4 | **Review & adjust** | Look at the progress dashboard; note any technical hiccups and contact support; plan next month’s study path using recorded lessons. |
+
+---
+
+**Remember:** Your strengths in flexibility and digital competence give you a solid foundation. By taking advantage of the resources and supports outlined above, you can turn the current challenges into opportunities for more focused, interactive, and successful blended learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20230194`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20230194  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You appreciate that videos can be recorded and reviewed later, which helps you keep access to learning materials.
+
+**Main Challenges**  
+- The only difficulty you mentioned is the reliability of the Wi‑Fi connection, which can hinder smooth participation in blended activities.
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | Why it matters |
+|----------------|----------------------|----------------|
+| **Strengthen access to learning materials** | Ensure that slides, videos, reference documents, and exercises are uploaded to the learning platform well before class sessions. | Having all resources available early lets you review them at your own pace and reinforces your active learning style. |
+| **Improve technical access and reliability** | Work with the university’s IT services to secure a stable internet connection, and request offline copies of key materials when possible. Also, keep clear instructions for the platform handy and know how to reach technical support quickly. | Reliable connectivity prevents interruptions, so you can stay fully engaged in both live and asynchronous activities. |
+
+**Short Action Plan**  
+
+1. **Check the course portal weekly** for newly uploaded slides, videos, and practice exercises; download any files you might need offline.  
+2. **Test your Wi‑Fi** before each live session; if the signal is weak, move closer to the router or use a wired connection if available.  
+3. **Save offline copies** of essential videos or PDFs when you notice connectivity issues, so you can study without interruption.  
+4. **Bookmark the technical support page** and note the contact details for quick help if you encounter any platform problems.  
+
+By focusing on early access to materials and ensuring a stable technical environment, you can keep leveraging your high engagement and make the most of the blended learning experience.
+
+
+
+---
+
+## Student ID: `e20230657`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_support", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20230657  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – you tend to follow the course but often take a back‑seat in class activities.  
+
+**Main Strengths**  
+1. **Access to Learning Materials** – you value that lectures are recorded and can be revisited later.  
+2. **Digital Skills Development** – you are comfortable adapting to different digital learning tools.  
+
+**Main Challenges**  
+1. **Interaction & Communication** – it is difficult for you to ask questions or get quick feedback during online sessions.  
+2. **Internet & Technical Issues** – unstable network connections disrupt your study.  
+3. **Learning Difficulty & Clarity** – you need clearer explanations and guidance.  
+
+**Personalized Recommendations**  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** in the LMS. | Gives you reliable material to review when the connection is poor or when you need extra time to understand a topic. |
+| **Digital Skills** | Offer short guides or short videos on how to use LMS tools, online research databases, and other educational technologies. | Strengthens the digital abilities you already have and makes navigation smoother. |
+| **Interaction** | Add scheduled Q&A slots, small‑group discussions, and peer‑collaboration activities; encourage faster lecturer feedback (e.g., via chat or short video replies). | Provides more opportunities to ask questions and receive clarification, reducing the feeling of isolation. |
+| **Learning Support** | Provide clearer written instructions, concrete examples, and short recorded explanations for complex concepts; create step‑by‑step learning guides. | Improves clarity and helps you study independently when live help is unavailable. |
+| **Technical Issues** | Ensure a backup plan: downloadable/offline versions of videos and readings, clear instructions for accessing them, and a dedicated tech‑support contact. | Reduces disruption caused by unstable internet and gives you a reliable way to continue learning offline. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Check the course LMS for any missing slides or videos; download what is available for offline use. |
+| **Day 3‑4** | Watch the short “How to use the LMS” tutorial (if provided) or request one from the instructor. |
+| **Day 5** | Join a peer‑study group or schedule a 15‑minute virtual meeting to discuss any unclear topics. |
+| **Day 6‑7** | Submit a list of questions you have about the current module; ask the lecturer to answer them in a brief recorded Q&A. |
+| **Day 8‑10** | Test your internet connection; if unstable, arrange access to campus Wi‑Fi or a nearby hotspot for critical live sessions. |
+| **Day 11‑14** | Review the downloaded materials and the step‑by‑step guides; note any remaining gaps and request targeted support from the tutor or tech help desk. |
+
+By following these steps, you can make the most of the recorded content you already appreciate, improve communication with instructors and peers, and reduce the impact of technical problems on your learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20230554`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20230554  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+**Main Strengths**  
+Your open‑ended response indicated positive feelings about your learning experience, so you already have a good attitude toward your studies.
+
+**Main Challenges**  
+You also reported positive sentiments about challenges, which suggests you are aware of areas that could be improved but have not detailed them. Because the open‑ended information is limited, the recommendations below are drawn mainly from the characteristics of the *Moderately Engaged (Passive)* segment.
+
+**Personalized Recommendations**  
+
+| Focus | What to Try | Why It Helps |
+|-------|-------------|--------------|
+| **Interaction** | • Join short Q&A sessions after lectures<br>• Participate in small‑group discussions or online forums<br>• Collaborate with a peer on a weekly mini‑project<br>• Request quicker feedback from the lecturer | Increases active involvement and keeps you connected to the material and classmates. |
+| **Learning Support** | • Look for clear, step‑by‑step guides and example problems provided by the instructor<br>• Use recorded explanations that break down complex topics<br>• Ask for additional clarification when instructions feel vague | Improves understanding and reduces uncertainty when studying independently. |
+| **Motivation & Self‑Discipline** | • Set a weekly check‑in with yourself (or a study buddy) to review goals<br>• Use a simple progress tracker (e.g., checklist or app) to see what you’ve completed<br>• Schedule short, regular study blocks and set reminders | Helps maintain momentum and builds the habit of consistent work. |
+| **Self‑Paced Learning** | • Access recorded lectures so you can review them at any time<br>• Follow the weekly learning path supplied by the course and adjust the pace to fit your schedule<br>• Keep all materials organized for quick reference | Allows you to study when you’re most focused and revisit content as needed. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Pick a discussion platform** (e.g., course forum or a study‑group chat) and post a question or comment each day.  
+2. **Download the recorded lectures** for the upcoming module and schedule two 30‑minute review sessions.  
+3. **Create a simple checklist** of the week’s learning objectives; tick off each item as you finish it.  
+4. **Set a 5‑minute reminder** at the start of each study block to check your progress and note any points that need clarification.  
+
+By focusing on more interaction, clearer support, regular motivation checks, and flexible pacing, you’ll move from passive participation toward a more active, confident learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20220298`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20220298*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you have the potential to move toward more active participation.  
+
+### 2. Main Strengths  
+- **Access & Flexibility:** You appreciate being able to save travel time and keep a record of lessons. This shows you value easy access to learning materials and flexible scheduling.  
+
+### 3. Main Challenges  
+- **Interaction & Communication:** Difficulty asking questions directly in live online sessions.  
+- **Technical Issues:** Unreliable internet hampers participation.  
+- **Learning Clarity & Focus:** Long online sessions affect concentration and make content harder to follow.  
+- **Motivation & Self‑Discipline:** Maintaining focus over extended online periods is challenging.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** so you can review them whenever you need. |
+| **Interaction** | Add short Q&A slots, small‑group discussions, and peer‑collaboration activities. Request quicker feedback from the lecturer when you have questions. |
+| **Learning Support** | Provide clearer instructions with concrete examples, recorded explanations, and step‑by‑step guides to help you follow the material more easily. |
+| **Motivation** | Use weekly check‑ins, automated reminders, and a simple progress‑tracking sheet. Build a structured study schedule that includes short breaks to keep focus. |
+| **Self‑Paced Learning** | Take advantage of recorded lessons and weekly learning paths. Review recordings at your own pace to reinforce understanding. |
+| **Technical Issues** | Ensure you have a backup plan: download offline copies of videos/materials, keep a list of technical support contacts, and follow clear platform instructions to reduce connectivity problems. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Download all current lecture recordings and slides; organize them in a personal folder. |
+| **Day 3** | Set up a weekly check‑in reminder (e.g., every Monday 10 am) to review progress and note any questions. |
+| **Day 4** | Join a peer‑study group or create a small discussion chat for quick Q&A. |
+| **Day 5** | Test your internet connection; identify a reliable backup (e.g., campus Wi‑Fi hotspot) and download offline copies of upcoming materials. |
+| **Day 6–7** | Follow a structured study schedule: 45 min study → 10 min break, repeat. Use the recorded lessons to fill gaps. |
+| **Week 2** | Attend the added Q&A session; ask at least one question. Review the lecturer’s feedback and update your progress tracker. |
+
+---
+
+**Remember:** Your strengths in accessing materials and valuing flexibility are solid foundations. By improving interaction, technical reliability, and self‑discipline with the steps above, you can shift from a passive to a more active, confident learner. Good luck!
+
+
+
+---
+
+## Student ID: `e20230100`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "motivation"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20230100  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- Values the ability to **review lesson materials anytime** (slides, videos, exercises).  
+- Recognises the convenience of digital resources for catching up after a missed class.  
+
+**Main Challenges**  
+- Tends to feel **lazy when watching online videos**, preferring face‑to‑face study.  
+- Wants a more **structured learning environment** and stronger motivation to stay disciplined with online work.  
+
+**Personalized Recommendations**  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Content Access** | Upload all slides, videos, references, and exercises **early** in the LMS. | Gives you the “review anytime” advantage you already value, making it easier to catch up without waiting. |
+| **Digital Skills** | Provide short guides or workshops on using the LMS, searching academic databases, and basic educational tech tools. | Builds confidence with online tools, reducing the reluctance to watch videos. |
+| **Interaction** | Add scheduled Q&A sessions, small‑group discussions, and quick lecturer feedback on assignments. | Increases the sense of connection that you miss when studying only online. |
+| **Learning Effectiveness** | Pair the online review materials with brief in‑person explanations, practice activities, and feedback loops. | Combines the convenience of digital review with the depth of classroom interaction you prefer. |
+| **Learning Environment** | Organise digital folders clearly, keep resources up‑to‑date, and ensure classroom spaces are comfortable and well‑equipped. | A tidy, reliable environment supports both online and on‑campus study. |
+| **Motivation & Self‑Discipline** | Set up weekly check‑ins, automated reminders, and a simple progress‑tracking dashboard. | Helps you maintain a regular study routine and stay motivated when you feel “lazy.” |
+
+**Short Action Plan (Next 4 Weeks)**  
+
+| Week | Action |
+|------|--------|
+| 1 | Review the newly uploaded slide and video folders; mark any missing items for the instructor. |
+| 2 | Attend a 30‑minute digital‑skills workshop (or watch the recorded guide) on LMS navigation and online research. |
+| 3 | Join a scheduled Q&A or peer‑discussion session for your current module; ask at least one question. |
+| 4 | Set up a personal study schedule: 2 days of online review + 1 day of in‑person practice, with weekly check‑in reminders. |
+
+By following these steps, you can keep the flexibility you appreciate while strengthening interaction, motivation, and the overall learning environment. Good luck!
+
+
+
+---
+
+## Student ID: `e20230730`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230730*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+- You thrive when you can **access materials anywhere**, **learn at your own pace**, and use technology to improve your skills.  
+
+### 2. Main Strengths  
+- **Access & Flexibility:** You value easy, anytime access to slides, videos, and other resources.  
+- **Digital Skills:** You enjoy developing technology‑related abilities.  
+- **Self‑Paced Learning:** You appreciate reviewing lessons whenever needed.  
+- **Engagement:** You find interactive and collaborative activities helpful.  
+
+### 3. Main Challenges  
+- **Focus & Motivation:** You sometimes find it hard to stay focused and maintain interest.  
+- **Technical Issues:** Unreliable internet can interrupt your study flow.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Upload all slides, videos, references, and exercises **early** so you can review them anytime. |
+| **Digital Skills** | Get short guides or short videos on how to use the LMS, online research tools, and other educational technologies. |
+| **Engagement** | Participate in quizzes, games, practical tasks, and discussion boards to keep learning lively. |
+| **Learning Effectiveness** | Combine the online review materials with in‑person explanations, practice sessions, and feedback from instructors. |
+| **Learning Support** | Look for clearer instructions, step‑by‑step guides, and recorded explanations to help you understand difficult concepts. |
+| **Motivation & Self‑Discipline** | Use weekly check‑ins, reminders, and a simple progress tracker; set a structured study schedule that fits your flexible style. |
+| **Self‑Paced Learning** | Follow the weekly learning path, but feel free to revisit recorded lessons whenever you need a refresher. |
+| **Technical Issues** | Whenever possible, download offline copies of materials; contact technical support early if the internet is unstable, and keep a list of backup resources. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Download all current course slides and videos for offline use. |
+| **Day 3** | Watch a 10‑minute tutorial on LMS navigation and digital research tools. |
+| **Day 4** | Set up a weekly study schedule (e.g., Mon/Wed/Fri 2 hrs) and add reminders to your calendar. |
+| **Day 5** | Complete the first interactive quiz or game related to the current topic. |
+| **Day 6** | Review one recorded lesson and write down any unclear points; request a short clarification from the instructor. |
+| **Day 7** | Do a quick self‑check: mark progress in the tracker and note any motivation dips. |
+| **Week 2** | Repeat the cycle, adding a short discussion post or peer interaction each week; if internet issues arise, switch to the offline materials you saved. |
+
+Stay proactive with the resources you already enjoy, and use the structured check‑ins to keep motivation high. You have strong foundations—these steps will help turn them into consistent, high‑impact learning outcomes. Good luck!
+
+
+
+---
+
+## Student ID: `e20220414`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20220414*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners – indicating potential to become more active with the right support.  
+
+*Note:* The student did not provide specific strengths or challenges, so the recommendations below are based primarily on the characteristics of the “Moderately Engaged (Passive)” segment.
+
+---
+
+### 2. Main Strengths  
+- No explicit strengths were reported.  
+- As a member of the Moderately Engaged segment, the student is capable of increasing participation when given clear opportunities.
+
+---
+
+### 3. Main Challenges  
+- No explicit challenges were reported.  
+- Typical challenges for this segment include limited interaction, need for clearer guidance, and occasional motivation dips.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from the lecturer. | Increases engagement and reduces passive learning habits. |
+| **Learning Support** | • Look for detailed instructions, examples, and step‑by‑step guides.<br>• Use recorded explanations when concepts are unclear. | Improves clarity and builds confidence in tackling assignments. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (with a tutor or study buddy).<br>• Use reminders and a simple progress‑tracking sheet.<br>• Follow a structured study schedule. | Keeps momentum steady and reinforces self‑regulation. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them as needed.<br>• Follow the weekly learning path provided by the course.<br>• Organize personal study time around these resources. | Allows flexibility while ensuring all core material is covered. |
+
+---
+
+### 5. Short Action Plan (2‑Week Starter)
+
+| Week | Action | How to Implement |
+|------|--------|-------------------|
+| **1** | **Join an interaction activity** | Sign up for the next live Q&A or discussion forum; prepare one question to share. |
+|      | **Set up a study schedule** | Draft a simple weekly timetable (e.g., 2 hrs Mon, Wed, Fri) and add reminders on your phone. |
+|      | **Gather support materials** | Download the step‑by‑step guides and recorded explanations for the current module. |
+| **2** | **Do a peer‑collaboration task** | Pair with a classmate for a short assignment or review each other’s work. |
+|      | **Track progress** | Use a checklist to mark completed readings, videos, and assignments; note any gaps. |
+|      | **Reflect and adjust** | At the end of the week, note what helped motivation and interaction, then tweak the schedule or resources for the next week. |
+
+---
+
+**Keep in mind:** Consistently using these interaction, support, motivation, and self‑paced strategies will help shift your learning style from passive to more active, aligning you with the higher‑engagement cluster and improving overall performance. Good luck!
+
+
+
+---
+
+## Student ID: `e20221435`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20221435*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners – you already take advantage of digital resources and are motivated to study independently.  
+- **Current Cluster:** Moderately Engaged (Passive) Learners – you sometimes experience gaps when lecturer interaction is limited.  
+
+---
+
+### 2. Main Strengths  
+- **Access & Flexibility:** You value being able to study from home and appreciate having slides, videos, and other materials available online.  
+- **Convenient Learning:** You see the benefit of self‑studying without needing to attend every class in person.  
+
+*(Your comment about preferring online study was identified under the themes “Access to Learning Materials,” “Flexibility & Time Management,” and “Learning Convenience & Effectiveness.”)*  
+
+---
+
+### 3. Main Challenges  
+- **Inconsistent Lecturer Presence:** When teachers are absent or provide only brief video updates, you feel assignments are unclear and difficult to complete.  
+- **Need for Clear Communication & Support:** You would like more reliable interaction, clearer instructions, and timely feedback.  
+
+*(These points map to the challenge themes “Interaction & Communication,” “Learning Difficulty & Clarity,” and “Assessment & Workload.”)*  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do | Why it Helps you |
+|------|------------|------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** in the week. | Gives you the resources you need to study from home and plan your time. |
+| **Interaction** | Add regular Q&A sessions, small‑group discussions, and faster lecturer feedback on assignments. | Reduces the uncertainty you experience when a lecturer is absent. |
+| **Learning Effectiveness** | Pair online review materials with brief in‑person explanations, practice activities, and feedback loops. | Helps you connect theory to practice and improves understanding before you submit work. |
+| **Learning Environment** | Organise all course files clearly, keep resources up‑to‑date, and ensure classroom spaces are comfortable for occasional face‑to‑face work. | Makes it easier to locate what you need and stay focused when you do attend. |
+| **Learning Support** | Provide step‑by‑step guides, example problems, and recorded explanations for each assignment. | Gives you clearer instructions and reduces the chance of “doing assignments with no understanding.” |
+| **Self‑Paced Learning** | Offer recorded lessons and a weekly learning path that you can follow at your own speed. | Supports the flexibility you already value. |
+| **Workload Support** | Balance the number of assignments, clearly state deadlines, and align online tasks with any in‑person sessions. | Lowers assessment pressure and helps you manage your schedule. |
+
+All of these suggestions come directly from the rule‑based recommendations linked to your segment and the challenges you reported.
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | How to Implement |
+|------|--------|------------------|
+| **1** | **Check material availability** – log into the course portal each Monday to see if slides and videos have been uploaded. | If anything is missing, email the lecturer with a polite request. |
+| **2** | **Join a Q&A session** – attend at least one live Q&A or discussion group. | Prepare 2‑3 questions in advance based on the week’s material. |
+| **3** | **Use the weekly learning path** – follow the recorded lessons and complete the practice exercises before the next class. | Mark completed items in a personal checklist. |
+| **4** | **Give feedback on workload** – after the first major assignment, fill out the course’s quick survey (or email) about deadline clarity and assignment load. | This helps the teaching team adjust future tasks. |
+
+By following this plan, you’ll keep the advantages of self‑paced, flexible study while gaining the interaction and clarity you need for deeper learning.  
+
+---  
+
+**Remember:** Your active engagement is a strong asset. Using the resources and interaction opportunities outlined above will help you turn flexibility into even higher achievement. Good luck!
+
+
+
+---
+
+## Student ID: `e20221166`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_environment", "learning_support", "tech_issue", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20221166*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you already show strong engagement when the environment works for you.  
+
+---
+
+### 2. Main Strengths  
+- You appreciate that blended formats can handle routine tasks, giving you more time for genuine human interaction and teaching.  
+
+---
+
+### 3. Main Challenges  
+- Feeling overwhelmed by the mix of online and in‑person homework.  
+- Confusing software that can disrupt a lesson.  
+- Desire for recorded classes and using quiz results to shape the next face‑to‑face session.  
+
+These challenges map to the themes **Assessment & Workload, Internet & Technical Issues, Learning Difficulty & Clarity,** and **Learning Resources & Environment**.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Learning Environment** | • Keep your study materials well‑organized and up‑to‑date. <br>• Create a comfortable, distraction‑free workspace for both online and on‑campus work. |
+| **Learning Support** | • Ask for clear, step‑by‑step instructions and examples for new tasks. <br>• Request short recorded explanations of complex topics so you can review them later. |
+| **Technical Issues** | • Ensure you have reliable internet (e.g., campus Wi‑Fi hotspots or a backup data plan). <br>• Keep offline copies of essential readings and videos. <br>• Use any provided platform guides and reach out to tech support early when problems arise. |
+| **Workload Support** | • Work with the instructor to balance online quizzes, assignments, and in‑person work. <br>• Clarify deadlines and ask that online quiz results be used to shape the next face‑to‑face lesson, as you suggested. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | List all current course materials; sort them into folders (e.g., “Lectures,” “Assignments,” “Resources”). |
+| **Day 3‑4** | Test your internet speed; locate a reliable campus hotspot or arrange a backup data plan. |
+| **Day 5** | Download offline copies of this week’s readings and videos. |
+| **Day 6‑7** | Ask the instructor for a brief recorded summary of the most complex topic covered in class. |
+| **Day 8‑9** | Review the syllabus and note all upcoming deadlines; create a simple weekly schedule that pairs online quizzes with the next in‑person session. |
+| **Day 10** | Contact the university’s tech support to confirm you have access to platform guides and know how to request help quickly. |
+| **Day 11‑14** | Follow the schedule, using quiz results to prepare questions for the next face‑to‑face class. Adjust the plan if you feel the workload is still too heavy and discuss adjustments with the instructor. |
+
+---
+
+**Remember:** You already value the human connection that blended learning can provide. By organizing your environment, securing reliable tech, and clarifying instructions and workload, you’ll reduce overwhelm and make the most of both online and in‑person opportunities. Good luck!
+
+
+
+---
+
+## Student ID: `e20230658`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230658*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You value flexibility and the ability to study whenever and wherever it suits you, which helps you save time, money, and energy.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate being able to learn at any place and at any time, which lets you reduce travel costs and fit study around other commitments.
+
+---
+
+### 3. Main Challenges  
+- You noted that many video resources are pre‑recorded (a common situation during the COVID era). No additional challenges were identified from your responses.
+
+---
+
+### 4. Personalized Recommendations  
+**Support self‑paced learning** – because you thrive on flexibility, the most effective approach is to use materials you can control the speed of and revisit as needed.
+
+- **Recorded lessons** that you can watch, pause, and replay.  
+- **Weekly learning paths** that outline what to study each week, giving you a clear roadmap while still letting you decide when to complete each step.  
+- **Supplementary resources** (slides, notes, quizzes) that you can access anytime for review.
+
+These suggestions align with the “self‑paced” tag that appears in both your segment profile and the rule‑based recommendation.
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action | How to Do It |
+|------|--------|--------------|
+| 1 | Locate the course’s recorded lecture library. | Log into the LMS, go to the “Videos” section, and bookmark the playlists for your modules. |
+| 2 | Create a personal weekly learning schedule. | Use a simple planner (digital or paper) to block 2–3 hours per day for study, matching the weekly learning path provided by the instructor. |
+| 3 | Review key concepts after each video. | Download the accompanying slides/notes and complete any short quizzes to reinforce learning. |
+| 4 | Reflect on progress and adjust timing as needed. | At the end of the week, note what worked (e.g., time of day, length of sessions) and tweak the schedule for the next week. |
+
+---
+
+**Remember:** Your ability to manage time and study flexibly is a strong asset. By using self‑paced resources and a clear weekly plan, you can keep learning efficient and enjoyable. If you ever feel stuck, reach out to your instructor or a learning support tutor for additional guidance.
+
+
+
+---
+
+## Student ID: `e20230357`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230357*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners – you have the potential to be more active in class.  
+
+### 2. Main Strengths  
+- You value **supporting group learning** and enjoy working with peers.  
+
+### 3. Main Challenges  
+- You would like **more support to have a challenge**, especially in the area of **Interaction & Communication**.  
+
+### 4. Personalized Recommendations  
+Based on your segment and the specific challenge you identified, the key recommendation is to **increase interaction and communication** in your courses.  
+
+- **Add Q&A sessions** – brief, scheduled times where you can ask questions and get immediate answers.  
+- **Participate in group discussions** – both in‑person and online forums, to practice explaining ideas and hearing others’ perspectives.  
+- **Engage in peer collaboration** – work on short projects or problem‑solving tasks with classmates.  
+- **Seek faster lecturer feedback** – request quick comments on assignments or discussion posts so you can adjust your work promptly.  
+
+### 5. Short Action Plan  
+
+| Week | Action | How to Do It |
+|------|--------|--------------|
+| 1    | Join a study group or create one | Use the course’s online platform to find peers with similar interests. |
+| 2    | Attend a live Q&A or office‑hour session | Mark the schedule in your calendar and prepare 1–2 questions in advance. |
+| 3    | Contribute to an online discussion board | Post a short comment on the week’s topic and reply to at least two classmates. |
+| 4    | Request feedback on a recent assignment | Email the lecturer or use the LMS feedback request feature, asking for specific suggestions. |
+| Ongoing | Reflect on each interaction | After each activity, note what helped you learn and what you’d like to improve. |
+
+---
+
+**Remember:** Increasing your interaction with peers and instructors will give you the challenge you’re looking for and help move you toward a more active, engaged learning style. You’re already strong in group work—building on that with more structured communication will boost both confidence and performance. Good luck!
+
+
+
+---
+
+## Student ID: `e20220960`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20220960*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you already show strong self‑discipline and the ability to focus and learn independently.  
+
+---
+
+### 2. Main Strengths  
+- **Self‑discipline & self‑learning** – you can stay focused and study effectively on your own.  
+- **Clear auditory perception** – you hear class audio well, which supports online listening activities.  
+
+These strengths align with the “Learning Convenience & Effectiveness” theme.
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication:** Delays in receiving replies from lecturers.  
+- **Internet & Technical Issues:** Unreliable connectivity that can disrupt online sessions.  
+
+Both challenges are noted as neutral in sentiment but are important for a smoother blended experience.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Increase interaction and communication** | More timely feedback and peer contact will keep you engaged. | • Join scheduled Q&A sessions and small‑group discussions.<br>• Use discussion boards or chat groups for quick questions.<br>• Request faster lecturer responses (e.g., set a 24‑hour reply window). |
+| **Improve learning effectiveness** | Pairing online review with face‑to‑face practice will deepen understanding. | • Review lecture videos or notes before class.<br>• Attend in‑person sessions for explanations, hands‑on practice, and immediate feedback.<br>• Use the blended format to test concepts both online and offline. |
+| **Improve technical access and reliability** | Stable internet and clear platform guidance will reduce interruptions. | • Access campus Wi‑Fi or a reliable hotspot for critical sessions.<br>• Download offline copies of readings and videos when possible.<br>• Keep the learning platform’s help guide handy and contact tech support early if problems arise. |
+
+These recommendations directly reflect the rule‑based tags **interaction**, **learning_effectiveness**, and **tech_issue**.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Identify a reliable internet source (campus Wi‑Fi, library, or personal hotspot). Download the upcoming week’s lecture videos for offline use. |
+| **Day 3** | Register for the next live Q&A or discussion session in your course. |
+| **Day 4–5** | Review the downloaded materials, note any questions, and post them in the course forum before the Q&A. |
+| **Day 6** | Attend the in‑person class or workshop that follows the online content; focus on practice and ask for immediate feedback. |
+| **Day 7** | Follow up with any unanswered lecturer emails; request a brief turnaround time for future queries. |
+| **Day 8–10** | Participate in a peer‑collaboration activity (study group, group assignment) to reinforce the material. |
+| **Day 11–14** | Evaluate the week: Did internet issues decrease? Were responses faster? Adjust your plan (e.g., schedule more offline study time) based on what worked. |
+
+---
+
+**Keep building on your self‑discipline while adding more interaction, practical practice, and reliable technical support.** This blended approach will help you stay motivated, understand the material more deeply, and overcome the communication and connectivity hurdles you’ve experienced. Good luck!
+
+
+
+---
+
+## Student ID: `tk20250526`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: tk20250526*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners – you show potential for active participation when the right conditions are in place.  
+
+### 2. Main Strengths  
+- You value **learning convenience and effectiveness** (e.g., using home‑based study time).  
+
+### 3. Main Challenges  
+- **Internet & technical issues** are a barrier to consistent online participation.  
+
+*Because the open‑ended responses were brief, these observations are supplemented by the typical characteristics of your segment.*
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Improve learning effectiveness** | Pair the online review materials you already use with short, in‑person (or live‑online) sessions where concepts are explained, practiced, and you receive feedback. | • Schedule brief weekly face‑to‑face or live‑video tutorials.<br>• Use the online resources to preview topics, then apply them during the live session.<br>• Ask for quick feedback on practice tasks. |
+| **Improve technical access and reliability** | Ensure you can study without interruptions caused by poor connectivity. | • Seek campus or library Wi‑Fi hotspots for critical sessions.<br>• Download offline copies of lecture videos and readings in advance.<br>• Keep a simple guide of platform steps handy.<br>• Contact the university’s IT help desk early if you experience connection problems. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Identify a reliable Wi‑Fi location (library, café, campus lounge) for live sessions. |
+| **Day 3‑4** | Download the next week’s online materials for offline use. |
+| **Day 5** | Attend a 30‑minute in‑person or live‑online tutorial that reviews the downloaded content. |
+| **Day 6‑7** | Complete a short practice exercise and request feedback from the instructor or a peer. |
+| **Day 8‑10** | Test the platform using the offline guide; note any technical hiccups and contact IT if needed. |
+| **Day 11‑14** | Repeat the cycle with the new week’s content, adjusting the study spot or support as required. |
+
+---
+
+**Remember:** Combining convenient online review with focused, interactive practice will boost your learning effectiveness, while securing reliable internet access will keep those gains steady. Feel free to reach out to your academic advisor or the IT support team for any help along the way. Good luck!
+
+
+
+---
+
+## Student ID: `e20220629`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20220629  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – students who attend classes but tend to participate less actively.  
+
+**Main Strengths**  
+- No specific strengths were reported in the open‑ended response, so the profile is based on the segment characteristics.
+
+**Main Challenges**  
+- No specific challenges were reported in the open‑ended response, so the challenges are inferred from the “moderately engaged (passive)” segment.
+
+**Personalized Recommendations**  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join short Q&A sessions after lectures.<br>• Take part in small‑group discussions or online forums.<br>• Collaborate with a peer on weekly mini‑projects.<br>• Request quicker feedback from the lecturer when possible. | Increases active participation and builds a sense of community, which is often needed for passive learners. |
+| **Learning Support** | • Look for clear, step‑by‑step guides and example problems posted by the instructor.<br>• Use recorded explanations that break down complex topics.<br>• Ask the tutor for clarification whenever instructions seem vague. | Clearer instructions and concrete examples reduce confusion and make self‑study more effective. |
+| **Motivation & Self‑Discipline** | • Set a weekly check‑in with yourself (or a study buddy) to review goals.<br>• Use a simple progress tracker (e.g., checklist or app) to see what you’ve completed.<br>• Schedule short, regular study blocks and set reminders. | Structured check‑ins and visible progress keep motivation high and help maintain a disciplined study routine. |
+| **Self‑Paced Learning** | • Watch the recorded lectures before class or as a review.<br>• Follow the weekly learning path provided by the course (outline, readings, activities).<br>• Re‑watch any segment that feels unclear before moving on. | Allows you to control the speed of learning, review difficult material, and fit study into your own timetable. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Locate the course’s recorded lectures and weekly learning path. |
+| **Day 2** | Create a simple study schedule (e.g., 30 min × 3 times/week) and add reminders to your calendar. |
+| **Day 3** | Join the first optional Q&A session or start a discussion thread on the course forum. |
+| **Day 5** | Review one lecture recording and complete the associated step‑by‑step guide. |
+| **Day 7** | Do a quick self‑check: mark completed tasks in your progress tracker and note any questions. |
+| **Day 9** | Pair up with a classmate for a short peer‑collaboration activity (e.g., summarise a reading together). |
+| **Day 12** | Request feedback on a recent assignment or ask the lecturer a clarification question. |
+| **Day 14** | Reflect on what worked, adjust your schedule if needed, and set goals for the next two weeks. |
+
+Follow these steps and use the recommended resources to move from passive participation to a more active, supported, and self‑directed learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20250020`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20250020*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you have the potential to be more active.  
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You respond well when course content is delivered as video messages and other readily available resources.  
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline:** You find it difficult to stay focused and maintain attention during study sessions.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Having slides, videos, references, and exercises available early helps you engage. | • Ask your instructor to upload all lecture slides and video recordings at the start of each week.<br>• Keep a personal folder (e.g., on Google Drive) where you store these resources for quick review. |
+| **Support motivation and self‑discipline** | Regular structure and reminders keep attention on track. | • Set a **weekly check‑in** (e.g., a 5‑minute self‑review on Sunday) to plan what you will study.<br>• Use a simple **progress tracker** (checklist or habit‑tracker app) to mark completed readings or videos.<br>• Create a **structured study schedule**: block 30‑45 min sessions with short breaks, and set calendar reminders. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Locate the course’s shared folder; download this week’s slides and videos. |
+| **Tuesday** | Create a study‑session calendar (30 min blocks) for the week; add reminder alerts. |
+| **Wednesday** | Complete the first video lecture; tick it off in your progress tracker. |
+| **Thursday** | Review the slides while watching the video again; note any questions. |
+| **Friday** | Do a 5‑minute weekly check‑in: what you’ve finished, what’s left, adjust schedule if needed. |
+| **Saturday** | Take a short quiz or practice exercise to reinforce the material. |
+| **Sunday** | Plan next week’s study blocks and set reminders for new content uploads. |
+
+Follow this simple routine, and you’ll turn the advantages of easy content access into steady progress while building the motivation habits needed for deeper engagement. Good luck!
+
+
+
+---
+
+## Student ID: `tk20250477`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_environment"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** tk20250477  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster)  
+
+**Main Strengths**  
+- You view blended learning as very helpful for your studies and feel positively about it.  
+
+**Main Challenges**  
+- You find the lack of a “hui” (a collaborative or social component) to be a problem, indicating that the current learning environment does not fully support your need for interaction.  
+
+**Personalized Recommendations**  
+- **Learning Environment:** Improve the way learning resources are organized and the physical/virtual study space. Clear, well‑structured materials and a comfortable, supportive environment can help you feel more connected even when a formal “hui” is missing.  
+
+**Short Action Plan**  
+1. **Organize Materials** – Create a personal folder system (digital or paper) that groups lecture notes, readings, and assignments by topic.  
+2. **Update Resources** – Check that you are using the latest versions of textbooks, videos, and online tools; request updates from instructors if needed.  
+3. **Optimize Study Space** – Choose a quiet, well‑lit spot; add ergonomic furniture or a comfortable chair to reduce fatigue.  
+4. **Add Social Touches** – Set up informal study groups or virtual coffee chats with classmates to recreate the “hui” feeling.  
+
+These steps align with the recommendation for a better learning environment and should help you make the most of blended learning while staying engaged.
+
+
+
+---
+
+## Student ID: `e20220487`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "motivation", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20220487*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you show strong interest when the material is clear and well‑presented.  
+
+---
+
+### 2. Main Strengths  
+- You value **clear, fluent explanations** and feel more engaged when the lecturer’s presentation is easy to understand.  
+- You appreciate **ready access to learning materials** (slides, videos, references) that let you study at your own pace.  
+
+---
+
+### 3. Main Challenges  
+- **Technical disruptions** (unstable internet, platform issues) cause you to fall behind.  
+- **Motivation and self‑discipline** are sometimes low, especially when you get distracted online or struggle with time‑management.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What the recommendation means for you | Suggested actions |
+|------|----------------------------------------|-------------------|
+| **Content Access** | Having all course resources early helps you stay on track even if connectivity falters. | • Lecturers will upload slides, videos, readings, and practice exercises **before each class**. <br>• Download materials for offline study when you anticipate internet problems. |
+| **Digital Skills** | Knowing how to use the LMS and online tools reduces frustration and saves time. | • Short guides and short video demos on navigating the LMS, searching digital libraries, and using collaboration tools. <br>• Optional “digital‑skills” drop‑in sessions. |
+| **Engagement** | Interactive elements keep you focused and make learning more enjoyable. | • Weekly low‑stakes quizzes, quick polls, or gamified tasks linked to the lecture content. <br>• Small‑group discussion boards where you can ask questions and apply concepts. |
+| **Learning Effectiveness** | Combining online review with face‑to‑face clarification deepens understanding. | • After each online module, attend a brief in‑person (or live‑online) recap where you can ask questions and practice. <br>• Receive prompt feedback on exercises. |
+| **Motivation & Self‑Discipline** | Structured check‑ins and visible progress help sustain motivation. | • Set a **weekly study schedule** with specific goals; the LMS will send reminders. <br>• Use a personal progress tracker (e.g., a simple checklist or the LMS dashboard) and share updates with a tutor during short weekly check‑ins. |
+| **Technical Access** | Reliable access prevents you from missing content. | • The university will provide information on campus Wi‑Fi hotspots and loaner devices. <br>• Offline versions of videos and PDFs will be available. <br>• A dedicated help desk will assist with platform issues quickly. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action | How to do it |
+|------|--------|--------------|
+| **1** | **Download upcoming materials** (slides, videos) before the first class. | Log into the LMS, go to the “Resources” folder, click “Download All.” |
+| **1** | **Create a simple study timetable** (e.g., 1 h review + 30 min quiz each weekday). | Use a calendar app; set automatic reminders. |
+| **1‑2** | **Attend a digital‑skills micro‑workshop** (30 min). | Register via the LMS announcements page. |
+| **2** | **Complete the first interactive quiz** and post one question on the discussion board. | Quiz link appears after the lecture video; discussion board is under “Course Forum.” |
+| **2** | **Schedule a 10‑minute check‑in** with your tutor to review progress and any technical issues. | Book a slot through the “Appointments” link in the LMS. |
+
+---
+
+**Remember:** You already engage well when the material is clear and accessible. By securing reliable access, sharpening your digital tools, and adding structured, interactive elements, you’ll be able to stay motivated, manage your time better, and make the most of both online and face‑to‑face learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20231403`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20231403*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you show potential for higher engagement.  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you value the ability to study when and where it suits you.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication** – you find it hard to connect with peers and lecturers online.  
+- **Internet & Technical Issues** – unstable connections and technical glitches disrupt your learning.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from lecturers. | Increases the sense of community and clarifies doubts, addressing the interaction challenge. |
+| **Self‑paced Learning** | • Use recorded lectures and weekly learning paths.<br>• Review materials at your own speed when internet is unreliable. | Keeps the flexibility you appreciate while giving you control over pacing. |
+| **Technical Access** | • Access the university’s stable Wi‑Fi hotspots or loaned devices (if available).<br>• Download offline versions of readings and videos.<br>• Follow the platform’s quick‑start guide and contact tech support when problems arise. | Reduces disruptions caused by unstable internet and technical glitches. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Week 1 – Monday** | Locate the campus Wi‑Fi hotspot list or request a loaner device. |
+| **Week 1 – Tuesday** | Download this week’s lecture recordings and reading materials for offline use. |
+| **Week 1 – Wednesday** | Sign up for the upcoming Q&A session and a small peer‑study group. |
+| **Week 1 – Thursday** | Review the platform’s quick‑start guide; note any questions for tech support. |
+| **Week 1 – Friday** | Submit a brief request for faster lecturer feedback (e.g., ask for a turnaround time). |
+| **Week 2 – Monday** | Attend the scheduled group discussion; share one point you reviewed offline. |
+| **Week 2 – Wednesday** | Test the offline materials; note any remaining technical issues and contact support. |
+| **Week 2 – Friday** | Reflect on the week: Did interaction feel better? Is the self‑paced material working for you? Adjust the plan as needed. |
+
+---
+
+**Remember:** Your flexibility is a strong asset. By adding structured interaction, using self‑paced resources, and securing reliable technical access, you can turn passive engagement into active, confident learning. Feel free to reach out to your academic advisor or the university’s tech help desk for any support you need. Good luck!
+
+
+
+---
+
+## Student ID: `e20241308`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241308  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Current Cluster:** Highly Engaged (Active) Learners  
+
+**Main Strengths**  
+- Values **flexibility of time** and can manage his/her schedule well.  
+
+**Main Challenges**  
+- Experiences **loneliness** while studying, which can affect motivation and focus.  
+
+**Personalized Recommendations**  
+- **Support self‑paced learning** – because you appreciate flexibility, the most effective approach is to use resources you can access whenever you need them.  
+  - Use recorded lectures and video tutorials that you can pause, rewind, or fast‑forward.  
+  - Follow the weekly learning paths provided by the course, which outline what to study each week.  
+  - Keep all reading materials, slides, and practice exercises in a personal folder for easy review.  
+
+**Short Action Plan**  
+
+| Step | What to Do | When |
+|------|------------|------|
+| 1. Gather resources | Download or bookmark all recorded lessons and supplemental PDFs for the current module. | Start of the week |
+| 2. Set a weekly schedule | Allocate specific blocks (e.g., 2 hrs Mon, Wed, Fri) to follow the weekly learning path. | Every Sunday |
+| 3. Review & reflect | After each study block, spend 10 min summarizing key points in a personal notebook. | After each session |
+| 4. Connect socially | Join a study group or online forum for this course to reduce loneliness and share insights. | At least once a week |
+| 5. Track progress | Mark completed items on the weekly path and note any topics that need re‑watching. | End of each week |
+
+By using self‑paced materials and adding regular, brief social interactions, you can keep the flexibility you value while addressing feelings of isolation. Good luck, and remember that the resources are there for you to use on your own schedule!
+
+
+
+---
+
+## Student ID: `e20240469`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240469*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You tend to participate less actively in live sessions but have the potential for strong engagement when the learning environment fits your style.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility of time** – you appreciate being able to study when it best fits your schedule.  
+
+---
+
+### 3. Main Challenges  
+- No specific challenges were identified in your open‑ended response. Because of this, the recommendations focus mainly on what is typical for your segment.
+
+---
+
+### 4. Personalized Recommendations  
+**Support self‑paced learning**  
+- Use recorded lectures and video tutorials that you can watch anytime.  
+- Follow the weekly learning paths provided by the course – they outline what to study each week but let you decide *when* to do it.  
+- Keep all reading materials, slides, and supplemental resources in one online folder so you can review them as needed.
+
+These actions match the “self‑paced” tag that the rule‑based system identified for you.
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action | How to Do It |
+|------|--------|--------------|
+| 1 | Locate the recorded lessons for your first module | Access the course LMS → “Resources” → “Recorded Lectures” |
+| 2 | Follow the weekly learning path but schedule your own study times | Open the weekly path document, pick 2‑3 time slots that suit you, and block them in your calendar |
+| 3 | Review any unclear concepts using the supplemental materials | Use the “Materials” folder; re‑watch specific video sections or read the slides |
+| 4 | Reflect on your progress and adjust your study schedule if needed | Write a brief note on what worked best and tweak your time blocks for the next weeks |
+
+Stick to this routine, and you’ll make the most of the flexibility you value while staying on track with the course.  
+
+---  
+
+*If you encounter any difficulty or notice new challenges, let your instructor or learning support team know so they can adjust the resources for you.*
+
+
+
+---
+
+## Student ID: `e20240506`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240506  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- Values **flexibility and time‑saving** in learning (e.g., “save time and money”).  
+
+**Main Challenges**  
+- Finds it hard to concentrate and to understand material clearly.  
+- Experiences low motivation and self‑discipline when studying.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Learning support** (clarity) | Get clearer instructions, concrete examples, and step‑by‑step guides. | Use recorded explanations and supplemental guides that break down complex concepts into smaller, manageable steps. |
+| **Motivation & self‑discipline** | Keep your momentum and stay on track. | Set up weekly check‑ins (e.g., with a tutor or study buddy), enable reminders, and use a simple progress‑tracking tool or checklist. |
+| **Self‑paced learning** | Take advantage of your ability to manage time. | Access recorded lessons and weekly learning paths that you can review whenever it fits your schedule. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Choose a core topic** you’re currently studying.  
+2. **Locate a recorded lecture** on that topic and watch it once.  
+3. **Download a step‑by‑step guide** or create your own outline of the main points.  
+4. **Set a 30‑minute study block** each day, using a timer and a brief reminder (e.g., phone alarm).  
+5. **At the end of each week**, complete a quick self‑check: note what you understood, what still feels unclear, and mark your progress on a simple checklist.  
+
+By following these steps you’ll strengthen clarity, keep motivation high, and make the most of your flexible, self‑paced learning style. Good luck!
+
+
+
+---
+
+## Student ID: `e20240329`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["engagement", "interaction", "learning_effectiveness", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240329*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster description:** Moderately Engaged (Passive) Learners  
+- You value flexibility, convenience, and active engagement in your studies.  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you appreciate being able to organise learning around your schedule.  
+- **Learning Convenience & Effectiveness** – you look for resources that make studying easy and productive.  
+- **Student Engagement** – you are motivated to stay involved in the learning process.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication** – you noted a need for better use of discussion forums and other ways to interact with peers and instructors.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Engagement** | Incorporate short quizzes, games, practical tasks, and interactive activities into each module. | Keeps motivation high and reinforces learning. |
+| **Interaction** | Add regular Q&A sessions, small‑group discussions, and peer‑collaboration tasks; request quicker feedback from lecturers. | Improves communication and deepens understanding. |
+| **Learning Effectiveness** | Pair online review materials (videos, readings) with in‑person explanations, guided practice, and timely feedback. | Combines the convenience you like with the clarity of face‑to‑face support. |
+| **Self‑Paced Learning** | Use recorded lectures and a weekly learning path that you can follow at your own speed, revisiting materials as needed. | Supports your flexibility and time‑management strengths. |
+
+These suggestions are drawn directly from the rule‑based recommendations matched to your segment and the themes you identified.
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | Choose one module and add a short quiz after each lesson. |
+| **2** | Set up a weekly 30‑minute Q&A or discussion forum session with classmates. |
+| **3** | Pair the online readings with a 1‑hour in‑person workshop for practice and feedback. |
+| **4** | Create a personal weekly learning path using recorded lessons; schedule time to review any missed content. |
+
+Follow this plan, monitor how each change feels, and adjust as needed. You’re already highly engaged—these steps will help you interact more effectively and make the most of both online and face‑to‑face learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20240657`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240657*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster affiliation:** Highly Engaged (Active) Learners – you have the potential to become more active in your studies.  
+
+*Because the open‑ended responses did not provide specific strengths or challenges, the recommendations below are drawn primarily from the characteristics of your segment.*
+
+---
+
+### 2. Main Strengths  
+- *(No specific strengths were reported.)*  
+- Your placement in a “Highly Engaged” cluster suggests you can thrive with the right support.
+
+---
+
+### 3. Main Challenges  
+- *(No specific challenges were reported.)*  
+- As a Moderately Engaged (Passive) learner, you may find it harder to stay motivated, interact with peers, and manage your own study pace without clear guidance.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from the lecturer. | Increases engagement and reduces passivity. |
+| **Learning Support** | • Look for clearer instructions, concrete examples, and step‑by‑step guides.<br>• Use recorded explanations when concepts are unclear. | Improves understanding and confidence. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (with yourself or a study buddy).<br>• Use reminders and a simple progress‑tracking sheet.<br>• Follow a structured study schedule. | Keeps you on track and builds self‑motivation. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them as needed.<br>• Follow the weekly learning path provided by the course.<br>• Keep all materials organized for easy revisiting. | Allows you to learn at a comfortable speed while staying aligned with the course timeline. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | • Attend at least one Q&A or discussion session.<br>• Locate the recorded lecture for the current topic and watch it twice (first for overview, second for details). |
+| **2** | • Create a simple weekly schedule (30 min blocks) and set reminders.<br>• Complete a short progress‑check (what you learned, what’s unclear).<br>• Share one question or insight with a peer or the lecturer for feedback. |
+
+---
+
+**Remember:** Small, consistent steps—like joining a discussion or reviewing a recorded lesson—can quickly shift a passive approach toward a more active, confident learning experience. You have the capacity to engage more fully; these tools are here to support you. Good luck!
+
+
+
+---
+
+## Student ID: `e20240421`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "engagement", "learning_effectiveness", "self_paced", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240421  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You are good at self‑studying and often watch recorded lectures more than once.  
+- You value the ability to research and study from anywhere, which gives you flexibility and good time management.  
+
+**Main Challenges**  
+- Unreliable or missing Wi‑Fi/Internet limits your ability to access online resources when you need them.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Make sure all slides, videos, readings, and exercises are available early so you can download them before you lose connectivity. | Look for a “download” option in the course portal; save the files to your laptop or a USB drive for offline use. |
+| **Increase learner engagement** | Keep your high motivation alive with interactive elements that reinforce the material. | Participate in quizzes, short games, practical tasks, and discussion boards that the instructor posts. |
+| **Improve learning effectiveness** | Blend the online content you already review with in‑person activities that give you feedback. | After watching a video, attend the next face‑to‑face session to ask questions, do practice problems, and receive feedback. |
+| **Support self‑paced learning** | Continue using recorded lessons and weekly learning paths that let you study when it suits you. | Follow the weekly schedule provided by the instructor, but feel free to revisit any recorded lecture as needed. |
+| **Improve technical access and reliability** | Reduce the impact of internet problems by having offline options and clear technical help. | Download all course materials ahead of time, use campus Wi‑Fi or a reliable hotspot when possible, and contact the tech‑support desk if you encounter platform issues. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Download all current week’s materials** (slides, videos, readings) to your device for offline study.  
+2. **Create a personal weekly learning path**: list the recorded lectures you’ll watch each day and set a short quiz or discussion post to complete after each.  
+3. **Participate in at least one interactive activity** (quiz, game, or discussion) this week to keep engagement high.  
+4. **Test your internet setup**: identify a reliable campus location or hotspot you can use for live sessions; note the tech‑support contact for quick help.  
+5. **Reflect after each study session**: note what helped you understand the material and any technical hiccups, then adjust your plan accordingly.  
+
+By following these steps, you can leverage your strong self‑studying habits while minimizing the impact of internet issues and enhancing overall learning effectiveness. Good luck!
+
+
+
+---
+
+## Student ID: `e20240967`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "self_paced", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240967  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners  
+
+**Main Strengths**  
+- You find blended learning **flexible and convenient** for accessing lessons online.  
+- You value the ability to **manage your time** and reach learning materials when needed.  
+
+**Main Challenges**  
+- **Interaction & communication** feel limited in the online environment.  
+- **Internet/technical problems** sometimes disrupt your study flow.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Strengthen access to learning materials** | Ensure all slides, videos, references, and exercises are available early in the course. | Check the course portal at the start of each week; download what you need before you begin studying. |
+| **Increase interaction and communication** | Add more Q&A sessions, group discussions, peer collaboration, and quicker lecturer feedback. | Participate in scheduled live Q&A or discussion boards; ask for clarification promptly; form a small study group with classmates. |
+| **Improve learning effectiveness** | Combine online review materials with in‑person explanations, practice, and feedback. | When possible, attend any face‑to‑face workshops or labs; use online quizzes to test understanding before class. |
+| **Support self‑paced learning** | Use recorded lessons and weekly learning paths that you can review at your own speed. | Follow the weekly roadmap provided by the instructor; re‑watch recorded lectures if a concept isn’t clear. |
+| **Improve technical access and reliability** | Get stable internet, offline copies of materials, clear platform instructions, and technical support. | Download PDFs or videos when you have good connectivity; keep a backup device or campus Wi‑Fi option; contact the help desk for any platform issues. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Day 1–2:** Review the course syllabus and locate the weekly learning path. Download all listed materials for the first week.  
+2. **Day 3:** Join the first scheduled Q&A session; prepare two questions from the downloaded content.  
+3. **Day 4–5:** Form a small study group (2–3 peers) on the course forum for peer discussion.  
+4. **Day 6:** Test your internet connection; if unstable, arrange a campus hotspot or download offline copies of upcoming videos.  
+5. **Day 7–10:** Complete the first set of practice exercises, then submit any questions to the lecturer for rapid feedback.  
+6. **Day 11–14:** Reflect on what worked (e.g., which resources were most helpful) and adjust your weekly plan accordingly.  
+
+By following these steps, you can keep the flexibility you appreciate while strengthening interaction, technical reliability, and overall learning effectiveness. Good luck!
+
+
+
+---
+
+## Student ID: `e20240143`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240143  
+- **Segment:** Moderately Engaged (Passive) Learners  
+
+**Main Strengths**  
+Your open‑ended response did not highlight specific strengths, so this section is based on the typical profile of Moderately Engaged (Passive) learners.
+
+**Main Challenges**  
+Similarly, the open‑ended response was brief, so the challenges listed reflect common areas for this segment.
+
+**Personalized Recommendations**  
+
+| Area | What to Try | Why It Helps |
+|------|-------------|--------------|
+| **Interaction** | • Join short Q&A sessions after lectures.<br>• Participate in small‑group discussions or peer‑collaboration activities.<br>• Request quicker feedback from the lecturer. | Increases active participation and helps you stay connected with the material and classmates. |
+| **Learning Support** | • Look for clear, step‑by‑step guides and recorded explanations for each topic.<br>• Use any provided examples to see how concepts are applied. | Improves understanding when you study independently and reduces confusion. |
+| **Motivation** | • Set a weekly check‑in with yourself (or a study buddy) to review what you’ve completed.<br>• Use reminders or a simple progress tracker to see how far you’ve come.<br>• Create a short, structured study schedule each week. | Keeps you focused, builds self‑discipline, and makes progress visible. |
+| **Self‑Paced Learning** | • Access recorded lessons so you can review them at any time.<br>• Follow the weekly learning path outlines provided by the course.<br>• Keep all materials organized for easy reference. | Allows you to study when you’re most alert and revisit difficult topics as needed. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Pick one interaction opportunity** – e.g., sign up for the next Q&A session or join a study group chat.  
+2. **Gather support materials** – download the recorded lecture and any step‑by‑step guides for the current topic.  
+3. **Set a simple schedule** – block 30 minutes each weekday for review, and note it in a planner or digital calendar.  
+4. **Track progress** – after each study block, tick off what you’ve covered; review the list at the end of the week.  
+
+By focusing on these four areas, you’ll gradually move from a passive to a more active, self‑directed learning style while still receiving the structure and support you need. Good luck!
+
+
+
+---
+
+## Student ID: `e20241203`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241203*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Typical traits:** May attend sessions but often prefer to work independently and benefit from clear structure and support.  
+
+### 2. Main Strengths  
+- **Convenient / Flexible learning:** You appreciate the ability to manage your study time and access materials when it suits you.  
+
+### 3. Main Challenges  
+- **Internet & technical issues:** Unreliable connectivity makes it hard to participate in live activities or stream content.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | Why it helps |
+|----------------|----------------------|--------------|
+| **Support self‑paced learning** | Use recorded lectures, weekly learning paths, and downloadable resources that you can review anytime. | Matches your preference for flexibility and lets you study when your connection is stable. |
+| **Improve technical access and reliability** | Access offline versions of key materials, clear step‑by‑step platform guides, and a dedicated tech‑support contact. | Reduces the impact of internet problems and ensures you can keep up even when online access is spotty. |
+
+### 5. Short Action Plan  
+
+| Week | Action | Resources |
+|------|--------|-----------|
+| **1** | Locate the course’s “Recorded Lessons” folder and download the first week’s videos for offline viewing. | LMS → Media Library |
+| **2** | Follow the weekly learning path checklist to plan your study schedule. | Weekly Path PDF |
+| **3** | Test the offline PDFs and practice quizzes while offline. | Downloadable PDFs & Quiz Bank |
+| **4** | If you experience connectivity issues, contact the tech‑support desk (email/phone) for assistance or request a loaner Wi‑Fi hotspot. | Tech‑Support Contact Sheet |
+| **Ongoing** | Review recorded sessions before live Q&A sessions to stay prepared and reduce real‑time pressure. | Recorded Sessions + Q&A Calendar |
+
+---
+
+**Remember:** Your flexibility is a strong asset. By using self‑paced materials and ensuring you have reliable offline access, you can keep progressing smoothly despite internet challenges. If you need further help, reach out to your learning support team—they’re here to assist you.
+
+
+
+---
+
+## Student ID: `e20240661`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "learning_support", "motivation"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240661  
+- **Segment:** Moderately Engaged (Passive) Learners (you tend to study on your own but may need extra prompts to stay on track).  
+
+**Main Strengths**  
+- You have **more time for self‑study**, which gives you flexibility to review material at your own pace.  
+
+**Main Challenges**  
+- **Self‑discipline** can be inconsistent, making it hard to keep a steady study rhythm.  
+- Occasionally the material isn’t clear, which lowers the quality of your learning.  
+
+**Personalized Recommendations**  
+
+| Focus | What to Do (based on rule‑based advice) |
+|-------|------------------------------------------|
+| **Learning Effectiveness** | Combine the online review resources you already use with short, in‑person (or live‑online) sessions where concepts are explained, practiced, and you receive immediate feedback. |
+| **Learning Support** | Seek out clearer instructions and examples: use recorded explanations and step‑by‑step guides that break down complex topics into manageable parts. |
+| **Motivation & Self‑Discipline** | Set up a weekly check‑in routine (e.g., a brief meeting with a tutor or a study buddy). Use reminders, a simple progress‑tracking sheet, and a structured weekly schedule to keep you on track. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Create a weekly schedule** – block 2‑3 hours for self‑study and 1 hour for a live explanation/practice session.  
+2. **Gather support materials** – locate recorded explanations and step‑by‑step guides for the topics you’ll study this week.  
+3. **Set a check‑in** – arrange a 15‑minute meeting (in person or virtual) with a tutor or peer at the end of each week to review progress and clarify any confusing points.  
+4. **Track progress** – use a simple checklist or app to mark completed readings, practice tasks, and feedback received.  
+
+Following these steps will help you turn your available study time into more effective, clearer, and more disciplined learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20240497`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240497*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you already show strong involvement when the right conditions are in place.  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You value being able to access lectures and materials online, which lets you study at your own pace.  
+- **Access to Learning Materials:** Having slides, videos, and references available digitally helps you prepare and review.  
+- **Learning Convenience & Effectiveness:** The mix of online resources and in‑person sessions works well for you when the material is clear.  
+
+---
+
+### 3. Main Challenges  
+- **Self‑Discipline & Motivation:** Staying on track without external prompts can be difficult.  
+- **Clarity of Preparation:** It is sometimes confusing what must be completed before each face‑to‑face class.  
+- **Interaction & Communication:** You would benefit from more structured opportunities to ask questions and receive feedback.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Lecturers should upload slides, videos, reference links, and practice exercises **early** in the week so you can review before class. |
+| **Interaction** | Add short Q&A or discussion slots (online or in‑person), encourage peer collaboration, and aim for quicker lecturer feedback on questions. |
+| **Learning Effectiveness** | Pair the online review material with in‑person explanations, guided practice, and immediate feedback to reinforce concepts. |
+| **Learning Environment** | Organise all course resources in a clear folder structure, keep them up‑to‑date, and ensure the classroom is comfortable for focused work. |
+| **Learning Support** | Provide step‑by‑step guides, example problems, and short recorded explanations that clarify what you need to prepare for each session. |
+| **Motivation & Self‑Discipline** | Use weekly check‑ins or reminders (e.g., a short email or LMS notification) that outline the tasks for the week and let you track progress. |
+| **Self‑Paced Learning** | Offer recorded lessons and a **weekly learning path** that lists exactly what to study online before the next face‑to‑face class. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Who’s Responsible |
+|------|--------|--------------------|
+| 1 | Review the **weekly learning path** posted on the LMS; note required online tasks. | You |
+| 1 | Attend a brief **Q&A session** after the first lecture. | Lecturer |
+| 2 | Complete the first set of uploaded exercises; mark completed items in a personal tracker. | You |
+| 2 | Receive a **progress reminder** (email or LMS alert). | Course staff |
+| 3 | Participate in a **peer‑discussion group** on a challenging topic. | You & classmates |
+| 3 | Provide feedback to the lecturer on the clarity of the weekly roadmap. | You |
+| 4 | Review recorded lessons for any concepts that need reinforcement; note questions for the next class. | You |
+| 4 | Lecturer updates any unclear resources and shares additional examples. | Lecturer |
+
+Follow this plan, use the weekly roadmap, and take advantage of the added interaction opportunities. Doing so will help you stay disciplined, clarify expectations, and make the most of the blended format.  
+
+Good luck, and keep leveraging the flexibility that works best for you!
+
+
+
+---
+
+## Student ID: `e20240158`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "engagement", "learning_effectiveness", "learning_environment", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240158  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – you tend to work independently and benefit from clear, well‑organized resources.  
+
+---
+
+### Main Strengths
+- **Access & Flexibility:** You value the ability to watch recorded lectures at your own pace, which helps you understand the material better.  
+- **Convenient Learning Environment:** The recorded videos give you a flexible schedule and make studying more convenient.  
+
+### Main Challenges
+- **Organising Study Materials:** You find it difficult to keep learning resources tidy and easy to locate.  
+
+---
+
+### Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Keep all slides, videos, references, and exercises available early in the course. | Look for a central course folder or LMS page where the instructor uploads everything before the week starts. |
+| **Increase learner engagement** | Add interactive elements (quizzes, short games, discussion prompts) to keep you actively involved. | Participate in any online quizzes or discussion boards; ask the instructor to include quick polls or practice tasks. |
+| **Improve learning effectiveness** | Blend your video reviews with in‑person explanations, practice activities, and feedback. | After watching a video, attend the related face‑to‑face session, do the practice exercises, and seek quick feedback from the tutor. |
+| **Improve learning resources and environment** | Organise materials clearly and maintain a comfortable study space. | Use folders or tags in your digital drive (e.g., “Week 1 – Slides,” “Week 1 – Exercises”). Keep a tidy desk and schedule short breaks to stay comfortable. |
+| **Support self‑paced learning** | Continue using recorded lessons and weekly learning paths that let you study when it suits you. | Follow any weekly “learning path” outlines provided, and revisit recorded segments whenever a concept feels unclear. |
+
+---
+
+### Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Locate the course’s main resource page; download all existing slides and videos into a personal folder structure (e.g., `Course/Week 1`, `Course/Week 2`). |
+| **Day 3** | Create a simple checklist for each week: 1) watch video, 2) review slides, 3) complete practice task, 4) attend in‑person session, 5) do the quiz. |
+| **Day 4–5** | Join any online discussion or quiz related to the current topic; post one question or comment. |
+| **Day 6–7** | Review the week’s material using the checklist; note any unclear points and bring them to the next face‑to‑face class for feedback. |
+| **Week 2** | Repeat the checklist for the new week, adding any new resources to your organized folders. |
+| **End of Week 2** | Reflect: Is material easier to find? Do quizzes help you stay engaged? Adjust the folder system or study schedule as needed. |
+
+By following this plan, you’ll keep the flexibility you enjoy while creating a more organized, engaging, and effective learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20240313`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** e20240313  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners  
+
+You tend to attend class mainly for attendance and then study independently at home. You value the convenience of being able to learn when you have time, but you note challenges with self‑discipline and time‑management.
+
+---
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness:** You appreciate that blended learning lets you study at your own pace and fit learning around other commitments.  
+
+---
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline:** Keeping a regular study routine and managing time effectively are areas you find difficult.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What to Do | Why it Helps |
+|----------------|------------|--------------|
+| **Improve learning effectiveness** | • Use online review videos, readings, or quizzes **before** coming to class.<br>• In class, focus on teacher explanations, hands‑on practice, and get immediate feedback. | Combining self‑study with face‑to‑face activities reinforces concepts and makes the most of both online and in‑person time. |
+| **Support motivation and self‑discipline** | • Set a **weekly study schedule** that blocks specific times for online review and class preparation.<br>• Join a short **weekly check‑in** (e.g., with a tutor or study buddy) to review progress.<br>• Use simple tools (calendar reminders, a progress tracker) to see what you’ve completed. | Structured routines and regular check‑ins keep you accountable and make it easier to stay on track. |
+
+These recommendations are drawn directly from the evidence that you value convenience and need support with motivation.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Create a weekly timetable: 1 hour of online review each evening, 2 hours of in‑person practice on class days. |
+| **Wednesday** | Set a calendar reminder for the weekly check‑in (could be a 15‑minute video call with a peer or tutor). |
+| **Friday** | Complete a short self‑quiz on the week’s material and note any topics that need extra help. |
+| **Sunday** | Review your progress tracker: mark completed tasks and adjust next week’s schedule if needed. |
+
+Repeat this cycle, refining the schedule as you discover what works best for you. Consistent use of the online resources together with active class participation will boost both your learning effectiveness and motivation.
+
+
+
+---
+
+## Student ID: `e20240115`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240115*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Typical needs:** More structure and motivation, opportunities for interaction, and clear learning support.  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You value saving time on commuting, which shows you can make good use of flexible study options.  
+
+### 3. Main Challenges  
+- **Distractions while learning:** You find it hard to stay focused when studying.  
+
+### 4. Personalized Recommendations  
+**Support self‑paced learning** – because you appreciate flexibility, a self‑paced approach will let you study when you’re most alert and reduce distractions.  
+- **Recorded lessons** that you can pause, rewind, or speed up.  
+- **Weekly learning paths** that outline what to study each week, giving you a clear roadmap while still letting you control the timing.  
+- **Supplementary materials** (slides, notes, quizzes) that you can review anytime to reinforce understanding.  
+
+### 5. Short Action Plan  
+
+| Week | Action | How it helps |
+|------|--------|--------------|
+| 1 | Access the recorded lecture for your first module and set a specific time slot (e.g., 30 min after breakfast). | Uses your time‑saving preference and creates a routine. |
+| 2 | Follow the weekly learning path; break each task into 15‑minute blocks with short breaks. | Limits exposure to distractions and keeps focus. |
+| 3 | Review the provided slides and take a quick quiz at the end of the week. | Reinforces learning and gives immediate feedback. |
+| 4 | Reflect on what study times worked best and adjust the schedule for the next month. | Enhances self‑regulation and motivation. |
+
+By following this self‑paced structure, you can keep the flexibility you value while building habits that reduce distractions and improve engagement. If you need additional support (e.g., tutoring or peer interaction), let your instructor know—they can add those elements to the blended format.
+
+
+
+---
+
+## Student ID: `e20240535`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240535*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster description:** Moderately Engaged (Passive) Learners  
+- The open‑ended responses did not provide specific strengths or challenges, so the recommendations below are drawn primarily from the characteristics of the *Highly Engaged* segment and the default tags for this group.
+
+---
+
+### 2. Main Strengths  
+*No explicit strengths were reported.*  
+> Because the open‑ended input was empty, we rely on the typical strengths of highly engaged learners—e.g., motivation to participate and willingness to use course resources.
+
+---
+
+### 3. Main Challenges  
+*No explicit challenges were reported.*  
+> With no specific challenges identified, the suggestions focus on common areas where even active learners can improve, such as digital tool use and sustained engagement.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Tag | What to Do | How It Helps You |
+|-----|------------|------------------|
+| **content_access** | Upload or make available slides, videos, reference links, exercises, and any other course materials **early** in the semester. | Gives you quick, reliable access to what you need for preparation and review, supporting your active learning style. |
+| **digital_skill** | Get brief tutorials or quick‑start guides on the LMS, online research tools, and any educational technologies used in the course. | Strengthens your ability to navigate digital resources efficiently, saving time and reducing friction when you dive into tasks. |
+| **engagement** | Participate in quizzes, short games, practical tasks, discussion boards, and other interactive activities built into the course. | Keeps your learning dynamic and reinforces concepts through active practice, matching your high‑engagement profile. |
+| **self_paced** | Use recorded lectures and weekly learning paths that let you review material at your own speed. | Allows you to deepen understanding on topics that need extra time while still staying on track with the course schedule. |
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **1** | Check the course portal for uploaded slides, videos, and reading lists. Download or bookmark them for easy reference. |
+| **2** | Complete the LMS “Getting Started” tutorial (usually 10‑15 min). Note any tools you’re unsure about and ask the instructor or TA for a quick demo. |
+| **3** | Participate in the first interactive quiz or discussion activity. Treat it as a low‑stakes way to apply what you’ve studied. |
+| 4‑5 | Review the recorded lecture for a topic you found challenging. Follow the weekly learning path to ensure you stay aligned with the class schedule. |
+| Ongoing | Keep a personal checklist of the resources you’ve accessed and the digital tools you’ve mastered. Add any new interactive activities you join to the list. |
+
+---
+
+**Remember:** Even as a highly engaged learner, proactively securing materials, sharpening digital skills, and mixing interactive tasks with self‑paced review will help you stay ahead and make the most of the blended learning environment. If you encounter any specific difficulty, reach out to your instructor or teaching assistant—they’re there to support you.
+
+
+
+---
+
+## Student ID: `e20241369`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_environment", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241369*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You are motivated and appreciate the flexibility that blended learning can give you (e.g., saving time and money, staying comfortable when it’s hot). Your comments also show awareness of how timing and environment affect learning.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You value the ability to study when and where it is most convenient, which helps you save time and reduce travel costs.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication:** You would like more opportunities to engage with peers and instructors.  
+- **Learning Difficulty & Clarity:** Clear instructions and examples are needed to avoid confusion.  
+- **Learning Resources & Environment:** Better‑organized materials and comfortable study spaces are important, especially given the hot weather and traffic congestion you mentioned.  
+- **Motivation & Self‑Discipline:** Structured check‑ins and reminders could help you stay on track, particularly when classes are scheduled later in the day.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Interaction** | Add regular Q&A sessions, small‑group discussions, and peer‑collaboration activities. Request faster feedback from lecturers. |
+| **Learning Environment** | Ensure course materials are clearly organized and up‑to‑date. Use a comfortable, well‑ventilated study space (e.g., a cool room or library). |
+| **Learning Support** | Provide step‑by‑step guides, concrete examples, and short recorded explanations for complex topics. |
+| **Motivation** | Set up weekly check‑ins or brief progress surveys, receive reminder emails, and track your learning milestones. |
+| **Self‑Paced Learning** | Access recorded lectures and weekly learning paths so you can review content at your own speed, especially when you prefer afternoon sessions. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+1. **Schedule Interaction:** Join a study group or forum for your course and attend the next live Q&A session.  
+2. **Organize Materials:** Create a personal folder structure (e.g., by week or topic) and download all lecture slides and recordings.  
+3. **Clarify Instructions:** When a task seems unclear, post a question in the course chat or ask the instructor for a concrete example.  
+4. **Set Reminders:** Use a digital calendar to set a weekly reminder for a 10‑minute check‑in on your progress.  
+5. **Use Recorded Content:** Watch at least one recorded lecture at your own pace each day, noting any parts that need further clarification.  
+
+By focusing on these steps, you can turn your strong engagement into even more effective, comfortable, and self‑directed learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20240374`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240374  
+- **Segment:** Highly Engaged (Active) Learners (also noted as Moderately Engaged – Passive in the cluster)  
+
+**Main Strengths**  
+- You have extra time to conduct your own research, which shows good self‑direction.
+
+**Main Challenges**  
+- You experience difficulties with the internet connection and related technical issues while accessing course materials.
+
+**Personalized Recommendations**  
+Because your open‑ended response highlighted connection problems, the recommendation focuses on improving your technical access and reliability:
+
+- **Improve technical access and reliability** – Ensure you have a stable internet connection, use offline versions of learning materials when possible, follow clear platform instructions, and know how to reach technical support quickly.
+
+**Short Action Plan**  
+
+| Step | Action | How to Do It | When |
+|------|--------|--------------|------|
+| 1 | Check internet stability | Run a speed test; note any frequent drops | This week |
+| 2 | Arrange backup access | Download lecture PDFs or videos for offline study | Before each class |
+| 3 | Review platform guides | Follow the university’s “Getting Started” tutorial for the LMS | Before next assignment |
+| 4 | Locate support | Save the contact info for IT help‑desk; note response times | Immediately |
+| 5 | Test after fixes | Re‑try accessing a course module to confirm improvement | After any changes |
+
+By securing reliable technical access, you can make the most of your research time and stay fully engaged with the blended learning environment. If new challenges arise, feel free to revisit this plan or seek additional support.
+
+
+
+---
+
+## Student ID: `e20240466`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_environment", "motivation", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240466  
+- **Segment:** Highly Engaged (Active) Learners (Cluster: Moderately Engaged – Passive)  
+
+**Main Strengths**  
+- You see a “huge benefit for self‑studying,” indicating that you value learning convenience and effectiveness when you can work independently.
+
+**Main Challenges**  
+- Motivation can drop and focus is lost easily during online classes.  
+- You experience difficulties with internet/technical reliability and would like better university Wi‑Fi support.  
+- The current learning environment and resources feel less supportive for your needs.
+
+**Personalized Recommendations**  
+
+| Area | What to Try | Why it Helps |
+|------|-------------|--------------|
+| **Interaction & Communication** | Join short Q&A sessions, group discussions, or peer‑collaboration activities; request quicker feedback from lecturers. | More interaction keeps you engaged and reduces the feeling of isolation that can hurt motivation. |
+| **Learning Effectiveness** | Pair the online review materials with brief in‑person explanations, practice exercises, and feedback loops. | Combining formats reinforces concepts and makes self‑study more productive. |
+| **Learning Environment** | Use clearly organized digital folders, updated resources, and a comfortable study space (e.g., campus study rooms or a quiet corner at home). | A tidy, well‑resourced environment reduces distractions and supports focused study. |
+| **Motivation & Self‑Discipline** | Set a weekly check‑in with yourself or a study buddy, use reminders, track progress in a simple log, and follow a structured study schedule. | Regular check‑ins and visible progress boost motivation and help maintain focus. |
+| **Technical Access** | Take advantage of any university Wi‑Fi hotspots, download offline copies of essential materials, and keep a quick‑reference guide for the learning platform. Contact the IT help desk for any connectivity issues. | Reliable internet and offline options prevent technical hiccups from breaking your study flow. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Schedule Interaction:** Sign up for one online Q&A or discussion group this week.  
+2. **Blend Study Sessions:** After each online lecture, spend 15 minutes reviewing the material in person (e.g., with a study partner or in a campus lab).  
+3. **Organize Resources:** Create a dedicated folder on your cloud drive for each course; label sections clearly (lecture notes, practice, FAQs).  
+4. **Set Up Motivation Tools:** Choose a simple habit‑tracker app; log daily study time and mark completed tasks.  
+5. **Secure Connectivity:** Locate the nearest university Wi‑Fi hotspot; download the week’s lecture slides for offline use and test the platform’s help resources.  
+
+By focusing on these five areas, you can turn your strong self‑study ability into even more effective, motivated, and technically smooth learning experiences. Good luck!
+
+
+
+---
+
+## Student ID: `e20241003`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "motivation", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241003*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you have the potential to be more active in class.  
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You value having lecture videos available to review when you miss a class.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unstable connection can keep you from joining live sessions.  
+- **Motivation & Self‑Discipline:** Lack of routine or discipline may lead to missed classes.  
+
+### 4. Personalized Recommendations  
+
+| Focus | What the recommendation suggests | Why it matters for you |
+|-------|----------------------------------|------------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** in the week. | Gives you reliable resources to study offline when the internet is unreliable. |
+| **Motivation & Self‑Discipline** | Use weekly check‑ins, automated reminders, progress‑tracking tools, and a structured study schedule. | Helps you stay on track and builds the habit of regular engagement. |
+| **Technical Access** | Provide options for offline download, clear instructions for the learning platform, and easy access to technical support. | Reduces the impact of a bad connection and ensures you can continue learning without interruption. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Download this week’s lecture videos and slides to your device (offline folder). |
+| **Tuesday** | Set a 30‑minute study block in your calendar; add a reminder on your phone. |
+| **Wednesday** | Attend the live session (if possible) and note any connectivity problems; contact tech support if needed. |
+| **Thursday** | Complete one practice exercise and mark it as “done” in the progress tracker. |
+| **Friday** | Review the week’s material using the offline videos; reflect on what you understood and what needs clarification. |
+| **Weekend** | Do a brief self‑check: have you met your study block goal? Adjust next week’s schedule accordingly. |
+
+By strengthening material access, building a regular study routine, and preparing for technical hiccups, you can move from passive to more active participation while keeping up with the course content. Feel free to reach out to your instructor or the tech help desk whenever you encounter difficulties. Good luck!
+
+
+
+---
+
+## Student ID: `e20241191`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_support", "motivation", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241191  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – you tend to participate less actively in online sessions and prefer clearer structure and support.  
+
+**Main Strengths**  
+- You value **learning convenience and effectiveness** and recognize that a fully online class may not be the best fit for you.  
+
+**Main Challenges**  
+- Unstable internet connection and technical difficulties.  
+- Trouble staying focused during online classes.  
+- Need for more interaction, clearer instructions, and stronger motivation/self‑discipline.  
+
+**Personalized Recommendations**  
+
+| Area | What to Try | Why it Helps |
+|------|-------------|--------------|
+| **Interaction** | Join scheduled Q&A sessions, group discussions, and peer‑collaboration activities. Ask the lecturer for quicker feedback on your work. | Increases engagement and gives you more opportunities to ask questions in real time. |
+| **Learning Effectiveness** | Use a blended approach: study review materials online, then attend short in‑person (or live‑video) sessions for explanations, practice, and feedback. | Combines the convenience of online resources with the clarity of face‑to‑face guidance. |
+| **Learning Support** | Look for courses that provide clear step‑by‑step guides, recorded explanations, and concrete examples. Request additional written instructions when needed. | Improves understanding and reduces confusion when you study independently. |
+| **Motivation & Self‑Discipline** | Set a weekly study schedule, use a planner or app to track progress, and schedule brief check‑ins with a tutor or study buddy. Enable reminder notifications. | Keeps you on track and builds a sense of accomplishment each week. |
+| **Technical Issues** | Download offline copies of lectures and readings when you have a good connection. Ask the university’s IT service for support or access to reliable campus Wi‑Fi. | Reduces interruptions caused by unstable internet and ensures you can keep studying even offline. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Day 1‑2:** Identify one online module and download its videos/notes for offline use.  
+2. **Day 3‑4:** Schedule a 30‑minute weekly check‑in with a peer or tutor; add it to your calendar.  
+3. **Day 5‑7:** Join the next live Q&A or discussion group for the course; prepare one question in advance.  
+4. **Week 2:** Attend a short in‑person (or live‑video) session that reviews the online material you studied.  
+5. **Ongoing:** Use a simple planner (paper or app) to record daily study goals and tick them off; set reminder alerts for each study block.  
+
+By focusing on more interaction, clearer support, a blended study format, structured motivation, and reliable technical access, you can turn the current challenges into a more effective and engaging learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20241043`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241043  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You noted that “we can study every time,” indicating a willingness to access study material whenever you need it.  
+
+**Main Challenges**  
+- You expressed a desire to “study lectures one by one,” suggesting you prefer to work through content in a linear, step‑by‑step fashion.  
+
+**Personalized Recommendations**  
+Because your open‑ended responses are brief, the suggestions below are drawn primarily from the characteristics of the **Highly Engaged (Active) Learners** segment and the associated recommendation tags:
+
+1. **Strengthen Access to Learning Materials** – Ensure that slides, videos, reference documents, and exercises are uploaded to the LMS early in the term so you can retrieve them at any time.  
+
+2. **Develop Digital Learning Skills** – Take short tutorials on using LMS tools (e.g., navigation, bookmarking, discussion boards) and on locating reliable online resources. This will help you manage the material you want to study sequentially.  
+
+3. **Increase Learner Engagement** – Complement your linear study style with interactive elements such as quizzes, quick games, or brief practical tasks after each lecture. These activities reinforce understanding without disrupting your preferred order.  
+
+4. **Support Self‑Paced Learning** – Make use of recorded lectures and weekly learning paths that let you revisit each lesson at your own speed, matching your “one‑by‑one” approach.  
+
+**Short Action Plan**  
+
+| Week | Action | How it Helps |
+|------|--------|--------------|
+| 1 | Locate the course’s central folder and download all lecture slides and videos. | Guarantees you can study “any time.” |
+| 2 | Complete a 15‑minute LMS tutorial (focus on bookmarking and discussion features). | Builds the digital skills you need to manage content step‑by‑step. |
+| 3 | After each lecture, finish a short quiz or interactive activity. | Reinforces learning while keeping you engaged. |
+| 4 | Follow the weekly learning path and review recorded lessons before moving to the next topic. | Supports your self‑paced, sequential study style. |
+
+By following these steps, you’ll keep your strong motivation to study regularly while gaining the tools and structure that match your preferred learning rhythm. Good luck!
+
+
+
+---
+
+## Student ID: `e20240218`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "learning_effectiveness", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240218*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Current cluster:** Highly Engaged (Active) Learners (shows potential for higher engagement)  
+
+### 2. Main Strengths  
+- **Access to learning materials:** You find it easy to review lessons repeatedly, which helps you understand the content better.  
+
+### 3. Main Challenges  
+- **Internet & technical issues:** Occasional problems with the internet system can interrupt your study flow.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** (content_access) | Keep all course resources (slides, videos, readings, exercises) available early so you can review them whenever you need. | • Check the course portal for uploaded materials before each class.<br>• Download files to your device when you have a good connection. |
+| **Improve learning effectiveness** (learning_effectiveness) | Combine the online materials you already use with short, in‑person activities such as explanations, practice tasks, and feedback. | • Attend any scheduled face‑to‑face or live‑online sessions.<br>• After reviewing a video, do a quick practice exercise and seek feedback from the instructor or peers. |
+| **Improve technical access and reliability** (tech_issue) | Reduce interruptions caused by internet problems and make sure you can keep studying even when offline. | • Use the campus Wi‑Fi or a reliable hotspot when possible.<br>• Download lectures and readings in advance for offline study.<br>• Keep the platform’s help guide handy and contact technical support promptly if issues arise. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Log into the course portal, locate all upcoming materials, and download them to your laptop/tablet. |
+| **Day 3‑4** | Test your internet connection; if unstable, arrange an alternative (campus Wi‑Fi, library, or mobile hotspot). |
+| **Day 5‑7** | Attend a live session (in‑person or virtual) and ask the instructor for a brief explanation of a concept you reviewed online. |
+| **Day 8‑10** | Complete a practice exercise related to the reviewed material and request feedback. |
+| **Day 11‑14** | Review the technical support guide; note the contact details and try a quick “test ticket” to confirm response speed. |
+
+By following these steps, you’ll keep the strong habit of reviewing materials while reducing technical disruptions and adding active practice to boost your learning effectiveness. Good luck!
+
+
+
+---
+
+## Student ID: `e20241400`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "learning_support", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241400*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Current cluster:** Highly Engaged (Active) Learners (shows potential for higher engagement)  
+
+You value the convenience of self‑study and would like more time for it, but you also notice challenges with discipline, clear guidance, and getting new techniques online.
+
+---
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness:** You appreciate being able to study on your own schedule.
+
+---
+
+### 3. Main Challenges  
+- **Learning Difficulty & Clarity:** Online material sometimes lacks clear instructions and examples.  
+- **Motivation & Self‑Discipline:** Keeping a regular study routine and staying motivated can be hard.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do (based on rule‑based advice) |
+|-------|------------------------------------------|
+| **Learning Effectiveness** | Pair the online review resources you already use with short, in‑person (or live‑online) sessions where concepts are explained, practiced, and you receive feedback. |
+| **Learning Support** | Ask for or create clearer study guides: step‑by‑step instructions, recorded explanations, and concrete examples for each topic. |
+| **Motivation & Self‑Discipline** | Set up a weekly check‑in routine (e.g., a 10‑minute meeting with a tutor or study buddy), use reminders, and track your progress on a simple chart or app. Build a structured study schedule that blocks specific times for self‑study. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Identify one upcoming topic and locate both the online review material and a short (30 min) live session or office‑hour slot for it. |
+| **Tuesday** | Create a step‑by‑step guide for that topic (list key steps, add an example, note any questions). |
+| **Wednesday** | Attend the live session, practice the material, and ask for feedback. |
+| **Thursday** | Update your guide with any new insights from the session. |
+| **Friday** | Set a 15‑minute reminder for next week’s check‑in; record today’s progress in a simple tracker (e.g., “Topic X – 2 hrs studied, 1 practice problem completed”). |
+| **Weekend** | Review the guide and practice a few more problems; note any remaining doubts for the next check‑in. |
+| **Repeat** | Follow the same pattern for the next topic, adjusting the schedule as needed. |
+
+By combining self‑study with brief, interactive support and a clear tracking system, you’ll strengthen both understanding and motivation while keeping the flexibility you value. Good luck!
+
+
+
+---
+
+## Student ID: `e20240591`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240591  
+- **Segment:** Moderately Engaged (Passive) Learners (you tend to use learning resources when they are convenient, but may need extra support to stay on track).  
+
+**Main Strengths**  
+- You appreciate the **flexibility and time‑saving** that blended learning offers, seeing it as a way to free up time for self‑study.  
+- You value **learning convenience and effectiveness** – online materials help you study efficiently.  
+
+**Main Challenges**  
+- Maintaining **motivation and self‑discipline** can be difficult, especially when you need to schedule study time yourself.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Improve learning effectiveness** | Blend online review material with face‑to‑face explanation, practice, and feedback to deepen understanding. | Attend scheduled in‑person sessions that follow the online content you review. Use class time for guided practice and ask for feedback on your work. |
+| **Support motivation and self‑discipline** | Regular check‑ins, reminders, and clear progress tracking keep you accountable. | Join a weekly check‑in (e.g., a short online survey or a brief meeting with a tutor). Set up calendar reminders for study blocks and use a simple tracker (e.g., a checklist or app) to mark completed tasks. |
+| **Support self‑paced learning** | Access to recorded lessons and a weekly learning path lets you study when it fits your schedule. | Use the recorded lectures to review concepts before or after class. Follow the weekly learning path provided by the course, adjusting the pace as needed while still meeting the weekly milestones. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Set a weekly schedule** – Block 2‑3 hours each week for self‑study; add reminders to your calendar.  
+2. **Use recorded lessons** – Watch the relevant video before the next in‑person session; take brief notes.  
+3. **Attend the upcoming face‑to‑face class** – Bring your notes and be ready to practice the material; ask at least one question for feedback.  
+4. **Complete a quick check‑in** – At the end of each week, fill out a 2‑minute progress survey (provided by the course) and note any obstacles.  
+5. **Track progress** – Mark each completed study block in a simple tracker (paper sheet or app). Celebrate finishing the week’s learning path.  
+
+By combining flexible online resources with structured in‑person practice and regular accountability, you can keep your motivation high, stay disciplined, and make the most of blended learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20240359`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240359*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Typical needs:** More motivation, interaction, learning support, and opportunities to study at their own pace.  
+
+### 2. Main Strengths  
+- The open‑ended response did not provide clear strengths. Because of this, the report relies mainly on the characteristics of the “Moderately Engaged (Passive)” segment.
+
+### 3. Main Challenges  
+- **Learning Difficulty & Clarity:** “Not understanding the lessons when learning online.”  
+
+### 4. Personalized Recommendations  
+**Learning Support** – To improve clarity and comprehension in the online environment:  
+- Provide **clear, step‑by‑step instructions** for each activity.  
+- Include **recorded explanations** (short videos or audio) that students can pause and replay.  
+- Offer **concrete examples** that illustrate key concepts before asking students to apply them.  
+- Supply **guided learning guides** that break down complex tasks into manageable steps.  
+
+### 5. Short Action Plan  
+
+| Week | Action | How to Do It | What to Check |
+|------|--------|--------------|---------------|
+| 1 | Gather resources | Locate or ask the instructor for recorded explanations and example worksheets for the next module. | Do you have at least one video and one example per topic? |
+| 2 | Use step‑by‑step guides | Follow the guide while studying; pause and repeat any part that’s unclear. | Are the instructions easy to follow? |
+| 3 | Review recordings | Re‑watch the videos after the first read‑through to reinforce understanding. | Do you feel more confident with the material? |
+| 4 | Seek clarification | Post a specific question in the course forum or schedule a short virtual office hour if something is still unclear. | Was the answer helpful and clear? |
+| Ongoing | Self‑check | After each lesson, write a one‑sentence summary of what you learned. | Can you explain the concept in your own words? |
+
+---
+
+**Remember:** Clear, well‑structured support materials are key to turning passive engagement into active understanding. Use the resources above regularly, and don’t hesitate to ask for additional examples or explanations when needed. Good luck!
+
+
+
+---
+
+## Student ID: `e20240624`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** e20240624  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+You are identified as a highly engaged learner who generally participates actively, but your recent feedback shows a tendency toward more passive interaction in the current blended setting.
+
+---
+
+### 2. Main Strengths  
+- You show a positive attitude toward learning (strength sentiment: positive).  
+- You recognize the value of flexible study environments (e.g., studying at home when the weather is hot).
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication:** You noted that the teacher delivers material mainly through slides and then shares them with the group, which limits real‑time dialogue and feedback.
+
+---
+
+### 4. Personalized Recommendations  
+**Increase interaction and communication**  
+- **Add short Q&A pauses** during slide presentations so you can ask questions immediately.  
+- **Join or create small‑group discussion forums** (e.g., on the LMS or a messaging app) where you can discuss the material with peers.  
+- **Participate in peer‑collaboration activities** such as brief breakout‑room tasks or shared documents.  
+- **Request quicker lecturer feedback** on assignments or discussion posts to keep the conversation flowing.
+
+These steps align with the “interaction” recommendation tag derived from both your segment profile and the specific challenge you reported.
+
+---
+
+### 5. Short Action Plan (2‑Week Sprint)
+
+| Week | Action | How to Do It | Expected Benefit |
+|------|--------|--------------|------------------|
+| 1 | **Schedule Q&A moments** | After each lecture slide deck, spend 5 minutes posting a question in the class chat or forum. | Immediate clarification; more active participation. |
+| 1‑2 | **Join a study group** | Use the LMS “Groups” feature to join a peer group of 3‑4 students; meet virtually once a week for 20 minutes. | Builds peer support and deeper understanding. |
+| 2 | **Submit a feedback request** | After an assignment, ask the lecturer for a brief comment (e.g., “Could you highlight one area to improve?”). | Faster feedback loops and clearer guidance. |
+| Ongoing | **Use collaborative tools** | Co‑author a short summary of each lecture with a partner using Google Docs or the LMS editor. | Enhances communication skills and reinforces content. |
+
+Implementing these simple steps should make your blended courses feel more interactive and help you maintain the high level of engagement you already demonstrate.  
+
+---  
+
+*If you have any questions about these suggestions or need help setting up the tools, feel free to reach out to your academic support team.*
+
+
+
+---
+
+## Student ID: `e20240820`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240820*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- Your open‑ended responses did not highlight specific strengths or challenges, so the recommendations below are drawn primarily from the characteristics of this segment.
+
+### 2. Main Strengths  
+- No specific strengths were reported.  
+
+### 3. Main Challenges  
+- No specific challenges were reported.  
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why It Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from the lecturer. | Increases engagement and helps you stay connected with the material and classmates. |
+| **Learning Support** | • Look for clearer instructions, examples, and step‑by‑step guides provided by the instructor.<br>• Use recorded explanations when concepts are unclear. | Improves understanding and reduces confusion when studying independently. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (e.g., with a study buddy or tutor).<br>• Use reminders and a simple progress tracker.<br>• Follow a structured study schedule each week. | Keeps you on track, builds routine, and boosts motivation. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them at your own speed.<br>• Follow the weekly learning path outlines and use the provided materials for extra practice. | Allows you to study when you’re most focused and revisit content as needed. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | • Sign up for the next live Q&A and a small group discussion.<br>• Download the step‑by‑step guide for the current module.<br>• Create a simple weekly schedule (e.g., 2 hrs Mon, 2 hrs Wed). |
+| **2** | • Review at least one recorded lesson twice, taking notes.<br>• Complete a brief self‑check‑in (e.g., “What did I learn? What’s next?”).<br>• Ask the lecturer for feedback on one assignment within 48 hours. |
+
+Follow these steps, adjust as you see what works best, and you’ll gradually move toward a more active, supported learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20240968`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240968*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You tend to appreciate flexibility and can manage your time well, but you experience occasional internet or technical problems that disrupt your study flow.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – You value being able to study when it fits your schedule and can adapt your learning pace.
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – Unstable connectivity makes it hard to rely on always‑online resources.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Support self‑paced learning** (self_paced) | Access recorded lectures, weekly learning paths, and downloadable materials so you can study whenever you have a reliable connection. | • Watch videos or review notes at times when your internet is stable.<br>• Follow the weekly path to stay on track without needing live sessions. |
+| **Improve technical access and reliability** (tech_issue) | Ensure you have options for offline study and clear guidance on using the platform, plus quick technical help when needed. | • Download lecture videos and readings in advance.<br>• Keep a list of campus or library locations with stable Wi‑Fi for backup.<br>• Use the provided tech‑support contacts if you encounter connectivity problems. |
+
+These suggestions are drawn directly from the evidence about your strengths, challenges, and the segment’s default needs (motivation, interaction, learning support, self‑paced).
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **1** | Download all lecture videos and reading materials for the first two weeks. |
+| **2** | Follow the weekly learning path, completing one module at your own pace. |
+| **3** | Test a backup internet location (e.g., campus library) and note the best times for a stable connection. |
+| **4** | If any technical issue arises, contact the tech‑support desk using the provided instructions. |
+| **Ongoing** | Review recorded lessons whenever you have a stable connection and adjust your schedule to keep a steady study rhythm. |
+
+By leveraging self‑paced resources and planning for reliable internet access, you can make the most of your flexibility while minimizing disruptions. Good luck, and remember that support is available whenever you need it!
+
+
+
+---
+
+## Student ID: `e20240593`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240593*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the “Moderately Engaged (Passive) Learners” cluster)  
+- You thrive when you can combine online resources with face‑to‑face interaction.  
+
+### 2. Main Strengths  
+- **Access to learning materials:** You value being able to review recorded lectures, slides, and digital resources at your own pace.  
+- **Digital skills & flexibility:** You are comfortable using online tools and appreciate the convenience they bring to your study routine.  
+- **Engagement in in‑person sessions:** Direct interaction and team discussions help you deepen understanding.  
+
+### 3. Main Challenges  
+- **Staying focused during long online sessions** (motivation & self‑discipline).  
+- **Unstable internet/technical issues** that interrupt smooth participation.  
+- **Clarity of online instruction** can sometimes be hard to follow.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Instructors will upload slides, videos, reference links, and exercises **early** so you can preview and review them whenever needed. |
+| **Digital Skills** | Short guides and short workshops will show you how to get the most out of the LMS, online research tools, and any educational apps used in the course. |
+| **Engagement** | Lessons will include quick quizzes, interactive polls, short games, and structured discussion prompts to keep you actively involved. |
+| **Learning Effectiveness** | Each topic will pair **online review material** (recorded explanations) with **in‑person practice and feedback** to reinforce understanding. |
+| **Learning Support** | Clear step‑by‑step instructions, concrete examples, and optional recorded walkthroughs will be provided for complex concepts. |
+| **Motivation & Self‑Discipline** | You’ll receive weekly check‑ins (email or brief chat), reminder prompts, and a simple progress tracker so you can see your milestones. |
+| **Self‑Paced Learning** | Recorded lessons and a weekly learning path will be available, letting you study ahead or revisit material on your own schedule. |
+| **Technical Issues** | The university will offer a reliable Wi‑Fi hotspot zone, downloadable offline copies of key resources, and a help desk for quick tech support. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | How It Helps |
+|------|--------|--------------|
+| 1 | Access the **course portal** and download all available slides and videos for the first two topics. | Gives you material to review at your own pace. |
+| 2 | Attend the **digital‑tools workshop** (30 min) and try the LMS tutorial. | Boosts confidence with online resources. |
+| 3 | Participate in the **interactive quiz** during the next live session and note any unclear points. | Increases engagement and highlights where extra support is needed. |
+| 4 | Schedule a **15‑minute check‑in** with the tutor (via email or virtual office) and review your progress tracker. | Reinforces motivation and lets you address any technical or clarity issues early. |
+
+---
+
+**Remember:** Your strong engagement and digital readiness are great assets. By using the resources and support outlined above, you can keep your focus, overcome technical hiccups, and make the most of both online and face‑to‑face learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20240106`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20240106  
+**Student Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)
+
+---
+
+### 1. Student Learning Profile
+You are classified as a **Highly Engaged (Active) learner**, which means you are motivated to participate and tend to take initiative in your studies. Your open‑ended response shows that you sometimes struggle to understand lessons the first time and would like the teacher to explain concepts again, include extra exercises, and avoid skipping study time.
+
+---
+
+### 2. Main Strengths
+- **High engagement** – you are willing to put in effort and stay involved with course material.  
+
+*(The open‑ended strength statement was brief, so the profile’s “highly engaged” label is the main source of this strength.)*
+
+---
+
+### 3. Main Challenges
+- **Interaction & Communication:** You would like more opportunities to ask questions and receive feedback.  
+- **Learning Difficulty & Clarity:** You find some lessons unclear and would benefit from repeated explanations and additional practice.
+
+---
+
+### 4. Personalized Recommendations
+| Recommendation | What it means for you | Why it helps |
+|----------------|----------------------|--------------|
+| **Increase interaction and communication** | • Join scheduled Q&A sessions or virtual office hours.<br>• Participate in small‑group discussions or peer‑collaboration activities.<br>• Request quicker feedback on assignments from the lecturer. | More chances to ask questions and get immediate answers will reduce confusion and keep you actively involved. |
+| **Improve clarity and learning support** | • Use recorded video explanations that you can replay.<br>• Follow step‑by‑step guides and worked examples provided by the instructor.<br>• Ask for additional practice exercises when a topic isn’t clear. | Clearer instructions and extra practice help you master concepts the first time, reducing the need to repeat lessons. |
+
+These recommendations are drawn directly from the rule‑based tags **interaction** and **learning_support** that match your identified challenges.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Week 1 – Day 1** | Sign up for the next live Q&A or virtual office hour for your main course. |
+| **Week 1 – Day 2** | Locate any recorded lecture videos or step‑by‑step guides on the LMS; watch the segment you found unclear. |
+| **Week 1 – Day 4** | Form a small study group (2‑3 peers) to discuss the week’s topics and exchange notes. |
+| **Week 1 – Day 6** | Submit a short question to the lecturer and request feedback within 24 hours. |
+| **Week 2 – Day 1** | Complete at least one extra practice exercise for the topic you struggled with; compare your solution with the provided example. |
+| **Week 2 – Day 3** | Reflect on how the additional interaction and resources affected your understanding; note any remaining gaps. |
+| **Week 2 – Day 5** | Share your reflections with the study group and ask for any further clarification needed. |
+
+Follow this plan, and you should notice clearer explanations, more confidence in the material, and a smoother learning experience. Keep leveraging your high engagement—your active participation is the key to success!
+
+
+
+---
+
+## Student ID: `e20240419`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20240419  
+**Student Segment:** Moderately Engaged (Passive) Learners  
+
+---
+
+### 1. Student Learning Profile
+- **Strength:** Flexibility & good time‑management skills.  
+- **Challenge:** Occasional internet/technical issues that can interrupt online activities.  
+
+---
+
+### 2. Main Strengths
+- Ability to adapt your study schedule and make use of flexible learning options.
+
+### 3. Main Challenges
+- Unreliable internet connectivity or other technical problems that may limit access to live sessions.
+
+### 4. Personalized Recommendations
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Support self‑paced learning** | You can study when it best fits your schedule. | Access recorded lectures, follow the weekly learning paths, and review any material as many times as needed. |
+| **Improve technical access and reliability** | Reduce disruptions caused by connectivity problems. | Download offline versions of readings and videos, keep a backup device or hotspot ready, and use the university’s technical support for quick help. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Day 1** | Locate the repository of recorded lessons and download the first week’s videos for offline viewing. |
+| **Day 2‑3** | Create a personal weekly learning path (list of topics, videos, and readings) that matches your schedule. |
+| **Day 4** | Test your internet connection; if unstable, arrange a campus hotspot or a loaned Wi‑Fi device. |
+| **Day 5‑7** | Follow the learning path, pausing and replaying videos as needed. Note any technical hiccups. |
+| **Week 2** | Contact the tech support desk with any unresolved issues; keep a log of solutions for future reference. |
+| **End of Week 2** | Review your progress, adjust the learning path if needed, and confirm that offline materials are working smoothly. |
+
+---
+
+**Remember:** Your flexibility is a strong asset—use it to structure your own pace, and make sure you have reliable offline resources to keep learning uninterrupted. If you need further assistance, the learning support team and technical help desk are ready to help.
+
+
+
+---
+
+## Student ID: `e20241412`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241412*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You are motivated and see many benefits in blended learning—especially flexibility, personalized pacing, and richer access to resources. At the same time, you experience technical hiccups, occasional focus lapses, and wish for clearer communication with lecturers and peers.
+
+---
+
+### 2. Main Strengths  
+- **Access to learning materials** – you value the ability to retrieve slides, videos, and references whenever needed.  
+- **Digital skill development** – you are comfortable using online tools and see them as a way to enhance learning.  
+- **Flexibility & time‑management** – you appreciate studying at your own pace while still receiving teacher support.  
+- **Student engagement** – you notice that interactive, technology‑enhanced lessons keep you interested.
+
+---
+
+### 3. Main Challenges  
+- **Interaction & communication** – limited real‑time dialogue with lecturers and classmates.  
+- **Internet & technical issues** – unstable connections and platform problems disrupt study.  
+- **Learning clarity** – some online explanations feel less clear than face‑to‑face teaching.  
+- **Motivation & self‑discipline** – staying focused during fully online sessions can be tough.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Lecturers should upload slides, videos, reference lists, and practice exercises **early** in the week so you can review them anytime. |
+| **Digital Skills** | Short guides or short workshops on the LMS, online research tools, and any new educational apps will help you use the platform more efficiently. |
+| **Engagement** | Include low‑stakes quizzes, quick polls, or short games in each online segment; use practical tasks that link directly to the theory. |
+| **Interaction** | Schedule brief Q&A slots, small‑group breakout discussions, and peer‑review activities. Ask lecturers for faster feedback on assignments. |
+| **Learning Effectiveness** | Pair the online review material with in‑person sessions that focus on explanation, practice, and immediate feedback. |
+| **Learning Environment** | Organise all course files in clearly labelled folders; keep the virtual “classroom” tidy and provide tips for creating a comfortable study space at home. |
+| **Learning Support** | Provide step‑by‑step guides, concrete examples, and recorded explanations that you can replay when a concept isn’t clear. |
+| **Motivation** | Use weekly check‑ins (e‑mail or short surveys), set personal milestones, and track progress on a visual dashboard. |
+| **Self‑Paced Learning** | Offer recorded lectures and a weekly learning path that outlines what to study each day, allowing you to move forward when ready. |
+| **Technical Issues** | Ensure a reliable campus Wi‑Fi hotspot or loaned portable hotspot, make offline copies of key materials available, and give clear instructions for troubleshooting the platform. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Who’s Responsible |
+|------|--------|--------------------|
+| 1 | Check that all course slides and videos are uploaded to the LMS by Monday. | Lecturer |
+| 1 | Attend a 30‑min “LMS Basics” tutorial (online or in‑person). | Student |
+| 2 | Join a scheduled Q&A breakout (15 min) after the first online lecture. | Lecturer & Student |
+| 2 | Set up a personal study schedule using the weekly learning path; add reminders for each module. | Student |
+| 3 | Complete the first interactive quiz and review the feedback. | Student |
+| 3 | Report any connectivity problems to the IT help desk; request a hotspot if needed. | Student |
+| 4 | Participate in a peer‑review activity and give feedback on a classmate’s assignment. | Student |
+| 4 | Review progress with a brief check‑in (email or form) and adjust the study plan if necessary. | Student & Lecturer |
+
+Follow these steps, and you’ll reinforce the strengths you already have while reducing the technical and communication barriers that are currently limiting your blended‑learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20240303`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240303*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you show potential for deeper involvement.  
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials** – you value the flexibility and ability to reach course content both in‑class and online.  
+- **Flexibility & Time Management** – the blended format lets you study when it best fits your schedule.  
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – unstable internet connections make it hard to access online resources reliably.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Strengthen access to learning materials** (content_access) | Ensure all slides, videos, readings, and exercises are available early so you can download them before class. | Check the course portal each week for new uploads; download files to a local folder or USB drive. |
+| **Support self‑paced learning** (self_paced) | Use recorded lectures and weekly learning paths to review concepts at your own speed. | Watch recordings before or after class, follow the suggested weekly checklist, and revisit any part that feels unclear. |
+| **Improve technical access and reliability** (tech_issue) | Reduce the impact of an unstable connection by having offline options and clear technical help. | Download offline copies of videos/materials when you have good Wi‑Fi; keep the platform’s quick‑start guide handy; contact the IT support desk for any connectivity problems. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Log into the course portal, locate the “Resources” section, and download all available slides and videos for the upcoming week. |
+| **Day 3** | Review the weekly learning path; schedule 30‑minute blocks to watch the recorded lessons at a time when your internet is most stable (e.g., evenings). |
+| **Day 4** | Save a copy of the platform’s “How‑to‑use” guide on your device for quick reference. |
+| **Day 5** | Test your internet speed; if it remains unstable, request a campus hotspot or arrange a spot in the university computer lab. |
+| **Day 6–7** | Complete the first set of exercises using the downloaded materials; note any technical hiccups and report them to tech support. |
+| **Week 2** | Repeat the download‑review‑practice cycle, adding any new resources that appear. Keep a short log of what works best for your schedule and connectivity. |
+
+---
+
+**Remember:** By securing your materials early, using the recorded content at your own pace, and having offline backups, you can turn the flexibility of blended learning into a reliable, productive experience. If you encounter technical problems, the university’s IT help desk is there to assist you promptly. Good luck!
+
+
+
+---
+
+## Student ID: `e20241012`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241012*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners – indicating potential to become more active with the right support.  
+
+Because the open‑ended responses did not provide specific strengths or challenges, the recommendations below are drawn primarily from the characteristics of the “Moderately Engaged (Passive)” segment.
+
+---
+
+### 2. Main Strengths  
+*No specific strengths were reported.*  
+The segment profile suggests you are capable of engaging more deeply when given clear opportunities and support.
+
+---
+
+### 3. Main Challenges  
+*No specific challenges were reported.*  
+Typical challenges for this segment include limited interaction, need for clearer guidance, and maintaining motivation while studying independently.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What the recommendation means for you | Practical actions you can try |
+|-------|----------------------------------------|--------------------------------|
+| **Interaction** | Increase communication with peers and the instructor. | • Join scheduled Q&A sessions.<br>• Participate in small‑group discussions or online forums.<br>• Seek quick feedback on assignments. |
+| **Learning Support** | Get clearer instructions and additional learning aids. | • Look for recorded explanations and step‑by‑step guides.<br>• Request examples that illustrate key concepts.<br>• Use any provided study checklists. |
+| **Motivation** | Build self‑discipline and keep track of progress. | • Set a weekly check‑in with yourself or a study buddy.<br>• Use reminders or a simple planner to schedule study blocks.<br>• Monitor your progress with a personal tracker (e.g., a checklist or app). |
+| **Self‑Paced Learning** | Take advantage of materials you can review on your own time. | • Watch recorded lessons before or after live sessions.<br>• Follow the weekly learning path provided by the course.<br>• Re‑visit any material that feels unclear until you’re confident. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Goal | Action |
+|------|------|--------|
+| **Week 1** | Boost interaction | Attend at least one Q&A session and post one question or comment in the discussion forum. |
+| **Week 2** | Strengthen support & motivation | Download the step‑by‑step guide for the current module, set a 30‑minute daily study slot, and record your progress in a simple checklist. |
+| **Ongoing** | Use self‑paced resources | Watch any recorded lectures before the live class and review them again after class if needed. |
+
+---
+
+**Remember:** Small, consistent steps—like joining a discussion or planning a short daily study period—can quickly turn a passive learning style into a more active, confident one. Feel free to reach out to your lecturer or teaching assistants if you need additional resources or clarification. Good luck!
+
+
+
+---
+
+## Student ID: `e20240605`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240605*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- You are comfortable with the flexibility that blended learning offers, but you experience difficulty staying motivated, managing time, and dealing with technical problems. You also feel that limited interaction with lecturers makes it harder to understand the material.
+
+### 2. Main Strengths  
+- **Access to learning materials & digital skills** – you recognise the value of having slides, videos and other resources online and are able to use digital tools when they are available.  
+- **Flexibility & convenience** – you appreciate being able to study at different times and places.
+
+### 3. Main Challenges  
+- **Motivation & self‑discipline** – staying on schedule and keeping motivation high during online activities.  
+- **Interaction & communication** – fewer chances to ask questions or discuss content with lecturers and peers.  
+- **Technical & internet issues** – unstable connections and limited technical support hinder your learning.  
+- **Clarity of instruction** – online lessons sometimes feel less engaging and harder to follow.
+
+### 4. Personalized Recommendations  
+
+| Area | What to do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Lecturers will upload slides, videos, reference links and practice exercises **early** so you can review them whenever you need. |
+| **Digital Skills** | Short guides and short videos will show you how to use the LMS, search academic resources and work with the educational tools used in the course. |
+| **Engagement** | Interactive quizzes, quick games, practical tasks and discussion prompts will be added to each online module to keep you actively involved. |
+| **Interaction** | Scheduled **Q&A sessions**, small‑group discussions and peer‑collaboration activities will give you more chances to ask questions and receive faster feedback from the lecturer. |
+| **Learning Effectiveness** | Online review material will be paired with **in‑person explanations, practice sessions and feedback** to reinforce key concepts. |
+| **Learning Support** | Clear step‑by‑step instructions, concrete examples and short recorded explanations will be provided for every new topic. |
+| **Motivation & Self‑Discipline** | You will receive **weekly check‑ins**, automated reminders, a personal progress tracker and a suggested study schedule to help you stay on track. |
+| **Self‑Paced Learning** | All lessons will be recorded and organized into a **weekly learning path**, allowing you to revisit any part of the content at your own speed. |
+| **Technical Issues** | The university will ensure **stable internet access** where possible, offer offline downloadable materials, give clear platform tutorials and provide a dedicated technical‑support help‑desk. |
+
+### 5. Short Action Plan (First 4 Weeks)
+
+| Week | Action | Who’s responsible |
+|------|--------|--------------------|
+| 1 | Review the **uploaded course folder** (slides, videos, exercises). Set up your personal study schedule using the provided template. | You |
+| 1‑2 | Attend the **introductory Q&A** session and join the first peer‑discussion group. | You & Lecturer |
+| 2 | Complete the first **interactive quiz** and submit any questions via the LMS forum. | You |
+| 2‑3 | Use the **digital‑skills guide** to explore LMS tools (e.g., bookmarking, discussion boards). | You |
+| 3 | Meet with the **technical support team** to test your internet connection and download offline materials if needed. | You & Support staff |
+| 3‑4 | Participate in a **weekly check‑in** (short survey) to record your progress and receive feedback. | You & Academic advisor |
+| 4 | Reflect on the **recorded lessons** and practice tasks; note any concepts that need extra clarification and request a brief follow‑up with the lecturer. | You |
+
+Follow this plan, use the resources provided, and keep communicating any difficulties you encounter. With these supports, you can turn the passive aspects of blended learning into active, successful study habits. Good luck!
+
+
+
+---
+
+## Student ID: `e20240064`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240064*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You already value the flexibility and convenience that blended learning offers, especially the ability to access materials anytime and improve communication and independent study skills.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You appreciate having slides, videos, and references available.  
+- **Flexibility & Time Management:** The mix of online and face‑to‑face sessions fits your schedule.  
+- **Learning Convenience & Effectiveness:** Blended formats help you stay productive.  
+- **Student Engagement:** You feel more involved when activities are varied.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unstable connection hampers online participation.  
+- **Interaction & Communication:** You would like more interactive and clearer communication.  
+- **Assessment & Workload:** Too many assignments and unclear deadlines create pressure.  
+- **Learning Difficulty & Clarity:** Instructions sometimes lack detail, making it hard to stay focused.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Instructors should upload slides, videos, references, and exercises **early** so you can review them whenever you need. |
+| **Engagement** | Include short quizzes, games, practical tasks, and discussion prompts during both online and classroom sessions. |
+| **Interaction** | Add regular Q&A slots, small‑group discussions, peer‑collaboration tasks, and faster lecturer feedback. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations, practice activities, and timely feedback. |
+| **Learning Environment** | Organize digital resources clearly, keep them up‑to‑date, and ensure classroom spaces are comfortable for hybrid work. |
+| **Learning Support** | Provide clearer step‑by‑step instructions, concrete examples, and recorded explanations for complex topics. |
+| **Motivation & Self‑Discipline** | Use weekly check‑ins, reminder emails, progress‑tracking dashboards, and a structured study schedule. |
+| **Self‑Paced Learning** | Offer recorded lessons and a weekly learning path so you can study at your own speed. |
+| **Technical Issues** | Ensure stable campus Wi‑Fi, make key materials downloadable for offline use, and provide a quick‑response tech‑support desk. |
+| **Workload Support** | Balance the number of assignments, clarify all deadlines in advance, and align online tasks with what is covered in class. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Who’s Responsible |
+|------|--------|--------------------|
+| 1 | Check that all course slides and videos are uploaded to the LMS **at least 2 days before** the class. | Lecturer / Course team |
+| 2 | Join a weekly 15‑minute live Q&A session and a peer‑discussion forum for the current module. | You (student) |
+| 3 | Use the provided progress‑tracking dashboard to set a personal study schedule; review recorded lessons if you miss a live session. | You (student) |
+| 4 | Report any internet connectivity problems to the campus IT helpdesk and request offline copies of essential materials. | You (student) & IT support |
+
+Follow these steps, and you’ll be able to keep the benefits of blended learning while reducing the technical and workload frustrations you’ve identified. Good luck, and keep leveraging your strong engagement!
+
+
+
+---
+
+## Student ID: `e20240945`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240945*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+You are motivated and value the flexibility of studying from home, but you also prefer the interaction that comes with in‑person classes.  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate being able to attend classes from home and having more space to study.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication:** You miss the direct contact with teachers and peers that in‑person classes provide.  
+- **Internet & Technical Issues:** Unreliable connections and device problems sometimes hinder your online learning.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Use It |
+|----------------|----------------------|---------------|
+| **Increase interaction and communication** | Add more opportunities to talk with the lecturer and classmates. | Join scheduled Q&A sessions, take part in small‑group discussions, collaborate on peer projects, and request quicker feedback on assignments. |
+| **Support self‑paced learning** | Keep the flexibility you like while giving you control over the pace. | Use recorded lectures and weekly learning paths; review materials whenever it fits your schedule. |
+| **Improve technical access and reliability** | Reduce disruptions caused by poor internet or device issues. | Access offline copies of readings and videos, follow clear platform guides, and contact the university’s tech‑support desk when problems arise. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Locate the course’s recorded lectures and download them for offline use. |
+| **Day 3** | Sign up for the next live Q&A or discussion session. |
+| **Day 4** | Create a personal weekly learning path (list topics, videos, and readings you’ll cover each day). |
+| **Day 5** | Test your internet speed; if it’s low, request campus Wi‑Fi access or a loaner hotspot from the IT office. |
+| **Day 6–7** | Form a small study group (2–3 peers) for a short collaborative activity or peer‑review. |
+| **Day 8** | Submit a question or draft assignment early to receive faster lecturer feedback. |
+| **Day 9–10** | Review any technical issues you encountered and log them for the support team. |
+| **Day 11–14** | Reflect on how the added interaction and self‑paced resources helped your learning; adjust your weekly path as needed. |
+
+---
+
+By focusing on more interaction, keeping your learning self‑paced, and ensuring reliable technical access, you can enjoy the flexibility of blended learning while still feeling the connection and support of a classroom environment. Good luck!
+
+
+
+---
+
+## Student ID: `e20240183`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240183*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You are a motivated student who values efficient learning after class. Your main concern is that research tasks feel more demanding and you would like explanations to be clearer and broken down step‑by‑step.
+
+---
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness:** You find that post‑class online resources make your study more efficient.  
+
+---
+
+### 3. Main Challenges  
+- **Learning Difficulty & Clarity:** Research assignments are harder than before, and you need clearer, more detailed instructions and examples.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Improve learning effectiveness** (learning_effectiveness) | Pair the online review materials you already use with short, in‑person or live‑online sessions where concepts are explained, practiced, and you receive feedback. | • Schedule brief review meetings after each lecture.<br>• Use the university’s tutoring or office‑hour slots to go over the same material you study online.<br>• Ask for quick practice tasks and immediate feedback during these sessions. |
+| **Improve clarity and learning support** (learning_support) | Get clearer instructions, concrete examples, and step‑by‑step guides, possibly in recorded form, to support your research work. | • Request or look for recorded walkthroughs of research methods from your instructor.<br>• Use the course’s learning portal to access step‑by‑step guides or checklists.<br>• When an assignment is posted, note any unclear points and ask the instructor for a short clarification video or example. |
+
+These recommendations align with the strengths you reported (efficient post‑class learning) and directly address the challenge you described (need for clearer, incremental explanations).
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Identify one upcoming topic and locate the online review material you already use. |
+| **Day 3** | Book a 15‑minute meeting with the lecturer or a tutor to review that topic together, focusing on practice and feedback. |
+| **Day 4‑5** | Search the course portal for any recorded explanations or step‑by‑step guides related to your current research assignment. Save them for easy access. |
+| **Day 6‑7** | Create a personal checklist that breaks the research task into smaller steps; use the recorded examples to fill in each step. |
+| **Week 2** | Repeat the cycle for a second topic, and after each session, note what clarified your understanding and what still needs support. Adjust future sessions accordingly. |
+
+By combining concise in‑person (or live‑online) reinforcement with clear, recorded guides, you’ll maintain your high engagement while reducing the difficulty you experience with research tasks. Good luck, and keep leveraging the resources that make your learning efficient!
+
+
+
+---
+
+## Student ID: `e20240700`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** e20240700  
+- **Segment:** Highly Engaged (Active) Learners (Cluster: Moderately Engaged – Passive)  
+
+You are a motivated student who likes to have learning videos ready before exams. Your main difficulty mentioned is unreliable internet access.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You already gather videos for exam preparation, showing good initiative in securing content ahead of time.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Limited or unstable internet makes it harder to download or stream course resources when you need them.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What to Do | Why it Helps |
+|----------------|------------|--------------|
+| **Strengthen access to learning materials** | • Upload slides, videos, reference links, and exercises **early** in the course platform.<br>• Organize them in clearly labeled folders so you can locate them quickly. | Having all materials available well before assessments lets you continue studying even if internet connectivity drops later. |
+| **Improve technical access and reliability** | • Ensure the platform offers **offline download options** for videos and PDFs.<br>• Provide clear, step‑by‑step instructions for downloading content.<br>• Make technical support (e.g., a help desk or chat) easily reachable for connectivity problems. | Offline copies reduce dependence on a constant connection, and quick support resolves issues before they disrupt your study flow. |
+
+These suggestions are drawn directly from the rule‑based recommendations matched to your identified tags (**content_access** and **tech_issue**).
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **Week 1** | Locate the course’s “Resources” section and download all available slides and videos to your device. |
+| **Week 2** | Test the offline playback of videos and PDFs; note any files that fail to download. |
+| **Week 3** | If any material is missing, contact the instructor or technical support to request early uploads. |
+| **Ongoing** | Keep a backup folder on your laptop/tablet with all downloaded content; check your internet connection before each study session and use campus Wi‑Fi or a reliable hotspot when possible. |
+
+By following these steps, you’ll keep your study materials readily available and minimize disruptions caused by internet issues, allowing you to stay fully engaged with your coursework.
+
+
+
+---
+
+## Student ID: `e20241050`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241050  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Current Cluster:** Highly Engaged (Active) Learners (shows potential for active participation)  
+
+**Main Strengths**  
+- You identified “power” as a strength, indicating confidence in your ability to stay motivated and put effort into your studies.
+
+**Main Challenges**  
+- You reported “internet issues,” which can interrupt access to online resources and class activities.
+
+**Personalized Recommendations**  
+Because your primary challenge is technical, the recommendation focuses on improving your access to reliable technology:
+
+- **Improve technical access and reliability** – Ensure you have a stable internet connection, use offline versions of learning materials when possible, follow clear platform instructions, and know how to reach technical support quickly.
+
+**Short Action Plan**  
+
+| Step | What to Do | How to Do It | When |
+|------|------------|--------------|------|
+| 1 | Check your internet stability | Run a speed test; note any frequent drops | This week |
+| 2 | Arrange a backup connection | Use campus Wi‑Fi, a mobile hotspot, or a library computer if home internet is unreliable | This week |
+| 3 | Download offline resources | Save lecture videos, PDFs, and readings to your device before class | Before each online session |
+| 4 | Review platform guides | Follow the university’s “Getting Started” tutorial for the learning platform | Before your next module |
+| 5 | Know the support contacts | Save the IT help‑desk phone/email; reach out as soon as a problem occurs | Ongoing |
+
+By securing reliable technical access and using offline materials when needed, you’ll be able to stay engaged and make the most of the blended learning environment. If new challenges arise, let your instructors know so they can provide additional support.
+
+
+
+---
+
+## Student ID: `e20240861`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["engagement", "learning_effectiveness", "learning_support", "motivation", "self_paced", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240861*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You value the flexibility of moving between online and face‑to‑face study, but you sometimes find it hard to stay self‑disciplined and manage time for online tasks.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate being able to learn at your own pace online while still benefiting from in‑person interaction.  
+- **Learning Convenience & Effectiveness:** The blended format works well for you when it is organized.  
+- **Student Engagement:** You are motivated to participate when activities are interactive.
+
+---
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline:** Staying disciplined for online work can be difficult.  
+- **Assessment & Workload:** Managing deadlines and the amount of online tasks feels challenging.  
+- **Learning Difficulty & Clarity:** Occasionally the instructions or concepts are not clear enough.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Engagement** | Include short quizzes, games, practical tasks, and structured discussion prompts in both online and face‑to‑face sessions. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations, practice activities, and timely feedback. |
+| **Learning Support** | Provide clearer written instructions, concrete examples, recorded explanations, and step‑by‑step guides for complex topics. |
+| **Motivation & Self‑Discipline** | Set up weekly check‑ins (e.g., brief online surveys or brief meetings), automated reminders, progress‑tracking dashboards, and a suggested study schedule. |
+| **Self‑Paced Learning** | Offer recorded lectures and weekly learning paths so you can review content whenever it fits your schedule. |
+| **Workload Support** | Balance the number of assignments, clearly state all deadlines, and align online tasks with what is covered in class to reduce overload. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | How it Helps |
+|------|--------|--------------|
+| 1 | Create a personal weekly study schedule that includes specific times for online modules and in‑person classes. | Builds routine and self‑discipline. |
+| 2 | Use the course’s quiz feature after each online module; aim for at least one quiz per topic. | Increases engagement and checks understanding. |
+| 3 | Attend a short “clarity session” (recorded or live) where the instructor walks through a challenging concept with examples. | Improves learning support and reduces confusion. |
+| 4 | Review the assignment calendar, note all deadlines, and discuss any workload concerns with the tutor during the weekly check‑in. | Aligns workload, clarifies expectations, and reduces stress. |
+
+Stick to the schedule, use the interactive tools provided, and keep communicating with your instructor about any unclear material or workload issues. With these steps, you can keep your high engagement level while strengthening self‑discipline and managing the blended workload more smoothly.
+
+
+
+---
+
+## Student ID: `e20241194`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241194*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+Your open‑ended responses did not provide detailed information about specific strengths or challenges. Therefore, the recommendations below are drawn primarily from the characteristics of the **Highly Engaged (Active) Learners** segment.
+
+---
+
+### 2. Main Strengths  
+- Positive attitude toward learning (as reflected by a positive sentiment score).  
+
+---
+
+### 3. Main Challenges  
+- No specific challenges were identified in your responses.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Having all slides, videos, readings, and exercises available early helps you stay ahead and review whenever needed. | Upload or request early access to all course resources; keep a personal folder organized by week. |
+| **Develop digital learning skills** | Mastering the LMS, online research tools, and educational apps lets you work more efficiently. | Attend a short LMS tutorial, explore the library’s digital databases, and try one new educational app each month. |
+| **Increase learner engagement** | Interactive quizzes, games, practical tasks, and discussion forums keep motivation high. | Participate in weekly quizzes, join discussion boards, and try at least one game‑based activity per module. |
+| **Support self‑paced learning** | Recorded lessons and clear weekly pathways let you study when you’re most focused. | Watch recorded lectures before class, follow the weekly learning path, and revisit any material that feels unclear. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Day 1** | Locate the course’s shared folder and download all available slides and videos. |
+| **Day 2‑3** | Watch the first recorded lecture and note any questions for the discussion forum. |
+| **Day 4** | Complete the introductory quiz; review any incorrect answers. |
+| **Day 5** | Spend 30 min on an LMS tutorial (e.g., how to submit assignments, use the calendar). |
+| **Week 2** | Join the first discussion thread; post one comment or question. |
+| **Week 2** | Create a personal weekly learning path (list of videos, readings, and tasks) and stick to it. |
+
+Follow these steps, and you’ll make the most of the blended learning environment while building strong digital and self‑regulation skills. If you encounter any difficulties, reach out to your instructor or the support team for additional guidance.
+
+
+
+---
+
+## Student ID: `e20240360`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240360*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+- You value **flexible pacing and personalization** in your studies.  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate being able to adjust the speed of learning to fit your schedule.  
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** You noted concerns about money and accessing software/tools needed for learning, which can affect reliable online access.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Use It |
+|----------------|----------------------|---------------|
+| **Support self‑paced learning** | You will have recorded lectures, weekly learning paths, and downloadable materials that you can review whenever it suits you. | Follow the weekly roadmap, pause/replay videos, and use the resources for revision before assessments. |
+| **Improve technical access and reliability** | The university will provide stable internet options, offline versions of key content, clear instructions for the learning platform, and a help desk for technical problems. | Download offline PDFs or videos when you have good connectivity, keep the tech‑support contact handy, and follow the step‑by‑step guides for software setup. |
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **1** | Access the recorded introductory lessons and download the weekly learning path. Test the offline material download. |
+| **2** | Identify any software you need for assignments; request campus internet vouchers or loaner devices if needed. |
+| **3** | Review the platform instruction guide; note any questions and contact technical support. |
+| **4** | Complete the first self‑paced module, using the offline resources if your connection is unstable. |
+| **Ongoing** | Follow the weekly learning paths, keep the tech‑support contact saved, and adjust your study speed as needed. |
+
+These steps align with your preference for flexible, self‑directed study while addressing the technical barriers you mentioned. Feel free to reach out to the learning support team if you need further assistance. Good luck!
+
+
+
+---
+
+## Student ID: `e20240548`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240548  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You feel that you are “understanding better,” indicating that the current learning format is helping you grasp the material.  
+- This aligns with the “Learning Convenience & Effectiveness” theme, showing you benefit from flexible study options.
+
+**Main Challenges**  
+- You reported “internet problem,” a technical barrier that makes it harder to access online resources reliably.  
+- This falls under the “Internet & Technical Issues” theme.
+
+**Personalized Recommendations**  
+
+| Recommendation | What to Do | Why It Helps |
+|----------------|------------|--------------|
+| **Improve learning effectiveness** | Combine the online review materials you already use with in‑person explanations, guided practice, and feedback sessions. | Blending self‑paced online review with face‑to‑face interaction reinforces understanding and leverages your strong engagement. |
+| **Improve technical access and reliability** | • Arrange for a stable internet connection (e.g., campus Wi‑Fi hotspot, mobile data plan). <br>• Download offline copies of lecture slides, readings, and videos when you have good connectivity. <br>• Keep a quick‑start guide for the learning platform handy and know how to contact technical support. | Reducing connectivity interruptions ensures you can consistently use the online components that support your learning. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Day 1‑3:** Identify a reliable internet source (campus library Wi‑Fi, a nearby café, or a personal hotspot). Test the connection with a short video lecture.  
+2. **Day 4‑7:** Download all required course materials for the upcoming week and store them on your laptop/tablet for offline study.  
+3. **Day 8‑10:** Schedule a 30‑minute in‑person meeting (or a live virtual session) with the instructor or a tutor to review the most challenging topics from the downloaded materials.  
+4. **Day 11‑14:** Complete a practice exercise or quiz, then seek feedback from the instructor or peers. Note any technical hiccups and contact support if needed.  
+
+By pairing your strong engagement with reliable technical access and targeted face‑to‑face support, you’ll maximize both convenience and learning effectiveness. Good luck!
+
+
+
+---
+
+## Student ID: `e20240767`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240767*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Typical needs:** More interaction, clearer support, motivation aids, and flexible pacing.  
+
+Your open‑ended feedback highlighted a practical benefit (“save money on travel”) and a neutral comment about not meeting in person. Because the open responses are brief, the recommendations below are drawn primarily from the characteristics of your segment.
+
+---
+
+### 2. Main Strengths  
+- Appreciates the cost‑saving aspect of online learning.  
+
+---
+
+### 3. Main Challenges  
+- Limited face‑to‑face contact, which can reduce engagement and motivation.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Try | Why It Helps |
+|-------|-------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from lecturers. | Increases sense of community and keeps you actively involved. |
+| **Learning Support** | • Look for clear, step‑by‑step guides and recorded explanations.<br>• Use any provided examples to clarify assignments. | Improves understanding and reduces confusion when you’re studying independently. |
+| **Motivation** | • Set up weekly check‑ins (with yourself or a study buddy).<br>• Use reminders and a simple progress tracker.<br>• Follow a structured study schedule. | Helps maintain self‑discipline and keeps you on track toward your goals. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them as needed.<br>• Follow the weekly learning path outlines.<br>• Keep all materials organized for easy revisiting. | Lets you study when it best fits your schedule while still covering all content. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Review the course’s weekly learning path and note any recorded lectures you’ll need. |
+| **Day 2** | Add a 10‑minute reminder to your calendar for a weekly check‑in (e.g., every Sunday). |
+| **Day 3** | Join the first scheduled Q&A or discussion forum; post one question or comment. |
+| **Day 5** | Download a step‑by‑step guide or example for an upcoming assignment and keep it handy. |
+| **Day 7** | Complete a short progress‑tracking sheet (what you’ve studied, what’s next). |
+| **Day 10** | Pair up with a classmate for a brief peer‑collaboration session (e.g., review each other’s notes). |
+| **Day 14** | Reflect on the past two weeks: note what interaction or support helped most and adjust your schedule accordingly. |
+
+Implementing these steps should make your blended learning experience more engaging, clearer, and better aligned with your personal schedule. Good luck, and enjoy the flexibility that online study offers!
+
+
+
+---
+
+## Student ID: `e20240938`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240938*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- Your open‑ended responses did not provide clear information about your current strengths or challenges (the text was minimal and contained a typo). Therefore, the recommendations below are drawn primarily from the characteristics of the *Moderately Engaged (Passive)* segment.
+
+### 2. Main Strengths  
+- No specific strengths were identified from your responses.
+
+### 3. Main Challenges  
+- No specific challenges were identified from your responses.  
+
+*(Because the open‑ended input was limited, the focus is on typical challenges for your segment, such as lower interaction and motivation.)*
+
+### 4. Personalized Recommendations  
+
+| Focus | What the recommendation means for you | Practical actions |
+|-------|----------------------------------------|-------------------|
+| **Interaction** | Increase opportunities to communicate with peers and the instructor. | • Join scheduled Q&A sessions.<br>• Participate in small‑group discussions or online forums.<br>• Seek quicker feedback on assignments. |
+| **Learning Support** | Make the course material clearer and easier to follow. | • Look for detailed examples and step‑by‑step guides provided by the lecturer.<br>• Use recorded explanations when concepts are unclear. |
+| **Motivation** | Build habits that keep you on track. | • Set a weekly check‑in with yourself or a study buddy.<br>• Use reminders and a simple progress tracker (e.g., a checklist).<br>• Follow a structured study schedule each week. |
+| **Self‑Paced Learning** | Take advantage of materials you can review at your own speed. | • Watch recorded lessons before or after live sessions.<br>• Follow the weekly learning path outline.<br>• Re‑visit any resource (slides, readings) as needed. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action | How to do it |
+|------|--------|--------------|
+| 1 | **Join an interactive session** | Register for the next live Q&A or discussion forum and prepare one question in advance. |
+| 1 | **Set up a simple tracker** | Create a checklist in a notebook or app for each module’s tasks (watch video, read notes, submit assignment). |
+| 2 | **Use recorded lessons** | Allocate 30 minutes each day to watch any missed or unclear lecture recordings. |
+| 2 | **Schedule a brief check‑in** | At the end of the week, review your checklist, note progress, and adjust your study schedule for the following week. |
+
+---
+
+**Remember:** Consistent interaction, clear study resources, regular motivation checks, and the flexibility to learn at your own pace are key to moving from a passive to a more active learning experience. Feel free to reach out to your lecturer or a peer mentor if you need additional support. Good luck!
+
+
+
+---
+
+## Student ID: `e20241160`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241160  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+*Because the open‑ended responses did not provide specific strengths or challenges, the recommendations below are drawn primarily from the characteristics of the “Moderately Engaged (Passive)” segment.*
+
+---
+
+### Main Strengths
+*No explicit strengths were reported, so we will focus on building on the potential for active engagement indicated by the student’s cluster.*
+
+---
+
+### Main Challenges
+*No explicit challenges were reported. The segment profile suggests a need for more interaction, clearer support, and motivation to move from passive to more active participation.*
+
+---
+
+### Personalized Recommendations  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from the lecturer. | Increases contact with instructors and classmates, turning passive habits into active learning. |
+| **Learning Support** | • Look for detailed instructions, examples, and step‑by‑step guides provided in the course.<br>• Use recorded explanations when concepts are unclear. | Clearer materials reduce confusion and make self‑study more effective. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (with yourself or a study buddy).<br>• Use reminders and a simple progress tracker.<br>• Follow a structured study schedule each week. | Regular checkpoints keep you on track and boost confidence in completing tasks. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them at your own speed.<br>• Follow the weekly learning path supplied by the course.<br>• Keep all materials organized for easy revisiting. | Allows you to control the pace of learning while still meeting course deadlines. |
+
+---
+
+### Short Action Plan (First 2 Weeks)
+
+| Week | Action | Time Needed |
+|------|--------|-------------|
+| 1 | Register for the upcoming Q&A session and join a study group. | 1 hour |
+| 1 | Download all recorded lessons and create a personal folder for each topic. | 30 min |
+| 1 | Set up a simple weekly checklist (e.g., “watch video → read guide → post question”). | 15 min |
+| 2 | Attend the first group discussion; share one question you prepared. | 1 hour |
+| 2 | Review feedback from the lecturer on any submitted work; note any unclear points and request clarification. | 30 min |
+| 2 | Update your progress tracker and adjust your study schedule if needed. | 15 min |
+
+Stick to these steps, and you’ll gradually shift from a passive to a more active, supported, and self‑directed learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20240554`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["digital_skill", "interaction", "learning_environment", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240554*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster)  
+- You value flexibility and the convenience of digital tools, and you are positive about your ability to develop both academic and digital skills.  
+
+### 2. Main Strengths  
+- **Digital Skills Development:** You feel confident using digital resources and appreciate help that enhances these skills.  
+- **Flexibility & Time Management:** You like the ability to learn at convenient times and adapt your schedule.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unreliable internet connection limits your access to online learning.  
+- **Interaction & Communication:** You would like more direct communication with lecturers and peers.  
+- **Learning Resources & Environment:** Better‑organized materials and improved study spaces would help you focus.  
+
+### 4. Personalized Recommendations  
+
+| Area | What the recommendation means for you | Practical steps you can take |
+|------|----------------------------------------|------------------------------|
+| **Digital Skill** | Strengthen your use of the LMS, online research tools, and educational technologies. | • Follow short tutorials on the university’s LMS.<br>• Explore the library’s digital research guides.<br>• Join a campus “digital‑tools” workshop (often recorded for later viewing). |
+| **Interaction** | Increase opportunities for Q&A, group work, and quicker feedback from lecturers. | • Participate in scheduled live Q&A sessions or virtual office hours.<br>• Form a small study group on a messaging platform for peer discussion.<br>• Request brief feedback on assignments within a set timeframe. |
+| **Learning Environment** | Improve how course materials are organized and make study spaces more comfortable. | • Use the course’s “module overview” page to map out weekly tasks.<br>• Keep a personal folder (cloud or offline) with clearly labeled resources.<br>• Identify a quiet campus spot or a well‑lit home area dedicated to study. |
+| **Self‑Paced** | Take advantage of recorded lessons and weekly learning paths to fit study into your schedule. | • Download lecture recordings after each class for review.<br>• Follow the weekly learning path provided in the syllabus and tick off completed items.<br>• Set personal milestones (e.g., “finish Chapter 3 by Friday”). |
+| **Tech Issue** | Ensure you have reliable access to learning materials even when internet is unstable. | • Download essential PDFs or videos when you have good connectivity.<br>• Keep a backup device (e.g., tablet) with offline LMS access.<br>• Contact the university IT helpdesk for assistance with connectivity problems. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Watch the LMS tutorial video and bookmark the digital research guide. |
+| **Day 3‑4** | Join a peer study group on a messaging app; schedule a 30‑minute weekly check‑in. |
+| **Day 5** | Download this week’s lecture recordings and any required PDFs for offline use. |
+| **Day 6‑7** | Visit the campus study space you find most comfortable; note what works best. |
+| **Week 2** | Attend one live Q&A session; ask at least one question and request feedback on a recent assignment. |
+| **End of Week 2** | Review your progress: have you accessed all materials offline? Adjust your weekly learning path if needed. |
+
+---
+
+**Remember:** Your strong digital skills and flexibility give you a solid foundation. By addressing internet reliability, boosting interaction, and organizing your learning environment, you’ll make the most of blended learning and keep your engagement high. Good luck!
+
+
+
+---
+
+## Student ID: `e20241375`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "learning_effectiveness"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241375*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster label:** Moderately Engaged (Passive) Learners  
+
+You are motivated to study before and after class and value having the material available for repeated review.  
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You find it essential to study the slides, videos, and other resources before and after class.  
+- **Digital Skills Development:** You are comfortable using digital tools to revisit content.  
+- **Learning Convenience & Effectiveness:** Reviewing material repeatedly helps you understand lessons clearly and prepares you well for exams.  
+
+---
+
+### 3. Main Challenges  
+- Occasionally some lecture videos are missing, which makes it harder to review the content you need.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Tag | Recommendation (title) | What to do |
+|-----|------------------------|------------|
+| **content_access** | **Strengthen access to learning materials** | Ensure that all slides, lecture videos, reference links, and exercises are uploaded to the LMS **as early as possible** and kept available for the whole term. |
+| **digital_skill** | **Develop digital learning skills** | Take short tutorials on using the LMS, searching scholarly resources, and employing any built‑in tools (e.g., note‑taking, discussion boards) so you can retrieve and organise materials efficiently. |
+| **learning_effectiveness** | **Improve learning effectiveness** | Pair the online review materials with in‑person sessions: use class time for clarification, practice activities, and immediate feedback while continuing to use the uploaded resources for self‑paced study. |
+
+These recommendations are drawn directly from the evidence you provided and from the characteristics of the Highly Engaged (Active) learner segment.  
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Day 1** | Check the course LMS for any missing videos; note which ones are unavailable. |
+| **Day 2‑3** | Contact the instructor or support team requesting prompt upload of the missing videos and any additional slide decks. |
+| **Day 4‑5** | Complete a 30‑minute tutorial on LMS navigation (search, bookmark, download). |
+| **Week 2 – Monday** | Schedule 2 × 30‑minute review sessions: one before the next lecture (using uploaded slides/videos) and one after class for practice questions. |
+| **Week 2 – Thursday** | Attend a short in‑person Q&A or office‑hour session to clarify any concepts that remained unclear after your online review. |
+| **End of Week 2** | Reflect: note which resources helped most and any remaining gaps; update your personal study checklist for the next module. |
+
+Follow this plan to keep your study materials readily available, sharpen your digital learning tools, and combine online review with active classroom practice for the best learning outcomes. Good luck!
+
+
+
+---
+
+## Student ID: `e20230216`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20230216  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You value improving your knowledge and skills and see learning as convenient and effective.  
+
+**Main Challenges**  
+- You sometimes feel that the pace of weather‑related lessons is too fast.  
+
+**Personalized Recommendations**  
+Because you are a highly engaged learner who wants to make the most of your study time, the key recommendation is to **boost learning effectiveness**:  
+- **Combine online review materials with in‑person explanation, practice, and feedback.**  
+  - Use short video or reading resources before class to preview the topic.  
+  - During face‑to‑face sessions, focus on clarifying concepts, doing guided practice, and receiving immediate feedback from the instructor or peers.  
+
+**Short Action Plan**  
+| Week | Action | How it Helps |
+|------|--------|--------------|
+| 1    | Identify one upcoming weather lesson. Watch a 5‑minute online overview or read a concise summary before class. | Gives you a preview so the class feels less rushed. |
+| 2    | Attend the in‑person session and ask at least two clarification questions. Participate in a short practice activity. | Reinforces understanding and lets you apply the material with feedback. |
+| 3    | Review the class notes and complete any online quizzes or practice tasks provided. | Consolidates learning and highlights any remaining gaps. |
+| 4    | Reflect on the pace: note if the lesson felt faster or more manageable after using the combined approach. Adjust the amount of pre‑class material as needed. | Ensures the strategy continues to match your learning speed. |
+
+By pairing self‑directed online review with active, feedback‑rich classroom work, you’ll keep your strong engagement while smoothing out any moments when the lesson feels too fast.
+
+
+
+---
+
+## Student ID: `e20240304`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240304  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You find the mix of online study and face‑to‑face classes (about 50 % each) convenient and effective for your learning.  
+
+**Main Challenges**  
+- You reported no specific problems. Because your open‑ended response was brief, the recommendations rely mainly on the characteristics of your learner segment.  
+
+**Personalized Recommendations**  
+- **Improve learning effectiveness:** Pair the online review materials you already use with in‑person explanations, guided practice, and timely feedback. This blended approach helps you consolidate knowledge and apply concepts more deeply.  
+
+**Short Action Plan**  
+1. **Before each class:** Spend 20–30 minutes reviewing the relevant online content (videos, readings, quizzes).  
+2. **During face‑to‑face sessions:** Actively ask for clarifications, work through practice problems, and seek immediate feedback from the instructor or peers.  
+3. **After class:** Use the same online platform to revisit any points that were unclear, and complete any follow‑up activities or self‑checks.  
+4. **Weekly check‑in:** Reflect on how the combination of online review and in‑person practice is affecting your understanding; adjust the time you allocate to each as needed.  
+
+By consistently linking your online study with hands‑on classroom work, you’ll boost the effectiveness of your learning while maintaining the convenience you already value.
+
+
+
+---
+
+## Student ID: `e20240153`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240153*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you already show many of the behaviours of active learners, but you still describe yourself as “passive” in some situations.  
+
+---
+
+### 2. Main Strengths  
+- **Access & Flexibility:** You value the flexibility, convenience, and easy access to materials that blended learning provides.  
+- **Self‑paced Learning:** You appreciate being able to study at your own speed.  
+- **Digital Skills & Engagement:** You recognize that blended learning helps develop digital skills and keeps you engaged.  
+
+---
+
+### 3. Main Challenges  
+- **Technical Issues:** Unstable internet connection limits your participation.  
+- **Interaction & Communication:** You find it hard to stay focused online and miss richer interaction with lecturers.  
+- **Clarity & Support:** You need clearer instructions, timely feedback, and more structured guidance.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What the recommendation means for you | Suggested actions |
+|------|----------------------------------------|-------------------|
+| **Content Access** | Ensure all learning materials are available early so you can study when internet is stable. | • Look for uploaded slides, videos, and exercises before class. |
+| **Digital Skills** | Build confidence using the LMS and online tools. | • Use short tutorials on the platform, digital research, and educational apps. |
+| **Engagement** | Keep learning lively with interactive elements. | • Participate in quizzes, games, and practical tasks during sessions. |
+| **Interaction** | Increase two‑way communication with peers and lecturers. | • Join Q&A slots, group discussions, and request quicker feedback. |
+| **Learning Environment** | Create a clear, comfortable study space and organized resources. | • Keep digital folders tidy, use campus study areas, and request updated resources when needed. |
+| **Learning Support** | Get clearer guidance and step‑by‑step explanations. | • Ask for recorded explanations and example problems; use the provided guides. |
+| **Motivation** | Stay on track with regular check‑ins and progress tracking. | • Set weekly goals, use reminders, and review your progress each week. |
+| **Self‑Paced** | Take advantage of recorded lessons to review material at your own speed. | • Watch recordings after class and follow the weekly learning path. |
+| **Tech Issues** | Reduce the impact of internet problems. | • Download offline copies of materials, use campus Wi‑Fi hotspots, and contact technical support early. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Verify that all course slides and videos are uploaded; download any needed offline copies. |
+| **Day 3** | Watch a short LMS tutorial (5‑10 min) to refresh navigation skills. |
+| **Day 4** | Set up a weekly study schedule with specific times for reviewing recordings and completing quizzes. |
+| **Day 5** | Join a peer‑discussion forum or group chat for the course; post one question. |
+| **Day 6** | Test campus Wi‑Fi or a backup hotspot; note any connectivity gaps. |
+| **Day 7** | Request any unclear instructions from the lecturer and ask for a recorded example. |
+| **Week 2** | Complete at least two interactive quizzes or games; record your progress in a simple tracker. |
+| **End of Week 2** | Reflect on what helped you stay focused and note any remaining technical issues to report to support. |
+
+Follow this plan, adjust as needed, and keep communicating with your lecturers and peers. You have strong foundations—these steps will help turn your passive moments into active, confident learning experiences. Good luck!
+
+
+
+---
+
+## Student ID: `e20240094`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240094*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Typical traits:** You are motivated and can work independently, but you benefit from clear guidance, reliable technical support, and opportunities to interact when needed.  
+
+### 2. Main Strengths  
+- **Flexibility:** You find blended learning especially helpful because it lets you balance part‑time work and study.  
+
+### 3. Main Challenges  
+- **Technical reliability:** You have experienced internet problems that affect your ability to watch or record video content.  
+
+### 4. Personalized Recommendations  
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Improve technical access and reliability** (tech_issue) | Ensure you can access course materials without interruptions. | • Use a stable Wi‑Fi connection or campus hotspot when possible.<br>• Download lecture videos for offline viewing ahead of time.<br>• Keep a copy of key readings in PDF format on your device.<br>• Follow the platform’s quick‑start guide to avoid navigation issues.<br>• Contact the university’s IT help desk as soon as a problem arises; they can provide troubleshooting or temporary loaner equipment. |
+
+### 5. Short Action Plan (Next 2 Weeks)  
+1. **Check internet stability** – Run a speed test at home; note any recurring drops.  
+2. **Set up offline access** – Download all videos and PDFs for the upcoming week’s modules.  
+3. **Save platform instructions** – Bookmark the “How‑to” guide and keep it handy.  
+4. **Test support channels** – Send a test ticket to the IT help desk to confirm response time.  
+5. **Reflect** – After each study session, note whether technical issues interfered and adjust your offline plan accordingly.
+
+By strengthening your technical setup, you’ll be able to keep the flexibility you value while minimizing disruptions to your learning. If new challenges arise, feel free to revisit this report and adjust your plan. Good luck!
+
+
+
+---
+
+## Student ID: `e20240231`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240231*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You describe yourself as having good **focus** and being **happy to cooperate** with others. Because the open‑ended comments are brief, the recommendations below rely mainly on the characteristics of the “Highly Engaged (Active) Learners” segment.
+
+---
+
+### 2. Main Strengths  
+- Ability to concentrate on tasks (focus).  
+
+### 3. Main Challenges  
+- While you are willing to cooperate, the brief comment suggests there is room to deepen collaborative learning experiences.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do | Why it Helps you |
+|------|------------|------------------|
+| **Content Access** | Upload or request early access to slides, videos, reference links, exercises, and any other course materials. | Having all materials ready lets you use your focus efficiently and plan your study time. |
+| **Digital Skills** | Take short tutorials on the LMS, online research tools, and any educational tech your course uses. | Strong digital skills make it easier to locate resources, submit work, and stay organized while you study independently. |
+| **Engagement** | Participate in quizzes, games, practical tasks, discussion boards, or other interactive activities. | Interactive elements keep motivation high and give you more opportunities to cooperate with peers. |
+| **Self‑Paced Learning** | Use recorded lectures and weekly learning paths; review materials whenever you need to. | This supports your ability to concentrate and lets you control the pace that fits your schedule. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Locate the course’s LMS and download all available slides and videos. |
+| **Day 3‑4** | Complete a 30‑minute tutorial on LMS navigation and digital research tools. |
+| **Day 5‑7** | Join a discussion thread or study group; contribute at least one comment or question. |
+| **Day 8‑10** | Attempt the first quiz or interactive activity; note any topics that need review. |
+| **Day 11‑14** | Review recorded lessons for any concepts you found challenging; set a personal learning goal for the next week. |
+
+Follow this plan, and you’ll reinforce your focus, improve digital confidence, stay actively engaged, and make the most of self‑paced study. Good luck!
+
+
+
+---
+
+## Student ID: `e20240180`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Blended‑Learning Recommendation Report**  
+*Student ID: e20240180*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current engagement style:** Moderately Engaged (Passive) Learners (cluster label)  
+- **Overall sentiment:** Positive about both strengths and challenges  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Convenience:** You value being able to access materials anytime, anywhere, which helps you review lessons at your own pace.  
+- **Access to Learning Materials:** Recorded lectures, slides, and online resources improve your understanding.  
+- **Digital Skills Development:** Using the LMS and other digital tools is a clear advantage for you.  
+- **Time‑Management:** The blended format supports your ability to organise study time effectively.  
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unstable connection sometimes hinders participation.  
+- **Interaction & Communication:** Limited real‑time contact with lecturers and classmates makes it harder to stay motivated.  
+- **Clarity of Instructions:** Some assignments and instructions are not always clear.  
+- **Motivation & Self‑Discipline:** Maintaining focus during online sessions can be difficult.  
+- **Workload & Assessment Pressure:** Balancing online tasks with in‑person work feels challenging at times.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What the recommendation suggests | How it helps you |
+|------|----------------------------------|------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** in the week. | Lets you plan your study schedule and review material when your internet is stable. |
+| **Digital Skills** | Provide short guides on LMS tools, online research, and educational technologies. | Strengthens the digital competencies you already enjoy using. |
+| **Interaction** | Add regular Q&A sessions, small‑group discussions, and quicker lecturer feedback. | Increases contact with peers and staff, boosting motivation and clarity. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations, practice activities, and feedback. | Reinforces concepts and reduces misunderstanding of assignments. |
+| **Learning Environment** | Organise all resources clearly, keep them up‑to‑date, and improve study‑space comfort (both virtual and physical). | Makes it easier to locate what you need and creates a more focused study setting. |
+| **Learning Support** | Provide clearer, step‑by‑step instructions, examples, and recorded explanations for each task. | Reduces confusion and saves time when the internet is spotty. |
+| **Motivation** | Use weekly check‑ins, reminders, progress trackers, and a structured study schedule. | Helps you stay disciplined and aware of your progress. |
+| **Self‑Paced Learning** | Offer recorded lessons and a weekly learning path that you can follow at your own speed. | Aligns with your preference for flexible, independent study. |
+| **Technical Issues** | Ensure stable campus Wi‑Fi, offer offline downloadable materials, and give clear platform tutorials plus tech support. | Minimises disruptions caused by an unstable connection. |
+| **Workload Support** | Balance the number of assignments, clarify deadlines, and align online tasks with face‑to‑face sessions. | Reduces pressure and makes planning easier. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Expected Benefit |
+|------|--------|------------------|
+| 1 | Review the **weekly learning path** and download all materials for offline use. | Guarantees access even if internet falters. |
+| 2 | Attend a **Q&A session** or set up a short meeting with the lecturer to clarify any unclear instructions. | Improves understanding and reduces confusion. |
+| 3 | Use the **progress tracker** to log completed tasks and set a personal study schedule. | Boosts motivation and self‑discipline. |
+| 4 | Provide feedback to the university’s tech support about any remaining connectivity issues and request any needed offline resources. | Helps improve technical reliability for you and future students. |
+
+---
+
+**Remember:** Your strong engagement and digital skills are excellent foundations. By strengthening access, interaction, and support, you can make the blended format work even more effectively for your learning goals. If you need further assistance, reach out to your course coordinator or the university’s learning‑support centre.
+
+
+
+---
+
+## Student ID: `e20240724`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20240724  
+**Student Segment:** Highly Engaged (Active) Learners – you are classified in the “Moderately Engaged (Passive) Learners” cluster.
+
+---
+
+### 1. Student Learning Profile
+You value **ultimate flexibility and autonomy** in your studies. Your main challenge is to **rebalance your time budget** so that learning fits smoothly into your schedule.
+
+---
+
+### 2. Main Strengths
+- **Flexibility & Time Management:** You thrive when you can control when and how you study.
+
+---
+
+### 3. Main Challenges
+- **Time‑budget balance:** You need a clearer structure to allocate sufficient time for coursework without feeling overloaded.
+
+---
+
+### 4. Personalized Recommendations
+**Support self‑paced learning**  
+- Access recorded lectures and tutorials that you can watch anytime.  
+- Follow weekly learning paths that outline what to study each week, giving you a roadmap while still letting you choose the exact moment to engage.  
+- Use downloadable materials (slides, notes, practice files) for review at your own speed.
+
+These resources match your preference for flexibility and help you organise your time more effectively.
+
+---
+
+### 5. Short Action Plan
+| Week | Action | How it Helps |
+|------|--------|--------------|
+| 1 | Locate the recorded lessons for your current module and add them to a personal playlist. | Gives you immediate, on‑demand access. |
+| 2 | Review the weekly learning path and block 2‑3 hours in your calendar for each topic. | Creates a realistic time budget. |
+| 3 | Download the supporting materials and set a short “review session” (15‑20 min) after each lecture. | Reinforces learning without a fixed class time. |
+| 4 | Reflect on your time use: adjust the weekly blocks if needed and note any gaps. | Fine‑tunes your schedule for the next month. |
+
+By using self‑paced content and a simple weekly plan, you can keep the autonomy you enjoy while achieving a more balanced study routine.
+
+
+
+---
+
+## Student ID: `e20240239`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240239*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- This segment typically benefits from more structured interaction, clearer guidance, and tools that help maintain motivation and self‑direction.  
+
+*Note: The student did not provide specific strengths or challenges, so the recommendations below are based primarily on the characteristics of the “Moderately Engaged (Passive)” segment.*
+
+---
+
+### 2. Main Strengths  
+- No specific strengths were reported.  
+
+---
+
+### 3. Main Challenges  
+- No specific challenges were reported.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why It Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from the lecturer. | Increases engagement and helps you stay connected with the material and classmates. |
+| **Learning Support** | • Look for clearer written instructions and concrete examples.<br>• Use recorded explanations and step‑by‑step guides provided by the instructor. | Improves understanding and reduces uncertainty when studying independently. |
+| **Motivation** | • Set up weekly check‑ins (with yourself or a study buddy).<br>• Use reminders and a simple progress‑tracking sheet.<br>• Follow a structured study schedule. | Keeps you on track, builds self‑discipline, and makes progress visible. |
+| **Self‑Paced Learning** | • Access recorded lessons so you can review anytime.<br>• Follow the weekly learning path outlines.<br>• Keep all course materials organized for easy reference. | Allows you to study at a comfortable speed while still meeting course deadlines. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Review the course platform for any recorded lectures and download them. |
+| **Day 2** | Create a simple weekly schedule (e.g., 2 h study blocks) and add reminder alerts. |
+| **Day 3** | Join the first scheduled Q&A or discussion group. |
+| **Day 5** | Write down any unclear instructions; request examples or clarification from the lecturer. |
+| **Day 7** | Set up a progress‑tracking sheet (e.g., checklist of topics covered). |
+| **Day 9** | Pair up with a classmate for a short peer‑review of an assignment. |
+| **Day 12** | Review the recorded lessons you missed and note key points. |
+| **Day 14** | Do a quick self‑check: have you met your study‑block goals? Adjust the schedule if needed. |
+
+Follow these steps, and you’ll build stronger interaction, clearer support, steady motivation, and effective self‑paced study habits. Good luck!
+
+
+
+---
+
+## Student ID: `e20241319`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241319  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – students in this group tend to participate less actively and may need extra prompts to stay motivated and connected.  
+
+**Main Strengths**  
+- No specific strengths were mentioned in the open‑ended response.  
+
+**Main Challenges**  
+- No specific challenges were described. Because the open‑ended input is empty, the recommendations below are drawn primarily from the characteristics of the “Moderately Engaged (Passive)” segment.  
+
+**Personalized Recommendations**  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from lecturers. | Increases contact with classmates and instructors, encouraging more active involvement. |
+| **Learning Support** | • Look for clearer written instructions and concrete examples.<br>• Use recorded explanations and step‑by‑step guides provided by the course. | Improves understanding of material and reduces uncertainty when studying independently. |
+| **Motivation** | • Set up weekly check‑ins (with a tutor, study buddy, or via the LMS).<br>• Use reminders and a simple progress‑tracking sheet.<br>• Follow a structured study schedule each week. | Helps maintain focus, builds self‑discipline, and makes progress visible. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them as needed.<br>• Follow the weekly learning path outlines supplied by the course.<br>• Keep all learning materials organized for easy revisiting. | Allows you to study at a comfortable speed while still meeting course deadlines. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Week 1**  
+   - Register for the upcoming Q&A session and a small group discussion.  
+   - Download the recorded lecture for the current module and watch it twice, taking notes on any unclear points.  
+   - Create a simple weekly schedule (e.g., 2 hours Mon, 2 hours Wed, 1 hour Fri) and set a reminder on your phone.  
+
+2. **Week 2**  
+   - Share one question or insight from the recorded lecture in the discussion forum to start peer interaction.  
+   - Complete the step‑by‑step guide for the next assignment and note any parts that need further clarification.  
+   - Review your progress sheet at the end of the week and adjust the study schedule if needed.  
+
+By following these steps, you’ll add more interaction, receive clearer support, stay motivated, and make the most of self‑paced resources—key strategies for moving from passive to more active engagement in your blended learning environment.
+
+
+
+---
+
+## Student ID: `e20240078`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240078  
+- **Segment:** Highly Engaged (Active) Learners (clustered as Moderately Engaged – Passive)  
+
+Because the open‑ended responses did not provide specific strengths or challenges, this report is based primarily on the characteristics of the **Highly Engaged (Active) Learners** segment.
+
+---
+
+### Main Strengths
+*Not identified from the student’s own input.*  
+*The recommendations draw on typical strengths of highly engaged learners, such as motivation to participate and willingness to use resources.*
+
+### Main Challenges
+*Not identified from the student’s own input.*  
+*The suggestions address common areas where active learners can benefit from additional support, especially in digital environments.*
+
+---
+
+## Personalized Recommendations  
+
+| Recommendation Tag | What It Means for You | Practical Steps |
+|--------------------|----------------------|-----------------|
+| **content_access** | Make sure all learning materials are available early so you can plan and review them at your own speed. | • Upload slides, videos, readings, and exercises at the start of each week.<br>• Keep a shared folder or LMS page where everything is easy to find. |
+| **digital_skill** | Build confidence with the online tools you’ll use throughout the course. | • Offer short tutorials on the LMS, citation managers, and research databases.<br>• Provide a quick‑reference guide for common digital tasks. |
+| **engagement** | Keep your high energy directed toward interactive activities that deepen understanding. | • Include low‑stakes quizzes, gamified tasks, and discussion prompts.<br>• Use practical assignments that require you to apply concepts right away. |
+| **self_paced** | Take advantage of flexible study options that fit your schedule. | • Record lectures and make them available for review.<br>• Publish a weekly learning path that outlines what to study and when. |
+
+---
+
+## Short Action Plan (Next 2 Weeks)
+
+1. **Day 1‑2:** Access the course’s central folder; download all slides, videos, and reading lists for the upcoming module.  
+2. **Day 3‑4:** Complete a short LMS tutorial (10 min) that shows how to submit assignments, post in forums, and use the search function.  
+3. **Day 5‑7:** Participate in the first interactive quiz and join the discussion board on the week’s topic.  
+4. **Week 2:** Follow the provided weekly learning path; watch the recorded lecture at a time that works for you, then review the material using the uploaded exercises.  
+
+By following these steps, you’ll reinforce access to content, sharpen your digital skills, stay actively engaged, and benefit from self‑paced learning—all aligned with the recommendations for highly engaged learners.
+
+
+
+---
+
+## Student ID: `e20241130`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_environment", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241130*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Cluster: Moderately Engaged – Passive)  
+- You value the flexibility of blended learning, appreciate easy access to materials, and notice that it helps you stay engaged.  
+- Your main concerns are occasional internet problems and limited interaction during online sessions.
+
+### 2. Main Strengths  
+| Theme | What you highlighted |
+|-------|----------------------|
+| Access to Learning Materials | Blended courses give you quick access to slides, videos, and references. |
+| Flexibility & Time Management | You can study online or in class, fitting learning around other commitments. |
+| Student Engagement | The mix of formats keeps you motivated. |
+
+### 3. Main Challenges  
+| Theme | What you highlighted |
+|-------|----------------------|
+| Interaction & Communication | Online classes feel less interactive; you would like more discussion and feedback. |
+| Internet & Technical Issues | Unstable Wi‑Fi sometimes disrupts learning. |
+| Learning Resources & Environment | You would benefit from clearer organization of materials and better study spaces. |
+
+### 4. Personalized Recommendations  
+
+| Recommendation | How it helps you |
+|----------------|------------------|
+| **Strengthen access to learning materials** | Upload slides, videos, references, and exercises **early** so you can review them whenever you need. |
+| **Increase learner engagement** | Include short quizzes, games, practical tasks, and discussion prompts to keep the class lively. |
+| **Increase interaction and communication** | Add regular Q&A sessions, small‑group discussions, peer‑collaboration activities, and quicker lecturer feedback. |
+| **Improve learning resources and environment** | Organize all course files in a clear folder structure, keep resources up‑to‑date, and provide comfortable study spaces (both online and on‑campus). |
+| **Support self‑paced learning** | Offer recorded lectures and a weekly learning path so you can revisit content at your own speed. |
+| **Improve technical access and reliability** | Ensure stable campus Wi‑Fi, provide offline copies of key materials, give clear platform guides, and make technical support readily available. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Expected Outcome |
+|------|--------|-------------------|
+| 1 | Check the course portal for any **early‑uploaded** slides or videos; download what you can for offline use. | Reduces reliance on spot‑internet and gives you material to study anytime. |
+| 2 | Participate in a **live Q&A** or discussion forum scheduled by the lecturer. | Improves interaction and clarifies doubts quickly. |
+| 3 | Complete a short **quiz or game** linked to the current topic. | Boosts engagement and reinforces learning. |
+| 4 | Provide brief feedback to the instructor about the **organization of resources** and any **technical issues** you experienced. | Helps the team improve the learning environment for you and classmates. |
+
+---
+
+**Remember:** Your active attitude is a strong asset. By taking advantage of early‑uploaded content, engaging in interactive activities, and communicating any technical hurdles, you can make the blended format work even better for you. Good luck!
+
+
+
+---
+
+## Student ID: `e20240630`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240630*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+Your open‑ended responses did not provide specific strengths or challenges, so the recommendations below are drawn primarily from the characteristics of the **Highly Engaged (Active) Learners** segment.
+
+---
+
+### 2. Main Strengths  
+*No explicit strengths were reported.*  
+
+---
+
+### 3. Main Challenges  
+*No explicit challenges were reported.*  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Having all slides, videos, readings, and exercises available early helps you stay ahead and review whenever needed. | Upload or request early release of all course resources; organize them in a personal folder or cloud drive. |
+| **Develop digital learning skills** | Mastering the LMS, online research tools, and educational tech lets you work more efficiently. | Attend short tutorials on the LMS, explore built‑in help guides, and practice using digital libraries and citation tools. |
+| **Increase learner engagement** | Interactive quizzes, games, practical tasks, and discussion forums keep motivation high and deepen understanding. | Participate in weekly quizzes, join discussion boards, and try any gamified activities the course offers. |
+| **Support self‑paced learning** | Recorded lessons and clear weekly pathways let you review concepts at your own speed. | Use recorded lectures for revision, follow the weekly learning path, and set personal milestones for each topic. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Locate the course’s central repository (LMS) and download all available slides, videos, and reading lists. |
+| **Day 3** | Watch the first recorded lecture and note any unclear points. |
+| **Day 4** | Complete the introductory quiz; review feedback immediately. |
+| **Day 5** | Spend 30 min on an LMS tutorial (e.g., how to use discussion forums and digital citation tools). |
+| **Day 6–7** | Join a discussion thread or study group; post a question or comment about the week’s topic. |
+| **Week 2** | Follow the weekly learning path: review the recorded lesson, complete the assigned exercises, and reflect on what you’ve learned. Adjust your personal schedule if needed. |
+
+---
+
+**Remember:** Even though you didn’t specify particular strengths or challenges, the above steps align with the habits of highly engaged learners and will help you make the most of a blended learning environment. Feel free to adapt the timeline to fit your own schedule. Good luck!
+
+
+
+---
+
+## Student ID: `e20240549`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "learning_support", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240549*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current engagement style:** Moderately Engaged (Passive) Learners (cluster)  
+- You thrive when you can control the pace of study and revisit materials as needed.  
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You value being able to view slides, recorded lectures, and other resources whenever you choose.  
+- **Flexibility & Time Management:** You are comfortable planning your own study schedule and learning at your own speed.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unreliable connections, software bugs, or missing hardware sometimes block your access.  
+- **Learning Difficulty & Clarity:** When instructions are unclear, it can hinder your understanding.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Strengthen access to learning materials** (content_access) | All course content (slides, videos, references, exercises) will be uploaded early and kept in one place. | Check the course portal at the start of each week for the full set of resources; download what you need for offline study. |
+| **Improve clarity and learning support** (learning_support) | Instructors will provide clearer instructions, concrete examples, and step‑by‑step guides, plus recorded explanations. | Use the supplemental guides and example walkthroughs when a concept feels fuzzy; refer to the recorded explanations as needed. |
+| **Support self‑paced learning** (self_paced) | Recorded lessons and weekly learning paths will be available so you can review anytime. | Follow the weekly path but feel free to pause, rewind, or revisit any lesson before moving on. |
+| **Improve technical access and reliability** (tech_issue) | The program will offer stable internet options, offline copies of materials, clear platform instructions, and dedicated technical support. | If you experience connectivity problems, download the offline package in advance and contact the tech‑support desk (details in the syllabus). |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+1. **Day 1–2:** Log into the course portal, locate the “Week 1 Resources” folder, and download all slides, videos, and exercises for offline use.  
+2. **Day 3:** Review the “Learning Guide” that outlines step‑by‑step instructions for the first assignment; note any unclear points.  
+3. **Day 4–7:** Follow the weekly learning path, using recorded lessons at your own pace; pause and rewatch sections that need extra clarity.  
+4. **Day 8:** Test your internet connection; if unstable, download the “Offline Pack” for the next week and note the tech‑support contact.  
+5. **Day 9–14:** Complete the first assignment using the downloaded materials and the supplemental examples; reach out to the instructor or tech support if you encounter technical or instructional issues.  
+
+By leveraging early access to all materials, using clear guides, and preparing offline resources, you can maintain your high engagement while minimizing technical disruptions. Good luck!
+
+
+
+---
+
+## Student ID: `e20240584`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20240584  
+**Student Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)
+
+---
+
+### 1. Student Learning Profile
+You are classified as a **Highly Engaged (Active) learner**. This means you generally take initiative in your studies, value convenient and effective learning resources, and are comfortable using digital tools.  
+
+Your open‑ended feedback highlighted two points:  
+* **Strength:** You appreciate that the current format “helps us improve more knowledge.”  
+* **Challenge:** You feel the professor should receive training before teaching, which points to a need for clearer interaction and communication in the classroom.
+
+Because the open‑ended comments are brief, the recommendations below rely mainly on the characteristics of your learner segment and the identified themes.
+
+---
+
+### 2. Main Strengths
+- **Learning Convenience & Effectiveness** – you find the blended format useful for gaining knowledge quickly.
+
+---
+
+### 3. Main Challenges
+- **Interaction & Communication** – you see room for better dialogue between students and the lecturer (e.g., more feedback, clearer guidance).
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Apply It |
+|----------------|----------------------|-----------------|
+| **Increase interaction and communication** | Add more opportunities to ask questions, discuss ideas, and receive timely feedback. | • Join scheduled Q&A sessions or virtual office hours.<br>• Participate in small‑group discussions or peer‑collaboration activities.<br>• Use the course forum to post questions and expect quicker lecturer responses. |
+| **Improve learning effectiveness** | Blend online review materials with in‑person explanation, practice, and feedback to deepen understanding. | • Review lecture slides or short videos before class.<br>• Use class time for hands‑on practice, case studies, or problem‑solving with the instructor’s guidance.<br>• Seek immediate feedback on assignments or practice tasks. |
+
+These suggestions align with the segment’s default tags (content access, engagement, digital skill, self‑paced) and the specific tags **interaction** and **learning_effectiveness** identified for you.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Watch the pre‑recorded lecture video for the upcoming topic (10 min). |
+| **Tuesday** | Post at least one question on the course forum about the video content. |
+| **Wednesday** | Attend the live Q&A session; note any feedback you receive. |
+| **Thursday** | Join a peer‑collaboration breakout group (30 min) to discuss the topic. |
+| **Friday** | Complete a short practice exercise in class and ask the lecturer for quick feedback. |
+| **Weekend** | Review the feedback received, note any remaining doubts, and prepare a brief summary of what you learned. |
+
+Repeating this cycle each week will strengthen interaction with your instructor and peers while ensuring the blended format remains effective for your learning.  
+
+---  
+
+**Remember:** Your active engagement is a key asset. By adding structured interaction and combining online review with in‑person practice, you can make the most of the blended learning environment. Good luck!
+
+
+
+---
+
+## Student ID: `e20230672`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230672*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you already show many active habits, but some passive tendencies remain.  
+
+### 2. Main Strengths  
+- **Access & Flexibility:** You value blended learning because it is flexible, easy to access, and lets you learn both online and in‑class.  
+- **Convenient Materials:** You appreciate having slides, videos, and other resources that support your study schedule.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unreliable Wi‑Fi hampers your ability to use online resources.  
+- **Interaction & Communication:** You would like smoother communication with lecturers and easier access to materials online.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Lecturers should upload slides, videos, references, exercises, and other course materials **early** so you can plan ahead. |
+| **Interaction** | Add short Q&A sessions, group discussions, and peer‑collaboration activities; aim for faster lecturer feedback on your questions. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations, practice tasks, and feedback to reinforce understanding. |
+| **Learning Environment** | Organize digital resources clearly, keep them up‑to‑date, and improve physical study spaces (e.g., comfortable seating, good lighting). |
+| **Self‑Paced Learning** | Provide recorded lessons and a weekly learning path so you can review content at your own speed. |
+| **Technical Issues** | Ensure stable campus Wi‑Fi, offer offline versions of key materials, give clear platform instructions, and provide quick technical support when problems arise. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Who’s Involved |
+|------|--------|----------------|
+| 1 | Check that all course slides and videos are uploaded to the LMS **at least 3 days before class**. | Lecturers / Course admin |
+| 2 | Join a weekly 15‑minute online Q&A slot for your module. | You & lecturer |
+| 3 | Download offline copies of the week’s materials and store them on your device. | You (with tech support if needed) |
+| 4 | Provide feedback on Wi‑Fi quality in your main study locations; request campus IT assistance if needed. | You & campus IT services |
+
+Follow these steps and revisit the plan after a month to see what’s working best for you. Your flexibility and appreciation for accessible materials are strong assets—building on them with better interaction, reliable tech, and clear, self‑paced resources will help you move from “moderately engaged” toward fully active participation. Good luck!
+
+
+
+---
+
+## Student ID: `e20241233`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241233  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+Because the open‑ended responses did not provide specific strengths or challenges, this report is based primarily on the characteristics of the **Highly Engaged (Active) Learners** segment.
+
+---
+
+### Main Strengths
+*No specific strengths were reported.*  
+*The recommendation focuses on the typical strengths of highly engaged learners – motivation and willingness to participate – and builds on them.*
+
+### Main Challenges
+*No specific challenges were reported.*  
+*The suggestions address common areas where active learners can further enhance their performance, such as digital tool use and self‑paced study.*
+
+---
+
+## Personalized Recommendations  
+
+| Recommendation Tag | What It Means for You | Practical Steps |
+|--------------------|----------------------|-----------------|
+| **content_access** | Make sure all learning materials are available early so you can plan and review. | • Upload slides, videos, readings, and exercises at the start of each week.<br>• Keep a personal folder with all course files for quick reference. |
+| **digital_skill** | Strengthen your ability to use the LMS and online research tools. | • Attend a short tutorial on the LMS features (discussion boards, file sharing, quiz tools).<br>• Explore reliable academic databases and citation managers. |
+| **engagement** | Keep your high energy directed into interactive activities. | • Participate in quizzes, polls, and short games built into the course.<br>• Join discussion threads and share practical examples from your field. |
+| **self_paced** | Take advantage of flexible study options to deepen understanding. | • Watch recorded lessons before class and review them afterward.<br>• Follow the weekly learning path but feel free to spend extra time on topics that interest you. |
+
+---
+
+## Short Action Plan (Next 2 Weeks)
+
+1. **Day 1‑2:** Locate the course’s shared folder and download all available slides, videos, and reference links. Organize them by week.  
+2. **Day 3‑4:** Complete a 30‑minute LMS tutorial (many platforms offer a built‑in “Help” video). Try posting a question in the discussion board to test the feature.  
+3. **Day 5‑7:** Participate in the first interactive quiz or poll. Note any topics that feel unclear and flag them for review.  
+4. **Week 2:** Follow the weekly learning path, but schedule an extra 30 minutes to re‑watch any recorded lesson you found especially valuable.  
+5. **End of Week 2:** Reflect on how the early access to materials and the new digital tools helped your study routine. Adjust your plan for the next weeks accordingly.
+
+---
+
+By focusing on early material access, sharpening digital skills, staying actively engaged, and using self‑paced resources, you can maximize the advantages of your highly engaged learning style and succeed in a blended environment. Good luck!
+
+
+
+---
+
+## Student ID: `e20240118`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240118*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster description:** Moderately Engaged (Passive) Learners  
+- You value learning convenience and effectiveness and tend to rely on self‑directed study.  
+
+### 2. Main Strengths  
+- **Self‑learning:** You are comfortable studying on your own and appreciate flexible, convenient access to materials.  
+
+### 3. Main Challenges  
+- **Interaction & Communication:** You find it hard to stay focused during long online videos and would like more active engagement.  
+- **Motivation & Self‑Discipline:** Maintaining attention and motivation throughout extended online sessions is a difficulty.  
+
+### 4. Personalized Recommendations  
+
+| Focus Area | What to Try | How It Helps |
+|------------|-------------|--------------|
+| **Interaction** | Add short Q&A breaks, join small‑group discussions, collaborate with peers on short tasks, and request quicker feedback from the lecturer. | Increases real‑time communication, keeps you actively involved, and reduces the feeling of passive watching. |
+| **Learning Effectiveness** | Pair the online videos with brief in‑person (or live‑online) explanations, followed by practice exercises and immediate feedback. | Reinforces concepts, makes long videos more digestible, and improves retention. |
+| **Motivation & Self‑Discipline** | Set a weekly check‑in with yourself or a study buddy, use reminders or a simple progress tracker, and create a structured study schedule (e.g., 25‑minute focused blocks with 5‑minute breaks). | Provides clear milestones, keeps you accountable, and helps sustain attention over longer sessions. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Break the next video into 2‑3 segments; after each segment, write one question to discuss with a classmate or post in the forum. |
+| **Day 3** | Join a peer‑study group for a 30‑minute discussion on the week’s topic. |
+| **Day 5** | Create a simple checklist: “Video segment ✔, practice exercise ✔, feedback received ✔”. |
+| **Day 7** | Set a 10‑minute reminder to review your checklist and note any gaps. |
+| **Day 10** | Schedule a 15‑minute virtual office hour with the lecturer for quick feedback on any unclear points. |
+| **Day 14** | Reflect on the past two weeks: Which interaction helped most? Adjust your schedule accordingly for the next module. |
+
+---
+
+**Remember:** Your strong self‑learning habit is a solid foundation. By adding brief interactive moments, combining video content with live explanation, and using simple motivation tools, you can turn passive viewing into active, effective learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20240902`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240902*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (aspirational):** Highly Engaged (Active) Learners  
+
+You learn quickly, but you feel that the current lessons are not sufficient.
+
+---
+
+### 2. Main Strengths  
+- **Fast learner** – you pick up new concepts quickly.
+
+---
+
+### 3. Main Challenges  
+- **Insufficient lesson material** – you need more content and support to stay on track.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | Join Q&A sessions, take part in group discussions, collaborate with peers, and request quicker feedback from the lecturer. | Increases engagement and gives you more opportunities to clarify doubts. |
+| **Learning Support** | Use clearer instructions, concrete examples, recorded explanations, and step‑by‑step guides provided by the course. | Makes the material easier to follow and fills the gaps you feel exist. |
+| **Motivation & Self‑Discipline** | Set up weekly check‑ins, enable reminders, track your progress, and follow a structured study schedule. | Keeps you motivated and helps you manage your time effectively. |
+| **Self‑Paced Learning** | Access recorded lessons, follow weekly learning paths, and review materials at your own speed. | Lets you reinforce fast learning and revisit any part you find lacking. |
+
+These suggestions are drawn from the recommendations that match your segment’s typical needs.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Review the course’s recorded lessons and note any topics that need more clarification. |
+| **Day 2** | Join a peer discussion group or set up a study buddy for the upcoming week. |
+| **Day 3** | Create a simple weekly schedule (e.g., 2 h study, 30 min review, 15 min Q&A). |
+| **Day 4** | Submit a question to the lecturer and request feedback within 24 h. |
+| **Day 5** | Use a progress‑tracking sheet to mark completed topics. |
+| **Day 6‑7** | Attend a live Q&A or discussion session; note any new insights. |
+| **Week 2** | Repeat the schedule, adding any new recorded explanations or step‑by‑step guides you receive. |
+| **End of Week 2** | Review your progress sheet, adjust the schedule if needed, and set goals for the next two weeks. |
+
+Follow this plan, and you’ll turn your fast‑learning ability into deeper, more supported mastery of the course material. Good luck!
+
+
+
+---
+
+## Student ID: `e20240311`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["digital_skill", "learning_effectiveness", "motivation", "self_paced", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240311*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1) – you are motivated to take part in class and enjoy interactive learning.  
+- **Current perception:** You value the **personalized flexibility** of blended learning (positive sentiment) but feel challenged by **isolation, pacing mismatches, and heavy workloads** (negative sentiment).  
+
+### 2. Main Strengths  
+- Strong appreciation for **digital‑skill development**, **flexibility & time‑management**, and the **convenience/effectiveness** of combining online and face‑to‑face study.  
+
+### 3. Main Challenges  
+- Managing **assessment workload** and staying motivated.  
+- Maintaining **self‑discipline** when learning independently.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Develop digital learning skills** | Gain confidence using the LMS, online research tools, and educational tech. | Attend a short LMS tutorial; bookmark key digital resources; practice using discussion boards and citation tools. |
+| **Improve learning effectiveness** | Blend online review with in‑person explanation and feedback. | Before class, watch recorded mini‑lectures; use class time for questions, practice activities, and instructor feedback. |
+| **Support motivation & self‑discipline** | Keep momentum with regular check‑ins and clear progress tracking. | Set a weekly study schedule; use the course’s progress tracker or a simple checklist; respond to weekly reminder emails. |
+| **Support self‑paced learning** | Access materials when they suit your timetable. | Use recorded lessons and weekly learning paths; pause, rewind, or revisit content as needed. |
+| **Manage workload and assessment pressure** | Reduce stress by clarifying deadlines and aligning tasks. | Review the syllabus for due dates; create a personal calendar that links online assignments with upcoming face‑to‑face sessions; ask the instructor to confirm priorities if unclear. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Mon** | Watch the introductory LMS tutorial (30 min). |
+| **Tue** | Create a weekly study schedule that includes one recorded lesson and one in‑person practice session. |
+| **Wed** | Set up a progress‑tracking sheet (e.g., Google Sheet) for assignments and deadlines. |
+| **Thu** | Attend class, focus on asking questions about the recorded material you reviewed. |
+| **Fri** | Review the week’s progress; note any gaps in motivation or understanding. |
+| **Weekend** | Spend 1 hour revisiting any confusing topics using digital resources; update your schedule for next week. |
+
+Follow this plan, and adjust as you discover what pacing and support work best for you. Your active engagement combined with these targeted strategies will help you make the most of blended learning while keeping workload and motivation in balance. Good luck!
+
+
+
+---
+
+## Student ID: `e20241288`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241288*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You tend to participate in class but often adopt a more passive stance, preferring clear guidance and structured resources.
+
+---
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness** – You appreciate resources that make studying easier and help you understand the material quickly.  
+- (Your open‑ended comment was brief, so this strength is drawn mainly from the segment profile.)
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – Unreliable connectivity can interrupt your access to online content.  
+- (The open‑ended challenge was limited, so the focus is on the common technical barrier identified for your segment.)
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Apply It |
+|----------------|----------------------|-----------------|
+| **Improve learning effectiveness** | Blend online review materials with face‑to‑face explanation, practice, and feedback. | • Use recorded lectures or slide decks to preview topics before class.<br>• Attend in‑person sessions for guided problem‑solving and receive immediate feedback from the instructor or peers. |
+| **Improve technical access and reliability** | Ensure you can study even when internet is unstable. | • Download offline copies of readings, videos, and quizzes when you have good connectivity.<br>• Keep a list of clear instructions for the learning platform handy.<br>• Contact campus IT support or use campus Wi‑Fi hotspots when needed. |
+
+These suggestions align with the “learning_effectiveness” and “tech_issue” tags identified for you.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day/Week | Action |
+|----------|--------|
+| **Day 1–2** | Identify which course materials are available for offline download; save them to your laptop or tablet. |
+| **Day 3–4** | Schedule a 30‑minute review of the upcoming topic using the online material, then attend the next in‑person session for practice. |
+| **Day 5** | Test the campus Wi‑Fi or a reliable hotspot; note any connectivity problems and contact IT support if needed. |
+| **Week 2** | Repeat the review‑practice cycle for the next topic; keep a brief log of any technical issues and how they were resolved. |
+
+By combining structured online review with active classroom work and securing reliable access to materials, you’ll strengthen your learning effectiveness while minimizing technical disruptions.  
+
+---  
+
+*Feel free to reach out to your academic advisor or the university’s learning support team for additional help with any of these steps.*
+
+
+
+---
+
+## Student ID: `e20230674`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["engagement", "interaction", "learning_effectiveness", "learning_environment", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230674*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster (aspirational):** Highly Engaged (Active) Learners  
+
+You appreciate the **flexibility, personalized learning, and increased engagement** that blended learning can provide. Your main difficulty is **unstable internet connectivity** and the need for **easier‑to‑access online materials**.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you value being able to study when it suits you.  
+- **Learning Convenience & Effectiveness** – you see blended learning as a way to learn more efficiently.  
+- **Student Engagement** – you notice higher engagement when the format is right.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – unreliable Wi‑Fi hampers your study flow.  
+- **Learning Resources & Environment** – you would like materials that are simpler to reach online.  
+- **Interaction & Communication** – you feel current interaction could be stronger.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What to Do (practical steps) |
+|----------------|------------------------------|
+| **Increase learner engagement** | Use short quizzes, game‑based activities, and practical tasks in both online and face‑to‑face sessions. |
+| **Boost interaction and communication** | Join scheduled Q&A sessions, participate in small‑group discussions, and use peer‑collaboration tools. Ask lecturers for quicker feedback on assignments. |
+| **Improve learning effectiveness** | Pair online review videos with in‑person explanations and hands‑on practice. Seek feedback after each practice task. |
+| **Enhance learning resources and environment** | Request that lecturers organise digital materials in clearly labelled folders; use campus study spaces that are quiet and well‑equipped. |
+| **Support self‑paced learning** | Take advantage of recorded lectures and weekly learning paths; review them at your own speed when the internet is stable. |
+| **Address technical access and reliability** | Download offline copies of essential readings when you have good connectivity; keep a list of campus Wi‑Fi hotspots or the university’s tech‑support contact for quick assistance. |
+
+---
+
+### 5. Short Action Plan (Next 4 weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | Identify two reliable campus Wi‑Fi locations or a library space; download all required lecture slides for the next module. |
+| **2** | Join a study group that meets weekly for a 30‑minute Q&A session; start using the quiz feature in the LMS. |
+| **3** | Create a personal weekly learning path (list of videos, readings, and practice tasks) and follow it, reviewing recorded lessons at your own pace. |
+| **4** | Give feedback to your lecturer about the clarity of online materials and request any needed updates; contact tech support if you encounter connectivity problems. |
+
+---
+
+**Remember:** Your enthusiasm for flexibility and engagement is a strong foundation. By adding structured interaction, reliable access to materials, and clear technical support, you can move closer to the “Highly Engaged (Active) Learners” cluster while keeping the blended format that works best for you. Good luck!
+
+
+
+---
+
+## Student ID: `e20230821`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["engagement", "interaction", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230821*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you have the potential to move further toward active participation.  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You value the ability to learn at your own pace.  
+- **Student Engagement:** You recognize that blended learning can be interactive and supportive when designed well.  
+
+### 3. Main Challenges  
+- **Interaction & Communication:** Limited opportunities for real‑time discussion and feedback.  
+- **Internet & Technical Issues:** Unreliable connectivity hampers smooth participation.  
+- **Learning Difficulty & Clarity:** Course instructions and examples sometimes lack clarity.  
+- **Learning Resources & Environment:** Study materials and online spaces could be better organized.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Engagement** | Incorporate short quizzes, games, practical tasks, and discussion prompts into each module to keep you actively involved. |
+| **Interaction** | Schedule regular Q&A sessions, create small‑group discussion boards, and encourage peer collaboration. Request quicker feedback from lecturers when possible. |
+| **Learning Environment** | Ask the university to organise digital resources in a clear folder structure, update outdated files, and improve the comfort of any physical study spaces you use. |
+| **Learning Support** | Seek clearer written instructions, concrete examples, and step‑by‑step guides. Recorded explanations of complex topics can help you review material as needed. |
+| **Self‑Paced Learning** | Use recorded lectures and weekly learning paths to plan your study schedule. Review recordings whenever the internet is unstable. |
+| **Technical Issues** | Request stable campus Wi‑Fi or a loaner hotspot, download offline copies of essential materials, and keep the platform’s help desk contact handy for quick support. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | Locate the course’s quiz and game features; complete at least one quiz per module. |
+| **2** | Join a peer‑study group or discussion board; post one question and respond to a classmate’s post. |
+| **3** | Download all upcoming lecture videos for offline use; create a personal folder with clearly labeled resources. |
+| **4** | Meet with the course tutor (or use office hours) to ask for a step‑by‑step guide on a topic you found unclear; test the campus Wi‑Fi or request a hotspot if needed. |
+
+By focusing on these targeted steps, you can turn your passive engagement into a more active, supported, and technically smooth learning experience. Keep track of what works best for you and adjust the plan as needed. Good luck!
+
+
+
+---
+
+## Student ID: `e20241104`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241104  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+**Main Strengths**  
+- You appreciate a balanced mix of in‑person and online study (≈50 % each), which gives you flexibility and helps you manage your time.
+
+**Main Challenges**  
+- Your open‑ended comment (“my opinion is good”) does not highlight a specific difficulty, so we have limited information about particular challenges.  
+
+**Personalized Recommendations**  
+Because your segment profile suggests a need for more autonomy and because the evidence points to a preference for flexibility, the primary recommendation is to **support self‑paced learning**:
+
+- Use recorded lectures and tutorials that you can watch whenever it fits your schedule.  
+- Follow weekly learning paths that outline what to study each week, allowing you to progress at your own speed.  
+- Keep all course materials (slides, readings, quizzes) accessible online so you can review them as needed.
+
+**Short Action Plan**  
+
+| Week | Action | How it Helps |
+|------|--------|--------------|
+| 1 | Locate and download the week’s recorded lessons. | Gives you control over when you study. |
+| 2 | Follow the weekly learning path checklist. | Keeps you on track without needing real‑time class pressure. |
+| 3 | Review any concepts that feel unclear using the stored materials. | Reinforces understanding at your own pace. |
+| 4 | Reflect on how the self‑paced approach affected your motivation and time management. | Helps you adjust the strategy for future weeks. |
+
+By using these self‑paced resources, you can maintain the flexibility you value while staying organized and motivated throughout the semester.
+
+
+
+---
+
+## Student ID: `e20240189`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240189*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You tend to gather a lot of knowledge on your own, but you prefer a more step‑by‑step study approach.
+
+---
+
+### 2. Main Strengths  
+- **Knowledge acquisition:** You are good at collecting information and understanding concepts.  
+- **Learning convenience & effectiveness:** You value tools that make learning easy and efficient.
+
+---
+
+### 3. Main Challenges  
+- **Structured study process:** You find it helpful to follow clear, sequential steps when studying.
+
+---
+
+### 4. Personalized Recommendations  
+**Improve learning effectiveness** – Combine online review materials with in‑person explanation, practice, and feedback.  
+This blended approach lets you keep the convenience of digital resources while giving you the guided, step‑by‑step support you prefer.
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action | How it helps |
+|------|--------|--------------|
+| 1 | Choose a core topic and watch a short online lecture or read a concise e‑module. | Gives you quick, convenient exposure to the material. |
+| 2 | Attend a face‑to‑face (or live‑online) session where the instructor explains the same topic, breaks it into steps, and answers questions. | Provides the structured guidance you need. |
+| 3 | Complete a short practice activity (quiz, problem set) in class or with a tutor, then get immediate feedback. | Reinforces learning and highlights any gaps. |
+| 4 | Review the online material again, focusing on parts you missed or found unclear after the in‑person session. | Strengthens retention and connects the two learning modes. |
+| Ongoing | Schedule a brief weekly check‑in with a peer or instructor to discuss progress and adjust the study steps as needed. | Keeps motivation high and ensures continuous support. |
+
+Stick to this cycle for each new topic, and you’ll blend the flexibility you like with the step‑by‑step structure that helps you learn most effectively. Good luck!
+
+
+
+---
+
+## Student ID: `e20240156`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240156  
+- **Segment:** Moderately Engaged (Passive) Learners (you tend to follow the material but may need more prompts to stay actively involved).  
+
+**Main Strengths**  
+- You make good use of the time saved when you have only one on‑campus session, especially because you live far from campus.  
+
+**Main Challenges**  
+- You experience difficulty when the professor’s pacing does not match the class, leading to unclear explanations.  
+- Limited interaction and communication between you, the instructor, and classmates makes it harder to grasp the material.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Increase interaction and communication** | More chances to ask questions, discuss ideas, and receive quick feedback. | • Join scheduled Q&A sessions or create short “office‑hour” chats.<br>• Participate in small‑group discussions or peer‑collaboration activities.<br>• Use the course forum to post questions and reply to classmates. |
+| **Improve clarity and learning support** | Access to clearer instructions and additional explanations. | • Look for recorded video explanations that break down key concepts.<br>• Use step‑by‑step guides or example problems provided by the instructor.<br>• Request written summaries or checklists for each topic. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Schedule a weekly 15‑minute Q&A** with the professor or teaching assistant (via video call or chat).  
+2. **Form a study buddy pair** or small group (2‑3 students) to review lecture material together after each class.  
+3. **Collect one recorded explanation** per topic and create a personal “quick‑reference” note with examples.  
+4. **Post at least one question** on the course forum each week and respond to a peer’s question.  
+
+By adding regular interaction and using clearer learning resources, you’ll reduce confusion and stay more engaged with the course material. Good luck!
+
+
+
+---
+
+## Student ID: `e20240844`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "learning_support", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240844*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you have the potential to be more active.  
+
+---
+
+### 2. Main Strengths  
+- **Access to learning materials:** You appreciate that online study saves commuting time and makes it easy to find and organise resources.  
+
+---
+
+### 3. Main Challenges  
+- **Staying focused:** Long online sessions can be hard to concentrate on.  
+- **Clarity & self‑discipline:** You experience difficulty keeping motivation high and need clearer guidance during study.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Keep the advantage of easy, organised resources. | Upload all slides, videos, readings, and practice exercises **early** in the course platform so you can review them anytime. |
+| **Improve clarity and learning support** | Reduce confusion and make study tasks more transparent. | Ask instructors for **clearer instructions**, concrete examples, and short recorded explanations. Use step‑by‑step guides or checklists for each assignment. |
+| **Support motivation and self‑discipline** | Build habits that keep you on track during long sessions. | Set a **weekly check‑in** (e.g., a brief self‑review or a quick chat with a tutor), enable **reminders** for deadlines, and use a simple **progress tracker** (check‑off list or digital badge). Create a **structured study schedule** that breaks long sessions into 25‑30‑minute focused blocks with short breaks. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Create a folder on the LMS and upload all current course materials (slides, videos, readings). |
+| **Day 3** | Draft a one‑page step‑by‑step guide for the next assignment; share it with a peer or tutor for feedback. |
+| **Day 4–5** | Set up a weekly reminder (e.g., calendar alert) for a 15‑minute self‑check‑in on progress. |
+| **Day 6–7** | Try the **Pomodoro** technique: 25 min focused study → 5 min break, repeat 4 times. Note how concentration feels. |
+| **Week 2** | Review the checklist and progress tracker; adjust the study schedule if needed. Reach out to the instructor for any unclear instructions. |
+
+Follow these steps, and you’ll turn the convenience of online access into stronger focus, clearer understanding, and steadier motivation. You’re already well‑positioned—these small, practical moves can help you move from “moderately engaged” toward a more active, confident learner.
+
+
+
+---
+
+## Student ID: `e20241044`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241044*  
+
+---
+
+### 1. Student Learning Profile
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster label:** Moderately Engaged (Passive) Learners  
+
+You are classified as a highly engaged learner, which means you are generally motivated and willing to participate in learning activities.  
+
+---
+
+### 2. Main Strengths
+- No specific strengths were listed in the open‑ended response.  
+- Because you belong to the **Highly Engaged** segment, the system assumes you are proactive and ready to use the resources provided.
+
+---
+
+### 3. Main Challenges
+- **Learning Difficulty & Clarity:** You indicated a need for more detailed explanations of lessons and tutorials.  
+
+---
+
+### 4. Personalized Recommendations
+| Tag | Recommendation |
+|-----|----------------|
+| **learning_support** | • Provide clearer written instructions and concrete examples for each topic.<br>• Offer short recorded explanations that walk you through key concepts step‑by‑step.<br>• Use guided learning checklists or step‑by‑step guides to help you follow the material more easily. |
+
+These suggestions are drawn directly from the rule‑based recommendation for the “learning_support” tag.
+
+---
+
+### 5. Short Action Plan
+| Week | Action |
+|------|--------|
+| **1** | Watch a recorded explanation for the next lesson and take notes on the examples shown. |
+| **2** | Use the step‑by‑step guide provided for the tutorial; complete the checklist while studying. |
+| **3** | Review the clearer written instructions and compare them with your notes; identify any remaining questions. |
+| **4** | Reach out to the instructor or peer tutor with any points that are still unclear. |
+
+Follow this plan to improve the clarity of the material and strengthen your learning experience. If you need additional support, the learning resources listed above are available throughout the course.
+
+
+
+---
+
+## Student ID: `e20231034`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20231034*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster label:** Moderately Engaged (Passive) Learners  
+- **Key strength identified:** You are able to develop more knowledge, especially when learning is convenient and effective.  
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness:** You thrive when study resources are easy to access and help you build knowledge quickly.
+
+### 3. Main Challenges  
+- No specific challenges were reported. Because the open‑ended response was empty, the recommendation below relies mainly on your segment profile and the identified strength.
+
+### 4. Personalized Recommendations  
+**Improve learning effectiveness** – Combine online review materials with in‑person explanation, practice, and feedback. This blended approach lets you use the convenience of digital resources while gaining deeper understanding through face‑to‑face activities.
+
+### 5. Short Action Plan  
+
+| Week | Action | How it helps |
+|------|--------|--------------|
+| 1‑2 | Use the course’s online review videos or readings before class. | Gives you a quick, convenient overview of the material. |
+| 3‑4 | Attend scheduled in‑person sessions (lectures, labs, tutorials) and ask questions. | Provides direct explanations and clarifies any confusion from the online review. |
+| 5‑6 | Participate in guided practice activities (e.g., problem sets, labs) during class and get immediate feedback from the instructor or peers. | Reinforces learning and highlights areas to improve. |
+| Ongoing | Review feedback, revisit online materials as needed, and track your progress. | Ensures continuous improvement and solidifies knowledge. |
+
+By alternating digital review with active, face‑to‑face practice, you’ll maximize both convenience and depth of learning. Keep monitoring how each component supports your understanding, and adjust the balance as needed. Good luck!
+
+
+
+---
+
+## Student ID: `e20241200`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241200  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You appreciate the **flexibility** of blended learning: “it’s much easier and we can study from anywhere at any time.”  
+
+**Main Challenges**  
+- Maintaining focus and motivation during virtual sessions can be difficult.  
+
+**Personalized Recommendations**  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Support motivation and self‑discipline** | Keep your drive high and stay on track with your studies. | • Set up a short weekly check‑in (e.g., a 5‑minute self‑review or a quick chat with a tutor). <br>• Use calendar reminders for study blocks. <br>• Track progress with a simple checklist or a digital tracker. |
+| **Support self‑paced learning** | Take advantage of the ability to learn when it suits you best. | • Use recorded lectures and downloadable resources to review material at your own speed. <br>• Follow a weekly learning path that outlines what to cover each day, but feel free to adjust the timing as needed. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Create a weekly schedule** – block 2‑3 hours for core study, add 15‑minute reminder alerts before each block.  
+2. **Set up a progress tracker** – a spreadsheet or a free app where you tick off completed readings, videos, and assignments.  
+3. **Use recorded lessons** – after each live session, watch the recording within 24 hours to reinforce learning.  
+4. **Weekly check‑in** – on Friday afternoon, spend 5 minutes reviewing what you accomplished and plan the next week’s focus.  
+
+By following these steps you’ll keep your motivation high while still enjoying the flexibility that blended learning offers. Good luck!
+
+
+
+---
+
+## Student ID: `e20240807`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240807*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you already show strong motivation and a willingness to use digital tools.  
+
+---
+
+### 2. Main Strengths  
+- **Learning convenience & effectiveness:** You appreciate that blended learning lets you multitask, avoid travel, and study in a comfortable environment.  
+- **Digital skills development:** You make good use of AI, YouTube guides, and other online tools to see multiple solution paths.  
+- **Access to learning materials:** You value having slides, videos, and references available online.  
+
+---
+
+### 3. Main Challenges  
+- **Interaction & communication:** You find it hard to ask questions live and feel uneasy about “bothering” the teacher.  
+- **Internet & technical issues:** Unreliable Wi‑Fi can disrupt sessions and limit participation.  
+- **Learning environment:** Limited interaction and occasional technical glitches affect how smoothly you can learn.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to act |
+|----------------|----------------------|------------|
+| **Strengthen access to learning materials** | Keep all course content (slides, videos, exercises, references) available early so you can review them anytime. | Check the LMS weekly for new uploads; download needed files when you have a good connection. |
+| **Develop digital learning skills** | Get more guidance on using the LMS, online research tools, and educational tech (e.g., AI assistants). | Attend the short “LMS Tips” workshop; explore the university’s digital‑learning help centre. |
+| **Increase interaction and communication** | Add structured Q&A, group discussions, and quicker lecturer feedback to reduce hesitation in asking questions. | Participate in scheduled live Q&A slots; use discussion boards or chat groups to post questions before class. |
+| **Improve learning effectiveness** | Combine online review material with in‑person explanations, practice tasks, and feedback. | Before each face‑to‑face session, review the related video or slide; after class, complete a short practice quiz and seek feedback. |
+| **Improve learning resources and environment** | Organize materials clearly and create a comfortable study space (both online and offline). | Use folders or tags in the LMS to keep resources sorted; set up a quiet study area at home with good lighting. |
+| **Improve technical access and reliability** | Ensure you have stable internet or offline alternatives and know how to get technical support quickly. | When possible, connect to campus Wi‑Fi or a reliable hotspot; download lecture videos in advance; keep the tech‑support contact handy. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Log into the LMS and locate the “Course Materials” folder; download the week’s slides and videos. |
+| **Day 2** | Watch the “LMS Basics” tutorial (15 min) and bookmark the digital‑learning help page. |
+| **Day 3** | Set up a quiet study nook at home; test your internet speed and note any weak spots. |
+| **Day 4** | Join the scheduled live Q&A session; write down any questions beforehand. |
+| **Day 5** | Complete the short practice quiz for the current topic and request feedback via the LMS messaging tool. |
+| **Day 6** | If internet is unstable, download the next week’s videos for offline viewing. |
+| **Day 7** | Review the week’s notes, organize them into clearly labeled folders, and reflect on what worked best. |
+
+Repeat the cycle each week, adjusting the steps as you notice improvements in interaction, technical reliability, and overall learning effectiveness.  
+
+---  
+
+**Remember:** You already have strong digital habits and value convenient access to materials. By adding more structured interaction, reliable technical support, and organized resources, you can turn your passive engagement into a more active, confident learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `e20240401`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20240401  
+**Student Segment:** Moderately Engaged (Passive) Learners  
+
+---
+
+### 1. Student Learning Profile
+You appreciate the convenience of studying at home and find it effective because you don’t need to travel to campus. However, you notice that you are less self‑motivated when you study outside the classroom environment.
+
+---
+
+### 2. Main Strengths
+- **Learning Convenience & Effectiveness** – You can focus well when you study from home.
+
+### 3. Main Challenges
+- **Motivation & Self‑Discipline** – Keeping up the same level of motivation as in a face‑to‑face class can be difficult.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Improve learning effectiveness** | Blend online review materials with live, in‑person support. | • Use recorded lectures or reading guides before class.<br>• Attend scheduled face‑to‑face sessions for explanations, practice activities, and immediate feedback. |
+| **Support motivation and self‑discipline** | Build structure and accountability into your weekly routine. | • Set a regular study schedule (e.g., same time each day).<br>• Use a simple progress tracker or checklist.<br>• Participate in weekly check‑ins (via email, chat, or a short meeting) with a tutor or peer group.<br>• Set short‑term goals and celebrate when you meet them. |
+
+These suggestions are drawn directly from the recommendations linked to your segment and the themes you identified.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Create a weekly study timetable (30 min blocks) and add it to your phone/calendar. |
+| **Tuesday** | Watch the online review video for the upcoming topic; note any questions. |
+| **Wednesday** | Attend the in‑person session for that topic – focus on practice and ask your questions. |
+| **Thursday** | Update your progress tracker (what you completed, what needs review). |
+| **Friday** | Send a brief check‑in note to a study buddy or tutor summarising what you learned. |
+| **Weekend** | Review notes for 15 min each day; reflect on what helped you stay motivated. |
+| **Repeat** | Follow the same pattern next week, adjusting the schedule as needed. |
+
+Stick to this simple routine, and you’ll likely see both your learning effectiveness and motivation improve while still enjoying the convenience of studying at home. Good luck!
+
+
+
+---
+
+## Student ID: `e20240578`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["motivation"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240578  
+- **Segment:** Moderately Engaged (Passive) Learners  
+
+**Main Strengths**  
+- The open‑ended response did not provide specific strengths, so this section is based on the general profile of your segment.
+
+**Main Challenges**  
+- Time‑management and self‑discipline (identified under *Motivation & Self‑Discipline*).
+
+**Personalized Recommendations**  
+- **Support motivation and self‑discipline** – Use weekly check‑ins, set up reminders, track your progress, and follow a structured study schedule. These tools are designed to help passive learners become more proactive and keep momentum throughout the term.
+
+**Short Action Plan**  
+
+| Week | Action | Tool/Resource |
+|------|--------|---------------|
+| 1 | Create a simple weekly study timetable (e.g., 2‑hour blocks) | Calendar app or printable planner |
+| 1‑12 | Set a brief (5‑minute) check‑in each Monday to review goals | Reminder app or a study‑group chat |
+| Ongoing | Log completed tasks and note any obstacles | Progress‑tracking sheet or habit‑tracker app |
+| Ongoing | Adjust the schedule as needed based on your check‑ins | Flexible calendar updates |
+
+By consistently applying these steps, you’ll strengthen your self‑discipline, improve time management, and move toward a more active learning approach. Feel free to reach out to your instructor or a learning support advisor if you need additional guidance.
+
+
+
+---
+
+## Student ID: `e20240454`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240454*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current mix:** Prefers about 40 % online and 60 % in‑person classes.  
+
+Because the open‑ended comments are brief, the recommendations below rely mainly on the characteristics of the **Highly Engaged (Active) Learners** segment and the tags identified by the system.
+
+---
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness** – you already appreciate the convenience of online resources and find them helpful for mastering content.
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication** – you feel the current level of interaction (e.g., discussions, quick feedback) could be stronger.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Increase interaction and communication** | Add more opportunities to talk, ask questions, and work with peers, and receive faster feedback from the lecturer. | • Join scheduled Q&A sessions or virtual office hours.<br>• Participate in small‑group discussions or peer‑collaboration activities.<br>• Use discussion boards or chat tools to ask quick questions and request prompt feedback. |
+| **Improve learning effectiveness** | Blend online review material with in‑person explanation, practice, and feedback to deepen understanding. | • Review lecture slides or short videos before class.<br>• Use class time for active problem‑solving, labs, or case studies where the instructor can clarify concepts.<br>• Seek immediate feedback on practice tasks during face‑to‑face sessions. |
+
+These two actions align with the tags **interaction** and **learning_effectiveness** that were highlighted for you.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Monday** | Register for the upcoming Q&A slot (online or on campus). |
+| **Wednesday** | Watch the pre‑class video for your next lecture; note any questions. |
+| **Thursday** | Attend the in‑person class and bring your questions for the lecturer’s feedback. |
+| **Friday** | Join a peer‑study group (virtual or physical) to discuss the week’s material. |
+| **Next Monday** | Post at least one question on the course discussion board and request feedback within 24 h. |
+| **Next Wednesday** | Complete a short practice exercise and ask the lecturer to review it during class. |
+
+Following this plan will give you more interaction opportunities and help you combine online and face‑to‑face learning for better results. Keep track of what works best and adjust the mix as needed. Good luck!
+
+
+
+---
+
+## Student ID: `e20240191`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240191*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster label:** Highly Engaged (Active) Learners (shows potential for higher engagement)  
+
+### 2. Main Strengths  
+- You described yourself as **“happy.”** This positive attitude is a good foundation for learning.
+
+### 3. Main Challenges  
+- You indicated you have **“no idea”** about the biggest challenge you face. Because the open‑ended response is limited, the recommendations below are drawn primarily from the characteristics of the Moderately Engaged (Passive) learner segment.
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Do | Why it Helps |
+|-------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Work on short peer‑collaboration tasks.<br>• Request quicker feedback from lecturers. | Increases active participation and helps you feel more connected to the course. |
+| **Learning Support** | • Look for clear, step‑by‑step guides and recorded explanations.<br>• Use example problems provided by the instructor. | Improves understanding when instructions are ambiguous, giving you a solid reference. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (e.g., with a study buddy or tutor).<br>• Use reminders and a simple progress‑tracking sheet.<br>• Follow a structured study schedule. | Keeps you on track and builds the habit of regular study. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them at your own speed.<br>• Follow the weekly learning path outlines and use the materials for extra practice. | Lets you control the pace of learning, reinforcing concepts when needed. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Add the upcoming Q&A session to your calendar; note the discussion topics. |
+| **Day 3** | Download the recorded lecture for this week and watch the first 15‑minute segment. |
+| **Day 5** | Create a simple study schedule (e.g., 30 min × 3 days) and set a reminder on your phone. |
+| **Day 7** | Join a peer‑collaboration group on the course forum; introduce yourself and share one thing you’re happy about in the class. |
+| **Day 10** | Complete a step‑by‑step guide for the current assignment; ask the lecturer for clarification on any unclear step. |
+| **Day 14** | Review your progress sheet, note what worked, and adjust the schedule for the next two weeks. |
+
+---
+
+**Remember:** Your positive outlook (“happy”) is a strong asset. By adding more interaction, clearer support, regular motivation checks, and self‑paced resources, you can move from passive to a more active, confident learner. Good luck!
+
+
+
+---
+
+## Student ID: `e20240994`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240994  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- **Flexibility & Time Management** – You value being able to adapt your study schedule and manage your time effectively.
+
+**Main Challenges**  
+- **Internet & Technical Issues** – Unreliable connectivity or technical problems sometimes hinder your access to course materials.
+
+**Personalized Recommendations**  
+
+1. **Support Self‑Paced Learning**  
+   - Use recorded lectures and weekly learning paths so you can review content whenever it fits your schedule.  
+   - Keep all reading materials, slides, and assignments in a central online folder for easy, on‑demand access.
+
+2. **Improve Technical Access and Reliability**  
+   - Take advantage of any university‑provided offline resources (downloadable PDFs, video files) to study when the internet is unstable.  
+   - Follow the platform’s quick‑start guide for common issues and know how to contact technical support promptly.  
+   - If possible, locate a reliable Wi‑Fi spot on campus or use the campus computer labs for bandwidth‑intensive tasks.
+
+**Short Action Plan**  
+
+| Week | Action | How It Helps |
+|------|--------|--------------|
+| 1 | Download all lecture recordings and reading PDFs for the next two weeks. | Reduces dependence on live internet connections. |
+| 2 | Create a personal weekly learning path (e.g., “Monday: video, Wednesday: quiz”). | Leverages your flexibility and keeps you on track. |
+| 3 | Test the university’s technical support chat or help desk with a small issue. | Builds confidence in getting quick assistance when needed. |
+| 4 | Identify a reliable study location (library, lab, café with strong Wi‑Fi) for any live sessions. | Minimizes disruptions from connectivity problems. |
+
+By focusing on self‑paced resources and ensuring you have stable technical access, you can keep leveraging your strong flexibility while reducing the impact of internet issues. Keep monitoring what works best and adjust your plan as needed. Good luck!
+
+
+
+---
+
+## Student ID: `e20241302`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241302  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+**Main Strengths**  
+- No specific strengths were identified in the open‑ended response (the comment “slow internet” reflects a technical condition rather than a learning strength).  
+
+**Main Challenges**  
+- No specific challenges were identified in the open‑ended response (the comment “a lot of people” does not describe a learning difficulty).  
+
+*Because the open‑ended answers are limited, the recommendations below are based primarily on the characteristics of the “Moderately Engaged (Passive) Learners” segment.*
+
+**Personalized Recommendations**  
+
+| Focus Area | What the recommendation suggests | How it helps you |
+|------------|----------------------------------|------------------|
+| **Interaction** | Add Q&A sessions, group discussions, peer collaboration, and faster lecturer feedback. | Increases opportunities to engage with classmates and instructors, turning passive study habits into active participation. |
+| **Learning Support** | Provide clearer instructions, concrete examples, recorded explanations, and step‑by‑step guides. | Reduces uncertainty and makes it easier to follow course material on your own schedule. |
+| **Motivation** | Use weekly check‑ins, reminders, progress tracking, and a structured study schedule. | Keeps you accountable and helps maintain momentum throughout the term. |
+| **Self‑Paced Learning** | Offer recorded lessons, weekly learning paths, and reusable materials you can review anytime. | Lets you study when your internet connection is better and fit learning into your personal timetable. |
+
+**Short Action Plan**  
+
+1. **Join a weekly online discussion group** (or start one) to ask questions and share ideas with peers.  
+2. **Create a personal study schedule** that includes:  
+   - 2‑3 short review sessions of recorded lessons each week.  
+   - A 15‑minute check‑in with your lecturer or TA to confirm you’re on track.  
+3. **Use the course’s step‑by‑step guides** when starting new topics; keep them bookmarked for quick reference.  
+4. **Set up simple progress trackers** (e.g., a checklist or a digital habit‑tracker) and enable reminder notifications for upcoming deadlines.  
+
+By focusing on more interaction, clearer support materials, regular motivation cues, and flexible self‑paced resources, you can move from passive to more active engagement while accommodating any internet limitations you may face. Good luck!
+
+
+
+---
+
+## Student ID: `e20240743`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240743*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+
+You are motivated and like to keep a video record of lessons for later review. Your main difficulty is unreliable internet and external disturbances that interrupt live sessions.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You already save class recordings to revisit the content.  
+- **Digital Skills Development:** You are comfortable using digital tools to capture lessons.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Slow or unstable internet and outside noise make it hard to follow live classes.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** (content_access) | Having all slides, videos, references, and exercises available before class lets you study at your own pace and reduces the impact of a bad connection. | • Ask your instructor to upload lecture slides, video recordings, and any supplemental files at least 24 hours before class.<br>• Use the LMS to download these files to your device for offline review. |
+| **Develop digital learning skills** (digital_skill) | Better mastery of the LMS and online research tools will help you locate and use resources quickly, especially when you need to work offline. | • Review short tutorials on the LMS (navigation, bookmarking, downloading).<br>• Explore guides on effective digital note‑taking and searching scholarly sources. |
+| **Improve technical access and reliability** (tech_issue) | Reducing connectivity problems will make live sessions smoother and lessen distractions. | • Identify a quiet study space (library, study room, or a corner with minimal foot traffic).<br>• If possible, use campus Wi‑Fi or a wired Ethernet connection.<br>• Download lecture recordings and materials beforehand so you can continue learning if the connection drops.<br>• Keep the technical support contact information handy for quick help. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Locate a quiet study spot on campus and test the Wi‑Fi speed. |
+| **Day 2** | Download the upcoming week’s lecture slides and videos from the LMS. |
+| **Day 3** | Watch a 10‑minute LMS tutorial (search “LMS navigation basics” on the university portal). |
+| **Day 4** | Save the recorded class you just completed to your device for offline review. |
+| **Day 5** | Contact technical support to ask about any campus resources for stable internet (e.g., reserved computer labs). |
+| **Day 6‑7** | Practice digital note‑taking on the downloaded material; try summarising one lecture in your own words. |
+| **Week 2** | Repeat the download‑review‑note cycle for each new class; keep a log of any connectivity issues and how you solved them. |
+
+Follow this plan, and you’ll keep benefiting from your strong engagement while minimizing the impact of technical disruptions. If you need further help, reach out to your instructor or the university’s learning‑technology support team. Good luck!
+
+
+
+---
+
+## Student ID: `e20240436`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["engagement", "interaction", "learning_effectiveness", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240436*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster (aspirational):** Highly Engaged (Active) Learners  
+
+You manage your time well and appreciate the flexibility of online study, but you note that posting notes and activities on chat platforms (e.g., Telegram, Teams) can be challenging.
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You find it easy to organise your schedule and attend sessions on time.  
+- **Learning Convenience:** The ability to study without commuting works well for you.  
+- **Student Engagement:** You feel positively about staying involved in class.
+
+---
+
+### 3. Main Challenges  
+- **Interaction & Communication:** Posting notes and activities on the chat platform is a difficulty you experience.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Try | How It Helps |
+|-------|-------------|--------------|
+| **Engagement** | Use short quizzes, games, practical tasks, and brief discussions during each session. | Keeps you actively involved and reinforces learning. |
+| **Interaction** | Join scheduled Q&A slots, small‑group discussions, and peer‑collaboration activities; request quicker feedback from the lecturer. | Improves communication on the chat platform and builds a sense of community. |
+| **Learning Effectiveness** | Pair online review materials (videos, readings) with in‑person explanations, hands‑on practice, and immediate feedback. | Strengthens understanding and lets you apply concepts right away. |
+| **Self‑Paced Support** | Access recorded lessons, follow a weekly learning path, and revisit materials whenever needed. | Leverages your strong time‑management skills and the flexibility you value. |
+
+These suggestions are drawn directly from the evidence‑based tags **engagement, interaction, learning_effectiveness,** and **self_paced** that match your segment profile.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action | Expected Outcome |
+|------|--------|-------------------|
+| 1 | Attend at least one live Q&A session and post a brief note on the chat platform afterward. | Practice using the platform and receive quick feedback. |
+| 1 | Complete a short quiz after each lecture (use the quiz feature in the LMS). | Boost immediate engagement and check understanding. |
+| 2 | Form a small study group (2‑3 peers) for a 30‑minute discussion on a recent topic. | Increase peer interaction and collaborative learning. |
+| 2 | Review a recorded lesson and complete the accompanying practice task before the next class. | Reinforce learning at your own pace and improve effectiveness. |
+
+Stick to the plan, reflect on what works best for you, and adjust as needed. You already have strong time‑management skills—using these targeted activities will help turn passive participation into active, effective learning. Good luck!
+
+
+
+---
+
+## Student ID: `e20241172`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20241172  
+**Student Segment:** Moderately Engaged (Passive) Learners  
+
+---
+
+### 1. Student Learning Profile
+You are classified as a **Moderately Engaged (Passive) learner**. This means you generally keep up with coursework but tend to rely on the structure provided rather than seeking out additional interaction or self‑directed activities. Your open‑ended feedback highlighted “good” experiences with learning convenience and effectiveness.
+
+---
+
+### 2. Main Strengths
+- **Learning Convenience & Effectiveness** – You find the current mix of online resources and classroom work helpful for getting the material done efficiently.
+
+---
+
+### 3. Main Challenges
+- No specific challenges were identified in your open‑ended response. Because the feedback was brief, the recommendations below are drawn primarily from the characteristics of your learner segment.
+
+---
+
+### 4. Personalized Recommendations
+**Improve learning effectiveness**  
+- **Blend online review with in‑person support:** Use the online materials (videos, readings, quizzes) to review concepts on your own schedule, then attend face‑to‑face sessions for explanations, guided practice, and immediate feedback. This combination helps reinforce understanding and bridges any gaps that passive study habits might leave.
+
+---
+
+### 5. Short Action Plan
+| Week | Action | How it Helps |
+|------|--------|--------------|
+| 1‑2 | Identify 1‑2 key topics per subject and complete the online review videos/notes before class. | Sets a solid foundation for class work. |
+| 3‑4 | Attend the scheduled in‑person session for those topics; ask at least one question or request a short practice exercise. | Turns passive review into active engagement and gives you feedback. |
+| 5‑6 | After class, do a quick self‑check (e.g., short quiz or flashcards) to confirm you’ve mastered the material. | Reinforces learning and highlights any remaining gaps. |
+| Ongoing | Repeat the cycle for each new topic, adjusting the amount of online review based on how comfortable you feel. | Keeps learning efficient and continuously improves effectiveness. |
+
+By consistently pairing your convenient online study with targeted, interactive classroom time, you’ll boost both understanding and confidence while staying within a structure that fits your learning style.
+
+
+
+---
+
+## Student ID: `e20240658`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_environment", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240658*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- This segment typically benefits from clear structure, reliable technical support, and a comfortable learning environment.
+
+### 2. Main Strengths  
+- No specific strengths were identified in the open‑ended response.  
+- Because the response was limited, the recommendations focus on the typical strengths of the Moderately Engaged (Passive) segment (e.g., willingness to follow guidance and benefit from well‑organized resources).
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** “wifi in university isn’t available for long.”  
+- **Learning Resources & Environment:** The same comment also points to a need for better study spaces and resource access.
+
+### 4. Personalized Recommendations  
+
+| Tag | Recommendation (title) | What to do |
+|-----|------------------------|------------|
+| **learning_environment** | *Improve learning resources and environment* | • Keep your study materials organized and up‑to‑date. <br>• Choose quiet, comfortable spots on campus (e.g., library study rooms) where you can focus. <br>• If possible, arrange a regular desk or table that you can personalize for easier reference. |
+| **tech_issue** | *Improve technical access and reliability* | • Use campus areas with reliable Wi‑Fi (library, computer labs) for activities that need a stable connection. <br>• Download lecture videos, readings, and other materials in advance so you can work offline when Wi‑Fi is spotty. <br>• Familiarize yourself with the learning platform’s help resources and keep the support contact information handy for quick assistance. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Identify two campus locations with strong Wi‑Fi (e.g., main library, IT lab). |
+| **Day 3‑4** | Download all upcoming week’s lecture videos and PDFs to your laptop/tablet for offline study. |
+| **Day 5** | Create a simple folder structure (e.g., “Week 1 → Slides, Readings, Assignments”) and move the downloaded files into it. |
+| **Day 6‑7** | Visit a chosen study space, arrange your desk, and test the internet connection for a short study session. |
+| **Day 8‑10** | Review the platform’s “Help” section; note the contact method for technical support. |
+| **Day 11‑14** | Follow your new routine: start each study session in the reliable space, use offline materials first, and only go online for tasks that require it. Adjust the location or folder system as needed. |
+
+---
+
+**Remember:** A well‑organized study environment and reliable internet access are key to making the most of blended learning. By setting up these basics now, you’ll create a smoother path for deeper engagement and academic success. Good luck!
+
+
+
+---
+
+## Student ID: `e20240462`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20240462  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the “Moderately Engaged (Passive) Learners” cluster)  
+
+**Main Strengths**  
+You appreciate how blended learning is **flexible, convenient, and helps you develop digital skills**. You value easy access to materials, the ability to study at your own pace, and the mix of independent work with direct interaction with teachers and classmates.
+
+**Main Challenges**  
+You experience **technical issues (unstable internet), difficulty staying focused online, and a heavy workload**. You also note that communication with lecturers can be limited and that some lessons could be clearer and more interactive.
+
+**Personalized Recommendations**  
+
+| Area | What to do (based on the rule‑based advice) |
+|------|---------------------------------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** so you can review them whenever you need. |
+| **Digital Skills** | Receive short guides on using the LMS, online research tools, and other educational technologies to boost confidence. |
+| **Engagement** | Participate in quizzes, games, practical tasks, and discussion boards that make learning more interactive. |
+| **Interaction** | Join scheduled Q&A sessions, group discussions, and peer‑collaboration activities; ask for quicker feedback from lecturers. |
+| **Learning Effectiveness** | Combine online review resources with in‑person explanations, practice sessions, and timely feedback. |
+| **Learning Environment** | Use clearly organized, up‑to‑date materials; take advantage of quiet study spaces on campus or at home; ensure classroom comfort. |
+| **Learning Support** | Look for clearer instructions, concrete examples, recorded explanations, and step‑by‑step guides for complex topics. |
+| **Motivation & Self‑Discipline** | Set up weekly check‑ins, reminders, and a simple progress tracker; follow a structured study schedule. |
+| **Self‑Paced Learning** | Access recorded lessons and weekly learning paths so you can review content at your own speed. |
+| **Technical Issues** | Use university‑provided stable internet or offline copies of materials; follow platform tutorials; contact technical support when needed. |
+| **Workload Support** | Seek a balanced assignment schedule, clear deadlines, and alignment between online tasks and face‑to‑face sessions. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Day 1‑2:** Download all available course slides and videos; create a personal folder for each week.  
+2. **Day 3‑4:** Watch a short tutorial on the LMS and note any questions.  
+3. **Day 5:** Join a scheduled Q&A or discussion group; ask for clarification on any confusing topics.  
+4. **Day 6‑7:** Set up a weekly planner with study blocks, reminders, and a progress‑tracking sheet.  
+5. **Week 2:** Test the university’s Wi‑Fi hotspot or request offline copies of upcoming materials; report any connectivity problems to tech support.  
+6. **End of Week 2:** Review the workload for the next module with your lecturer; request clarification on deadlines and assignment weightings.  
+
+By following these steps, you can leverage your strong engagement and digital enthusiasm while addressing the technical and workload challenges you’ve identified. Good luck!
+
+
+
+---
+
+## Student ID: `e20240136`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240136*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+You are a motivated student who values efficiency (e.g., saving travel time) and actively seeks resources that help you understand material clearly.
+
+---
+
+### 2. Main Strengths  
+- **Convenient access:** Living 13 km from campus means you can take advantage of online resources to reduce commuting time.  
+
+---
+
+### 3. Main Challenges  
+- **Learning difficulty & clarity:** You sometimes find lessons hard to follow and prefer video explanations that you can review when needed.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Learning Support** – improve clarity and learning support | Get clearer instructions, concrete examples, and step‑by‑step guides. Recorded video explanations will let you pause, rewind, and review concepts at your own pace. | • Look for course modules that include video lectures and downloadable walkthroughs.<br>• Use the university’s digital library for recorded tutorials.<br>• When a concept isn’t clear, replay the relevant video or request a short explanatory clip from the instructor. |
+
+These suggestions are drawn directly from the “learning_support” tag in the rule‑based recommendation and align with your expressed need for clearer, reviewable content.
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **1** | Identify the courses where video recordings are available (e.g., lecture capture platforms). |
+| **2** | Create a personal folder in your learning management system for “Video Explanations” and save any recorded lessons you find helpful. |
+| **3** | After each class, spend 10‑15 minutes reviewing the video segment of any topic you found confusing. |
+| **4** | Reach out to the instructor or teaching assistant for additional step‑by‑step guides or example problems for topics that remain unclear. |
+| **Ongoing** | Track which videos most improve your understanding and prioritize them for future study sessions. |
+
+---
+
+**Remember:** Leveraging video explanations and clear, step‑by‑step resources will help you maintain your high level of engagement while overcoming moments of confusion. Keep using the digital tools at your disposal, and you’ll continue to succeed in a blended learning environment.
+
+
+
+---
+
+## Student ID: `e20240884`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240884*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Current cluster:** Highly Engaged (Active) Learners (shows potential for higher involvement)  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – You appreciate being able to study when it fits your schedule.  
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – Unreliable connectivity can interrupt your online activities.  
+
+### 4. Personalized Recommendations  
+
+| Recommendation | Why it matters for you | What it looks like |
+|----------------|------------------------|--------------------|
+| **Support self‑paced learning** | Your flexibility means you benefit from materials you can access anytime. | • Recorded video lessons you can watch repeatedly<br>• Weekly learning paths that outline what to study each week<br>• Downloadable PDFs, slides, and practice quizzes for offline review |
+| **Improve technical access and reliability** | Stable internet is essential for participating in blended courses. | • Access to campus Wi‑Fi hotspots or a loaner mobile hotspot<br>• Offline versions of key resources (e.g., PDFs, audio files)<br>• Simple, step‑by‑step guides for using the learning platform<br>• Dedicated tech‑support contact for quick help |
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **Week 1** | Locate the recorded lectures and download the week’s PDF notes to your device. |
+| **Week 2** | Test the campus hotspot or request a loaner hotspot if your home connection is unstable. |
+| **Week 3** | Follow the weekly learning path; pause and replay any video segments that need clarification. |
+| **Week 4** | Contact technical support for any remaining access issues; keep a log of problems and solutions. |
+| **Ongoing** | Review materials at your own pace before any live sessions; use offline resources when internet is down. |
+
+---
+
+**Remember:** Your ability to manage your time flexibly is a strong asset. By pairing self‑paced resources with reliable technical support, you can stay on track and make the most of the blended learning environment. If you encounter any new challenges, reach out to your instructor or the support team—they’re here to help you succeed.
+
+
+
+---
+
+## Student ID: `e20240553`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240553*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+You are a motivated student who actively participates in learning activities. Your engagement level is high, which is a strong asset for blended‑learning environments.
+
+---
+
+### 2. Main Strengths  
+- **Clear explanations** – you are able to articulate ideas and concepts well, which supports both your own learning and peer collaboration.
+
+---
+
+### 3. Main Challenges  
+- **Internet & technical issues** – you spend a lot of money on internet access, indicating that reliable connectivity may be a barrier to fully benefiting from online components.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you |
+|----------------|-----------------------|
+| **Improve technical access and reliability** | • Seek stable, affordable internet options (e.g., campus Wi‑Fi, community hotspots).<br>• Download course materials when you have a good connection so you can study offline.<br>• Use the platform’s offline features (e.g., PDF notes, cached videos).<br>• Keep the platform’s help guide handy and contact technical support early if you encounter problems. |
+
+These suggestions are drawn directly from the rule‑based recommendation for the “tech_issue” tag and align with your segment’s need for smooth digital access.
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **1** | Identify a reliable, cost‑effective internet source (campus Wi‑Fi, library, or a low‑cost provider). |
+| **2** | Download all upcoming lecture videos and reading PDFs while connected to a stable network. |
+| **3** | Save the platform’s quick‑start guide and bookmark the technical‑support contact page. |
+| **4** | Test offline study sessions to ensure materials load correctly; note any issues and report them promptly. |
+
+By following this plan, you can minimize technical disruptions and make the most of your strong engagement and clear communication skills. Keep up the great work!
+
+
+
+---
+
+## Student ID: `e20240450`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** e20240450  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You tend to benefit most when you can study online, especially because you value having disciplined, efficient class starts and the ability to review recorded sessions.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You appreciate having slides, videos, references, and exercises available early, which helps you follow the course even when you are not physically present in the classroom.
+
+---
+
+### 3. Main Challenges  
+- You indicated that you “have no idea yet” about specific challenges. Because the open‑ended response is limited, the recommendations below are drawn primarily from your learner segment profile and the strengths you identified.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | Why it matters |
+|----------------|----------------------|----------------|
+| **Strengthen access to learning materials** (content access) | • Ensure that all course slides, video recordings, reading links, and practice exercises are uploaded to the learning platform **before** each class session. <br>• Use the platform’s “download” or “offline” options so you can study without needing a constant internet connection. | Early and easy access lets you review content at your own pace, reinforces understanding, and reduces the temptation to disengage during live sessions. |
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action | How to do it |
+|------|--------|--------------|
+| **1** | Check the course’s online hub for any missing materials. | Log in to the LMS, locate the week’s folder, and note any absent slides or videos. |
+| **2** | Request early uploads from instructors if needed. | Send a brief, polite email (or use the LMS messaging) asking for the week’s resources to be posted at least 24 hours before class. |
+| **3** | Set a personal review schedule. | Allocate 30 minutes after each lecture to re‑watch the recorded video and complete the provided exercises. |
+| **4** | Use offline access for mobile study. | Download the PDFs and videos to your tablet/phone so you can study without distractions from other apps. |
+| **5+** | Reflect on how early access impacts your engagement. | After a month, note any changes in focus, understanding, or class participation and adjust your routine accordingly. |
+
+---
+
+**Keep in mind:** By securing timely access to all learning materials, you’ll be able to study more independently, stay motivated, and make the most of both online and in‑person components of your courses. If new challenges arise, feel free to update your profile so the recommendations can be refined.
+
+
+
+---
+
+## Student ID: `e20241111`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20241111  
+- **Segment:** Moderately Engaged (Passive) Learners (segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners  
+
+Your open‑ended responses did not highlight specific strengths or challenges, so the recommendations below are based primarily on the characteristics of the *Moderately Engaged (Passive)* segment and the segment‑wide tags that have been identified for you.
+
+---
+
+### Main Strengths
+*No specific strengths were reported.*  
+> The advice below draws on the typical strengths of learners in your segment (e.g., ability to work independently when given clear guidance).
+
+### Main Challenges
+*No specific challenges were reported.*  
+> The suggestions focus on the common challenges for Moderately Engaged (Passive) learners, such as limited interaction, motivation, and need for clearer support.
+
+---
+
+### Personalized Recommendations  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and online discussion boards.<br>• Participate in small‑group peer collaborations.<br>• Request quicker feedback from the lecturer after submissions. | Increases engagement and helps you stay connected with the course material and classmates. |
+| **Learning Support** | • Look for detailed instructions, examples, and step‑by‑step guides provided by the instructor.<br>• Use recorded explanations that break down complex concepts. | Clear, concrete resources reduce uncertainty and make self‑study more effective. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (e.g., with a study buddy or tutor).<br>• Use reminders or a digital planner to track progress.<br>• Follow a structured study schedule that outlines what to cover each week. | Regular checkpoints keep you accountable and maintain momentum throughout the term. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them at your own speed.<br>• Follow the weekly learning path released by the course team.<br>• Keep a personal “cheat sheet” of key points for quick revision. | Allows you to control the pace of learning while still meeting course deadlines. |
+
+---
+
+### Short Action Plan (Next 2 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | • Enroll in the upcoming Q&A session and post one question in the discussion forum.<br>• Download the first set of recorded lessons and create a brief study schedule for the week. |
+| **2** | • Pair up with a peer for a 30‑minute check‑in to review progress.<br>• Complete the step‑by‑step guide for the current assignment and request feedback within 48 hours. |
+| **Ongoing** | • Set a daily reminder to review notes for 15 minutes.<br>• Keep a simple log of completed tasks to see your progress visually. |
+
+By following these targeted steps, you’ll strengthen interaction, gain clearer support, stay motivated, and make the most of self‑paced resources—helping you move from passive to more active engagement in your blended courses. Good luck!
+
+
+
+---
+
+## Student ID: `e20241310`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241310*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You tend to study independently when you have the time, but you experience interruptions because of unreliable internet access.
+
+---
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness:** You value having extra time for self‑study and find it a major strength.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unstable Wi‑Fi and limited study time are the biggest obstacles you face.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Tag | Recommendation (based on rule‑based guidance) |
+|-----|-----------------------------------------------|
+| **learning_effectiveness** | **Combine online review materials with in‑person explanation, practice, and feedback.** Use short video or slide reviews before class, then attend face‑to‑face sessions where the instructor clarifies concepts, guides practice activities, and gives you immediate feedback. |
+| **tech_issue** | **Improve technical access and reliability.** Request stable campus Wi‑Fi or a hotspot for home use, download offline copies of lecture notes and videos in advance, follow clear platform instructions, and contact the technical support desk whenever connectivity problems arise. |
+
+These two actions directly address your strengths (self‑study time) while removing the main barrier (poor internet).
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action | How to Do It |
+|------|--------|--------------|
+| **1** | Secure reliable internet | Apply for a campus Wi‑Fi voucher or arrange a personal hotspot; test the connection before your next study session. |
+| **2** | Download offline materials | From the LMS, download lecture slides, PDFs, and video recordings for the upcoming week. |
+| **3** | Blend study sessions | Before each class, spend 30 min reviewing the downloaded material; attend the in‑person class for explanation, practice exercises, and ask questions. |
+| **4** | Use technical support | If any issue arises, contact the university’s tech help desk (email/phone) and note the problem for future reference. |
+| **Ongoing** | Reflect on effectiveness | After each week, note whether the combined online/offline approach helped you understand the content better and whether internet issues have decreased. |
+
+Follow this plan for the next month and adjust as needed. By pairing reliable offline resources with active classroom interaction, you can make the most of your self‑study time while minimizing technical disruptions. Good luck!
+
+
+
+---
+
+## Student ID: `e20241228`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241228*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+- You enjoy recording video for later review and self‑study, which helps you access material conveniently.  
+
+### 2. Main Strengths  
+- **Access to Learning Materials** – You already use video recordings to revisit content, supporting independent study.  
+
+### 3. Main Challenges  
+- **Interaction & Communication** – Limited opportunities to connect with classmates and lecturers.  
+- **Internet & Technical Issues** – Unstable connection makes online activities difficult.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Content Access** | Upload slides, videos, reference links, exercises, and other course materials **early** in the learning platform. | Gives you reliable resources to review offline when the internet is unstable. |
+| **Interaction** | Participate in scheduled Q&A sessions, join small‑group discussions, and use peer‑collaboration tools. Request quicker feedback from the lecturer when possible. | Increases communication with friends and instructors, reducing the feeling of isolation. |
+| **Learning Effectiveness** | Combine the online review materials (your videos) with in‑person explanations, hands‑on practice, and timely feedback. | Reinforces understanding and lets you apply what you’ve reviewed. |
+| **Technical Access** | Use offline copies of the uploaded materials, follow clear platform guides, and contact technical support for connectivity problems. | Ensures you can continue studying even when the internet drops. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Download all currently available slides and videos; save them for offline use. |
+| **Day 3** | Check the course platform for any “offline mode” instructions; note who to contact for tech help. |
+| **Day 4–5** | Join a scheduled Q&A or discussion group; prepare one question from your video notes. |
+| **Day 6** | Request the lecturer’s feedback on a recent assignment or practice task. |
+| **Day 7–9** | Record a short summary video of a key concept and share it with a study buddy for peer review. |
+| **Day 10–12** | Attend an in‑person (or live‑stream) session that revisits the material you reviewed offline. |
+| **Day 13–14** | Review the week’s notes, note any remaining technical issues, and report them to support. |
+
+Follow these steps to keep your learning material accessible, boost interaction with peers and instructors, and mitigate internet problems while maintaining the high level of engagement you already demonstrate. Good luck!
+
+
+
+---
+
+## Student ID: `e20241133`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_environment", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241133*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+- You show a strong, positive attitude toward learning and are comfortable using digital tools. Your open‑ended responses highlight a desire for consistent digital platforms and more interactive online activities.
+
+### 2. Main Strengths  
+- **Access to Learning Materials** – You value having slides, videos, and other resources available early.  
+- **Digital Skills Development** – You are confident with LMS tools and see the benefit of standardized digital environments.
+
+### 3. Main Challenges  
+- **Interaction & Communication** – You would like more interactive elements (short videos, quizzes, discussion boards) rather than long passive lectures.  
+- **Learning Resources & Environment** – You notice a need for clearer organization of materials and a comfortable study setting.  
+- **Assessment & Workload** – You prefer balanced assignments and clear deadlines that align with in‑person sessions.
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Apply It |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Get all course content (slides, videos, references, exercises) early in the semester. | Check the LMS weekly for newly uploaded files; use the “download all” feature when available. |
+| **Develop digital learning skills** | Build confidence with LMS functions, online research, and educational tech. | Attend any short “LMS tip” webinars; explore tutorials on citation managers and discussion‑board etiquette. |
+| **Increase interaction and communication** | Replace long video lectures with short 8‑10 min clips, quick quizzes, and live Q&A or peer‑discussion sessions. | Participate in scheduled live Q&A; use the chat or forum to ask questions right after each short video. |
+| **Improve learning resources and environment** | Materials should be clearly organized; study spaces should be comfortable and distraction‑free. | Use the LMS’s folder structure to keep your own notes organized; locate quiet study zones on campus or set up a dedicated home workspace. |
+| **Manage workload and assessment pressure** | Assignments should be balanced, deadlines clear, and online tasks aligned with face‑to‑face class work. | Create a personal calendar that mirrors the official course schedule; flag any unclear deadlines and ask the lecturer early. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | Review the LMS syllabus and download all available materials for each of your courses. |
+| **2** | Attend a campus or online “LMS basics” workshop; practice using discussion boards and quiz tools. |
+| **3** | Join a study group or peer‑collaboration session for one of your courses; contribute to a short‑video discussion. |
+| **4** | Create a weekly planner that lists assignment due dates, quiz windows, and scheduled Q&A sessions; adjust any workload concerns with the lecturer. |
+
+By following these steps, you can leverage your strong engagement while addressing the interaction, resource, and workload challenges you identified. Keep communicating with your lecturers and peers—they are key partners in a successful blended‑learning experience.
+
+
+
+---
+
+## Student ID: `e20240562`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_support", "self_paced", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240562*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Current cluster:** Moderately Engaged (Passive) Learners  
+- You value **flexibility and time‑saving** in your studies and would like more hands‑on practice, projects each semester, and a workload that lets you focus on your major.
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you appreciate learning tools that let you study efficiently and fit study time into your schedule.
+
+### 3. Main Challenges  
+- **Assessment & Workload:** You feel the current balance of theory and practice could be improved and would like clearer, more manageable assignments.  
+- **Learning Difficulty & Clarity:** You need clearer instructions and more concrete examples to support your learning.
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Learning Support** | Get clearer guidance, step‑by‑step instructions, and recorded explanations for complex topics. | Look for supplemental videos, detailed handouts, and example problems posted in the LMS. |
+| **Self‑Paced Learning** | Access recorded lessons and weekly learning paths so you can review material whenever you have time. | Use the course’s video library and weekly outlines to study at your own pace, especially when you need extra practice. |
+| **Workload Support** | Assignments will be balanced, deadlines clarified, and online tasks aligned with face‑to‑face sessions. | Follow the updated assignment calendar, and use the provided checklists to keep track of due dates and required work. |
+
+These recommendations align with the tags **learning_support**, **self_paced**, and **workload_support** that were identified for you.
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **1** | Review the course’s weekly learning path and locate any recorded explanations for upcoming topics. |
+| **2** | Download the step‑by‑step guides for the first major assignment; note any unclear instructions and ask the instructor or TA for clarification. |
+| **3** | Use the project brief to plan a small practice activity (e.g., a mini‑project) that applies the theory you just studied. |
+| **4** | Check the updated assignment calendar; set personal reminders for each deadline to avoid overload. |
+| **5‑6** | Complete a short reflective journal on how the recorded lessons and clearer guides helped your understanding; share feedback with the course team. |
+
+By following this plan, you can take advantage of flexible, self‑paced resources, receive clearer learning support, and keep your workload manageable while staying actively engaged in your studies.
+
+
+
+---
+
+## Student ID: `e20241410`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20241410*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners – you show many of the strengths of active learners but still tend to work more passively in the blended environment.  
+
+---
+
+### 2. Main Strengths  
+Your open‑ended response highlights a clear appreciation for the **flexibility** that blended learning offers. You value being able to combine in‑person instruction with online tools, which helps you **manage your time** and **access learning materials** at your own pace.  
+
+---
+
+### 3. Main Challenges  
+You note several areas that can hinder your progress:  
+
+- **Motivation & self‑discipline** – staying focused during online study without direct supervision.  
+- **Interaction & communication** – feeling isolated and finding it harder to ask questions online.  
+- **Technical issues** – occasional internet or device problems.  
+- **Workload & clarity** – online tasks can feel overwhelming when instructions are unclear.  
+
+These challenges align with the themes identified for your segment.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What the university can do for you | How it helps you |
+|------|-------------------------------------|------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** in the LMS. | You can review material before class, reinforcing the flexibility you value. |
+| **Digital Skills** | Provide short guides or workshops on LMS tools, online research, and educational tech. | Increases confidence using digital platforms, reducing frustration. |
+| **Engagement** | Include low‑stakes quizzes, games, practical tasks, and discussion prompts in each module. | Keeps you actively involved and combats passive study habits. |
+| **Interaction** | Schedule regular Q&A sessions, small‑group discussions, and peer‑collaboration activities; ensure faster lecturer feedback. | Improves sense of community and makes it easier to ask questions. |
+| **Learning Environment** | Organise all resources clearly, update them regularly, and offer quiet study spaces (both physical and virtual). | Reduces cognitive load and helps you locate what you need quickly. |
+| **Learning Support** | Provide step‑by‑step guides, example problems, and recorded explanations for complex tasks. | Clarifies expectations and reduces the feeling of being overwhelmed. |
+| **Motivation** | Set up weekly check‑ins, automated reminders, and a simple progress‑tracking dashboard. | Helps you monitor your own pace and stay on track. |
+| **Self‑Paced Learning** | Offer recorded lectures and a weekly learning path that you can follow at your own speed. | Leverages the flexibility you already appreciate. |
+| **Technical Issues** | Ensure reliable campus Wi‑Fi, make key materials available for offline download, and provide a dedicated tech‑support helpdesk. | Minimises disruptions caused by internet or device problems. |
+| **Workload Support** | Balance the number of online assignments with in‑person work, clearly state deadlines, and align tasks across modalities. | Makes the overall workload feel manageable and transparent. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | How to Do It |
+|------|--------|--------------|
+| **1** | Review the **course LMS** for newly uploaded slides and videos. | Log in daily; mark any missing resources and request them from the lecturer. |
+| **2** | Attend a **digital‑skills workshop** (often offered by the library or IT services). | Register via the student portal; practice using discussion boards and quiz tools. |
+| **3** | Join a **weekly study group** or virtual breakout session for your course. | Look for group invitations on the LMS or ask the lecturer to form one. |
+| 4 | Set up a **personal progress tracker** (e.g., a simple spreadsheet) and schedule a **15‑minute weekly check‑in** with yourself or a peer mentor. | Record completed tasks, upcoming deadlines, and any technical issues you encounter. |
+
+---
+
+**Remember:** You already value the flexibility of blended learning. By taking advantage of the resources and support outlined above, you can turn passive habits into active, self‑directed study while staying motivated and connected. Good luck!
+
+
+
+---
+
+## Student ID: `e20230930`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** e20230930  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – you attend classes but tend to take a more passive role.  
+- **Current View of Blended Learning:** You appreciate the flexibility, access to materials, and the way blended formats can boost independence and engagement. At the same time, you notice challenges with internet reliability, staying focused, and getting clear explanations online.
+
+---
+
+### Main Strengths
+1. **Access to Learning Materials** – you value having slides, videos, and resources available early.  
+2. **Digital Skills Development** – you see blended learning as a way to improve your online research and tool use.  
+3. **Flexibility & Time Management** – learning at your own pace fits your schedule.  
+4. **Student Engagement** – you recognize that interactive elements can raise motivation.  
+
+### Main Challenges
+1. **Interaction & Communication** – you would like more Q&A, peer collaboration, and faster lecturer feedback.  
+2. **Internet & Technical Issues** – unstable connections hinder your study.  
+3. **Learning Difficulty & Clarity** – some online lessons feel unclear; you need better explanations and examples.  
+4. **Motivation & Self‑Discipline** – maintaining focus and self‑discipline can be tough in a passive learning style.  
+
+---
+
+## Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Upload all slides, videos, references, and exercises **early** so you can review them anytime. |
+| **Digital Skills** | Offer short guides or workshops on using the LMS, online research tools, and other educational technologies. |
+| **Engagement** | Include low‑stakes quizzes, quick games, practical tasks, and discussion prompts in each module. |
+| **Interaction** | Schedule regular live Q&A sessions, small‑group discussions, and peer‑collaboration activities; aim for faster lecturer feedback. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations, practice opportunities, and timely feedback. |
+| **Learning Environment** | Organize digital resources clearly, keep them up‑to‑date, and ensure classroom spaces are comfortable for hybrid work. |
+| **Learning Support** | Provide clearer instructions, concrete examples, recorded step‑by‑step explanations, and quick‑reference guides. |
+| **Motivation** | Set up weekly check‑ins, automated reminders, progress dashboards, and a structured study schedule. |
+| **Self‑Paced Learning** | Make recorded lessons and weekly learning paths available so you can study when it suits you best. |
+| **Technical Issues** | Ensure stable internet options (e.g., campus Wi‑Fi hotspots), offer offline downloadable materials, and provide a dedicated tech‑support channel. |
+
+---
+
+## Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Who’s Responsible |
+|------|--------|--------------------|
+| 1 | Review the course’s **early‑uploaded** slide deck and video recordings. | You |
+| 2 | Attend a **digital‑skills workshop** on the LMS and online research tools. | Course coordinator |
+| 3 | Participate in a **live Q&A** and join a peer discussion group for the current topic. | You & lecturer |
+| 4 | Use the **weekly progress tracker** and set personal study milestones; contact tech support if you experience connectivity problems. | You (track) / Tech team (support) |
+
+Follow these steps and the recommendations above to turn your passive engagement into a more active, supported, and successful blended‑learning experience. You have the tools—now it’s about using them consistently. Good luck!
+
+
+
+---
+
+## Student ID: `e20241018`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_support", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** e20241018  
+**Student Segment:** Moderately Engaged (Passive) Learners  
+
+---
+
+### 1. Student Learning Profile
+You describe yourself as someone who “stimulates learning.” At the same time, you experience difficulties **connecting to the internet** and **understanding the lesson material**. Your comments are neutral in tone, indicating that these challenges are practical obstacles rather than motivational issues.
+
+---
+
+### 2. Main Strengths
+- **Motivation to stimulate learning** – you are interested in making the most of your study time.
+
+---
+
+### 3. Main Challenges
+- **Internet & Technical Issues** – unreliable or unavailable connectivity.
+- **Learning Difficulty & Clarity** – the lesson content is not always clear or easy to follow.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to use it |
+|----------------|----------------------|---------------|
+| **Learning Support** (Improve clarity and learning support) | Receive clearer instructions, concrete examples, and step‑by‑step guides. Recorded explanations let you review material at your own pace. | Look for supplemental videos, downloadable guides, or ask your instructor for annotated examples. |
+| **Tech Issue** (Improve technical access and reliability) | Ensure you have stable internet or offline alternatives, plus simple platform instructions and quick technical help. | Use campus Wi‑Fi or a reliable hotspot when possible. Download lecture PDFs or videos in advance for offline study. Keep a short “tech‑help” checklist (e.g., how to reset the connection, where to find support). |
+
+These recommendations align with the tags **learning_support** and **tech_issue** that were identified for you.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Identify a reliable internet source (campus library, café Wi‑Fi, or a personal hotspot). |
+| **Day 3–4** | Download all upcoming lecture videos and reading materials for offline access. |
+| **Day 5–7** | Review the first set of recorded explanations and step‑by‑step guides; note any parts that remain unclear. |
+| **Day 8** | Contact technical support with a brief description of any connectivity problems you encountered. |
+| **Day 9–10** | Request additional examples or clarification from the instructor for any lingering doubts. |
+| **Day 11–14** | Reflect on how the clearer resources and stable access affected your understanding; adjust the plan as needed. |
+
+---
+
+**Remember:** Leveraging clearer learning materials and securing reliable internet access will help you move from passive engagement toward more active, confident participation in your courses. If you need further assistance, reach out to your instructor or the campus tech support team. Good luck!
+
+
+
+---
+
+## Student ID: `e20240458`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20240458*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster label:** Moderately Engaged (Passive) Learners  
+
+You are classified as a highly engaged learner, which means you generally take initiative in your studies and benefit from flexible, self‑paced learning environments.
+
+---
+
+### 2. Main Strengths  
+- **Ease of study** – you find it straightforward to engage with course material.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – unreliable or limited internet access can disrupt your learning.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you |
+|----------------|-----------------------|
+| **Improve technical access and reliability** | • Ensure you have a stable internet connection (e.g., campus Wi‑Fi, mobile hotspot, or a reliable home plan).<br>• Download offline versions of lectures, readings, and assignments when possible.<br>• Keep a quick‑reference guide for the learning platform’s basic functions.<br>• Know how to reach technical support for prompt help. |
+
+These suggestions are drawn directly from the rule‑based recommendation for the “tech_issue” tag and align with the needs of highly engaged learners like you.
+
+---
+
+### 5. Short Action Plan  
+
+| Step | Action | Timeline |
+|------|--------|----------|
+| 1 | Test your current internet speed and identify any weak spots. | This week |
+| 2 | Locate campus or public Wi‑Fi spots you can use as a backup. | This week |
+| 3 | Download all upcoming lecture videos and reading PDFs to your device for offline study. | Before the next class |
+| 4 | Save the platform’s FAQ or quick‑start guide on your phone/computer. | Immediately |
+| 5 | Add the technical support contact (email/phone) to your contacts and note typical response times. | Immediately |
+| 6 | If problems persist, discuss alternative access options with your instructor or IT services. | Ongoing |
+
+Following these steps will help you maintain the smooth, self‑paced learning experience that matches your strong engagement level. If you need further assistance, your university’s support services are ready to help.
+
+
+
+---
+
+## Student ID: `e20230269`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: e20230269*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners  
+- **Cluster:** Moderately Engaged (Passive) Learners  
+
+Your open‑ended responses did not provide specific strengths or challenges, so the recommendations below are drawn primarily from the characteristics of the **Highly Engaged (Active) Learners** segment.
+
+---
+
+### 2. Main Strengths  
+*No specific strengths were reported.*  
+
+---
+
+### 3. Main Challenges  
+*No specific challenges were reported.*  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Apply It |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Having all slides, videos, readings, and exercises available early helps you stay organized and ready to dive into content. | Upload or request that the instructor posts all course resources (slides, video recordings, reference links, practice exercises) at the start of each week. |
+| **Develop digital learning skills** | Being comfortable with the LMS, online research tools, and educational apps lets you work more efficiently. | Attend short tutorials or watch quick guides on using the LMS, searching scholarly databases, and applying digital tools for note‑taking and collaboration. |
+| **Increase learner engagement** | Interactive activities keep motivation high and deepen understanding. | Participate in quizzes, gamified tasks, discussion boards, and hands‑on projects that the course offers. If none are available, suggest adding a quick poll or a short group activity. |
+| **Support self‑paced learning** | Recorded lessons and clear weekly pathways let you review material whenever it suits you. | Use recorded lectures and follow the weekly learning path provided by the instructor. Schedule short review sessions for topics that feel challenging. |
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **Week 1** | Check the course portal for all uploaded materials; if anything is missing, ask the instructor to add it. |
+| **Week 2** | Complete a brief tutorial on one LMS feature (e.g., discussion forums or assignment submission). |
+| **Week 3** | Participate in the first quiz or interactive activity; note what you enjoyed and what could be improved. |
+| **Week 4** | Create a personal weekly learning schedule using the recorded lessons and set aside 30 minutes for review. |
+| **Ongoing** | Keep using digital tools for research and note‑taking; share any useful tips with classmates to boost collective engagement. |
+
+---
+
+**Remember:** Even without detailed self‑reported strengths or challenges, these strategies align with the habits of highly engaged learners and will help you make the most of a blended learning environment. If you notice specific areas where you excel or struggle, feel free to update your profile so future recommendations can be even more tailored. Good luck!
+
+
+
+---
+
+## Student ID: `ext_bac70296f2`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile
+- **Student ID:** ext_bac70296f2  
+- **Segment:** Highly Engaged (Active) Learners (Segment 1)  
+- **Current Cluster:** Moderately Engaged (Passive) Learners  
+
+You are a highly motivated learner who likes to revisit material, but you have reported an unstable internet connection that can hinder your study flow.
+
+---
+
+### 2. Main Strengths
+- **Access to Learning Materials:** You already make good use of the ability to go back and review lessons.
+
+---
+
+### 3. Main Challenges
+- **Internet & Technical Issues:** Unreliable internet makes it difficult to access online content consistently.
+
+---
+
+### 4. Personalized Recommendations
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Ensure all course resources (slides, videos, readings, exercises) are available early and in formats you can download. | • Download lecture slides and videos as soon as they are posted.<br>• Keep a personal folder (cloud or local) with all course files for quick reference. |
+| **Improve technical access and reliability** | Reduce the impact of internet instability by having offline options and clear technical support. | • Save copies of essential materials for offline study.<br>• Use the university’s Wi‑Fi hotspots or campus computer labs when possible.<br>• Follow the platform’s quick‑start guide and note the contact details for tech support. |
+
+These suggestions are drawn directly from the rule‑based recommendations matched to your segment and the challenges you reported.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Locate the “download” links for this week’s slides and videos; save them to a dedicated folder on your device. |
+| **Day 3** | Test the university Wi‑Fi or a nearby hotspot; note the most reliable connection spot. |
+| **Day 4–5** | Review the platform’s technical help page; bookmark the support email/phone number. |
+| **Day 6–7** | Create a simple checklist: *slides downloaded? videos saved? offline notes ready?* |
+| **Week 2** | Use the offline files to study on days when the internet is unstable; contact tech support if you encounter any access problems. |
+
+By securing your learning materials and planning for connectivity issues, you can keep your high engagement level even when technical hurdles arise. Keep up the great work!
+
+
+
+---
+
+## Student ID: `ext_b9e4b676bf`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** ext_b9e4b676bf  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+- You appreciate the flexibility of studying outside the classroom, which lets you manage your time independently.
+
+**Main Challenges**  
+- Unreliable internet connection and limited knowledge of the devices and software needed for online learning.
+
+**Personalized Recommendations**  
+- **Improve technical access and reliability** – Arrange for a stable internet connection (e.g., campus Wi‑Fi hotspots, data subsidies, or a reliable home plan).  
+- Use **offline materials** (downloadable PDFs, videos, or lecture recordings) so you can continue learning when the connection drops.  
+- Follow **clear platform instructions** that explain how to use the learning software; keep a quick‑reference guide handy.  
+- Take advantage of **technical support** services offered by the university (help desk, tutoring labs, or peer tech mentors) whenever you encounter device or software issues.
+
+**Short Action Plan**  
+1. **Check internet options** – Contact the campus IT office this week to learn about Wi‑Fi hotspots or student data plans.  
+2. **Download offline resources** – Before each class, download lecture slides or videos to your device.  
+3. **Create a quick‑start guide** – Write down the basic steps for logging into the learning platform and saving files; keep it on your laptop/phone.  
+4. **Use support services** – Bookmark the university’s tech‑support portal and schedule a short orientation session if you’re unsure how to use any tool.  
+
+By securing reliable connectivity and having offline backups, you can keep leveraging your strong self‑directed study habits without technical interruptions.
+
+
+
+---
+
+## Student ID: `ext_4b6a2d6faa`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "motivation"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** ext_4b6a2d6faa  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+**Main Strengths**  
+- You recognize that you can use travel or “trip time” for studying, showing an awareness of flexible study moments.
+
+**Main Challenges**  
+- You feel that a lack of motivation and limited interaction from some professors makes it harder to stay engaged with the material.  
+- The challenges you identified fall under **Interaction & Communication** and **Motivation & Self‑Discipline**.
+
+**Personalized Recommendations**  
+
+| Focus | What to Try | Why It Helps |
+|-------|-------------|--------------|
+| **Interaction** | • Join short Q&A sessions or online office‑hours.<br>• Participate in small‑group discussions or peer‑collaboration activities.<br>• Request quicker feedback from lecturers on assignments. | Increases communication with peers and instructors, making the learning experience more active and supportive. |
+| **Motivation & Self‑Discipline** | • Set a weekly check‑in (e.g., a 10‑minute self‑review) to note progress.<br>• Use reminders or a digital planner to schedule study blocks, especially during travel time you mentioned.<br>• Track completed tasks in a simple progress chart. | Provides structure, keeps you accountable, and builds a sense of accomplishment that fuels motivation. |
+
+**Short Action Plan (Next 2 Weeks)**  
+
+1. **Pick one interaction opportunity** – sign up for a Q&A or discussion forum for a current course.  
+2. **Create a simple study schedule** – block 30 minutes of “trip time” each day and add a reminder on your phone.  
+3. **Set a weekly check‑in** – every Sunday, review what you completed, note any obstacles, and adjust the next week’s plan.  
+4. **Ask for feedback** – after submitting an assignment, request a brief comment from the lecturer within 48 hours.  
+
+By focusing on these interaction and motivation strategies, you can turn passive habits into more active, self‑directed learning while making the most of the flexible study moments you already value.
+
+
+
+---
+
+## Student ID: `ext_e41e431246`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** ext_e41e431246  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+
+**Main Strengths**  
+You appreciate how blended learning **combines in‑person teaching with online resources**, giving you flexible access to slides, videos, and other materials. This flexibility supports your time‑management, independent study, and overall engagement.
+
+**Main Challenges**  
+You note two areas that could be improved:  
+1. **Technical & platform stability** – reliable internet and a smooth digital platform are needed.  
+2. **Interaction & clarity** – more interactive online sessions, clearer instructions, and quicker feedback would help you stay fully engaged.
+
+**Personalized Recommendations**  
+
+| Area | What to do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Upload all slides, videos, references, exercises, and other course materials **early** so you can review them anytime. |
+| **Digital Skills** | Offer short guides or workshops on using the LMS, searching digital resources, and applying educational technologies. |
+| **Engagement** | Include low‑stakes quizzes, games, practical tasks, and discussion prompts to keep you actively involved. |
+| **Interaction** | Add regular Q&A slots, small‑group discussions, peer‑collaboration activities, and ensure lecturers give **timely feedback**. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations, practice sessions, and feedback loops. |
+| **Learning Environment** | Organise digital resources clearly, keep them up‑to‑date, and improve study‑space comfort (both virtual and physical). |
+| **Learning Support** | Provide clearer instructions, concrete examples, recorded step‑by‑step explanations, and concise guides. |
+| **Self‑Paced Learning** | Make recorded lessons and weekly learning paths available so you can study at your own speed. |
+| **Technical Issues** | Ensure stable campus Wi‑Fi, offer offline copies of key materials, give clear platform navigation instructions, and provide a quick‑response tech‑support channel. |
+
+**Short Action Plan (Next 4 Weeks)**  
+
+| Week | Action | Who’s Responsible |
+|------|--------|--------------------|
+| 1 | Upload all course slides and videos **at least 2 days before** the first class session. | Lecturer / Course Team |
+| 2 | Run a 30‑minute LMS tutorial covering file access, discussion boards, and submission tools. | Teaching Assistant |
+| 3 | Introduce a weekly low‑stakes quiz and a short discussion prompt after each online module. | Lecturer |
+| 4 | Set up a dedicated “Tech Help” chat (or email) with guaranteed response within 24 hours; provide offline PDFs of key readings. | IT Support / Course Coordinator |
+
+These steps align with your strengths (flexibility, engagement) and directly address the challenges you identified (technical reliability and interaction). By following the plan, you’ll be able to make the most of blended learning while keeping your study experience smooth and effective.
+
+
+
+---
+
+## Student ID: `ext_5ff7cde697`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** ext_5ff7cde697  
+**Student Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)
+
+---
+
+### 1. Student Learning Profile
+You thrive when you can **access lecture recordings and other materials at any time**, which helps you manage a busy schedule. At the same time, you experience **unstable internet connections** and find it hard to stay focused during live online sessions.
+
+---
+
+### 2. Main Strengths
+- **Access to Learning Materials** – You make good use of recorded lectures and downloadable resources.  
+- **Flexibility & Time Management** – Being able to study when it suits you works well for you.
+
+---
+
+### 3. Main Challenges
+- **Internet & Technical Issues** – Unreliable connectivity disrupts live participation.  
+- **Interaction & Communication** – Limited real‑time interaction makes it harder to stay engaged.  
+- **Motivation & Self‑Discipline** – Staying focused during online classes is difficult.
+
+---
+
+### 4. Personalized Recommendations
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** (content_access) | Keep having all slides, videos, references, and exercises available early. | Check the course portal each week for newly uploaded resources; download them when you have a good connection. |
+| **Increase interaction and communication** (interaction) | More live Q&A, group discussions, and quick feedback will help you stay engaged. | Join scheduled discussion forums or small‑group breakout rooms; post questions in the Q&A board; request brief feedback from the lecturer after assignments. |
+| **Improve clarity and learning support** (learning_support) | Clear instructions, examples, and step‑by‑step guides reduce confusion. | Use the provided recorded explanations and guides; if something is unclear, ask for a concrete example in the next Q&A session. |
+| **Support motivation and self‑discipline** (motivation) | Weekly check‑ins, reminders, and progress tracking keep you on track. | Set a weekly study schedule; use the platform’s progress tracker; respond to any reminder emails or push notifications. |
+| **Support self‑paced learning** (self_paced) | Recorded lessons let you review content at your own speed. | Re‑watch key lecture segments before quizzes; follow the weekly learning path but adjust timing to fit your personal rhythm. |
+| **Improve technical access and reliability** (tech_issue) | Stable internet or offline options reduce disruptions. | When possible, use campus Wi‑Fi or a reliable hotspot; download lecture videos and PDFs for offline study; contact technical support as soon as a connectivity problem occurs. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Review the course syllabus and note when new materials will be uploaded. |
+| **Day 2‑3** | Download all available lecture videos and slides for the upcoming week (offline backup). |
+| **Day 4** | Join the first scheduled Q&A or discussion session; prepare one question in advance. |
+| **Day 5** | Set up a simple weekly study schedule (e.g., Mon‑Wed‑Fri 10‑11 am) and add a reminder in your calendar. |
+| **Day 6‑7** | Complete the first set of practice exercises using the step‑by‑step guides; note any unclear points. |
+| **Day 8** | Send a brief progress update to the lecturer or teaching assistant (e.g., “I’ve completed the first module, need clarification on X”). |
+| **Day 9‑10** | Test an alternative internet source (campus Wi‑Fi, library, mobile hotspot) for a live session. |
+| **Day 11‑14** | Review recorded lectures again, focusing on sections that were hard to follow; use the provided examples for extra practice. |
+
+Follow this plan, keep using the recorded resources, and take advantage of the added interaction opportunities. With these steps, you’ll be able to maintain your strong engagement while overcoming technical and focus challenges. Good luck!
+
+
+
+---
+
+## Student ID: `ext_899bd5161e`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["digital_skill", "engagement", "interaction", "learning_environment", "motivation", "self_paced", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_899bd5161e  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster)  
+
+You are a motivated student who values flexibility, digital collaboration, and interaction with classmates.  
+
+---
+
+### 2. Main Strengths  
+- Strong digital skills and comfort with online tools.  
+- Appreciates flexible learning schedules.  
+- Actively engages with peers and enjoys collaborative activities.  
+
+---
+
+### 3. Main Challenges  
+- Feelings of digital isolation.  
+- Difficulty managing time and workload.  
+- Over‑load of information and limited quick feedback.  
+
+These challenges were expressed directly in your open‑ended response, so the recommendations below are tailored to both your strengths and the areas you find most difficult.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Digital Skill** | Use short guides and short videos on LMS navigation, online research tools, and educational apps. | Reinforces your existing digital confidence and reduces the feeling of isolation. |
+| **Engagement** | Participate in micro‑learning modules (5‑10 min) with quizzes, games, or practical tasks. | Keeps you active and leverages your love of flexibility. |
+| **Interaction** | Join scheduled Q&A sessions, small‑group discussions, and peer‑collaboration projects; request faster lecturer feedback. | Improves communication and counters digital isolation. |
+| **Learning Environment** | Keep study materials organized in a personal digital folder; use a quiet co‑working space on campus or a virtual study room. | Makes resources easier to find and creates a more comfortable learning setting. |
+| **Motivation & Self‑Discipline** | Set a weekly check‑in with yourself (or a study buddy) to review progress, set micro‑goals, and use reminder apps. | Supports self‑discipline and helps you stay on track with deadlines. |
+| **Self‑Paced Learning** | Access recorded lectures and weekly learning paths that you can review at any time. | Allows you to fit study into your flexible schedule. |
+| **Workload Support** | Use a simple planner to list assignment due dates, break large tasks into smaller steps, and align online work with in‑person sessions. | Reduces overload and clarifies expectations. |
+
+All of these suggestions come directly from the rule‑based recommendations linked to the tags identified for you.  
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Create a digital folder for each course; add links to LMS tools you use most. |
+| **Day 2** | Watch a 5‑minute tutorial on an advanced LMS feature (e.g., discussion boards). |
+| **Day 3** | Join a peer‑study group’s virtual co‑working session (30 min). |
+| **Day 4** | Set up a weekly planner (paper or app) with all assignment deadlines. |
+| **Day 5** | Complete one micro‑learning quiz for a current topic and note the feedback. |
+| **Day 6** | Schedule a 15‑minute Q&A slot with your lecturer or teaching assistant. |
+| **Day 7** | Review the week’s progress; adjust micro‑goals for the next week. |
+| **Week 2** | Repeat the cycle, adding a short “reflection note” after each study session to track motivation and workload balance. |
+
+Follow this simple loop of **plan → act → reflect** to keep your learning flexible, interactive, and well‑balanced.  
+
+---  
+
+**Remember:** Your engagement is a strong asset. By sharpening digital skills, creating more interaction, and organizing your workload, you’ll turn the current challenges into opportunities for even greater success. Good luck!
+
+
+
+---
+
+## Student ID: `ext_d63deda3e4`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "interaction", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_d63deda3e4  
+- **Segment:** **Highly Engaged (Active) Learners** (you are motivated and take initiative in both face‑to‑face and online settings).  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – you value being able to study both in class and online, which helps you organise your schedule.  
+- **Access to Learning Materials** – you appreciate having slides, videos, and other resources available when you need them.  
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – unstable connection makes online work harder.  
+- **Interaction & Communication** – you would like clearer instructions, more interactive lessons, and quicker feedback.  
+- **Learning Difficulty & Clarity** – sometimes the material isn’t presented clearly enough, affecting focus and motivation.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and all course materials **early** so you can plan ahead. |
+| **Interaction** | Add regular Q&A sessions, small‑group discussions, peer‑collaboration tasks, and faster lecturer feedback. |
+| **Learning Environment** | Organise digital folders clearly, keep resources up‑to‑date, and ensure classroom/online spaces are comfortable and distraction‑free. |
+| **Learning Support** | Provide clearer step‑by‑step instructions, concrete examples, and short recorded explanations for complex topics. |
+| **Motivation & Self‑Discipline** | Use weekly check‑ins, gentle reminders, progress‑tracking dashboards, and a suggested study schedule to keep momentum. |
+| **Self‑Paced Learning** | Offer recorded lessons and a weekly learning path so you can review material at your own speed. |
+| **Technical Issues** | Ensure stable campus Wi‑Fi, make key resources available for offline download, give clear platform guides, and provide a quick‑response tech‑support channel. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Review the course’s online folder; note any missing slides or videos and request them from the lecturer. |
+| **Day 3** | Join a scheduled Q&A or set up a short peer‑study group for the current module. |
+| **Day 5** | Download all needed materials for offline use (slides, readings, videos). |
+| **Day 7** | Create a personal weekly study schedule using the suggested learning path; set reminders for each study block. |
+| **Day 9** | Test the campus Wi‑Fi in a quiet spot; if problems persist, contact the tech‑support desk and ask about offline alternatives. |
+| **Day 11** | Submit a brief feedback note to the lecturer asking for clearer instructions or examples on any confusing topic. |
+| **Day 14** | Reflect on progress: check the tracking dashboard, note what worked, and adjust the schedule for the next two weeks. |
+
+---
+
+**Remember:** Your high engagement is a strong asset. By improving access, interaction, clarity, and technical reliability, you can make the most of the blended‑learning environment and keep your motivation high. Good luck!
+
+
+
+---
+
+## Student ID: `ext_cd7a9ee7cf`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["digital_skill", "engagement", "interaction", "learning_effectiveness", "self_paced", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** ext_cd7a9ee7cf  
+**Student Segment:** Highly Engaged (Active) Learners (also classified in the Moderately Engaged – Passive cluster)
+
+---
+
+### 1. Student Learning Profile
+You recognize the value of blended learning for its **flexibility**, **convenience**, and the **human connection** it maintains. You are enthusiastic about using digital tools but are aware of **digital fatigue** and the risk of a **doubled workload** if technology is not well‑coordinated.
+
+---
+
+### 2. Main Strengths
+- Strong **digital skills development** mindset  
+- Ability to manage **flexible, self‑paced** study schedules  
+- Focus on **student engagement** and effective learning outcomes  
+
+### 3. Main Challenges
+- Managing **assessment workload** and avoiding digital overload  
+- Ensuring **interaction & communication** remain high when activities shift online  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | Practical Steps |
+|----------------|----------------------|-----------------|
+| **Develop digital learning skills** | Build confidence with the LMS, research tools, and educational tech. | • Attend short LMS tutorials.<br>• Explore curated lists of reliable online resources.<br>• Practice using digital citation and collaboration tools. |
+| **Increase learner engagement** | Keep motivation high with active, interactive content. | • Use quizzes, gamified tasks, and short practical exercises in each module.<br>• Participate in discussion boards and live polls. |
+| **Increase interaction and communication** | Strengthen peer and lecturer connections. | • Join scheduled Q&A sessions.<br>• Form small study groups for collaborative projects.<br>• Request quicker feedback from lecturers via the platform’s messaging feature. |
+| **Improve learning effectiveness** | Blend online review with in‑person practice for deeper understanding. | • Review recorded lectures before class.<br>• Use class time for problem‑solving, labs, or case studies.<br>• Seek immediate feedback on practice tasks. |
+| **Support self‑paced learning** | Keep control over your study rhythm while staying on track. | • Follow weekly learning paths provided by the course.<br>• Re‑watch recorded lessons as needed.<br>• Set personal milestones aligned with the syllabus. |
+| **Manage workload and assessment pressure** | Prevent overload and reduce digital fatigue. | • Use a single, university‑standard platform for all assignments.<br>• Clarify deadlines early and keep a simple calendar.<br>• Align online tasks with in‑person sessions to avoid duplication. |
+
+---
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Goal | Action |
+|------|------|--------|
+| 1 | Get comfortable with the LMS | Complete the LMS orientation video; bookmark three useful digital resources. |
+| 2 | Boost engagement | Add at least one quiz or game to your study routine; post a question in the discussion board. |
+| 3 | Strengthen interaction | Join a peer‑study group; schedule a 15‑minute Q&A with your lecturer. |
+| 4 | Balance workload | Create a simple weekly planner that aligns online tasks with upcoming face‑to‑face sessions; review it with your tutor. |
+
+---
+
+**Remember:** Your proactive attitude already positions you for success in a blended environment. By applying these targeted strategies, you can keep your learning both **effective** and **enjoyable** while managing workload and staying connected with peers and instructors. Good luck!
+
+
+
+---
+
+## Student ID: `ext_6420afd15f`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_environment", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_6420afd15f  
+- **Segment:** Highly Engaged (Active) Learners (Cluster: Moderately Engaged – Passive)  
+- You thrive when you can manage your own study schedule, use personal techniques, and work on projects. Blended learning gives you the flexibility to explore topics online and save time.
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate being able to plan your study and use self‑directed methods.  
+- **Learning Convenience & Effectiveness:** Blended formats let you combine classroom learning with online resources that match your interests.
+
+### 3. Main Challenges  
+- **Technical & Internet Issues:** Unstable connections and low‑quality audio can disrupt learning.  
+- **Learning Environment:** You need a quiet, well‑equipped space for both online and face‑to‑face sessions.  
+- **Interaction & Communication:** Faster feedback and more peer collaboration would improve your experience.  
+- **Assessment & Workload:** Clear deadlines and a balanced workload are important for you.
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Interaction** | Join scheduled Q&A sessions, take part in small‑group discussions, and use peer‑collaboration tools. Request quicker feedback from lecturers. |
+| **Learning Effectiveness** | Pair online review materials with in‑person explanations and practice activities. Seek regular feedback on your projects. |
+| **Learning Environment** | Use organized, clearly labelled resources. If possible, choose a quiet study space or use campus facilities that offer better acoustics and comfort. |
+| **Self‑Paced Learning** | Take advantage of recorded lectures and weekly learning paths. Review materials at your own speed before class meetings. |
+| **Technical Issues** | Access the university’s stable Wi‑Fi zones or download offline copies of key content. Keep a quick‑reference guide for the learning platform and know how to contact technical support. |
+| **Workload Support** | Look for a balanced schedule: align online tasks with face‑to‑face sessions, and keep a personal calendar of assignment deadlines. Ask instructors to clarify any ambiguous timelines. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Identify a quiet study spot on campus (library, study lounge) and test the Wi‑Fi speed. |
+| **Day 3‑4** | Download the next week’s recorded lectures and create a personal checklist of topics to review. |
+| **Day 5** | Join a scheduled Q&A or discussion forum for your current module; post at least one question. |
+| **Day 6‑7** | Set up a simple calendar (digital or paper) with all assignment deadlines and class times. |
+| **Day 8** | Contact the tech support desk to confirm how to obtain offline materials if the connection drops. |
+| **Day 9‑10** | Pair each online review segment with a short in‑person practice activity (e.g., a quick problem set). |
+| **Day 11‑12** | Request feedback on a recent project draft from your lecturer or a peer. |
+| **Day 13‑14** | Review the week’s workload: note any overload and discuss possible adjustments with the instructor. |
+
+Follow this plan, and you’ll strengthen interaction, reduce technical disruptions, and keep your workload manageable while continuing to benefit from the flexibility you value. Good luck!
+
+
+
+---
+
+## Student ID: `ext_c4f6682d9d`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_environment", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** ext_c4f6682d9d  
+**Student Segment:** 2 – *Moderately Engaged (Passive) Learners*  
+
+---
+
+### 1. Student Learning Profile
+You are a moderately engaged learner who is comfortable with self‑study and values convenient, effective learning. Your main concerns are limited interaction with lecturers and classmates, a need for richer learning resources, and staying motivated during online sessions.
+
+---
+
+### 2. Main Strengths
+- **Self‑study skills** – you can work independently and manage your own learning pace.  
+
+---
+
+### 3. Main Challenges
+- **Interaction & Communication:** Few opportunities to talk with lecturers or peers.  
+- **Learning Resources & Environment:** Desire for clearer, more up‑to‑date materials and a comfortable study setting.  
+- **Motivation & Self‑Discipline:** Keeping attention and motivation high during online classes.
+
+---
+
+### 4. Personalized Recommendations
+| Focus | What to Try | Why it Helps |
+|-------|-------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from lecturers. | Increases contact with instructors and classmates, making online learning feel more social and supportive. |
+| **Learning Effectiveness** | • Use online review materials **before** in‑person sessions.<br>• Attend face‑to‑face explanations, practice exercises, and receive feedback. | Blends the convenience of online review with the depth of classroom practice, boosting understanding. |
+| **Learning Environment** | • Keep your digital folder organized and follow a clear syllabus layout.<br>• Use updated resources (e.g., latest lecture slides, recorded demos).<br>• Set up a quiet, comfortable study space at home or in campus labs. | A tidy, well‑resourced environment reduces distractions and makes study time more productive. |
+| **Motivation & Self‑Discipline** | • Schedule a weekly check‑in with yourself or a study buddy to review progress.<br>• Set short‑term goals and use a simple tracker (e.g., checklist or app).<br>• Set reminders for study blocks and deadlines. | Regular check‑ins and visible progress keep you accountable and motivated throughout the term. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Mon** | Create a dedicated study folder; upload the latest lecture slides and any supplemental PDFs. |
+| **Tue** | Sign up for the next live Q&A session; prepare 2‑3 questions in advance. |
+| **Wed** | Join a peer study group (virtual or on‑campus) for a 30‑minute discussion of this week’s topic. |
+| **Thu** | Review online materials **before** the upcoming in‑person class; note any unclear points. |
+| **Fri** | Attend the in‑person class, focus on practice activities, and ask for immediate feedback. |
+| **Sat** | Do a 15‑minute “progress check”: mark completed tasks, update your goal tracker, and set goals for next week. |
+| **Sun** | Rest and reflect – note what interaction helped you most and adjust your plan if needed. |
+
+Repeat the cycle, adding new Q&A or group sessions as they become available. Small, consistent steps will strengthen interaction, improve the learning environment, and keep your motivation high.  
+
+Good luck, and remember that blending online convenience with active classroom engagement is the key to your success!
+
+
+
+---
+
+## Student ID: `ext_f7a77235ab`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: ext_f7a77235ab*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster).  
+- You value the flexibility of blended learning and appreciate being able to study at your own pace while still having face‑to‑face support.
+
+### 2. Main Strengths  
+- **Digital Skills Development:** You recognize the benefit of using technology for learning.  
+- **Flexibility & Time Management:** You like being able to organise study time online and in‑person.  
+- **Learning Convenience & Effectiveness:** You see blended learning as a way to understand material better.
+
+### 3. Main Challenges  
+- **Interaction & Communication:** Staying interested during online sessions and getting clear instructions can be difficult.  
+- **Learning Difficulty & Clarity:** Understanding what is expected and following spoken instructions sometimes feels hard.  
+- **Learning Resources & Environment:** Finding and navigating materials is not always easy.
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | Practical Steps |
+|----------------|----------------------|-----------------|
+| **Develop digital learning skills** | Strengthen your ability to use the LMS, online libraries, and other educational tools. | • Attend a short workshop on the university’s LMS.<br>• Explore tutorials on digital research and citation tools. |
+| **Increase interaction and communication** | Boost engagement during online classes and get quicker feedback. | • Join scheduled Q&A or live‑chat sessions.<br>• Participate in small‑group discussion boards.<br>• Request brief feedback from lecturers after assignments. |
+| **Improve learning effectiveness** | Combine the best of online review with in‑person practice. | • Use recorded lecture snippets to review before class.<br>• Take advantage of in‑person workshops for hands‑on practice and immediate feedback. |
+| **Improve learning resources and environment** | Make it easier to locate and use study materials. | • Follow a weekly checklist that lists where each module’s resources are stored.<br>• Use the university’s study‑space reservation system to secure comfortable work areas. |
+| **Improve clarity and learning support** | Get clearer instructions and step‑by‑step guidance. | • Ask lecturers for written examples or rubrics.<br>• Use recorded explanations that the university provides for complex topics. |
+| **Support self‑paced learning** | Keep the flexibility you value while staying on track. | • Follow the weekly learning path released on the LMS.<br>• Review recorded lessons whenever you need a refresher. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Goal | Action |
+|------|------|--------|
+| 1 | Familiarise with digital tools | Watch the LMS tutorial video; bookmark the digital research guide. |
+| 2 | Boost interaction | Join one live Q&A session and post a comment in a discussion board for your current module. |
+| 3 | Organise resources | Create a simple folder structure on the LMS for each course and add a “quick‑access” list of key files. |
+| 4 | Review and reflect | Record a 5‑minute note on what worked best (e.g., recorded lessons, peer feedback) and adjust your weekly learning path accordingly. |
+
+---
+
+**Remember:** Your active engagement is a strong asset. By sharpening digital skills, increasing interaction, and ensuring clear, well‑organised resources, you can make the most of blended learning while keeping the flexibility you value. Good luck!
+
+
+
+---
+
+## Student ID: `ext_b3e34bd807`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["learning_effectiveness", "learning_environment", "learning_support", "motivation"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: ext_b3e34bd807*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the “Moderately Engaged (Passive) Learners” cluster)  
+- You thrive when you can study independently, at your own pace and in a space that works for you.  
+
+### 2. Main Strengths  
+- **Learning Convenience & Effectiveness:** You are comfortable learning on your own and can make good progress when you have clear, accessible materials.  
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline:** You noted that building self‑discipline can be hard at first.  
+- **Learning Difficulty & Clarity:** You sometimes find it unclear what to do next.  
+- **Learning Resources & Environment:** A well‑organized study space and up‑to‑date resources would help you stay focused.  
+
+### 4. Personalized Recommendations  
+
+| Focus Area | What to Do (based on rule‑based advice) |
+|------------|------------------------------------------|
+| **Learning Effectiveness** | Pair the online review materials you already use with short, in‑person sessions where concepts are explained, practiced, and you receive feedback. |
+| **Learning Environment** | Keep your digital and physical study areas tidy: label folders, use a consistent file system, and make sure your workspace is comfortable and free from distractions. |
+| **Learning Support** | Seek out clear instructions, concrete examples, and recorded walkthroughs. Use step‑by‑step guides whenever a new topic is introduced. |
+| **Motivation & Self‑Discipline** | Set a weekly schedule with specific study blocks. Use a simple tracker (e.g., a checklist or app) and arrange brief weekly check‑ins with a tutor or peer to review progress and get reminders. |
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Mon** | Create a dedicated study folder structure (e.g., “Lectures → Week 1 → Slides, Notes, Practice”). |
+| **Tue** | Draft a 1‑hour study block for the upcoming module; add a reminder in your calendar. |
+| **Wed** | Watch a recorded explanation of a challenging concept; take notes using the step‑by‑step guide template. |
+| **Thu** | Attend a 30‑minute in‑person (or live‑online) session to practice the concept and ask for feedback. |
+| **Fri** | Review your progress in a quick 10‑minute check‑in: what was completed, what needs clarification? |
+| **Weekend** | Adjust the study schedule for next week based on what worked; tidy your study space. |
+| **Repeat** | Continue the cycle, adding a brief peer check‑in every other week for extra motivation. |
+
+---
+
+**Remember:** Your ability to learn independently is a strong asset. By adding a bit of structure, clearer resources, and regular check‑ins, you’ll turn that independence into even higher effectiveness and confidence in blended learning environments. Good luck!
+
+
+
+---
+
+## Student ID: `ext_e08804230f`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_e08804230f  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current cluster:** Highly Engaged (Active) Learners  
+
+You have good access to learning materials and appreciate flexibility in how you manage your time.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials** – you value having slides, videos, references, and exercises available.  
+- **Flexibility & Time Management** – you like being able to study when it best fits your schedule.
+
+---
+
+### 3. Main Challenges  
+- **Motivation & Self‑Discipline** – staying motivated and keeping a regular study routine can be difficult.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What it means for you | How to apply it |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Keep all course content (slides, videos, readings, exercises) available early in the week. | Upload or download the week’s resources as soon as they are released; organize them in a personal folder for quick reference. |
+| **Support motivation and self‑discipline** | Build habits that keep you on track. | Set a weekly check‑in (e.g., a 10‑minute self‑review on Friday), use calendar reminders for study blocks, and track progress in a simple spreadsheet or app. |
+| **Support self‑paced learning** | Take advantage of recorded lessons and clear weekly pathways. | Watch recorded lectures at your own time, follow the suggested weekly learning path, and revisit any material that feels unclear before moving on. |
+
+These suggestions are drawn directly from the rule‑based recommendations matched to your segment and the strengths/challenges you reported.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action | Goal |
+|------|--------|------|
+| **Week 1** | • Download all slides, videos, and exercises for the week as soon as they are posted.<br>• Create a 30‑minute study block in your calendar (e.g., Mon 10‑10:30 am). | Ensure material is ready and start building a routine. |
+| **Week 1** | • Set a reminder for a Friday 15‑minute check‑in to note what you’ve completed and what needs review. | Boost motivation and self‑awareness. |
+| **Week 2** | • Follow the weekly learning path; if a concept is unclear, re‑watch the relevant video before proceeding. | Use self‑paced resources effectively. |
+| **Week 2** | • Add a simple progress tracker (e.g., a checklist) and update it after each study block. | Visualize progress and maintain discipline. |
+
+Stick to these steps, adjust the timing to fit your personal schedule, and you’ll strengthen both your access to content and your self‑discipline while keeping the flexibility you value. Good luck!
+
+
+
+---
+
+## Student ID: `ext_c1a63f035a`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_c1a63f035a  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Cluster label:** Highly Engaged (Active) Learners  
+
+*Because the open‑ended responses did not provide specific strengths or challenges, this report is based primarily on the characteristics of the “Moderately Engaged (Passive)” segment and the segment‑wide recommendation tags.*
+
+---
+
+### 2. Main Strengths  
+*No explicit strengths were reported, so we infer typical strengths of this segment such as the ability to follow structured material and benefit from clear guidance.*
+
+---
+
+### 3. Main Challenges  
+*No explicit challenges were reported. Common challenges for Moderately Engaged (Passive) learners include limited interaction with peers and instructors, occasional motivation dips, and a need for clearer instructional support.*
+
+---
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do | Why it Helps |
+|------|------------|--------------|
+| **Interaction** | • Join scheduled Q&A sessions and group discussions.<br>• Participate in peer‑collaboration activities.<br>• Request quicker feedback from the lecturer. | Increases engagement and reduces passivity. |
+| **Learning Support** | • Look for detailed instructions, examples, and step‑by‑step guides.<br>• Use recorded explanations when concepts are unclear. | Improves clarity and confidence in the material. |
+| **Motivation & Self‑Discipline** | • Set up weekly check‑ins (with yourself or a study buddy).<br>• Use reminders and a simple progress tracker.<br>• Follow a structured study schedule. | Keeps you on track and sustains motivation throughout the term. |
+| **Self‑Paced Learning** | • Access recorded lessons and review them at your own speed.<br>• Follow the weekly learning path provided by the course.<br>• Keep all learning materials organized for easy revisiting. | Allows you to control the pace of learning while still meeting course deadlines. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Week | Action |
+|------|--------|
+| **1** | • Attend the first live Q&A session.<br>• Download the step‑by‑step guide for the current module.<br>• Set a weekly reminder to log your progress (e.g., on a spreadsheet or app). |
+| **2** | • Join a peer‑study group for a 30‑minute discussion.<br>• Watch at least one recorded lesson again to reinforce understanding.<br>• Review your progress tracker and adjust your study schedule if needed. |
+
+Follow these steps, and you’ll gradually move from a passive to a more active, self‑directed learner while staying motivated and supported. Good luck!
+
+
+
+---
+
+## Student ID: `ext_e64f697472`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Student Learning Profile**  
+- **Student ID:** ext_e64f697472  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2) – you attend classes but often take a back‑seat in online activities.  
+
+**Main Strengths**  
+You value the **flexibility** of blended learning and appreciate being able to **review online materials at any time**. Combining online resources with in‑person classes helps you understand the content and makes learning feel convenient and effective.
+
+**Main Challenges**  
+- Online communication with lecturers can be unclear.  
+- Staying motivated during long online periods is difficult.  
+- Internet or technical problems sometimes disrupt your study.  
+- You would like clearer instructions and more interactive online sessions.
+
+**Personalized Recommendations**  
+
+| Area | What to do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Lecturers should **upload slides, videos, references, exercises and other course materials early** so you can review them whenever you need. |
+| **Engagement** | Include **short quizzes, games, practical tasks and discussion prompts** in the online modules to keep you actively involved. |
+| **Interaction** | Add **regular Q&A slots, small‑group discussions and peer‑collaboration activities**, and aim for faster feedback from lecturers. |
+| **Learning Effectiveness** | Pair the online review materials with **in‑person explanations, guided practice and timely feedback** to reinforce understanding. |
+| **Learning Environment** | Organise all resources **clearly and keep study spaces (both virtual and physical) tidy and comfortable**. |
+| **Learning Support** | Provide **clear step‑by‑step instructions, example problems and short recorded explanations** for each task. |
+| **Motivation** | Use **weekly check‑ins, reminder emails and a simple progress tracker** so you can see your advancement and stay on schedule. |
+| **Self‑Paced Learning** | Offer **recorded lessons and a weekly learning path** that you can follow at your own speed. |
+| **Technical Issues** | Ensure **stable internet access, offline copies of key materials and easy‑to‑follow platform guides**, plus a help desk for quick support. |
+| **Workload Support** | **Balance the number of assignments**, make deadlines explicit, and align online tasks with what is covered in class to avoid overload. |
+
+**Short Action Plan (Next 4 Weeks)**  
+
+1. **Week 1:** Download all uploaded slides and videos for your current module; set up a personal folder with a clear naming system.  
+2. **Week 2:** Join a scheduled online Q&A session and try a short quiz; note any unclear instructions and ask the lecturer for clarification.  
+3. **Week 3:** Participate in a small‑group discussion or peer‑collaboration activity; use the progress tracker to mark completed tasks.  
+4. **Week 4:** Review the week’s recorded lessons at your own pace, then complete the associated practical task; if you experience any technical issues, contact the support desk immediately.  
+
+By following these steps, you can make the most of the flexibility you enjoy while improving interaction, motivation, and overall learning effectiveness in your blended courses.
+
+
+
+---
+
+## Student ID: `ext_73fec01051`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["engagement", "learning_effectiveness", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile
+- **Student ID:** ext_73fec01051  
+- **Segment:** Moderately Engaged (Passive) Learners (Segment 2)  
+- **Current Cluster:** Highly Engaged (Active) Learners  
+
+You tend to work best when the teacher’s presence is felt, and you notice that a heavy load of documents can overwhelm you.
+
+---
+
+### 2. Main Strengths
+- **Learning Convenience & Effectiveness:** You feel your focus and understanding improve when the teacher monitors the activity.  
+- **Student Engagement:** The presence of the instructor helps you stay attentive.
+
+---
+
+### 3. Main Challenges
+- **Assessment & Workload:** You receive many files and documents, leaving little time to read them fully. The volume makes it hard to keep up and causes fatigue.
+
+---
+
+### 4. Personalized Recommendations
+| Area | What to Try | Why it Helps |
+|------|-------------|--------------|
+| **Engagement** | Add short quizzes, quick games, practical tasks, and brief discussion prompts during online sessions. | Interactive elements keep you actively involved and build on the benefit you get from teacher presence. |
+| **Learning Effectiveness** | Pair the online reading material with short in‑person explanations, guided practice, and immediate feedback. | Combining review material with face‑to‑face clarification reinforces understanding and makes the content easier to digest. |
+| **Workload Support** | 1. Break large document sets into smaller, clearly labeled chunks.<br>2. Provide a simple schedule that shows when each chunk is due.<br>3. Align online reading tasks with what will be covered in the next classroom session. | Smaller, well‑timed pieces reduce overload and give you clear deadlines, making it easier to stay on track. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Mon** | Review the syllabus and note any upcoming document bundles. Split each bundle into 2‑3 manageable parts. |
+| **Tue** | Ask the instructor to add a 5‑minute quiz at the end of the first online module. |
+| **Wed** | Attend the next face‑to‑face class and request a brief walkthrough of the first document part. |
+| **Thu** | Complete the first part of the reading and submit any quick reflection or answer a quiz question. |
+| **Fri** | Take a 5‑minute break after reading; use a timer to keep breaks short but regular. |
+| **Mon (Week 2)** | Repeat the split‑and‑schedule process for the next set of documents. |
+| **Tue–Thu (Week 2)** | Participate in a short group discussion or online poll about the material you read. |
+| **Fri (Week 2)** | Review feedback from the instructor and adjust the pacing if needed. |
+
+Follow this plan, and you should feel more engaged, understand the material better, and experience less stress from the workload. If anything feels unclear, reach out to your instructor for quick clarification. Good luck!
+
+
+
+---
+
+## Student ID: `ext_94c8d02f68`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_94c8d02f68  
+- **Segment:** Highly Engaged (Active) Learners (also grouped with Moderately Engaged – Passive Learners)  
+- **Key observation:** You value having lecture recordings available online, which helps you review material at your own pace.
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You already make use of video recordings after lectures, showing that you benefit from having course content available digitally.
+
+### 3. Main Challenges  
+- **Flexibility in Switching Modes:** You find it difficult to move smoothly between virtual and physical class formats.
+
+### 4. Personalized Recommendations  
+**Strengthen access to learning materials**  
+- Ensure that all slides, lecture videos, reference documents, and practice exercises are uploaded **early** in the online platform.  
+- Use the recorded videos to fill any gaps when you need to transition between in‑person and virtual sessions.
+
+### 5. Short Action Plan  
+| Week | Action | How it helps |
+|------|--------|--------------|
+| 1 | Check that the course’s online hub has the latest lecture slides and video recordings. | Guarantees you can review content anytime, especially if you miss a physical class. |
+| 2 | Download or bookmark the recordings you need for upcoming assignments. | Reduces the stress of switching formats by having material ready offline. |
+| 3 | Allocate 30 minutes after each lecture to note any missing resources and request them from the instructor or teaching assistant. | Keeps the repository complete and supports your active learning style. |
+| Ongoing | Use the recorded videos for self‑paced review before exams or quizzes. | Reinforces understanding and maintains high engagement. |
+
+*Because your open‑ended responses were brief, this recommendation is primarily based on your learner segment (Highly Engaged) and the identified strength of accessing learning materials.*
+
+
+
+---
+
+## Student ID: `ext_259d3174fb`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "learning_environment", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_259d3174fb  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the “Moderately Engaged (Passive) Learners” cluster)  
+
+You are a motivated learner who values the ability to review material whenever you need it. Your main concerns are reliable internet access and having a quiet, comfortable place to study.
+
+---
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You appreciate being able to revisit slides, videos, and other resources at any time.  
+- **Flexibility & Time Management:** You can manage your study schedule and like the option to learn at your own pace.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unstable or slow internet can interrupt your study flow.  
+- **Learning Resources & Environment:** Finding a quiet, well‑equipped study space is difficult.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | Practical Steps |
+|----------------|----------------------|-----------------|
+| **Strengthen access to learning materials** | Keep all course content available early so you can review it anytime. | • Instructors will upload slides, videos, references, and exercises ahead of class.<br>• Save copies locally for offline review. |
+| **Improve learning resources and environment** | Organize materials clearly and create a more comfortable study setting. | • Use a dedicated folder or digital workspace for each course.<br>• If possible, identify a quiet corner in the library or a study room.<br>• Request any needed ergonomic or lighting adjustments from campus services. |
+| **Support self‑paced learning** | Use recorded lessons and weekly learning paths to study on your schedule. | • Watch recorded lectures at times that suit you.<br>• Follow the weekly learning roadmap provided by the course team.<br>• Take short, regular review sessions rather than long cramming periods. |
+| **Improve technical access and reliability** | Ensure you can connect reliably and have offline options when needed. | • Connect to campus Wi‑Fi or use a reliable mobile hotspot.<br>• Download videos and PDFs before offline study sessions.<br>• Keep the platform’s help guide handy and contact tech support for any issues. |
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1–2** | Locate a quiet study spot on campus (library study room or designated quiet area). |
+| **Day 3** | Download all upcoming lecture videos and PDFs to your device for offline access. |
+| **Day 4** | Create a folder structure for each course (e.g., /Week 1 → Slides, Videos, Exercises). |
+| **Day 5–7** | Follow the first weekly learning path, using recorded lessons at your own pace. |
+| **Day 8** | Test your internet connection; if unstable, arrange a campus hotspot or visit the IT help desk. |
+| **Day 9–10** | Review the organization of your materials; adjust as needed for easier navigation. |
+| **Day 11–14** | Continue the next weekly learning path, noting any technical or environment issues and reporting them to support services. |
+
+By following these steps, you’ll capitalize on your strong engagement and flexibility while minimizing the impact of internet and study‑space challenges. Keep track of what works best and adjust the plan as you progress through the term. Good luck!
+
+
+
+---
+
+## Student ID: `ext_e486f26f0e`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_e486f26f0e  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Current Cluster:** Highly Engaged (Active) Learners  
+
+You value flexibility in your study schedule, but you have experienced some technical difficulties (e.g., unreliable internet and limited experience with the learning platform).
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate and can benefit from learning environments that let you control when and how you study.
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues:** Unstable internet connections and limited familiarity with the platform can hinder your progress.
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You |
+|----------------|-----------------------|
+| **Support self‑paced learning** (tag: *self_paced*) | • Use recorded lectures and weekly learning paths that you can access anytime.<br>• Review materials at your own speed, pausing or replaying as needed. |
+| **Improve technical access and reliability** (tag: *tech_issue*) | • Take advantage of offline resources (downloadable PDFs, videos).<br>• Follow clear step‑by‑step guides for the platform.<br>• Contact the technical support team for quick help when connectivity problems arise. |
+
+These suggestions are drawn directly from the rule‑based recommendations for your segment.
+
+---
+
+### 5. Short Action Plan  
+
+| Week | Action |
+|------|--------|
+| **1** | Locate and download the recorded lessons for your current module. Set a personal weekly learning path (e.g., 2 hours Mon, 2 hours Thu). |
+| **2** | Test the offline materials (download a video, read a PDF) to ensure you can study without internet. |
+| **3** | Review the platform’s quick‑start guide; note any steps that are unclear and ask technical support for clarification. |
+| **4** | Evaluate your internet stability. If problems persist, request campus Wi‑Fi access or a loaner hotspot from the university. |
+| **Ongoing** | Keep a brief log of study time and any technical issues; adjust your schedule and seek support as needed. |
+
+By following this plan, you can make the most of flexible, self‑paced learning while minimizing technical disruptions. Good luck!
+
+
+
+---
+
+## Student ID: `ext_0faf095fdd`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_0faf095fdd  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the Moderately Engaged – Passive cluster)  
+
+You are a motivated learner who values flexibility and can adapt your study schedule as needed.  
+
+---
+
+### 2. Main Strengths  
+- **Flexibility & Time Management** – You appreciate being able to adjust when and how you study, which helps you stay on track with coursework.  
+
+---
+
+### 3. Main Challenges  
+- **Internet & Technical Issues** – Unreliable connectivity or platform problems can disrupt your learning flow.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Use It |
+|----------------|----------------------|---------------|
+| **Support self‑paced learning** | Access recorded lessons, weekly learning paths, and downloadable materials so you can study whenever your connection is stable. | • Watch videos or review notes at a time that suits you.<br>• Follow the weekly path to keep progress steady, even if you need to pause and resume later. |
+| **Improve technical access and reliability** | Ensure you have stable internet or offline options, clear instructions, and quick tech support. | • Download lecture videos or PDFs when you have good connectivity.<br>• Keep a backup device or hotspot if possible.<br>• Use the provided help desk or FAQ for any platform issues. |
+
+These suggestions are drawn directly from the evidence about your strengths, challenges, and the “self_paced” & “tech_issue” tags assigned to you.  
+
+---
+
+### 5. Short Action Plan  
+
+| Step | Action | Timeline |
+|------|--------|----------|
+| 1. **Gather offline resources** | Download all recorded lectures and reading materials for the next week when you have good internet. | Within the next 2 days |
+| 2. **Create a weekly learning path** | Use the provided weekly schedule to map out which modules you’ll study each day. | Start this week |
+| 3. **Set up a backup connection** | Identify a hotspot or campus Wi‑Fi location you can use if home internet fails. | By the end of the week |
+| 4. **Know the support channels** | Bookmark the technical support page and note the contact hours. | Immediately |
+| 5. **Review and adjust** | At the end of each week, check what worked and tweak your schedule or resources as needed. | Weekly (Friday) |
+
+Follow these steps to make the most of your flexibility while minimizing disruptions from technical problems. You have the engagement and adaptability—these tools will help you keep that momentum strong.
+
+
+
+---
+
+## Student ID: `ext_19b39c64be`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_environment", "motivation", "self_paced", "tech_issue", "workload_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: ext_19b39c64be*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (also placed in the Moderately Engaged – Passive cluster)  
+- You value flexibility, digital collaboration tools, and active classroom interaction.  
+
+### 2. Main Strengths  
+- **Access to Learning Materials:** You appreciate being able to pause, re‑watch, and retrieve digital content at your own pace.  
+- **Digital Skills Development:** You see the benefit of building proficiency with online collaboration tools.  
+- **Flexibility & Time Management:** The ability to learn when it fits your schedule helps you stay organized.  
+- **Student Engagement:** You enjoy interactive debates, hands‑on labs, and maintaining in‑person social connections.  
+
+### 3. Main Challenges  
+- **Assessment & Workload:** Online tasks sometimes feel like extra work, creating “workload creep.”  
+- **Interaction & Communication:** Less physical interaction can lead to procrastination and lower motivation.  
+- **Internet & Technical Issues:** Unequal access to high‑speed internet or quiet workspaces hampers learning.  
+- **Learning Resources & Environment:** Need for better‑organized materials and comfortable study spaces.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Content Access** | Upload slides, videos, references, exercises, and other course materials **early** so you can review them whenever needed. |
+| **Digital Skills** | Provide short guides or workshops on using the LMS, online research tools, and collaboration platforms to boost confidence. |
+| **Engagement** | Include low‑stakes quizzes, game‑based elements, practical tasks, and discussion prompts to keep class time interactive. |
+| **Interaction** | Schedule regular Q&A sessions, small‑group discussions, and peer‑collaboration activities; aim for quicker lecturer feedback. |
+| **Learning Environment** | Organise digital resources clearly, update any outdated content, and offer tips for creating a quiet, comfortable study space (e.g., campus study rooms). |
+| **Motivation & Self‑Discipline** | Implement weekly check‑ins, gentle reminders, and a simple progress‑tracking dashboard; encourage a structured study schedule. |
+| **Self‑Paced Learning** | Provide recorded lectures and a weekly learning path so you can review material at your own speed. |
+| **Technical Issues** | Ensure stable internet options (e.g., campus Wi‑Fi hotspots), offer offline downloadable files, and give clear platform instructions plus a help desk contact. |
+| **Workload Support** | Align online tasks with in‑person sessions, balance the number of assignments, and clarify deadlines to reduce overload. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | Who’s Responsible |
+|------|--------|--------------------|
+| 1 | Upload all current week’s slides, videos, and exercises **at least 48 h before class**. | Lecturer / Course Team |
+| 2 | Run a 30‑minute LMS tutorial covering video playback, discussion boards, and file downloads. | Teaching Assistant |
+| 3 | Add a short quiz at the end of each online module and schedule a 15‑minute live Q&A after the quiz. | Lecturer |
+| 4 | Set up a weekly check‑in poll (via LMS) to capture workload perception and motivation levels; adjust upcoming assignments if needed. | Course Coordinator |
+
+These steps align directly with the strengths you already demonstrate and address the challenges you identified, helping you make the most of a blended learning environment.  
+
+---  
+
+*Feel free to reach out to your course support team if you need assistance with any of the recommendations.*
+
+
+
+---
+
+## Student ID: `ext_cbe136f27a`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "motivation", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student ID:** ext_cbe136f27a  
+**Student Segment:** Moderately Engaged (Passive) Learners  
+
+---
+
+### 1. Student Learning Profile
+- **Strengths:** You appreciate the **flexibility** that blended learning offers, which helps you manage your time effectively.  
+- **Challenges:** You find it hard to stay motivated and would like more **interaction and communication** with lecturers and peers.
+
+---
+
+### 2. Main Strengths
+- Flexibility & time‑management (positive sentiment)
+
+### 3. Main Challenges
+- Limited interaction & communication (positive sentiment)  
+- Motivation & self‑discipline (positive sentiment)
+
+---
+
+### 4. Personalized Recommendations  
+
+| Focus | What to Try | How It Helps |
+|-------|-------------|--------------|
+| **Interaction** | Add short Q&A sessions, join group discussions, work on peer‑collaboration tasks, and request quicker feedback from lecturers. | Increases contact with classmates and instructors, making the learning experience feel more connected. |
+| **Motivation** | Use weekly check‑ins, set up reminders, track your progress, and follow a structured study schedule. | Keeps you accountable and gives a clear sense of advancement, boosting self‑discipline. |
+| **Self‑Paced Learning** | Access recorded lectures, follow a weekly learning path, and review materials whenever you need. | Lets you take advantage of the flexibility you value while staying on track. |
+
+These suggestions are drawn directly from the rule‑based recommendations matched to your segment and the challenges you reported.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1** | Choose a recorded lecture to watch at your own pace and note any questions. |
+| **Day 2** | Post your questions in the course forum or ask the lecturer for a quick Q&A slot. |
+| **Day 3** | Join a peer study group or schedule a 30‑minute discussion with a classmate. |
+| **Day 4** | Set a weekly reminder (e.g., every Monday) to review your progress and update a simple checklist. |
+| **Day 5** | Create a short study schedule for the upcoming week, allocating specific times for recorded lessons and group work. |
+| **Day 6‑7** | Follow the schedule, track completed tasks, and note any motivation dips to discuss in the next check‑in. |
+| **Repeat** | Continue the cycle, adjusting the schedule and interaction methods as needed. |
+
+Stick to this routine, and you should notice improved motivation, clearer communication with lecturers, and a smoother self‑paced learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `ext_bd8aa49c40`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+*Student ID: ext_bd8aa49c40*  
+
+---
+
+### 1. Student Learning Profile  
+- **Segment:** Highly Engaged (Active) Learners (Cluster: Moderately Engaged – Passive)  
+- You value the flexibility of studying online at your own pace while still having face‑to‑face class time for discussion and practice.  
+
+### 2. Main Strengths  
+- **Flexibility & Time Management:** You appreciate being able to choose when to study.  
+- **Learning Convenience & Effectiveness:** Combining online review with in‑person discussion helps you understand material better.  
+- **Student Engagement:** You are motivated to participate when activities are interactive.  
+
+### 3. Main Challenges  
+- **Interaction & Communication:** You need clearer, quicker communication from lecturers and more peer collaboration.  
+- **Internet & Technical Issues:** Unreliable connectivity sometimes hinders your online work.  
+- **Learning Difficulty & Clarity:** Instructions can be vague, making it hard to know exactly what to do.  
+- **Learning Resources & Environment:** You would benefit from better‑organized materials and more comfortable study spaces.  
+
+### 4. Personalized Recommendations  
+
+| Area | What to Do (based on rule‑based advice) |
+|------|------------------------------------------|
+| **Engagement** | Include short quizzes, games, practical tasks, and class discussions to keep motivation high. |
+| **Interaction** | Add regular Q&A sessions, small‑group discussions, peer‑collaboration projects, and faster lecturer feedback. |
+| **Learning Effectiveness** | Pair online review videos/materials with in‑person explanations, guided practice, and timely feedback. |
+| **Learning Environment** | Ensure course resources are clearly organized, keep digital content up‑to‑date, and improve the comfort of physical study spaces. |
+| **Learning Support** | Provide step‑by‑step guides, concrete examples, and recorded explanations for complex topics. |
+| **Self‑Paced Learning** | Offer recorded lectures and a weekly learning path so you can review material whenever it fits your schedule. |
+| **Technical Issues** | Secure stable campus Wi‑Fi or offline downloadable resources, give clear platform instructions, and make technical support easily reachable. |
+
+### 5. Short Action Plan (Next 4 Weeks)
+
+| Week | Action | How It Helps |
+|------|--------|--------------|
+| 1 | Review the weekly learning path and download any offline materials you might need. | Supports self‑paced study and reduces reliance on spotty internet. |
+| 2 | Join a peer‑study group or schedule a short Q&A session with the lecturer. | Improves interaction and clarifies instructions. |
+| 3 | Complete at least one interactive quiz or game per topic and note any feedback received. | Boosts engagement and reinforces learning effectiveness. |
+| 4 | Provide feedback to the department about internet reliability and resource organization; request any needed technical support. | Helps improve the learning environment and technical access for you and future students. |
+
+---
+
+**Remember:** You already have strong motivation and appreciate flexible, interactive learning. By using the steps above, you can turn the current challenges into opportunities for an even more effective blended‑learning experience. Good luck!
+
+
+
+---
+
+## Student ID: `ext_e37d04fbde`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["interaction", "learning_environment", "learning_support", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**  
+
+**Student ID:** ext_e37d04fbde  
+**Student Segment:** 2 – *Moderately Engaged (Passive) Learners*  
+
+---
+
+### 1. Student Learning Profile
+You describe yourself as **flexible and self‑disciplined**, which shows good time‑management skills. You also note that you would benefit from clearer communication between students and teachers, more understanding from instructors, and better focal points for solving problems.
+
+---
+
+### 2. Main Strengths
+- **Flexibility & Time Management** – you can adapt your schedule and stay disciplined in your studies.  
+
+---
+
+### 3. Main Challenges
+- **Interaction & Communication** – difficulty getting timely feedback and collaborative opportunities.  
+- **Learning Difficulty & Clarity** – need for clearer instructions and examples.  
+- **Learning Resources & Environment** – desire for better‑organized materials and more comfortable study spaces.  
+
+---
+
+### 4. Personalized Recommendations  
+
+| Recommendation | What It Means for You | How to Use It |
+|----------------|----------------------|---------------|
+| **Increase interaction and communication** | Add more Q&A sessions, group discussions, peer collaboration, and faster lecturer feedback. | Join scheduled online discussion boards, attend live Q&A webinars, and use peer‑review tools in your courses. |
+| **Improve learning resources and environment** | Organize course materials clearly, update resources, and enhance study spaces. | Use the course’s “Resources” hub to locate well‑structured PDFs or videos; set up a quiet, comfortable study area at home or in campus labs. |
+| **Improve clarity and learning support** | Receive clearer instructions, examples, recorded explanations, and step‑by‑step guides. | Look for supplemental recorded walkthroughs posted by the instructor; request example problems when a concept is unclear. |
+| **Support self‑paced learning** | Access recorded lessons, weekly learning paths, and reviewable materials. | Follow the weekly learning path checklist, re‑watch lecture recordings as needed, and pace your study according to the provided schedule. |
+
+These recommendations are drawn directly from the evidence about your strengths, challenges, and the “moderately engaged (passive)” segment profile.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action |
+|-----|--------|
+| **Day 1‑2** | Locate the course “Resources” hub; organize all PDFs and videos into clearly labeled folders. |
+| **Day 3‑4** | Sign up for the upcoming live Q&A session; prepare 2‑3 questions in advance. |
+| **Day 5** | Watch the recorded lecture for the current topic; take notes using the step‑by‑step guide template provided by the instructor. |
+| **Day 6‑7** | Join a peer‑collaboration group on the learning platform; schedule a short virtual study meeting. |
+| **Day 8‑9** | Review the weekly learning path; mark any concepts that still feel unclear and request an example from the lecturer. |
+| **Day 10‑11** | Adjust your study space (lighting, seating, minimal distractions) to improve comfort. |
+| **Day 12‑14** | Reflect on the feedback received from peers and the instructor; note any improvements in understanding and plan the next week’s path accordingly. |
+
+Follow this plan to boost interaction, clarify learning materials, and make the most of self‑paced resources while leveraging your natural flexibility and discipline. Good luck!
+
+
+
+---
+
+## Student ID: `ext_bf2506e3d6`
+
+**Segment:** Moderately Engaged (Passive) Learners
+
+**Recommendation Tags:** `["learning_support"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+---
+
+### 1. Student Learning Profile  
+- **Student ID:** ext_bf2506e3d6  
+- **Segment:** Moderately Engaged (Passive) Learners  
+- **Cluster (overall tendency):** Highly Engaged (Active) Learners  
+
+You tend to work comfortably on your own and prefer not to be in large groups.  
+
+---
+
+### 2. Main Strengths  
+- You feel comfortable studying independently.  
+
+---
+
+### 3. Main Challenges  
+- You mentioned feeling a loss of confidence, which is linked to **learning difficulty and clarity** (you find some material unclear).
+
+---
+
+### 4. Personalized Recommendations  
+**Learning Support – Improve clarity and learning support**  
+- **Clearer instructions:** Look for course materials that break tasks into simple, numbered steps.  
+- **Examples & models:** Use provided examples or ask the instructor for sample work that shows exactly what is expected.  
+- **Recorded explanations:** When available, watch short video or audio recordings that walk through key concepts.  
+- **Step‑by‑step guides:** Keep a personal cheat‑sheet that outlines the process for each assignment or topic.
+
+These supports are especially useful for Moderately Engaged (Passive) learners like you, helping to rebuild confidence while you continue to study independently.
+
+---
+
+### 5. Short Action Plan (Next 2 Weeks)
+
+| Day | Action | How it Helps |
+|-----|--------|--------------|
+| 1‑2 | Locate any recorded explanations or video tutorials for the current module. | Gives you a clear, repeatable reference. |
+| 3‑4 | Write a brief step‑by‑step guide for the next assignment, using the instructor’s example as a template. | Turns vague instructions into concrete actions. |
+| 5‑7 | Review the guide while working on the assignment; pause the video if you get stuck. | Reinforces understanding and reduces uncertainty. |
+| 8‑10 | Share your guide with a peer or tutor (optional) to confirm it covers all steps. | Provides quick feedback and boosts confidence. |
+| 11‑14 | Reflect on how the clearer resources affected your confidence; note any remaining unclear points for the instructor. | Helps you track progress and identify further support needs. |
+
+Stick to the plan, use the clearer resources, and you should notice improved confidence and smoother learning. Good luck!
+
+
+
+---
+
+## Student ID: `ext_a8cc4ed440`
+
+**Segment:** Highly Engaged (Active) Learners
+
+**Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
+
+---
+
+**Personalized Blended‑Learning Recommendation Report**
+
+**Student Learning Profile**  
+- **Student ID:** ext_a8cc4ed440  
+- **Segment:** Highly Engaged (Active) Learners (also grouped in the “Moderately Engaged (Passive) Learners” cluster)  
+
+**Main Strengths**  
+- You highlighted “time” as a strength, indicating that you have enough time to devote to your studies.
+
+**Main Challenges**  
+- You noted “choose your opinion” as a challenge, suggesting difficulty in forming or expressing your own viewpoints.
+
+**Personalized Recommendations**  
+Because the open‑ended responses are brief, the suggestions below are drawn primarily from the characteristics of the **Highly Engaged (Active) Learners** segment and the associated recommendation tags:
+
+1. **Strengthen Access to Learning Materials**  
+   - Upload or request slides, videos, reference articles, exercises, and any other course resources early in the term so you can review them whenever you have time.
+
+2. **Develop Digital Learning Skills**  
+   - Take short tutorials on the LMS (how to submit work, track grades, use discussion boards).  
+   - Explore online research tools and educational apps that can help you gather and organize information for assignments.
+
+3. **Increase Learner Engagement**  
+   - Participate in quizzes, gamified activities, practical tasks, and online discussions.  
+   - Use these interactive elements to practice forming and sharing your own opinions in a low‑stakes environment.
+
+4. **Support Self‑Paced Learning**  
+   - Make use of recorded lectures and weekly learning paths.  
+   - Review the materials at your own pace, especially when you need extra time to reflect on and articulate your viewpoints.
+
+**Short Action Plan (Next 2 Weeks)**  
+
+| Day | Action | Goal |
+|-----|--------|------|
+| 1‑2 | Locate all course slides, videos, and reading lists on the LMS. Download or bookmark them. | Ensure immediate access to materials. |
+| 3‑4 | Complete a short LMS tutorial (many platforms have a “Help” or “Getting Started” video). | Boost digital confidence. |
+| 5‑7 | Join one discussion forum or comment thread; post a brief opinion on a topic you’ve studied. | Practice expressing your viewpoint. |
+| 8‑10 | Attempt a low‑stakes quiz or interactive game related to the current module. | Increase engagement and reinforce learning. |
+| 11‑14 | Review a recorded lecture at your own pace and write a one‑paragraph summary in your own words. | Consolidate knowledge and improve self‑paced study habits. |
+
+Follow this plan, adjust the timing to fit your schedule, and you’ll leverage your available time while building the digital, engagement, and self‑paced skills that support your active‑learning style.
 
 
 
