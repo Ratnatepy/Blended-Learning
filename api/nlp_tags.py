@@ -1,7 +1,7 @@
 """
 Runtime NLP tag extraction for new student open-ended responses.
 
-This module converts the logic from notebook/05-pre-nlp.ipynb and
+This module converts the logic from notebook/05-translation_preprocessing.ipynb and
 notebook/06-nlp.ipynb into backend functions that can be called by FastAPI.
 
 It uses:
