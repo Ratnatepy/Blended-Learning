@@ -31,7 +31,7 @@ class Settings:
         self.root = Path(__file__).resolve().parent.parent.parent.parent
         if config_path is None:
             self.config_path = (
-                self.root / "data" / "config.json"
+                self.root / "config" / "config.json"
             )
         else:
             self.config_path = Path(config_path)
