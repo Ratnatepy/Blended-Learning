@@ -22,7 +22,6 @@ joblib
 # NLP
 nltk
 vaderSentiment
-sentence-transformers
 langdetect
 wordcloud
 
