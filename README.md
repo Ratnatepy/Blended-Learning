@@ -44,9 +44,9 @@ The original survey dataset contained:
 
 | Item | Value |
 |---|---:|
-| Raw survey responses | 445 |
-| Cleaned valid responses | 420 |
-| Excluded responses | 25 |
+| Raw survey responses | 638 |
+| Cleaned valid responses | 588 |
+| Excluded responses | 50 |
 | Ordinal clustering features | 33 |
 | Open-ended response fields | 2 |
 | Main clustering method | K-Modes |
