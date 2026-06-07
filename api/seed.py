@@ -4,17 +4,12 @@ from sqlalchemy.orm import Session
 
 from api.models import StudentRecommendation
 
-CSV_PATH = Path("data/processed/student_recommendation_reports.csv")
+# This file must have 588 rows
+CSV_PATH = Path("data/processed/student_recommendation_reports_current.csv")
 
 
 def seed_student_recommendations(db: Session):
     print("Checking database seed...")
-
-    existing_count = db.query(StudentRecommendation).count()
-
-    if existing_count > 0:
-        print(f"Database already has {existing_count} student records. Skipping seed.")
-        return
 
     if not CSV_PATH.exists():
         print(f"CSV file not found: {CSV_PATH.resolve()}")
@@ -34,6 +29,28 @@ def seed_student_recommendations(db: Session):
     if missing_columns:
         raise ValueError(f"Missing required columns in CSV: {missing_columns}")
 
+    # Clean duplicate student_id in CSV
+    df["student_id"] = df["student_id"].astype(str).str.strip()
+    df = df[df["student_id"] != ""].copy()
+    df = df.drop_duplicates(subset="student_id", keep="last")
+
+    existing_count = db.query(StudentRecommendation).count()
+    csv_count = len(df)
+
+    print(f"Database student records: {existing_count}")
+    print(f"CSV student records: {csv_count}")
+
+    # Only skip if database count matches CSV count
+    if existing_count == csv_count:
+        print(f"Database already matches CSV with {existing_count} records. Skipping seed.")
+        return
+
+    print("Database count does not match CSV. Reseeding...")
+
+    # Clear old records
+    db.query(StudentRecommendation).delete()
+    db.commit()
+
     inserted = 0
 
     for _, row in df.iterrows():
@@ -49,4 +66,7 @@ def seed_student_recommendations(db: Session):
 
     db.commit()
 
+    final_count = db.query(StudentRecommendation).count()
+
     print(f"Seeded {inserted} student recommendation records into PostgreSQL.")
+    print(f"Database now has {final_count} student recommendation records.")
