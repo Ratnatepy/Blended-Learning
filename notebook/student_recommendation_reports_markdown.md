@@ -274,7 +274,7 @@ By ensuring that all learning materials are accessible from the beginning, you c
 
 ## Student ID: `e20210180`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "learning_environment"]`
 
@@ -318,7 +318,7 @@ These steps align with your segment’s typical needs and the specific strengths
 
 ## Student ID: `e20241245`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -371,7 +371,7 @@ Follow these steps, and you’ll strengthen access to materials, improve digital
 
 ## Student ID: `e20221090`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "self_paced", "tech_issue"]`
 
@@ -420,7 +420,7 @@ By focusing on richer interaction, leveraging self‑paced resources, and securi
 
 ## Student ID: `e20250089`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["tech_issue"]`
 
@@ -466,7 +466,7 @@ By securing stable connectivity and preparing offline resources, you’ll be abl
 
 ## Student ID: `e20240950`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -516,7 +516,7 @@ By following these steps, you’ll capitalize on your natural enthusiasm while e
 
 ## Student ID: `e20240099`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -587,7 +587,7 @@ Follow this plan, adjust the schedule as needed, and reach out to your instructo
 
 ## Student ID: `e20241378`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
 
@@ -654,7 +654,7 @@ Follow these steps, and keep using the university’s new resources (guides, qui
 
 ## Student ID: `e20210635`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -704,7 +704,7 @@ By following these steps, you’ll reinforce your own learning, make the platfor
 
 ## Student ID: `e20240052`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
 
@@ -742,7 +742,7 @@ By combining the convenience of your online resources with targeted face‑to‑
 
 ## Student ID: `e20240937`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -782,7 +782,7 @@ By following these focused steps, you’ll strengthen your engagement, get clear
 
 ## Student ID: `e20250073`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
 
@@ -834,7 +834,7 @@ By following these steps, you can keep leveraging your high engagement while smo
 
 ## Student ID: `e20240164`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "self_paced"]`
 
@@ -892,7 +892,7 @@ Stick to this plan, and you’ll turn your strong flexibility into even more eff
 
 ## Student ID: `e20250120`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -949,7 +949,7 @@ Stick to this plan, and you’ll turn your strong flexibility into even more eff
 
 ## Student ID: `e20230101`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -1009,7 +1009,7 @@ Repeat the cycle, adjusting the schedule and reminders as you discover what work
 
 ## Student ID: `e20240144`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness"]`
 
@@ -1050,7 +1050,7 @@ By ensuring prompt access to all course content and coupling it with active, fac
 
 ## Student ID: `e20210243`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "tech_issue", "workload_support"]`
 
@@ -1104,7 +1104,7 @@ By ensuring prompt access to all course content and coupling it with active, fac
 
 ## Student ID: `e20240101`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_support", "motivation", "self_paced"]`
 
@@ -1156,7 +1156,7 @@ Follow these steps consistently and you’ll strengthen interaction, keep motiva
 
 ## Student ID: `e20220895`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "learning_effectiveness", "learning_support", "motivation", "self_paced"]`
 
@@ -1221,7 +1221,7 @@ By following this plan, you can keep the flexibility you enjoy while gaining cle
 
 ## Student ID: `e20220337`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -1276,7 +1276,7 @@ By leveraging self‑paced resources and proactively managing technical hurdles,
 
 ## Student ID: `e20240334`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "motivation", "self_paced"]`
 
@@ -1325,7 +1325,7 @@ Repeat this cycle each week, adjusting the timing to fit your personal rhythm. B
 
 ## Student ID: `e20241011`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "learning_effectiveness", "tech_issue"]`
 
@@ -1381,7 +1381,7 @@ Stay proactive, use the interactive tools available, and make sure you have reli
 
 ## Student ID: `e20250090`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "learning_effectiveness"]`
 
@@ -1420,7 +1420,7 @@ These steps build on your strong engagement and self‑study habits while target
 
 ## Student ID: `e20230912`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "motivation", "self_paced", "tech_issue"]`
 
@@ -1480,7 +1480,7 @@ Follow the plan, adjust the timing to fit your personal rhythm, and reach out to
 
 ## Student ID: `e20221349`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -1526,7 +1526,7 @@ By consistently pairing brief, self‑paced online reviews with interactive, fee
 
 ## Student ID: `e20240276`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "learning_effectiveness", "learning_support"]`
 
@@ -1587,7 +1587,7 @@ You belong to the “Moderately Engaged (Passive) Learners” segment. This grou
 
 ## Student ID: `e20220467`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "motivation"]`
 
@@ -1647,7 +1647,7 @@ Repeat the cycle the following week, adjusting reminder times or study blocks as
 
 ## Student ID: `e20241261`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -1697,7 +1697,7 @@ Repeat the cycle the following week, adjusting reminder times or study blocks as
 
 ## Student ID: `e20230656`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue", "workload_support"]`
 
@@ -1744,7 +1744,7 @@ By following these steps, you can keep leveraging the flexibility you enjoy whil
 
 ## Student ID: `e20220166`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "self_paced", "workload_support"]`
 
@@ -1804,7 +1804,7 @@ Follow these steps, and you’ll strengthen the interactive side of blended lear
 
 ## Student ID: `e20230611`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "tech_issue", "workload_support"]`
 
@@ -1869,7 +1869,7 @@ Because your open‑ended responses are brief, the recommendations below are als
 
 ## Student ID: `M080212`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "tech_issue"]`
 
@@ -1929,7 +1929,7 @@ You are a highly engaged learner who values having all the expertise from lectur
 
 ## Student ID: `e20230093`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_environment"]`
 
@@ -1969,7 +1969,7 @@ By focusing on timely access to updated content, richer interaction, and a well�
 
 ## Student ID: `e20250118`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_support", "tech_issue"]`
 
@@ -2035,7 +2035,7 @@ You are a highly engaged learner who values convenient, effective study. Your op
 
 ## Student ID: `e20230138`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "learning_environment", "learning_support", "tech_issue"]`
 
@@ -2078,7 +2078,7 @@ By focusing on these five areas, you can turn your digital‑skill strength into
 
 ## Student ID: `e20230502`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
 
@@ -2111,7 +2111,7 @@ The student belongs to the **Cluster 2: Highly Engaged (Active) Learners** profi
 
 ## Student ID: `e20240617`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "self_paced", "tech_issue"]`
 
@@ -2146,7 +2146,7 @@ The student belongs to the **Cluster 2: Highly Engaged (Active) Learners** profi
 
 ## Student ID: `e20241150`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "motivation"]`
 
@@ -2181,7 +2181,7 @@ The student belongs to the **Cluster 2: Highly Engaged (Active) Learners** profi
 
 ## Student ID: `e20240725`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation", "tech_issue"]`
 
@@ -2216,7 +2216,7 @@ The student belongs to the **Cluster 1: Moderately Engaged (Passive) Learners** 
 
 ## Student ID: `e20250082`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "learning_effectiveness", "learning_support", "motivation", "tech_issue", "workload_support"]`
 
@@ -2308,7 +2308,7 @@ Follow this plan to turn flexibility into deeper understanding and smoother work
 
 ## Student ID: `M080406`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -2353,7 +2353,7 @@ The student belongs to the **Cluster 2: Highly Engaged (Active) Learners** profi
 
 ## Student ID: `e20220813`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "tech_issue"]`
 
@@ -2388,7 +2388,7 @@ The student belongs to the **Cluster 1: Moderately Engaged (Passive) Learners** 
 
 ## Student ID: `e20240294`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -2421,7 +2421,7 @@ The student belongs to the **Cluster 1: Moderately Engaged (Passive) Learners** 
 
 ## Student ID: `e20241252`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["engagement", "interaction", "motivation"]`
 
@@ -2456,7 +2456,7 @@ The student belongs to the **Cluster 1: Moderately Engaged (Passive) Learners** 
 
 ## Student ID: `e20241035`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -2518,7 +2518,7 @@ The student belongs to the **Cluster 1: Moderately Engaged (Passive) Learners** 
 
 ## Student ID: `e20250109`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -2590,7 +2590,7 @@ By following these steps, you can leverage the flexibility you already appreciat
 
 ## Student ID: `e20123456`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -2646,7 +2646,7 @@ By following these steps, you’ll make the most of the blended‑learning envir
 
 ## Student ID: `e20230006`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_environment", "learning_support", "workload_support"]`
 
@@ -2709,7 +2709,7 @@ Follow these steps, and keep a quick log of what works well and what still feels
 
 ## Student ID: `e20230172`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "learning_environment", "motivation", "self_paced", "tech_issue"]`
 
@@ -2773,7 +2773,7 @@ Feel free to adapt the plan to fit your own timetable—your active engagement i
 
 ## Student ID: `e20240100`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement"]`
 
@@ -2830,7 +2830,7 @@ Repeat the cycle, adjusting the timing to match your schedule. By embedding thes
 
 ## Student ID: `e20241028`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "tech_issue"]`
 
@@ -2886,7 +2886,7 @@ Repeat the cycle, adjusting the timing to match your schedule. By embedding thes
 
 ## Student ID: `e20241144`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -2944,7 +2944,7 @@ Repeat the cycle, adjusting the timing to match your schedule. By embedding thes
 
 ## Student ID: `e20240232`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment"]`
 
@@ -2997,7 +2997,7 @@ Repeat the cycle, adjusting the timing to match your schedule. By embedding thes
 
 ## Student ID: `e20230616`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -3051,7 +3051,7 @@ By using self‑paced resources and a light, adaptable schedule, you can maintai
 
 ## Student ID: `e20231111`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "self_paced", "workload_support"]`
 
@@ -3106,7 +3106,7 @@ By using self‑paced resources and a light, adaptable schedule, you can maintai
 
 ## Student ID: `e20241379`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -3159,7 +3159,7 @@ By repeatedly pairing self‑paced online review with guided, interactive practi
 
 ## Student ID: `e20240289`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "tech_issue"]`
 
@@ -3208,7 +3208,7 @@ By following these steps, you’ll have reliable access to course content, combi
 
 ## Student ID: `e20241023`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_environment", "learning_support"]`
 
@@ -3274,7 +3274,7 @@ You prefer a mix of online video recordings and face‑to‑face sessions with l
 
 ## Student ID: `e20240055`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment", "learning_support", "self_paced"]`
 
@@ -3388,7 +3388,7 @@ Stick to the schedule, use the reminders, and keep tracking your progress. This 
 
 ## Student ID: `e20210000`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_effectiveness", "learning_environment", "self_paced", "tech_issue", "workload_support"]`
 
@@ -3453,7 +3453,7 @@ Your main concern is the **risk of a double workload** when online modules feel 
 
 ## Student ID: `e20240483`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_support", "workload_support"]`
 
@@ -3514,7 +3514,7 @@ Your main concern is the **risk of a double workload** when online modules feel 
 
 ## Student ID: `e20230383`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment"]`
 
@@ -3567,7 +3567,7 @@ These steps align with the rule‑based recommendation for the **learning_enviro
 
 ## Student ID: `e20220185`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -3616,7 +3616,7 @@ These options let you study during commute times or whenever you feel most focus
 
 ## Student ID: `e20211474`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -3673,7 +3673,7 @@ By combining your strong engagement with targeted support and reliable technical
 
 ## Student ID: `e20240269`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["engagement", "learning_support", "motivation", "self_paced"]`
 
@@ -3740,7 +3740,7 @@ Repeat the cycle, tweaking the schedule as you discover what timing and activiti
 
 ## Student ID: `e20211152`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -3786,7 +3786,7 @@ Based on the “learning_effectiveness” tag that matches both your strengths a
 
 ## Student ID: `e20230120`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -3825,7 +3825,7 @@ By following this plan, you’ll be able to keep learning at a pace that works f
 
 ## Student ID: `e20240925`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "self_paced"]`
 
@@ -3881,7 +3881,7 @@ By blending your strong time‑management skills with these structured, self‑p
 
 ## Student ID: `e20241404`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -3929,7 +3929,7 @@ By following these steps, you can keep leveraging the flexibility you enjoy whil
 
 ## Student ID: `e20230393`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "learning_support"]`
 
@@ -3990,7 +3990,7 @@ These recommendations are drawn directly from the evidence about your strengths,
 
 ## Student ID: `e20221407`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -4028,7 +4028,7 @@ By focusing on self‑paced study and securing reliable technical access, you ca
 
 ## Student ID: `e20240407`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access"]`
 
@@ -4070,7 +4070,7 @@ By consistently accessing and reviewing the uploaded content ahead of class, you
 
 ## Student ID: `e20210629`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -4117,7 +4117,7 @@ Follow these steps and adjust as you discover what works best for you. The goal 
 
 ## Student ID: `e20240473`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "self_paced"]`
 
@@ -4168,7 +4168,7 @@ Good luck, and remember that small, regular steps lead to steady progress!
 
 ## Student ID: `e20240957`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -4238,7 +4238,7 @@ By following these steps, you can keep leveraging your strong engagement while r
 
 ## Student ID: `e20220209`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["tech_issue"]`
 
@@ -4277,7 +4277,7 @@ By securing reliable connectivity and having offline options ready, you’ll be 
 
 ## Student ID: `e20240514`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -4323,7 +4323,7 @@ These steps align with your active, highly engaged learning style while addressi
 
 ## Student ID: `e20231238`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -4366,7 +4366,7 @@ By using these self‑paced resources, you can maintain the flexibility you valu
 
 ## Student ID: `e20241313`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -4429,7 +4429,7 @@ Repeat a similar pattern each week, adjusting the schedule as you become more co
 
 ## Student ID: `e20221053`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "tech_issue"]`
 
@@ -4472,7 +4472,7 @@ By following these steps, you can keep leveraging your strong self‑study habit
 
 ## Student ID: `e20220981`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "self_paced"]`
 
@@ -4567,7 +4567,7 @@ By focusing on early access to materials, building your digital confidence, and 
 
 ## Student ID: `e20240928`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -4618,7 +4618,7 @@ By focusing on early access to materials, building your digital confidence, and 
 
 ## Student ID: `e20240981`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "motivation"]`
 
@@ -4665,7 +4665,7 @@ Follow these steps for the next month and adjust as needed. By pairing your natu
 
 ## Student ID: `e20240103`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "tech_issue"]`
 
@@ -4711,7 +4711,7 @@ By following these steps, you can keep leveraging your strong engagement while m
 
 ## Student ID: `M080215`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "self_paced", "workload_support"]`
 
@@ -4755,7 +4755,7 @@ By following these steps, you’ll make the most of the blended format—saving 
 
 ## Student ID: `e20240622`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -4802,7 +4802,7 @@ Follow these steps and adjust as needed. If you encounter any specific difficult
 
 ## Student ID: `e20240477`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support"]`
 
@@ -4847,7 +4847,7 @@ By focusing on early, organized access to materials and clearer, supported expla
 
 ## Student ID: `M070609`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "tech_issue"]`
 
@@ -4885,7 +4885,7 @@ By focusing on reliable access to materials and addressing internet challenges, 
 
 ## Student ID: `e20230462`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -4944,7 +4944,7 @@ These recommendations align with the tags **motivation** and **self_paced**, whi
 
 ## Student ID: `e20240254`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation"]`
 
@@ -4994,7 +4994,7 @@ These recommendations align with the tags **motivation** and **self_paced**, whi
 
 ## Student ID: `e20231074`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill"]`
 
@@ -5041,7 +5041,7 @@ By following these steps, you’ll keep the strong access to materials you alrea
 
 ## Student ID: `e20241169`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "tech_issue"]`
 
@@ -5101,7 +5101,7 @@ By following these steps, you’ll keep the strong access to materials you alrea
 
 ## Student ID: `e20230483`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "workload_support"]`
 
@@ -5151,7 +5151,7 @@ By following these steps, you can keep leveraging your high engagement while smo
 
 ## Student ID: `e20200254`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "learning_effectiveness", "tech_issue"]`
 
@@ -5200,7 +5200,7 @@ You are classified as a **Highly Engaged (Active) Learner**. Your responses show
 
 ## Student ID: `e20250116`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "learning_effectiveness", "learning_environment", "motivation", "self_paced"]`
 
@@ -5265,7 +5265,7 @@ Follow this plan, adjust the timing to fit your personal schedule, and keep usin
 
 ## Student ID: `e20230668`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -5322,7 +5322,7 @@ Follow this plan, adjust the timing to fit your personal schedule, and keep usin
 
 ## Student ID: `e20230300`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "self_paced", "tech_issue"]`
 
@@ -5373,7 +5373,7 @@ Follow this plan, adjust the timing to fit your personal schedule, and keep usin
 
 ## Student ID: `e20240400`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation", "self_paced"]`
 
@@ -5426,7 +5426,7 @@ Continue repeating this cycle, adjusting the schedule as needed. The blend of on
 
 ## Student ID: `e20240972`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "tech_issue"]`
 
@@ -5472,7 +5472,7 @@ By strengthening your learning environment and ensuring reliable technical acces
 
 ## Student ID: `e20230493`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment"]`
 
@@ -5521,7 +5521,7 @@ By strengthening your learning environment and ensuring reliable technical acces
 
 ## Student ID: `e20210095`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -5563,7 +5563,7 @@ By following these steps, you’ll keep the convenience you value while ensuring
 
 ## Student ID: `e20240005`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness"]`
 
@@ -5613,7 +5613,7 @@ By following these steps, you’ll have clearer access to materials, stronger di
 
 ## Student ID: `e20230799`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation", "self_paced"]`
 
@@ -5666,7 +5666,7 @@ By following these steps, you’ll have clearer access to materials, stronger di
 
 ## Student ID: `e20250056`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["tech_issue"]`
 
@@ -5714,7 +5714,7 @@ By following these steps, you’ll have clearer access to materials, stronger di
 
 ## Student ID: `e20231141`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "motivation", "self_paced"]`
 
@@ -5774,7 +5774,7 @@ Follow this cycle each week, adjusting the study times and resources as needed. 
 
 ## Student ID: `e20240647`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "learning_effectiveness", "learning_environment", "motivation", "tech_issue"]`
 
@@ -5836,7 +5836,7 @@ You belong to the **Highly Engaged (Active) Learners** segment. Your responses s
 
 ## Student ID: `e20231117`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "self_paced", "tech_issue"]`
 
@@ -5887,7 +5887,7 @@ You are identified as a **Highly Engaged (Active) Learner**. You value flexibili
 
 ## Student ID: `e20240949`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -5945,7 +5945,7 @@ These steps align with the strengths of a highly engaged learner and give you th
 
 ## Student ID: `e20241091`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -5992,7 +5992,7 @@ By following these steps, you’ll make the most of blended learning’s flexibi
 
 ## Student ID: `e20240395`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -6025,7 +6025,7 @@ By taking advantage of self‑paced resources, you can keep studying in the flex
 
 ## Student ID: `e20221709`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "motivation", "self_paced", "tech_issue"]`
 
@@ -6078,7 +6078,7 @@ By focusing on interaction, a supportive learning environment, motivation tools,
 
 ## Student ID: `e20230232`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -6138,7 +6138,7 @@ Follow these steps and the recommendations above to make your blended learning e
 
 ## Student ID: `e20230409`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "self_paced"]`
 
@@ -6197,7 +6197,7 @@ Good luck, and keep leveraging your active learning style!
 
 ## Student ID: `e20230160`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_support", "tech_issue"]`
 
@@ -6259,7 +6259,7 @@ Follow this plan, and adjust as you discover what works best for your learning s
 
 ## Student ID: `e20210195`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment", "self_paced", "tech_issue"]`
 
@@ -6312,7 +6312,7 @@ Follow this plan, and adjust as you discover what works best for your learning s
 
 ## Student ID: `e20230135`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "self_paced", "tech_issue"]`
 
@@ -6374,7 +6374,7 @@ Follow this plan, and adjust as you discover what works best for your learning s
 
 ## Student ID: `e20240444`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -6431,7 +6431,7 @@ You belong to the **Highly Engaged (Active) Learners** segment. This group typic
 
 ## Student ID: `M080402`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "self_paced", "tech_issue"]`
 
@@ -6490,7 +6490,7 @@ You belong to the **Highly Engaged (Active) Learners** segment. This group typic
 
 ## Student ID: `e20240488`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -6528,7 +6528,7 @@ By leveraging self‑paced tools and securing reliable technical access, you can
 
 ## Student ID: `e20230142`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -6578,7 +6578,7 @@ Stay proactive, make use of the early‑released content, and take advantage of 
 
 ## Student ID: `e20240867`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -6631,7 +6631,7 @@ Stay proactive, make use of the early‑released content, and take advantage of 
 
 ## Student ID: `e20220699`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "workload_support"]`
 
@@ -6679,7 +6679,7 @@ By following this plan, you can keep leveraging your strong time‑management sk
 
 ## Student ID: `e20240595`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment"]`
 
@@ -6729,7 +6729,7 @@ By following these focused steps, you’ll make the most of your strong engageme
 
 ## Student ID: `e20230118`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "self_paced", "tech_issue"]`
 
@@ -6788,7 +6788,7 @@ By focusing on interactive content, self‑paced resources, and reliable technic
 
 ## Student ID: `e20220741`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "motivation"]`
 
@@ -6836,7 +6836,7 @@ Follow these steps to keep your learning experience flexible, interactive, and m
 
 ## Student ID: `e20231279`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "self_paced"]`
 
@@ -6899,7 +6899,7 @@ These three recommendations align with the tags **interaction**, **learning_envi
 
 ## Student ID: `e20241053`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "tech_issue"]`
 
@@ -6948,7 +6948,7 @@ By following these steps, you’ll maximize the benefit of the blended‑learnin
 
 ## Student ID: `e20240912`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_environment", "workload_support"]`
 
@@ -7001,7 +7001,7 @@ You thrive when you can study independently and appreciate clear, calm explanati
 
 ## Student ID: `e20230091`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment"]`
 
@@ -7039,7 +7039,7 @@ These steps align with the strengths and challenges identified for your learner 
 
 ## Student ID: `e20230267`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "learning_support", "self_paced"]`
 
@@ -7092,7 +7092,7 @@ These steps align with the strengths and challenges identified for your learner 
 
 ## Student ID: `e20230371`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["engagement", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -7154,7 +7154,7 @@ You appreciate the **flexibility** of online classes, which let you study at you
 
 ## Student ID: `e20240970`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -7217,7 +7217,7 @@ Because the open‑ended responses are brief, the recommendations below rely pri
 
 ## Student ID: `e20240783`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -7272,7 +7272,7 @@ Because the open‑ended responses are brief, the recommendations below rely pri
 
 ## Student ID: `e20241401`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill"]`
 
@@ -7312,7 +7312,7 @@ By focusing on these targeted digital‑skill activities, you’ll build confide
 
 ## Student ID: `e20231105`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "self_paced", "tech_issue"]`
 
@@ -7372,7 +7372,7 @@ You are a highly engaged learner who values flexibility and practical approaches
 
 ## Student ID: `e20230095`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "engagement", "learning_support", "motivation", "workload_support"]`
 
@@ -7416,7 +7416,7 @@ By focusing on these concrete steps, you’ll strengthen your digital confidence
 
 ## Student ID: `e20240371`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -7458,7 +7458,7 @@ Following these steps will reinforce your strong access to materials while mitig
 
 ## Student ID: `e20211604`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_support", "motivation"]`
 
@@ -7510,7 +7510,7 @@ By following these steps, you can keep leveraging your strong engagement and dig
 
 ## Student ID: `e20240875`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced", "tech_issue"]`
 
@@ -7572,7 +7572,7 @@ You belong to the **Highly Engaged (Active) Learners** segment. Your open‑ende
 
 ## Student ID: `e20230186`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -7614,7 +7614,7 @@ By combining your strong engagement and love of flexibility with clearer instruc
 
 ## Student ID: `e20240670`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -7656,7 +7656,7 @@ By focusing on early access to content, improving the study environment, and sec
 
 ## Student ID: `e20241019`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "interaction", "learning_effectiveness", "self_paced"]`
 
@@ -7718,7 +7718,7 @@ Good luck, and keep leveraging your strong engagement while building richer comm
 
 ## Student ID: `e20241312`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "learning_effectiveness"]`
 
@@ -7767,7 +7767,7 @@ By following these steps, you’ll keep your strong engagement level while ensur
 
 ## Student ID: `e20211544`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -7827,7 +7827,7 @@ You thrive in a blended environment because you value the **flexibility to acces
 
 ## Student ID: `e20240507`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["engagement", "tech_issue"]`
 
@@ -7875,7 +7875,7 @@ You thrive in a blended environment because you value the **flexibility to acces
 
 ## Student ID: `e20241176`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access"]`
 
@@ -7913,7 +7913,7 @@ By ensuring timely and organized access to all learning materials, you’ll be a
 
 ## Student ID: `e20240452`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support"]`
 
@@ -7969,7 +7969,7 @@ By following this plan, you’ll keep the strong access to resources you value w
 
 ## Student ID: `e20240625`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_support"]`
 
@@ -8027,7 +8027,7 @@ These supports align with the “learning_support” tag that the rule‑based s
 
 ## Student ID: `e20221013`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement"]`
 
@@ -8064,7 +8064,7 @@ These activities are designed to match your high engagement level and keep you a
 
 ## Student ID: `e20220564`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -8123,7 +8123,7 @@ These suggestions are drawn directly from the evidence for your segment and the 
 
 ## Student ID: `e20230724`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "self_paced"]`
 
@@ -8173,7 +8173,7 @@ These suggestions are drawn directly from the evidence for your segment and the 
 
 ## Student ID: `M080415`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -8220,7 +8220,7 @@ By following these steps, you can take full advantage of the flexibility of blen
 
 ## Student ID: `e20220759`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access"]`
 
@@ -8271,7 +8271,7 @@ By securing early access to all learning materials, you’ll be able to keep you
 
 ## Student ID: `e20240685`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "learning_environment", "tech_issue"]`
 
@@ -8315,7 +8315,7 @@ By following these steps, you’ll build a more reliable, self‑paced learning 
 
 ## Student ID: `e20210963`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -8364,7 +8364,7 @@ These resources are designed to match your strength in flexibility while helping
 
 ## Student ID: `e20230754`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "self_paced"]`
 
@@ -8424,7 +8424,7 @@ These two recommendations are drawn directly from the rule‑based tags **intera
 
 ## Student ID: `e20221543`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -8490,7 +8490,7 @@ These two recommendations are drawn directly from the rule‑based tags **intera
 
 ## Student ID: `e20230509`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_support", "motivation"]`
 
@@ -8542,7 +8542,7 @@ By following these steps, you’ll leverage your strong engagement and digital c
 
 ## Student ID: `e20221198`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment"]`
 
@@ -8578,7 +8578,7 @@ By improving the learning environment both on‑campus and at home, you’ll be 
 
 ## Student ID: `e20220446`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "workload_support"]`
 
@@ -8639,7 +8639,7 @@ By improving the learning environment both on‑campus and at home, you’ll be 
 
 ## Student ID: `e20221402`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support", "self_paced"]`
 
@@ -8692,7 +8692,7 @@ By consistently using the available digital resources, seeking clearer explanati
 
 ## Student ID: `e20250137`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "self_paced"]`
 
@@ -8738,7 +8738,7 @@ By pairing your strong self‑direction with targeted face‑to‑face interacti
 
 ## Student ID: `e20240274`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -8784,7 +8784,7 @@ By following these steps, you can keep leveraging your strong engagement while m
 
 ## Student ID: `e20240328`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -8833,7 +8833,7 @@ By pairing your preferred self‑study approach with targeted in‑person explan
 
 ## Student ID: `e2024502NKH`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "self_paced"]`
 
@@ -8881,7 +8881,7 @@ By following these steps, you’ll keep leveraging your strong engagement while 
 
 ## Student ID: `e20240247`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "self_paced"]`
 
@@ -8929,7 +8929,7 @@ By following these steps, you’ll keep leveraging your strong engagement while 
 
 ## Student ID: `e20240053`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "motivation", "self_paced", "tech_issue"]`
 
@@ -8979,7 +8979,7 @@ By following these steps, you can capitalize on your strengths while addressing 
 
 ## Student ID: `e20240133`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "motivation"]`
 
@@ -9021,7 +9021,7 @@ Following these steps will strengthen your access to materials, create a more su
 
 ## Student ID: `e20231067`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_support"]`
 
@@ -9082,7 +9082,7 @@ Follow this cycle each module to keep materials accessible, reinforce learning w
 
 ## Student ID: `e20220472`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -9133,7 +9133,7 @@ Follow these steps, and you’ll strengthen both the effectiveness of your learn
 
 ## Student ID: `e20211364`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_support"]`
 
@@ -9182,7 +9182,7 @@ By combining your strong self‑study habits with more structured interaction, c
 
 ## Student ID: `e20220258`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -9221,7 +9221,7 @@ By leveraging your strong self‑direction and addressing the navigation challen
 
 ## Student ID: `e20240089`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation"]`
 
@@ -9285,7 +9285,7 @@ Repeat this cycle, tweaking the timing and tools as you discover what keeps you 
 
 ## Student ID: `e20241025`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -9340,7 +9340,7 @@ Stick to these steps, and adjust as you discover what works best for you. Small,
 
 ## Student ID: `e20230857`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -9391,7 +9391,7 @@ Following these steps will help you make the most of blended learning’s flexib
 
 ## Student ID: `e20240242`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "learning_environment", "tech_issue"]`
 
@@ -9442,7 +9442,7 @@ By following these steps, you can keep leveraging your high engagement while red
 
 ## Student ID: `e20221466`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -9505,7 +9505,7 @@ Because the open‑ended responses are brief, the recommendations below rely pri
 
 ## Student ID: `e20240196`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support", "motivation", "self_paced", "workload_support"]`
 
@@ -9566,7 +9566,7 @@ Follow this plan, use the newly available resources, and keep the weekly check�
 
 ## Student ID: `e20240856`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "tech_issue"]`
 
@@ -9613,7 +9613,7 @@ By strengthening your digital competencies and having reliable backup options, y
 
 ## Student ID: `e20240818`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "self_paced", "workload_support"]`
 
@@ -9672,7 +9672,7 @@ By strengthening your digital competencies and having reliable backup options, y
 
 ## Student ID: `e20240165`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced"]`
 
@@ -9729,7 +9729,7 @@ You thrive when you can control your schedule, revisit past lessons, and prepare
 
 ## Student ID: `e20240862`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_support", "self_paced", "tech_issue"]`
 
@@ -9785,7 +9785,7 @@ You thrive when you can control your schedule, revisit past lessons, and prepare
 
 ## Student ID: `e20230259`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -9832,7 +9832,7 @@ By following these steps, you’ll make the most of blended learning’s flexibi
 
 ## Student ID: `e20221004`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access"]`
 
@@ -9877,7 +9877,7 @@ By ensuring that all learning materials are uploaded promptly and organized for 
 
 ## Student ID: `e20241226`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -9917,7 +9917,7 @@ By following these steps, you’ll capitalize on your natural engagement while e
 
 ## Student ID: `e20240097`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "learning_support", "motivation", "self_paced"]`
 
@@ -9978,7 +9978,7 @@ By following these steps, you’ll capitalize on your natural engagement while e
 
 ## Student ID: `e20241370`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "motivation"]`
 
@@ -10040,7 +10040,7 @@ Follow this plan and adjust the schedule as needed. By strengthening material ac
 
 ## Student ID: `e20240673`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_effectiveness"]`
 
@@ -10091,7 +10091,7 @@ These steps align with your strengths in self‑study and your desire for concis
 
 ## Student ID: `e20210535`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support", "motivation"]`
 
@@ -10130,7 +10130,7 @@ By ensuring early access to clear, well‑organized materials and using regular 
 
 ## Student ID: `e20240320`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "learning_effectiveness"]`
 
@@ -10181,7 +10181,7 @@ These recommendations are drawn directly from the rule‑based guidance for your
 
 ## Student ID: `e20250070`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "tech_issue"]`
 
@@ -10223,7 +10223,7 @@ By following these steps, you’ll keep your strong engagement level, improve ho
 
 ## Student ID: `e20220963`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_environment"]`
 
@@ -10286,7 +10286,7 @@ Follow these steps, reflect on what works best for you, and adjust as needed. Co
 
 ## Student ID: `e20240215`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation"]`
 
@@ -10337,7 +10337,7 @@ Repeat this cycle, gradually adding more detailed check‑ins or group study ses
 
 ## Student ID: `e20220544`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "self_paced", "tech_issue"]`
 
@@ -10385,7 +10385,7 @@ Repeat this cycle, gradually adding more detailed check‑ins or group study ses
 
 ## Student ID: `e20220800`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "workload_support"]`
 
@@ -10443,7 +10443,7 @@ Follow these steps, and you’ll keep leveraging your strong preparation habits 
 
 ## Student ID: `e20241406`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -10500,7 +10500,7 @@ Follow these steps, and you’ll keep leveraging your strong preparation habits 
 
 ## Student ID: `e20240331`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "learning_effectiveness", "motivation"]`
 
@@ -10560,7 +10560,7 @@ Follow these steps, and you’ll keep leveraging your strong preparation habits 
 
 ## Student ID: `M080411`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -10614,7 +10614,7 @@ Stick to the schedule, use the recordings repeatedly if needed, and you’ll ben
 
 ## Student ID: `e20230392`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "learning_effectiveness", "learning_support", "tech_issue"]`
 
@@ -10678,7 +10678,7 @@ Follow this plan, and you’ll keep leveraging your strong engagement while mini
 
 ## Student ID: `e20211284`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment", "self_paced"]`
 
@@ -10718,7 +10718,7 @@ By focusing on a clearer learning environment and taking advantage of self‑pac
 
 ## Student ID: `e20220455`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "motivation", "tech_issue"]`
 
@@ -10778,7 +10778,7 @@ Stay proactive, use the resources provided, and reach out for support whenever t
 
 ## Student ID: `e20240694`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill"]`
 
@@ -10817,7 +10817,7 @@ By following these steps, you’ll deepen your own digital competence while cont
 
 ## Student ID: `e20221592`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "tech_issue"]`
 
@@ -10872,7 +10872,7 @@ Following this plan will help you keep learning convenient while reducing the im
 
 ## Student ID: `e20241119`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["engagement", "learning_effectiveness", "learning_support"]`
 
@@ -10922,7 +10922,7 @@ By following these steps, you’ll strengthen engagement, improve the effectiven
 
 ## Student ID: `e20221650`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "interaction", "learning_effectiveness", "learning_environment", "self_paced", "workload_support"]`
 
@@ -10988,7 +10988,7 @@ Follow these steps, and you’ll keep the high level of engagement you already e
 
 ## Student ID: `e20230058`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "motivation"]`
 
@@ -11040,7 +11040,7 @@ Follow these steps, and you’ll keep the high level of engagement you already e
 
 ## Student ID: `e20220184`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_support", "workload_support"]`
 
@@ -11097,7 +11097,7 @@ Follow these steps and keep using the digital resources that work best for you. 
 
 ## Student ID: `e20240966`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "learning_effectiveness", "tech_issue"]`
 
@@ -11156,7 +11156,7 @@ Follow these steps and keep using the digital resources that work best for you. 
 
 ## Student ID: `e20220908`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support"]`
 
@@ -11204,7 +11204,7 @@ Following this plan will keep your strong habit of using recordings while giving
 
 ## Student ID: `e20221701`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "motivation"]`
 
@@ -11259,7 +11259,7 @@ Follow these steps, and you’ll keep the advantages of self‑paced study while
 
 ## Student ID: `e20210184`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_support", "workload_support"]`
 
@@ -11313,7 +11313,7 @@ Follow these steps, and you’ll keep the advantages of self‑paced study while
 
 ## Student ID: `e20211096`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_environment", "motivation", "tech_issue", "workload_support"]`
 
@@ -11358,7 +11358,7 @@ By following these steps, you can keep leveraging your strong engagement while a
 
 ## Student ID: `M080405`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -11419,7 +11419,7 @@ Follow this plan and adjust the timing to fit your schedule. By strengthening ac
 
 ## Student ID: `e20230757`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_support", "self_paced"]`
 
@@ -11511,7 +11511,7 @@ By keeping learning resources readily accessible, you can maintain your high lev
 
 ## Student ID: `e20220468`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "self_paced"]`
 
@@ -11569,7 +11569,7 @@ These three recommendations align directly with the tags identified for you and 
 
 ## Student ID: `e20220368`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "learning_support"]`
 
@@ -11622,7 +11622,7 @@ These three recommendations align directly with the tags identified for you: **i
 
 ## Student ID: `e20210573`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_support", "self_paced"]`
 
@@ -11679,7 +11679,7 @@ By focusing on these four areas—material access, interaction, clear support, a
 
 ## Student ID: `e20220888`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_environment", "learning_support", "motivation"]`
 
@@ -11745,7 +11745,7 @@ Good luck, and remember that the university’s support services are here to hel
 
 ## Student ID: `e20220554`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "self_paced", "tech_issue"]`
 
@@ -11811,7 +11811,7 @@ Good luck, and remember that the university’s support services are here to hel
 
 ## Student ID: `e20241155`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -11853,7 +11853,7 @@ By pairing the flexible online resources you already enjoy with targeted, intera
 
 ## Student ID: `e20221070`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -11905,7 +11905,7 @@ Because your open‑ended responses are brief, the suggestions below draw primar
 
 ## Student ID: `e20220547`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["tech_issue"]`
 
@@ -11955,7 +11955,7 @@ Because your strengths already align with the “Highly Engaged” profile, the 
 
 ## Student ID: `e20221213`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "tech_issue"]`
 
@@ -12001,7 +12001,7 @@ By focusing on early material access and securing a stable internet connection, 
 
 ## Student ID: `e20231232`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "self_paced"]`
 
@@ -12040,7 +12040,7 @@ By combining online review with active classroom work and using self‑paced res
 
 ## Student ID: `M080404`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -12111,7 +12111,7 @@ Feel free to adapt the timeline to fit your personal schedule. By focusing on th
 
 ## Student ID: `e20241351`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "tech_issue"]`
 
@@ -12149,7 +12149,7 @@ By focusing on sharpening your digital skills and securing reliable access to co
 
 ## Student ID: `e20241399`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "tech_issue"]`
 
@@ -12199,7 +12199,7 @@ By focusing on richer interaction, combining online and face‑to‑face learnin
 
 ## Student ID: `e20240212`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "tech_issue"]`
 
@@ -12295,7 +12295,7 @@ By securing timely access to all learning resources and building regular motivat
 
 ## Student ID: `e20250062`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -12363,7 +12363,7 @@ You thrive in flexible, time‑saving learning environments. You appreciate bein
 
 ## Student ID: `e20230360`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -12413,7 +12413,7 @@ By combining flexible online resources with targeted in‑person support and ens
 
 ## Student ID: `e20220573`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "tech_issue", "workload_support"]`
 
@@ -12482,7 +12482,7 @@ Repeat the cycle each week, adjusting the tasks as you discover what works best 
 
 ## Student ID: `e20240486`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill"]`
 
@@ -12543,7 +12543,7 @@ Repeat the cycle each week, adjusting the tasks as you discover what works best 
 
 ## Student ID: `e20241292`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "tech_issue"]`
 
@@ -12582,7 +12582,7 @@ By tightening your learning environment and securing stable technical access, yo
 
 ## Student ID: `e20220240`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "motivation", "self_paced", "tech_issue"]`
 
@@ -12639,7 +12639,7 @@ Repeat the cycle, tweaking the study environment and schedule as you discover wh
 
 ## Student ID: `e20240202`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -12704,7 +12704,7 @@ By following these steps, you’ll reinforce your strengths, reduce the impact o
 
 ## Student ID: `e20240244`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "tech_issue", "workload_support"]`
 
@@ -12751,7 +12751,7 @@ By following these steps you’ll make the most of the early material access you
 
 ## Student ID: `e20230586`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_support"]`
 
@@ -12802,7 +12802,7 @@ Stay proactive and use the blended format to combine the flexibility you like wi
 
 ## Student ID: `e20240234`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -12855,7 +12855,7 @@ Stay proactive and use the blended format to combine the flexibility you like wi
 
 ## Student ID: `e20240568`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "learning_support", "self_paced"]`
 
@@ -12909,7 +12909,7 @@ By following these focused steps, you can turn the flexibility you value into a 
 
 ## Student ID: `e20241131`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support"]`
 
@@ -12960,7 +12960,7 @@ Following these steps will leverage your strong engagement with digital content 
 
 ## Student ID: `e20240385`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "tech_issue"]`
 
@@ -13010,7 +13010,7 @@ Following these steps will leverage your strong engagement with digital content 
 
 ## Student ID: `e20241269`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_environment"]`
 
@@ -13070,7 +13070,7 @@ Follow this plan, and you’ll reinforce your strengths while addressing the onl
 
 ## Student ID: `e20221205`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -13129,7 +13129,7 @@ By following these steps, you can capitalize on your strong ability to access ma
 
 ## Student ID: `M080311`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "learning_environment"]`
 
@@ -13176,7 +13176,7 @@ By following these steps, you’ll reinforce the strengths you already demonstra
 
 ## Student ID: `e20240157`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "learning_support"]`
 
@@ -13225,7 +13225,7 @@ By following these steps, you’ll reinforce the strengths you already demonstra
 
 ## Student ID: `e20240652`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "self_paced"]`
 
@@ -13274,7 +13274,7 @@ By following these steps, you’ll reinforce the strengths you already demonstra
 
 ## Student ID: `e20241315`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -13341,7 +13341,7 @@ Because the open‑ended input is brief, the recommendations below are primarily
 
 ## Student ID: `e20220867`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "tech_issue"]`
 
@@ -13406,7 +13406,7 @@ Because the open‑ended input is brief, the recommendations below are primarily
 
 ## Student ID: `e20240521`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -13477,7 +13477,7 @@ Follow these steps, and you’ll keep leveraging the flexibility you enjoy while
 
 ## Student ID: `M080312`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -13533,7 +13533,7 @@ By following this plan, you’ll keep the flexibility you value while minimizing
 
 ## Student ID: `e20241255`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "motivation", "tech_issue"]`
 
@@ -13593,7 +13593,7 @@ Stay proactive with the schedule and keep your environment and tech ready—this
 
 ## Student ID: `e20240533`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "tech_issue"]`
 
@@ -13649,7 +13649,7 @@ By following these steps, you can make the most of the blended‑learning enviro
 
 ## Student ID: `e20220283`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -13695,7 +13695,7 @@ These steps are tailored to your strengths in flexibility and resource access wh
 
 ## Student ID: `e20211534`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -13748,7 +13748,7 @@ By focusing on increased interaction, a clearer learning environment, self‑pac
 
 ## Student ID: `e20220912`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "interaction", "learning_effectiveness", "learning_environment", "motivation", "self_paced", "tech_issue"]`
 
@@ -13818,7 +13818,7 @@ Follow this plan, tweak it as you learn what works best for you, and you’ll ke
 
 ## Student ID: `e20241344`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "self_paced", "workload_support"]`
 
@@ -13878,7 +13878,7 @@ Follow this cycle each week, adapting the timing to fit your personal schedule. 
 
 ## Student ID: `e20220229`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -13927,7 +13927,7 @@ These suggestions are drawn directly from the rule‑based recommendations for t
 
 ## Student ID: `e20210434`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "learning_effectiveness", "motivation", "self_paced"]`
 
@@ -13985,7 +13985,7 @@ By following these steps, you’ll leverage your strong engagement while adding 
 
 ## Student ID: `e20240499`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment"]`
 
@@ -14030,7 +14030,7 @@ By following this plan, you’ll strengthen your self‑learning habits while en
 
 ## Student ID: `M080210`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -14080,7 +14080,7 @@ You are classified as a **Highly Engaged (Active) Learner**. You enjoy a flexibl
 
 ## Student ID: `e20240484`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -14126,7 +14126,7 @@ By building on your strong engagement and addressing the internet‑related hurd
 
 ## Student ID: `e20220969`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "tech_issue"]`
 
@@ -14177,7 +14177,7 @@ By building on your strong engagement and addressing the internet‑related hurd
 
 ## Student ID: `e20210874`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "learning_support", "workload_support"]`
 
@@ -14223,7 +14223,7 @@ These steps are designed to build on your existing focus and make the university
 
 ## Student ID: `M080108`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "motivation", "self_paced", "tech_issue"]`
 
@@ -14269,7 +14269,7 @@ These steps are drawn directly from the evidence about your strengths, challenge
 
 ## Student ID: `M080417`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "motivation"]`
 
@@ -14307,7 +14307,7 @@ By focusing on more active interaction and a structured, self‑monitoring routi
 
 ## Student ID: `e20221464`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_support", "motivation"]`
 
@@ -14360,7 +14360,7 @@ By focusing on more active interaction and a structured, self‑monitoring routi
 
 ## Student ID: `e20220686`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction"]`
 
@@ -14422,7 +14422,7 @@ These two actions align directly with the tags **content_access** and **interact
 
 ## Student ID: `e20230076`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment"]`
 
@@ -14472,7 +14472,7 @@ Stick to this simple plan and you’ll create a more supportive environment for 
 
 ## Student ID: `e20230312`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -14524,7 +14524,7 @@ Stick to this simple plan and you’ll create a more supportive environment for 
 
 ## Student ID: `e20210320`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "self_paced", "tech_issue"]`
 
@@ -14586,7 +14586,7 @@ Keep track of any remaining technical hurdles and let your instructor know promp
 
 ## Student ID: `e20241402`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -14627,7 +14627,7 @@ By repeatedly pairing your online review with targeted, interactive classroom wo
 
 ## Student ID: `e20230030`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_support"]`
 
@@ -14676,7 +14676,7 @@ By following these steps, you’ll keep strong access to materials while gaining
 
 ## Student ID: `e20240084`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -14717,7 +14717,7 @@ By pairing the flexibility you value with targeted, interactive support, you’l
 
 ## Student ID: `e20220580`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support"]`
 
@@ -14767,7 +14767,7 @@ By pairing the flexibility you value with targeted, interactive support, you’l
 
 ## Student ID: `e20220850`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "self_paced", "workload_support"]`
 
@@ -14825,7 +14825,7 @@ Follow this plan, keep the communication channel open with your instructors, and
 
 ## Student ID: `e20220725`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "workload_support"]`
 
@@ -14884,7 +14884,7 @@ By following these steps, you can keep leveraging your strong engagement while r
 
 ## Student ID: `M080421`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -14944,7 +14944,7 @@ By following these steps, you can keep leveraging the flexibility you value whil
 
 ## Student ID: `e20240071`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -14997,7 +14997,7 @@ By pairing the flexibility you already enjoy with structured in‑person practic
 
 ## Student ID: `e20241327`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -15042,7 +15042,7 @@ Repeat the cycle, adjusting the pace of the online review to match your comfort 
 
 ## Student ID: `e20210537`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness"]`
 
@@ -15089,7 +15089,7 @@ Good luck, and enjoy the flexibility of blended learning!
 
 ## Student ID: `e20210739`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -15132,7 +15132,7 @@ By organizing your resources, securing reliable access, and using self‑paced t
 
 ## Student ID: `e20220296`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "workload_support"]`
 
@@ -15191,7 +15191,7 @@ Follow this cycle each week, tweaking the timing to fit your personal schedule. 
 
 ## Student ID: `M080419`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -15234,7 +15234,7 @@ By following these steps, you can keep leveraging your high engagement while red
 
 ## Student ID: `e20210586`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -15281,7 +15281,7 @@ By following these steps, you can make the most of blended learning’s flexibil
 
 ## Student ID: `e20241021`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -15323,7 +15323,7 @@ By using self‑paced resources, you can maintain the high level of engagement y
 
 ## Student ID: `M080422`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness"]`
 
@@ -15370,7 +15370,7 @@ By using self‑paced resources, you can maintain the high level of engagement y
 
 ## Student ID: `M080105`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_environment", "learning_support", "tech_issue", "workload_support"]`
 
@@ -15431,7 +15431,7 @@ By following these steps, you can keep the flexibility you enjoy while minimizin
 
 ## Student ID: `e20221395`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "learning_environment", "self_paced", "workload_support"]`
 
@@ -15483,7 +15483,7 @@ By following these steps, you can keep benefiting from the flexibility of blende
 
 ## Student ID: `e20210675`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -15534,7 +15534,7 @@ Stick to the schedule you set, and you’ll keep leveraging your time‑manageme
 
 ## Student ID: `e20211548`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "self_paced", "tech_issue", "workload_support"]`
 
@@ -15599,7 +15599,7 @@ Stick to the schedule you set, and you’ll keep leveraging your time‑manageme
 
 ## Student ID: `e20230638`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -15876,7 +15876,7 @@ Stick to these simple steps, and you’ll strengthen both your explanatory abili
 
 ## Student ID: `p20250013`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "tech_issue"]`
 
@@ -15940,7 +15940,7 @@ These three actions align directly with the tags **learning_effectiveness**, **l
 
 ## Student ID: `p20230011`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue", "workload_support"]`
 
@@ -15981,7 +15981,7 @@ By following these steps, you can keep leveraging your flexibility while minimiz
 
 ## Student ID: `p20230023`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "tech_issue"]`
 
@@ -16042,7 +16042,7 @@ By following these steps, you can keep leveraging your flexibility while minimiz
 
 ## Student ID: `p20250043`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "workload_support"]`
 
@@ -16094,7 +16094,7 @@ By using recorded resources to study at your own pace and breaking down large as
 
 ## Student ID: `p20250006`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_support", "motivation", "workload_support"]`
 
@@ -16156,7 +16156,7 @@ By using recorded resources to study at your own pace and breaking down large as
 
 ## Student ID: `p20230027`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment", "learning_support", "tech_issue"]`
 
@@ -16207,7 +16207,7 @@ By using recorded resources to study at your own pace and breaking down large as
 
 ## Student ID: `p20230042`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "self_paced"]`
 
@@ -16257,7 +16257,7 @@ By using recorded resources to study at your own pace and breaking down large as
 
 ## Student ID: `p20250041`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -16318,7 +16318,7 @@ By using recorded resources to study at your own pace and breaking down large as
 
 ## Student ID: `p20250057`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -16385,7 +16385,7 @@ You appreciate the flexibility that blended learning offers, especially the abil
 
 ## Student ID: `p20240001`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -16432,7 +16432,7 @@ You appreciate the flexibility that blended learning offers, especially the abil
 
 ## Student ID: `p20240045`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "learning_effectiveness", "tech_issue"]`
 
@@ -16495,7 +16495,7 @@ Follow this plan to keep your study flow smooth, stay engaged, and minimize the 
 
 ## Student ID: `p20240011`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "learning_support", "motivation"]`
 
@@ -16555,7 +16555,7 @@ Stick to the plan, adjust as you learn what works best, and remember that the st
 
 ## Student ID: `p20240062`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "motivation", "self_paced"]`
 
@@ -16619,7 +16619,7 @@ Stick to the plan, adjust as you learn what works best, and remember that the st
 
 ## Student ID: `p20240023`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "learning_support"]`
 
@@ -16670,7 +16670,7 @@ Follow this plan to make your learning environment more organized and to secure 
 
 ## Student ID: `p20240033`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "tech_issue"]`
 
@@ -16718,7 +16718,7 @@ By following these steps, you’ll keep learning materials readily available and
 
 ## Student ID: `p20240061`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["tech_issue"]`
 
@@ -16758,7 +16758,7 @@ By securing stable technical access and preparing offline materials, you can kee
 
 ## Student ID: `p20240009`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -16800,7 +16800,7 @@ By focusing on these four areas—interaction, learning environment, self‑pace
 
 ## Student ID: `p20240006`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_support", "self_paced", "tech_issue"]`
 
@@ -16861,7 +16861,7 @@ By focusing on these four areas—interaction, learning environment, self‑pace
 
 ## Student ID: `p20240042`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["tech_issue"]`
 
@@ -16902,7 +16902,7 @@ By securing a dependable connection and having offline resources ready, you can 
 
 ## Student ID: `p20240066`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "workload_support"]`
 
@@ -16951,7 +16951,7 @@ Stay proactive and keep communicating with your instructors—your engagement is
 
 ## Student ID: `p20230009`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "learning_environment", "motivation", "self_paced"]`
 
@@ -17013,7 +17013,7 @@ Follow these steps, and you’ll maximize the strengths of blended learning whil
 
 ## Student ID: `p20240018`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "workload_support"]`
 
@@ -17072,7 +17072,7 @@ Repeat this cycle each week, adjusting the planner as new tasks appear. By pairi
 
 ## Student ID: `p20250031`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "motivation", "self_paced", "tech_issue"]`
 
@@ -17127,7 +17127,7 @@ By focusing on these four areas—digital skill building, motivation support, se
 
 ## Student ID: `p20240059`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "motivation", "self_paced", "workload_support"]`
 
@@ -17194,7 +17194,7 @@ By keeping materials easily accessible, using regular check‑ins, and balancing
 
 ## Student ID: `p20240038`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "tech_issue"]`
 
@@ -17239,7 +17239,7 @@ By following these steps, you can keep leveraging your high engagement while min
 
 ## Student ID: `p20240019`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["motivation", "tech_issue"]`
 
@@ -17288,7 +17288,7 @@ Stick to the schedule, use the reminders, and keep a backup of materials offline
 
 ## Student ID: `p20240002`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "tech_issue"]`
 
@@ -17347,7 +17347,7 @@ Follow this plan to leverage your strengths while minimizing technical disruptio
 
 ## Student ID: `p20240072`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "tech_issue", "workload_support"]`
 
@@ -17405,7 +17405,7 @@ By following these steps, you can leverage your strong engagement while addressi
 
 ## Student ID: `p20240040`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_support", "motivation", "self_paced"]`
 
@@ -17470,7 +17470,7 @@ Follow these steps, and you’ll capitalize on your strong engagement while gain
 
 ## Student ID: `p20240048`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -17535,7 +17535,7 @@ You describe yourself as a learner who enjoys picking up new skills through onli
 
 ## Student ID: `p20230038`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "tech_issue"]`
 
@@ -17592,7 +17592,7 @@ By focusing on early material access, combining online and face‑to‑face lear
 
 ## Student ID: `p20230035`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_effectiveness", "learning_environment", "motivation"]`
 
@@ -17651,7 +17651,7 @@ By integrating more interaction, combining online and face‑to‑face learning,
 
 ## Student ID: `p20240060`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "workload_support"]`
 
@@ -17709,7 +17709,7 @@ These recommendations are drawn directly from the evidence about your strengths,
 
 ## Student ID: `p20230039`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "self_paced"]`
 
@@ -17766,7 +17766,7 @@ Follow this simple plan, and you’ll strengthen the interaction you need while 
 
 ## Student ID: `e20210812`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "self_paced"]`
 
@@ -17816,7 +17816,7 @@ Stay proactive in seeking timely feedback and make the most of the flexible, sel
 
 ## Student ID: `p20230021`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["engagement", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue", "workload_support"]`
 
@@ -17860,7 +17860,7 @@ By following these steps, you can leverage the flexibility you value while minim
 
 ## Student ID: `p20230018`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_environment", "motivation", "tech_issue"]`
 
@@ -17911,7 +17911,7 @@ By following these steps, you can leverage the flexibility you value while minim
 
 ## Student ID: `p20230031`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_environment", "tech_issue"]`
 
@@ -17970,7 +17970,7 @@ By following these steps, you can leverage the flexibility you value while minim
 
 ## Student ID: `p20240058`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -18018,7 +18018,7 @@ By following these steps, you can leverage the flexibility you value while minim
 
 ## Student ID: `e20210601`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["engagement", "learning_environment", "motivation", "self_paced", "tech_issue"]`
 
@@ -18069,7 +18069,7 @@ By following these steps, you’ll leverage your strong engagement while buildin
 
 ## Student ID: `p20250054`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_effectiveness", "self_paced", "tech_issue"]`
 
@@ -18127,7 +18127,7 @@ By following this plan, you can keep leveraging your strong engagement and flexi
 
 ## Student ID: `e20211376`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "learning_environment", "self_paced", "tech_issue"]`
 
@@ -18186,7 +18186,7 @@ By following these steps, you can make the most of the blended learning environm
 
 ## Student ID: `p20250015`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -18232,7 +18232,7 @@ By following these steps, you’ll build on your existing strengths while addres
 
 ## Student ID: `e20211443`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "motivation", "self_paced"]`
 
@@ -18284,7 +18284,7 @@ By focusing on richer interaction, regular motivation checks, and using the self
 
 ## Student ID: `p20250061`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -18341,7 +18341,7 @@ By combining regular motivation supports with flexible, self‑paced resources, 
 
 ## Student ID: `p20230037`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -18389,7 +18389,7 @@ Follow these steps, and adjust as you see what works best for you. Small, consis
 
 ## Student ID: `e20211483`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "learning_support", "self_paced", "workload_support"]`
 
@@ -18444,7 +18444,7 @@ Follow these steps, and adjust as you see what works best for you. Small, consis
 
 ## Student ID: `p20240063`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "learning_support", "self_paced"]`
 
@@ -18496,7 +18496,7 @@ By focusing on richer interaction, clearer resources, and leveraging the flexibi
 
 ## Student ID: `e20211168`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "motivation", "self_paced"]`
 
@@ -18553,7 +18553,7 @@ By following these steps, you’ll increase engagement, stay motivated, and cont
 
 ## Student ID: `e20211565`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_environment", "learning_support", "self_paced", "workload_support"]`
 
@@ -18616,7 +18616,7 @@ You belong to the **Highly Engaged (Active) Learners** segment. This group typic
 
 ## Student ID: `p20250063`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_support", "motivation", "self_paced", "tech_issue"]`
 
@@ -18679,7 +18679,7 @@ You thrive in a blended environment because it gives you flexibility, quick acce
 
 ## Student ID: `e20211258`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_effectiveness", "learning_support", "motivation", "workload_support"]`
 
@@ -18742,7 +18742,7 @@ Follow this plan, and you should notice improved motivation, clearer guidance, a
 
 ## Student ID: `e20211437`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -18810,7 +18810,7 @@ Follow these steps, and you should notice smoother access to content, clearer in
 
 ## Student ID: `e20210439`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "engagement", "interaction", "learning_environment", "learning_support", "self_paced", "tech_issue"]`
 
@@ -18854,7 +18854,7 @@ By following these steps, you can make the most of blended learning’s flexibil
 
 ## Student ID: `e20210512`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue", "workload_support"]`
 
@@ -18915,7 +18915,7 @@ By following these steps, you’ll keep your workload manageable, strengthen you
 
 ## Student ID: `e20210975`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "self_paced"]`
 
@@ -18965,7 +18965,7 @@ By focusing on easy access to materials, adding purposeful interaction, and usin
 
 ## Student ID: `p20250037`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced", "tech_issue", "workload_support"]`
 
@@ -19039,7 +19039,7 @@ You are a moderately engaged learner who appreciates the convenience of online s
 
 ## Student ID: `e20211626`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "interaction", "learning_effectiveness", "learning_support", "self_paced", "tech_issue"]`
 
@@ -19108,7 +19108,7 @@ Feel free to adapt the timeline to fit your schedule. By leveraging your strong 
 
 ## Student ID: `p20230007`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "motivation", "self_paced", "tech_issue"]`
 
@@ -19169,7 +19169,7 @@ Follow these steps, adjust as needed, and you’ll strengthen interaction, stay 
 
 ## Student ID: `p20230019`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "self_paced"]`
 
@@ -19216,7 +19216,7 @@ By focusing on easy access to materials, sharpening your digital tools, and stru
 
 ## Student ID: `p20230005`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "motivation", "self_paced"]`
 
@@ -19283,7 +19283,7 @@ Follow this plan, adjust the schedule as needed, and keep communicating with lec
 
 ## Student ID: `p20230034`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "learning_support", "motivation", "tech_issue"]`
 
@@ -19325,7 +19325,7 @@ By combining concise in‑person guidance, clearer learning resources, regular p
 
 ## Student ID: `e20210359`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "interaction", "motivation"]`
 
@@ -19370,7 +19370,7 @@ By strengthening material access, adding purposeful interaction, and building ro
 
 ## Student ID: `p20250048`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "engagement", "self_paced"]`
 
@@ -19433,7 +19433,7 @@ By strengthening material access, adding purposeful interaction, and building ro
 
 ## Student ID: `p20230013`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -19483,7 +19483,7 @@ By strengthening material access, adding purposeful interaction, and building ro
 
 ## Student ID: `e20220186`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation", "workload_support"]`
 
@@ -19535,7 +19535,7 @@ By strengthening material access, adding purposeful interaction, and building ro
 
 ## Student ID: `e20240569`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 
@@ -19584,7 +19584,7 @@ By strengthening material access, adding purposeful interaction, and building ro
 
 ## Student ID: `e20211504`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_support", "self_paced"]`
 
@@ -19632,7 +19632,7 @@ By following this plan, you’ll keep the autonomy you enjoy while gaining the e
 
 ## Student ID: `e20231276`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["tech_issue"]`
 
@@ -19680,7 +19680,7 @@ Because the open‑ended input is limited, the advice below draws primarily on y
 
 ## Student ID: `p20250026`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced"]`
 
@@ -19727,7 +19727,7 @@ Because the open‑ended input is limited, the advice below draws primarily on y
 
 ## Student ID: `e20210752`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_support", "workload_support"]`
 
@@ -19770,7 +19770,7 @@ By following these steps, you’ll make the most of the material that’s alread
 
 ## Student ID: `e20201314`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "self_paced"]`
 
@@ -19817,7 +19817,7 @@ By organizing your learning environment and taking advantage of self‑paced res
 
 ## Student ID: `M061209`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "self_paced"]`
 
@@ -19877,7 +19877,7 @@ Stick to this cycle for a few weeks, then reflect on how the blend of online rev
 
 ## Student ID: `e20210725`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["content_access", "digital_skill", "interaction", "learning_effectiveness", "learning_environment", "learning_support", "self_paced", "tech_issue", "workload_support"]`
 
@@ -19950,7 +19950,7 @@ Follow these steps, and you should notice smoother access to materials, clearer 
 
 ## Student ID: `e20200834`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["digital_skill", "engagement", "interaction"]`
 
@@ -19997,7 +19997,7 @@ By focusing on these three areas—digital skills, active engagement, and richer
 
 ## Student ID: `e20210599`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["digital_skill", "interaction", "learning_environment", "tech_issue"]`
 
@@ -20052,7 +20052,7 @@ By focusing on these three areas—digital skills, active engagement, and richer
 
 ## Student ID: `e20211572`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["learning_environment", "tech_issue"]`
 
@@ -20102,7 +20102,7 @@ By focusing on these three areas—digital skills, active engagement, and richer
 
 ## Student ID: `e20210163`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -20147,7 +20147,7 @@ By focusing on self‑paced resources and securing reliable access to materials,
 
 ## Student ID: `e20200269`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["learning_effectiveness", "motivation", "self_paced"]`
 
@@ -20188,7 +20188,7 @@ By combining flexible online study with regular face‑to‑face practice and a 
 
 ## Student ID: `e20220304`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -20249,7 +20249,7 @@ Follow this plan, and you’ll gradually build stronger interaction, clearer gui
 
 ## Student ID: `e20240672`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -20312,7 +20312,7 @@ By focusing on these four areas—interaction, learning support, motivation, and
 
 ## Student ID: `e20250665`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -20359,7 +20359,7 @@ By focusing on these four areas—interaction, learning support, motivation, and
 
 ## Student ID: `e20251246`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support"]`
 
@@ -20419,7 +20419,7 @@ By following this short plan, you’ll strengthen communication with instructors
 
 ## Student ID: `e20250244`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["interaction", "learning_support", "motivation", "self_paced"]`
 
@@ -20478,7 +20478,7 @@ By following this short plan, you’ll strengthen communication with instructors
 
 ## Student ID: `e20220628`
 
-**Segment:** Cluster 1: Moderately Engaged (Passive) Learners
+**Segment:** Moderately Engaged (Passive) Learners
 
 **Recommendation Tags:** `["self_paced", "tech_issue"]`
 
@@ -20532,7 +20532,7 @@ These steps should help you make the most of your flexibility while minimizing t
 
 ## Student ID: `e20220234`
 
-**Segment:** Cluster 2: Highly Engaged (Active) Learners
+**Segment:** Highly Engaged (Active) Learners
 
 **Recommendation Tags:** `["motivation", "self_paced"]`
 

@@ -25,7 +25,7 @@ def build_student_recommendation_package(
 
     return {
         "student_id": student_id,
-        "student_segment": cluster_id,
+        # "student_segment": cluster_id,
         "student_segment_label": cluster_label,
         "cluster_label": cluster_label,
         "open_strengths_clean": (

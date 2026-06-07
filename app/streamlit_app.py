@@ -1074,32 +1074,82 @@ if page == "Dashboard":
 
         with col3:
             render_metric_card(
-                " Recommendation Type",
+                "Recommendation Type",
                 "Segment-based",
                 "K-Modes + rule-based tags"
             )
-            
-        st.markdown("###  Student Segment Distribution")
+
+        st.markdown("### Student Segment Distribution")
 
         if segment_distribution:
             segment_df = pd.DataFrame(
                 list(segment_distribution.items()),
                 columns=["Segment", "Count"]
-            ).sort_values("Count", ascending=False)
+            )
 
+            # --------------------------------------------------
+            # Normalize old/new segment labels
+            # This avoids depending on Cluster 1 / Cluster 2.
+            # --------------------------------------------------
+            def normalize_dashboard_segment(label):
+                if not label:
+                    return "Unknown"
+
+                s = str(label).strip().lower()
+
+                if "passive" in s or "moderately" in s or "moderate" in s:
+                    return "Moderately Engaged (Passive) Learners"
+
+                if "active" in s or "highly" in s or "high" in s:
+                    return "Highly Engaged (Active) Learners"
+
+                return str(label).strip()
+
+            segment_df["Segment"] = segment_df["Segment"].apply(
+                normalize_dashboard_segment
+            )
+
+            # Group again in case old labels and new labels both exist
+            segment_df = (
+                segment_df
+                .groupby("Segment", as_index=False)["Count"]
+                .sum()
+            )
+
+            # Final display order
+            segment_order = [
+                "Highly Engaged (Active) Learners",
+                "Moderately Engaged (Passive) Learners"
+            ]
+
+            # Include any unexpected segment at the end, just in case
+            extra_segments = [
+                segment
+                for segment in segment_df["Segment"].dropna().unique().tolist()
+                if segment not in segment_order
+            ]
+
+            final_segment_order = segment_order + extra_segments
+
+            segment_df["Segment"] = pd.Categorical(
+                segment_df["Segment"],
+                categories=final_segment_order,
+                ordered=True
+            )
+
+            segment_df = segment_df.sort_values("Segment")
+
+            # Correct colors
             segment_color_map = {
-                "Cluster 2: Highly Engaged (Active) Learners": "#22c55e",
-                "Cluster 1: Moderately Engaged (Passive) Learners": "#ef4444"
-            }
-
-            segment_label_map = {
-                "Cluster 2: Highly Engaged (Active) Learners": "Cluster 2 (Active)",
-                "Cluster 1: Moderately Engaged (Passive) Learners": "Cluster 1 (Passive)"
+                "Highly Engaged (Active) Learners": "#22c55e",       # green
+                "Moderately Engaged (Passive) Learners": "#ef4444",  # red
+                "Unknown": "#94a3b8"
             }
 
             chart_df = segment_df.copy()
-            chart_df["Short Segment"] = chart_df["Segment"].map(segment_label_map)
-            chart_df["Short Segment"] = chart_df["Short Segment"].fillna(chart_df["Segment"])
+
+            # Do not show Cluster 1 / Cluster 2 anymore
+            chart_df["Short Segment"] = chart_df["Segment"].astype(str)
 
             chart_col1, chart_col2 = st.columns([2.2, 1.1])
 
@@ -1111,7 +1161,11 @@ if page == "Dashboard":
                     title="Distribution of Student Segments",
                     text="Count",
                     color="Segment",
-                    color_discrete_map=segment_color_map
+                    color_discrete_map=segment_color_map,
+                    category_orders={
+                        "Segment": final_segment_order,
+                        "Short Segment": final_segment_order
+                    }
                 )
 
                 fig_bar.update_traces(
@@ -1141,7 +1195,11 @@ if page == "Dashboard":
                     title="Segment Share",
                     hole=0.52,
                     color="Segment",
-                    color_discrete_map=segment_color_map
+                    color_discrete_map=segment_color_map,
+                    category_orders={
+                        "Segment": final_segment_order,
+                        "Short Segment": final_segment_order
+                    }
                 )
 
                 fig_pie.update_traces(
@@ -1309,21 +1367,21 @@ elif page == "Survey Analytics":
     with col1:
         render_metric_card(
             "Raw Responses",
-            445,
+            638,
             "Initial survey submissions"
         )
 
     with col2:
         render_metric_card(
             "Cleaned Responses",
-            420,
+            588,
             "Valid records used for modeling"
         )
 
     with col3:
         render_metric_card(
             "Excluded Responses",
-            25,
+            50,
             "Invalid or duplicate records removed"
         )
 
@@ -1336,8 +1394,8 @@ elif page == "Survey Analytics":
 
     st.markdown(
         """
-The dataset was not used directly in raw form. The original survey contained **445 responses**.  
-After automated cleaning and preprocessing, **420 valid responses** remained for clustering and recommendation model development.
+The dataset was not used directly in raw form. The original survey contained **638 responses**.  
+After automated cleaning and preprocessing, **588 valid responses** remained for clustering and recommendation model development.
 """
     )
 
@@ -1404,7 +1462,7 @@ After automated cleaning and preprocessing, **420 valid responses** remained for
     respondent_df = pd.DataFrame(
         {
             "Respondent Group": ["ITC Students", "Non-ITC / External Respondents"],
-            "Count": [390, 30]
+            "Count": [557, 31]
         }
     )
 
@@ -1503,14 +1561,13 @@ After automated cleaning and preprocessing, **420 valid responses** remained for
 
     st.markdown(
         """
-The analytics page supports the research explanation behind the prototype. It shows that the system is based on a cleaned dataset, not raw survey responses directly. The reduction from **445 raw responses** to **420 valid responses** demonstrates that the automated cleaning and preprocessing pipeline was applied before clustering.
+The analytics page supports the research explanation behind the prototype. It shows that the system is based on a cleaned dataset, not raw survey responses directly. The reduction from **638 raw responses** to **588 valid responses** demonstrates that the automated cleaning and preprocessing pipeline was applied before clustering.
 
 The preprocessing pipeline includes column selection, column renaming, invalid response removal, response-time calculation, respondent ID standardization, duplicate handling, categorical standardization, speeder flagging, and ordinal encoding. After these steps, the cleaned dataset was used to train the K-Modes learner segmentation model.
 
-The feature-group and cluster-comparison charts summarize the behavioral patterns behind the learner segments. Cluster 2 is interpreted as more active/highly engaged, while Cluster 1 is interpreted as more moderate/passive. These segment interpretations are then used by the recommendation logic.
+The feature-group and cluster-comparison charts summarize the behavioral patterns behind the learner segments. The highly engaged segment represents more active learners, while the moderately engaged segment represents more passive or moderate learners. The interpretation is based on the segment profile rather than the numeric cluster ID, because K-Modes cluster IDs can change across dataset versions.
 """
     )
-
 
 # -----------------------------
 # ITC Student Lookup
