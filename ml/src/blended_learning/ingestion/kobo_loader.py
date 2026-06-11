@@ -4,8 +4,8 @@ import io
 import pandas as pd
 import requests
 
-from blended_learning.config.settings import settings
-from blended_learning.utils.decorator import execution_time
+from ml.src.blended_learning.config.settings import settings
+from ml.src.blended_learning.utils.decorator import execution_time
 
 class KoboSync:
 

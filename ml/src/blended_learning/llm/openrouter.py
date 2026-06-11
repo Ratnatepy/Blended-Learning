@@ -7,7 +7,7 @@ from datetime import datetime
 import pandas as pd
 from openai import OpenAI
 
-from blended_learning.config.settings import settings
+from ml.src.blended_learning.config.settings import settings
 
 
 class OpenRouterStudentRecommender:

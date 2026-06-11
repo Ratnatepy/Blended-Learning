@@ -108,7 +108,7 @@ def build_template_fallback_report(student_package: dict[str, Any]) -> str:
 def get_openrouter_recommender():
     """Create the OpenRouter recommender once and reuse it across requests."""
 
-    from blended_learning.llm.openrouter import OpenRouterStudentRecommender
+    from ml.src.blended_learning.llm.openrouter import OpenRouterStudentRecommender
 
     return OpenRouterStudentRecommender()
 
