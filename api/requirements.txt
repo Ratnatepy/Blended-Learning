@@ -6,11 +6,8 @@ kmodes
 gower
 joblib
 nltk
-vaderSentiment
 langdetect
 wordcloud
-torch
-transformers
 sentencepiece
 deep_translator
 openai

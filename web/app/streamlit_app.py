@@ -15,10 +15,15 @@ load_dotenv()
 
 API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
 APP_ICON_PATH = "assets/itc_logo.png"
+APP_DIR = Path(__file__).resolve().parent          # web/app
+WEB_DIR = APP_DIR.parent                           # web
+ASSETS_DIR = WEB_DIR / "assets"                    # web/assets
+ICONS_DIR = ASSETS_DIR / "icons"                   # web/assets/icons
+APP_ICON_PATH = ASSETS_DIR / "itc_logo.png"
 
 st.set_page_config(
     page_title="Blended Learning Recommendation System",
-    page_icon=APP_ICON_PATH if os.path.exists(APP_ICON_PATH) else None,
+    page_icon=str(APP_ICON_PATH) if APP_ICON_PATH.exists() else None,
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -388,6 +393,11 @@ header[data-testid="stHeader"] {
 # -----------------------------
 
 def image_to_base64(image_path: str):
+    path = Path(image_path)
+
+    if not path.exists():
+        return ""
+    
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
@@ -433,13 +443,13 @@ def icon_svg(svg_path: str, size: int = 18, color: str = "#f8fafc") -> str:
 
 
 def icon_span(name: str, text: str, size: int = 18, color: str = "#f8fafc") -> str:
-    path = f"assets/icons/{name}.svg"
+    path = ICONS_DIR / f"{name}.svg"
     return f'{icon_svg(path, size=size, color=color)}<span>{html.escape(text)}</span>'
 
 
 def icon_title(name: str, text: str, level: int = 3, color: str = "#f8fafc") -> str:
     level = max(1, min(level, 6))
-    path = f"assets/icons/{name}.svg"
+    path = ICONS_DIR / f"{name}.svg"
 
     return f"""
     <h{level} style="display:flex; align-items:center; gap:0.35rem; color:{color};">
@@ -865,8 +875,7 @@ def require_admin_login():
 # -----------------------------
 # Sidebar Navigation
 # -----------------------------
-logo_path = "assets/itc_logo.png"
-logo_base64 = image_to_base64(logo_path)
+logo_base64 = image_to_base64(APP_ICON_PATH)
 st.sidebar.markdown(
     f"""
     <div class="sidebar-brand">

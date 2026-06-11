@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import pandas as pd
 from sqlalchemy.orm import Session
@@ -5,8 +6,12 @@ from sqlalchemy.orm import Session
 from api.models import StudentRecommendation
 
 # This file must have 588 rows
-CSV_PATH = Path("data/processed/student_recommendation_reports_current.csv")
-
+CSV_PATH = Path(
+    os.getenv(
+        "SEED_CSV_PATH",
+        "/app/ml/data/processed/student_recommendation_reports_current.csv"
+    )
+)
 
 def seed_student_recommendations(db: Session):
     print("Checking database seed...")
