@@ -1,4 +1,5 @@
 from pathlib import Path
+
 import numpy as np
 import pandas as pd
 
@@ -70,16 +71,16 @@ def interpret_alpha(alpha: float) -> str:
 
     if pd.isna(alpha):
         return "Not available"
-    elif alpha >= 0.90:
+    if alpha >= 0.90:
         return "Excellent"
-    elif alpha >= 0.80:
+    if alpha >= 0.80:
         return "Good"
-    elif alpha >= 0.70:
+    if alpha >= 0.70:
         return "Acceptable"
-    elif alpha >= 0.60:
+    if alpha >= 0.60:
         return "Questionable / moderate"
-    else:
-        return "Low / questionable"
+
+    return "Low / questionable"
 
 
 # =========================================================
@@ -89,7 +90,9 @@ def interpret_alpha(alpha: float) -> str:
 def alpha_if_item_deleted(data: pd.DataFrame) -> pd.DataFrame:
     """
     Compute Cronbach's alpha after deleting each item one by one.
-    This helps identify whether one item reduces the reliability of a construct.
+
+    This diagnostic helps identify whether removing one item improves
+    the internal consistency of the item pool or construct.
     """
 
     results = []
@@ -121,7 +124,8 @@ def main():
     if not DATA_PATH.exists():
         raise FileNotFoundError(
             f"Dataset not found: {DATA_PATH}\n"
-            "Please check that the cleaned dataset exists in data/processed/cleaned_data.csv"
+            "Please check that the cleaned dataset exists at "
+            "data/processed/cleaned_data.csv"
         )
 
     df = pd.read_csv(DATA_PATH)
@@ -131,12 +135,36 @@ def main():
     # =====================================================
 
     constructs = {
+        "Learning Material Use": [
+            "use_lecture_slides",
+            "use_video_lectures",
+            "use_quizzes",
+            "use_articles",
+            "use_forums",
+            "use_simulations",
+        ],
+        "Engagement and Interaction": [
+            "online_discussion_participation",
+            "peer_collaboration",
+            "comfort_asking_questions",
+            "sense_of_community",
+        ],
+        "Course Integration and Learning Understanding": [
+            "integration_quality",
+            "overall_understanding",
+        ],
         "Lecturer Support": [
             "lect_clear_instructions",
             "lect_responsive",
             "lect_diverse_tools",
             "lect_timely_feedback",
             "lect_foster_interaction",
+        ],
+        "Self-Regulation": [
+            "self_prioritize_deadlines",
+            "self_study_schedule",
+            "self_prepare_class",
+            "self_responsibility",
         ],
         "Perceived Benefits": [
             "benefit_flexibility",
@@ -146,36 +174,26 @@ def main():
             "benefit_life_balance",
             "benefit_self_directed",
         ],
-        "Learning Material Use": [
-            "use_lecture_slides",
-            "use_video_lectures",
-            "use_quizzes",
-            "use_articles",
-            "use_forums",
-            "use_simulations",
+        "Digital Learning Readiness and Usability": [
+            "video_helpfulness",
+            "digital_literacy_improvement",
+            "lms_usability",
         ],
-        "Self-Regulation": [
-            "self_prioritize_deadlines",
-            "self_study_schedule",
-            "self_prepare_class",
-            "self_responsibility",
-        ],
-        "Engagement and Interaction": [
-            "online_discussion_participation",
-            "peer_collaboration",
-            "comfort_asking_questions",
-            "sense_of_community",
+        "Learning Outcome and Future Readiness": [
+            "overall_satisfaction",
+            "career_preparation",
         ],
     }
 
     # =====================================================
-    # ALL 33 ORDINAL LIKERT ITEMS
+    # ALL 33 ORDINAL LIKERT ITEMS USED FOR CLUSTERING
     # =====================================================
     # Important:
-    # tech_issues_freq is reverse-coded because its original meaning is negative:
-    # higher value = more technical issues.
-    # After reversing:
-    # higher value = fewer technical issues / better technical experience.
+    # tech_issues_freq is negatively oriented:
+    # higher original value = more technical issues.
+    #
+    # For the overall 33-item reliability analysis, it is reverse-coded:
+    # higher reversed value = fewer technical issues / better technical experience.
 
     all_33_likert_items = [
         "video_helpfulness",
@@ -222,13 +240,29 @@ def main():
     for items in constructs.values():
         required_columns.update(items)
 
-    missing_columns = [col for col in required_columns if col not in df.columns]
+    missing_columns = sorted(
+        [col for col in required_columns if col not in df.columns]
+    )
 
     if missing_columns:
         raise ValueError(
             "The following required columns are missing from the cleaned dataset:\n"
             + "\n".join(missing_columns)
         )
+
+    construct_items = set(item for items in constructs.values() for item in items)
+    overall_items = set(all_33_likert_items)
+    items_not_in_constructs = sorted(overall_items - construct_items)
+
+    print("\nConstruct and item count check")
+    print("=" * 80)
+    print(f"Number of constructs: {len(constructs)}")
+    print(
+        "Number of construct-level items: "
+        f"{sum(len(items) for items in constructs.values())}"
+    )
+    print(f"Number of overall Likert items: {len(all_33_likert_items)}")
+    print(f"Items not included in constructs: {items_not_in_constructs}")
 
     # =====================================================
     # REVERSE-CODE TECHNICAL ISSUE FREQUENCY
@@ -237,7 +271,8 @@ def main():
     df_alpha = df.copy()
 
     df_alpha["tech_issues_freq"] = pd.to_numeric(
-        df_alpha["tech_issues_freq"], errors="coerce"
+        df_alpha["tech_issues_freq"],
+        errors="coerce",
     )
 
     df_alpha["tech_issues_freq_reversed"] = 6 - df_alpha["tech_issues_freq"]
@@ -248,7 +283,7 @@ def main():
     ]
 
     # =====================================================
-    # COMPUTE OVERALL 33-ITEM RELIABILITY
+    # COMPUTE OVERALL AND CONSTRUCT-LEVEL RELIABILITY
     # =====================================================
 
     results = []
@@ -269,21 +304,6 @@ def main():
         }
     )
 
-    # Save alpha-if-item-deleted for all 33 items
-    overall_deleted = alpha_if_item_deleted(
-        df_alpha[all_33_likert_items_for_alpha]
-    )
-
-    overall_deleted.to_csv(
-        OUTPUT_DIR / "alpha_if_item_deleted_overall_33_items.csv",
-        index=False,
-        encoding="utf-8-sig",
-    )
-
-    # =====================================================
-    # COMPUTE CONSTRUCT-LEVEL RELIABILITY
-    # =====================================================
-
     for construct_name, items in constructs.items():
         construct_data = df[items]
 
@@ -301,6 +321,47 @@ def main():
             }
         )
 
+    results_df = pd.DataFrame(results)
+
+    # =====================================================
+    # ALPHA-IF-ITEM-DELETED DIAGNOSTICS
+    # =====================================================
+
+    overall_deleted = alpha_if_item_deleted(
+        df_alpha[all_33_likert_items_for_alpha]
+    )
+
+    overall_deleted_path = OUTPUT_DIR / "alpha_if_item_deleted_overall_33_items.csv"
+
+    overall_deleted.to_csv(
+        overall_deleted_path,
+        index=False,
+        encoding="utf-8-sig",
+    )
+
+    print(f"\nSaved overall alpha-if-item-deleted diagnostics: {overall_deleted_path}")
+
+    skipped_constructs = []
+
+    for construct_name, items in constructs.items():
+        item_count = len(items)
+
+        # Alpha-if-item-deleted is not meaningful for constructs with fewer than 3 items.
+        # For a 2-item construct, deleting one item leaves only one item.
+        if item_count < 3:
+            skipped_constructs.append(
+                {
+                    "Construct": construct_name,
+                    "Number of Items": item_count,
+                    "Reason": (
+                        "Skipped because alpha-if-item-deleted is not meaningful "
+                        "for constructs with fewer than 3 items."
+                    ),
+                }
+            )
+            continue
+
+        construct_data = df[items]
         deleted_result = alpha_if_item_deleted(construct_data)
 
         safe_name = (
@@ -308,19 +369,37 @@ def main():
             .replace(" ", "_")
             .replace("/", "_")
             .replace("-", "_")
+            .replace("&", "and")
         )
 
+        output_path = OUTPUT_DIR / f"alpha_if_item_deleted_{safe_name}.csv"
+
         deleted_result.to_csv(
-            OUTPUT_DIR / f"alpha_if_item_deleted_{safe_name}.csv",
+            output_path,
             index=False,
             encoding="utf-8-sig",
         )
 
+        print(f"Saved construct alpha-if-item-deleted diagnostics: {output_path}")
+
+    if skipped_constructs:
+        skipped_df = pd.DataFrame(skipped_constructs)
+
+        skipped_path = OUTPUT_DIR / "alpha_if_item_deleted_skipped_constructs.csv"
+
+        skipped_df.to_csv(
+            skipped_path,
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+        print(f"Saved skipped construct note: {skipped_path}")
+
+    print("\nAlpha-if-item-deleted diagnostics completed.")
+
     # =====================================================
     # SAVE MAIN RESULT TABLE
     # =====================================================
-
-    results_df = pd.DataFrame(results)
 
     results_csv_path = OUTPUT_DIR / "cronbach_alpha_results.csv"
     results_tex_path = OUTPUT_DIR / "cronbach_alpha_table.tex"
@@ -337,13 +416,14 @@ def main():
         caption="Cronbach's Alpha Reliability Results for Likert-Scale Constructs",
         label="tab:cronbach-alpha",
         column_format="lcccl",
+        float_format="%.3f",
     )
 
-    with open(results_tex_path, "w", encoding="utf-8") as f:
-        f.write(latex_table)
+    with open(results_tex_path, "w", encoding="utf-8") as file:
+        file.write(latex_table)
 
     # =====================================================
-    # PRINT RESULTS
+    # PRINT FINAL RESULTS
     # =====================================================
 
     print("\nCronbach's Alpha Reliability Results")
@@ -353,13 +433,17 @@ def main():
     print("\nSaved output files:")
     print(f"- {results_csv_path}")
     print(f"- {results_tex_path}")
-    print(f"- {OUTPUT_DIR / 'alpha_if_item_deleted_overall_33_items.csv'}")
-    print("- Alpha-if-item-deleted CSV files for each construct")
+    print(f"- {overall_deleted_path}")
+    print("- Alpha-if-item-deleted CSV files for constructs with at least 3 items")
 
     print("\nNote:")
     print(
         "For the overall 33-item alpha, tech_issues_freq was reverse-coded "
         "as tech_issues_freq_reversed before calculation."
+    )
+    print(
+        "The variable tech_issues_freq was treated as a single technical issues "
+        "indicator and was not assessed as a separate construct using Cronbach's alpha."
     )
 
 
