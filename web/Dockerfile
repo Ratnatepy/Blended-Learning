@@ -26,12 +26,16 @@ RUN python -m pip install --upgrade pip setuptools wheel \
     && pip install -r /app/web/requirements.txt
 
 COPY web /app/web
+COPY ml/config /app/ml/config
 
-RUN chown -R appuser:appgroup /app /home/appuser
+RUN chmod +x /app/web/scripts/entrypoint.sh \
+    && chown -R appuser:appgroup /app /home/appuser
 
 USER appuser
 
 EXPOSE 8501
+
+ENTRYPOINT ["/app/web/scripts/entrypoint.sh"]
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=60s --retries=5 \
     CMD curl -fsS http://127.0.0.1:8501/_stcore/health || exit 1

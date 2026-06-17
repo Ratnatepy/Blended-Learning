@@ -29,7 +29,8 @@ COPY ml/src /app/ml/src
 COPY ml/models /app/ml/models
 COPY ml/config /app/ml/config
 
-RUN mkdir -p /app/ml/data /app/ml/data/processed \
+RUN chmod +x /app/api/scripts/entrypoint.sh \
+    && mkdir -p /app/ml/data /app/ml/data/processed \
     && ln -s /app/ml/models /app/models \
     && ln -s /app/ml/config /app/config \
     && ln -s /app/ml/data /app/data \
@@ -41,5 +42,7 @@ EXPOSE 8000
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=90s --retries=5 \
     CMD curl -fsS http://127.0.0.1:8000/ || exit 1
+
+ENTRYPOINT ["/app/api/scripts/entrypoint.sh"]
 
 CMD ["gunicorn", "api.main:app", "-k", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000", "--workers", "2", "--timeout", "300", "--access-logfile", "-", "--error-logfile", "-"]

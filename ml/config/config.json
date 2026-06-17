@@ -3,7 +3,7 @@
     "input_path": "data/raw/kobo_latest_raw.xlsx",
     "output_cleaned_path": "data/processed/cleaned_data.csv",
     "output_cluster_path": "data/processed/cluster_data.csv",
-    "prompts_path" : "src/blended_learning/llm/prompts"
+    "prompts_path": "src/blended_learning/llm/prompts"
   },
   "scales": {
     "AGREE5": {
@@ -330,7 +330,6 @@
     "video",
     "lecture"
   ],
-  
   "strength_theme_map": {
     "Flexibility & Time Management": [
       "flexibility",
@@ -1019,5 +1018,1695 @@
     "ch_other": "Other"
   },
   "student_id_pattern": "^[eE]\\d{7,9}([A-Za-z]{2,3})?$|^[pP]\\d{7,9}$|^[mM]\\d{6}$|^kpe\\d{8,9}$|^tk\\d{8,9}$",
-  "speeder_threshold_minutes": 3
+  "speeder_threshold_minutes": 3,
+  "data_collection": {
+    "kobo": {
+      "env": {
+        "base_url": "KOBO_BASE_URL",
+        "token": "KOBO_TOKEN",
+        "asset_uid": "KOBO_ASSET_UID"
+      },
+      "export_settings_endpoint": "/api/v2/assets/{asset_uid}/export-settings/",
+      "preferred_export_key": "data_url_xlsx",
+      "request_timeout_seconds": {
+        "export_settings": 30,
+        "download": 120
+      },
+      "excel_read_options": {
+        "engine": "openpyxl",
+        "dtype": "str",
+        "keep_default_na": false,
+        "na_filter": false
+      },
+      "output": {
+        "raw_dir": "data/raw",
+        "archive_dir": "data/archive",
+        "processed_dir": "data/processed",
+        "latest_parquet": "kobo_latest_raw.parquet",
+        "latest_xlsx": "kobo_latest_raw.xlsx",
+        "archive_prefix": "kobo_raw",
+        "timestamp_format": "%Y%m%d_%H%M%S"
+      }
+    }
+  },
+  "preprocessing": {
+    "io": {
+      "input_path": "data/raw/kobo_latest_raw.xlsx",
+      "output_cleaned_path": "data/processed/cleaned_data.csv",
+      "read_excel_options": {
+        "engine": "openpyxl"
+      },
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "valid_response": {
+      "column": "responses_based_on_year",
+      "accepted_values": [
+        "yes"
+      ]
+    },
+    "response_time": {
+      "start_column": "survey_start",
+      "end_column": "survey_end",
+      "output_column": "response_time_minutes",
+      "unit": "minutes"
+    },
+    "student_id": {
+      "source_column": "itc_student_id",
+      "valid_flag_column": "is_itc_student",
+      "output_column": "student_id",
+      "pattern_config_key": "student_id_pattern",
+      "external_prefix": "ext_",
+      "external_uuid_length": 10,
+      "missing_tokens": [
+        "",
+        "nan",
+        "none",
+        "null"
+      ]
+    },
+    "duplicates": {
+      "subset_column": "itc_student_id",
+      "sort_column": "response_time_minutes",
+      "ascending": true,
+      "keep": "first"
+    },
+    "categorical_standardization": {
+      "title_case_columns": [
+        "gender"
+      ],
+      "replace_then_title_case": {
+        "province": {
+          "old": "_",
+          "new": " "
+        }
+      },
+      "strip_columns": [
+        "enrollment_status",
+        "academic_year",
+        "education_level",
+        "major",
+        "department",
+        "faculty"
+      ]
+    },
+    "speeder": {
+      "output_column": "flag_speeder",
+      "threshold_minutes": 3
+    },
+    "ordinal_encoding": {
+      "column_scales_config_key": "ordinal_column_scales",
+      "scales_config_key": "scales",
+      "warn_unmapped": true
+    },
+    "pipeline_steps": [
+      "drop_columns",
+      "rename_columns",
+      "remove_invalid_responses",
+      "compute_response_time",
+      "verify_student_itc",
+      "remove_duplicates",
+      "standardise_categoricals",
+      "flag_speeder",
+      "encode_ordinals"
+    ]
+  },
+  "eda": {
+    "io": {
+      "input_path_key": "output_cleaned_path",
+      "read_csv_options": {}
+    },
+    "random_state": 42,
+    "data_quality": {
+      "columns": {
+        "faculty": "faculty",
+        "department": "department",
+        "duration": "response_time_minutes",
+        "speeder_flag": "flag_speeder",
+        "itc_flag": "is_itc_student"
+      },
+      "duration_upper_hours": 24,
+      "typical_duration_quantile": 0.95,
+      "top_missing_n": 15
+    },
+    "likert": {
+      "scale_min": 1,
+      "scale_max": 5,
+      "hist_bin_start": 0.5,
+      "hist_bin_stop": 6,
+      "hist_bin_step": 1,
+      "facet_columns": 5
+    },
+    "ordinal_orders": {
+      "social_media_hours": [
+        "Less than 1 hour",
+        "1 Hour",
+        "2 hours",
+        "3 hours",
+        "4 hours",
+        "More than 5 hours"
+      ],
+      "academic_year": [
+        "Year 1 - Freshman",
+        "Year 2 - Sophomore",
+        "Year 3 - Junior",
+        "Year 4 - Senior",
+        "Year 5 - Final Year",
+        "Master",
+        "PHD",
+        "Other"
+      ],
+      "prefer_more_blended": [
+        "No",
+        "Neutral/Unsure",
+        "Yes"
+      ]
+    },
+    "plotting": {
+      "missing_matrix_figsize": [
+        14,
+        6
+      ],
+      "missing_bar_figsize": [
+        14,
+        6
+      ],
+      "missing_heatmap_figsize": [
+        12,
+        8
+      ],
+      "ordinal_missing_figsize": [
+        12,
+        5
+      ],
+      "default_dpi": 120,
+      "top_category_n": 12,
+      "top_missing_n": 15,
+      "top_major_n": 8,
+      "wrap_width_short": 18,
+      "wrap_width_medium": 28,
+      "wrap_width_long": 34,
+      "default_plot_color": "#4c72b0"
+    },
+    "columns": {
+      "gender": "gender",
+      "age": "age",
+      "education_level": "education_level",
+      "enrollment_status": "enrollment_status",
+      "department": "department",
+      "major": "major",
+      "academic_year": "academic_year",
+      "province": "province",
+      "itc_campus": "itc_campus",
+      "ideal_balance": "ideal_balance",
+      "prefer_more_blended": "prefer_more_blended",
+      "overall_satisfaction": "overall_satisfaction"
+    },
+    "technology_access": {
+      "device_group": "devices",
+      "internet_group": "internet_access",
+      "device_order": [
+        "device_laptop",
+        "device_mobile",
+        "device_tablet",
+        "device_desktop",
+        "device_other"
+      ],
+      "device_labels": {
+        "device_laptop": "Laptop",
+        "device_mobile": "Mobile Phone",
+        "device_tablet": "Tablet",
+        "device_desktop": "Desktop",
+        "device_other": "Other"
+      },
+      "internet_order": [
+        "inet_mobile_data",
+        "inet_university_wifi",
+        "inet_home_wifi",
+        "inet_public_wifi"
+      ],
+      "internet_labels": {
+        "inet_mobile_data": "Mobile Data",
+        "inet_university_wifi": "University WiFi",
+        "inet_home_wifi": "Home WiFi",
+        "inet_public_wifi": "Public WiFi"
+      },
+      "social_media_numeric_map": {
+        "Less than 1 hour": 1,
+        "1 Hour": 2,
+        "2 hours": 3,
+        "3 hours": 4,
+        "4 hours": 5,
+        "More than 5 hours": 6
+      },
+      "heavy_social_media_min_score": 5
+    },
+    "non_itc_profile": {
+      "panels": [
+        [
+          "gender",
+          "Gender"
+        ],
+        [
+          "education_level",
+          "Education Level"
+        ],
+        [
+          "major",
+          "Field of Study"
+        ],
+        [
+          "academic_year",
+          "Academic Year"
+        ],
+        [
+          "province",
+          "Province"
+        ],
+        [
+          "age",
+          "Age"
+        ]
+      ],
+      "top_category_n": 8
+    },
+    "bivariate": {
+      "rating_col": "overall_satisfaction",
+      "education_order": [
+        "Year1 - Freshman",
+        "Year2 - Sophomore",
+        "Year3 - Junior",
+        "Year4 - Senior",
+        "Year5 - Final Year",
+        "Master",
+        "PHD",
+        "Other"
+      ],
+      "prefer_blended_order": [
+        "Yes",
+        "Neutral/Unsure",
+        "No"
+      ],
+      "ideal_balance_order": [
+        "Mostly Face-to-Face (e.g., 80% In-person, 20% Online)",
+        "More Face-to-Face than Online (e.g., 60% In-person, 40% Online)",
+        "Balanced Half and Half (50% In-person, 50% Online)",
+        "More Online than Face-to-Face (e.g., 40% In-person, 60% Online)",
+        "Mostly Online (e.g., 20% In-person, 80% Online)",
+        "80% F2F 20% Online",
+        "60% F2F 40% Online",
+        "50/50",
+        "40% F2F 60% Online",
+        "20% F2F 80% Online"
+      ],
+      "ideal_balance_label_map": {
+        "Mostly Face-to-Face (e.g., 80% In-person, 20% Online)": "Mostly Face-to-Face\n(80% In-person, 20% Online)",
+        "More Face-to-Face than Online (e.g., 60% In-person, 40% Online)": "More Face-to-Face\n(60% In-person, 40% Online)",
+        "Balanced Half and Half (50% In-person, 50% Online)": "Balanced 50/50",
+        "More Online than Face-to-Face (e.g., 40% In-person, 60% Online)": "More Online\n(40% In-person, 60% Online)",
+        "Mostly Online (e.g., 20% In-person, 80% Online)": "Mostly Online\n(20% In-person, 80% Online)",
+        "80% F2F 20% Online": "Mostly Face-to-Face\n(80% F2F, 20% Online)",
+        "60% F2F 40% Online": "More Face-to-Face\n(60% F2F, 40% Online)",
+        "50/50": "Balanced 50/50",
+        "40% F2F 60% Online": "More Online\n(40% F2F, 60% Online)",
+        "20% F2F 80% Online": "Mostly Online\n(20% F2F, 80% Online)"
+      },
+      "face_to_face_patterns": [
+        "Mostly Face-to-Face",
+        "More Face-to-Face",
+        "80% F2F",
+        "60% F2F"
+      ]
+    },
+    "group_comparison": {
+      "itc_flag_col": "is_itc_student",
+      "group_col": "itc_group",
+      "labels": {
+        "itc": "ITC",
+        "non_itc": "Non-ITC",
+        "unknown": "Unknown"
+      },
+      "challenge_group": "challenges",
+      "key_outcomes": [
+        [
+          "overall_satisfaction",
+          "Overall Satisfaction"
+        ],
+        [
+          "overall_understanding",
+          "Overall Understanding"
+        ],
+        [
+          "career_preparation",
+          "Career Preparation"
+        ],
+        [
+          "lect_foster_interaction",
+          "Lecturer Interaction"
+        ],
+        [
+          "self_responsibility",
+          "Self Responsibility"
+        ],
+        [
+          "sense_of_community",
+          "Sense of Community"
+        ]
+      ],
+      "palette": {
+        "ITC": "#2980b9",
+        "Non-ITC": "#e67e22",
+        "Unknown": "#888888"
+      }
+    },
+    "correspondence_analysis": {
+      "pairs": [
+        [
+          "gender",
+          "education_level",
+          "Gender × Education Level"
+        ],
+        [
+          "gender",
+          "ideal_balance",
+          "Gender × Ideal Blend"
+        ],
+        [
+          "education_level",
+          "ideal_balance",
+          "Education Level × Ideal Blend"
+        ],
+        [
+          "education_level",
+          "prefer_more_blended",
+          "Education Level × Prefer More Blended"
+        ]
+      ],
+      "short_label_maxlen": 14,
+      "alpha": 0.05,
+      "layout": [
+        2,
+        2
+      ]
+    },
+    "correlation": {
+      "features": "ordinal_columns",
+      "method": "spearman",
+      "heatmap_width": 1400,
+      "heatmap_height": 1200,
+      "color_scale": "RdBu_r",
+      "zmin": -1,
+      "zmax": 1
+    },
+    "pca": {
+      "features": "ordinal_columns",
+      "variance_threshold": 0.8,
+      "biplot_components": 2,
+      "biplot_selected_vars": [
+        "online_discussion_participation",
+        "benefit_variety",
+        "benefit_flexibility"
+      ],
+      "biplot_label_map": {
+        "online_discussion_participation": "Online Discussion",
+        "benefit_variety": "Variety of Learning",
+        "benefit_flexibility": "Flexibility"
+      },
+      "biplot_offsets": {
+        "Online Discussion": [
+          0.2,
+          0.4
+        ],
+        "Variety of Learning": [
+          0.4,
+          -0.1
+        ],
+        "Flexibility": [
+          0.2,
+          -0.8
+        ]
+      },
+      "arrow_scale": 4.8,
+      "full_heatmap_max_components": 19,
+      "readable_heatmap_components": 2
+    },
+    "gower_hierarchical": {
+      "enabled": true,
+      "features_source": "ordinal_column_scales",
+      "output_cluster_column": "gower_cluster",
+      "random_state_key": "eda.random_state",
+      "scale_min": 1,
+      "scale_max": 5,
+      "missing_strategy": "median",
+      "distance": {
+        "method": "numeric_gower",
+        "chunk_size": 128
+      },
+      "hierarchical": {
+        "linkage_method": "average",
+        "criterion": "maxclust",
+        "k_range": [
+          2,
+          6
+        ],
+        "final_k": 2
+      },
+      "diagnostics": {
+        "metrics": [
+          "silhouette",
+          "largest_cluster_pct",
+          "smallest_cluster_pct"
+        ],
+        "cluster_sizes_column": "cluster_sizes"
+      },
+      "visualisation": {
+        "likert_distribution_figsize": [
+          8,
+          4.5
+        ],
+        "silhouette_figsize": [
+          8.5,
+          6
+        ],
+        "dendrogram_figsize": [
+          10,
+          4.8
+        ],
+        "dpi": 160,
+        "silhouette_dpi": 180,
+        "histogram_bins": [
+          0.5,
+          1.5,
+          2.5,
+          3.5,
+          4.5,
+          5.5
+        ]
+      },
+      "profile": {
+        "aggregation": "median",
+        "round_digits": 2,
+        "top_differences": 15,
+        "difference_label": "cluster_2_minus_cluster_1"
+      },
+      "interpretation_note": "Gower distance with hierarchical clustering is retained as an exploratory validation approach rather than the main segmentation model. The final thesis segmentation remains based on K-Modes because it is simpler to deploy and easier to align with categorical student profiles."
+    }
+  },
+  "reliability": {
+    "io": {
+      "input_path_key": "output_cleaned_path",
+      "output_dir": "data/processed/reliability",
+      "read_csv_options": {},
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "overall_construct_name": "Overall Likert-Scale Item Pool",
+    "constructs": {
+      "Learning Material Use": [
+        "use_lecture_slides",
+        "use_video_lectures",
+        "use_quizzes",
+        "use_articles",
+        "use_forums",
+        "use_simulations"
+      ],
+      "Engagement and Interaction": [
+        "online_discussion_participation",
+        "peer_collaboration",
+        "comfort_asking_questions",
+        "sense_of_community"
+      ],
+      "Course Integration and Learning Understanding": [
+        "integration_quality",
+        "overall_understanding"
+      ],
+      "Lecturer Support": [
+        "lect_clear_instructions",
+        "lect_responsive",
+        "lect_diverse_tools",
+        "lect_timely_feedback",
+        "lect_foster_interaction"
+      ],
+      "Self-Regulation": [
+        "self_prioritize_deadlines",
+        "self_study_schedule",
+        "self_prepare_class",
+        "self_responsibility"
+      ],
+      "Perceived Benefits": [
+        "benefit_flexibility",
+        "benefit_variety",
+        "benefit_recorded_access",
+        "benefit_self_study_time",
+        "benefit_life_balance",
+        "benefit_self_directed"
+      ],
+      "Digital Learning Readiness and Usability": [
+        "video_helpfulness",
+        "digital_literacy_improvement",
+        "lms_usability"
+      ],
+      "Learning Outcome and Future Readiness": [
+        "overall_satisfaction",
+        "career_preparation"
+      ]
+    },
+    "overall_likert_items": [
+      "video_helpfulness",
+      "digital_literacy_improvement",
+      "use_lecture_slides",
+      "use_video_lectures",
+      "use_quizzes",
+      "use_articles",
+      "use_forums",
+      "use_simulations",
+      "online_discussion_participation",
+      "peer_collaboration",
+      "comfort_asking_questions",
+      "sense_of_community",
+      "integration_quality",
+      "benefit_flexibility",
+      "benefit_variety",
+      "benefit_recorded_access",
+      "benefit_self_study_time",
+      "benefit_life_balance",
+      "benefit_self_directed",
+      "overall_understanding",
+      "lect_clear_instructions",
+      "lect_responsive",
+      "lect_diverse_tools",
+      "lect_timely_feedback",
+      "lect_foster_interaction",
+      "self_prioritize_deadlines",
+      "self_study_schedule",
+      "self_prepare_class",
+      "self_responsibility",
+      "overall_satisfaction",
+      "career_preparation",
+      "tech_issues_freq",
+      "lms_usability"
+    ],
+    "reverse_coding": {
+      "tech_issues_freq": {
+        "output_column": "tech_issues_freq_reversed",
+        "min_value": 1,
+        "max_value": 5,
+        "description": "Reverse-coded because higher original values indicate more frequent technical issues."
+      }
+    },
+    "alpha_interpretation_thresholds": [
+      {
+        "min": 0.9,
+        "label": "Excellent"
+      },
+      {
+        "min": 0.8,
+        "label": "Good"
+      },
+      {
+        "min": 0.7,
+        "label": "Acceptable"
+      },
+      {
+        "min": 0.6,
+        "label": "Questionable / moderate"
+      },
+      {
+        "min": null,
+        "label": "Low / questionable"
+      }
+    ],
+    "alpha_if_item_deleted": {
+      "enabled": true,
+      "minimum_items": 3,
+      "overall_filename": "alpha_if_item_deleted_overall_33_items.csv",
+      "construct_filename_prefix": "alpha_if_item_deleted_",
+      "skipped_constructs_filename": "alpha_if_item_deleted_skipped_constructs.csv",
+      "interpretation_filename": "alpha_if_item_deleted_interpretation.csv",
+      "decision_thresholds": {
+        "clear_improvement": 0.02,
+        "small_increase": 0.005,
+        "very_small_increase": 0.0
+      }
+    },
+    "outputs": {
+      "results_csv": "cronbach_alpha_results.csv",
+      "results_latex": "cronbach_alpha_table.tex"
+    },
+    "latex": {
+      "caption": "Cronbach's Alpha Reliability Results for Likert-Scale Constructs",
+      "label": "tab:cronbach-alpha",
+      "column_format": "lcccl",
+      "float_format": "%.3f",
+      "escape": false
+    }
+  },
+  "segmentation": {
+    "io": {
+      "input_path_key": "output_cleaned_path",
+      "output_cluster_path_key": "output_cluster_path",
+      "read_csv_options": {},
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "feature_sources": {
+      "cluster_vars_key": "ordinal_column_scales",
+      "multi_groups_key": "multi_select_cols",
+      "pretty_label_key": "pretty_print_columns"
+    },
+    "random_state": 42,
+    "kmodes": {
+      "elbow_k_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "diagnostic_k_values": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "elbow_n_runs": 10,
+      "diagnostic_n_runs": 10,
+      "candidate_n_init": 5,
+      "final_k": 2,
+      "final_init": "Huang",
+      "final_n_init": 10,
+      "final_random_state": 43,
+      "init_for_k1": "Cao",
+      "init_default": "Huang",
+      "label_offset": 1,
+      "input_dtype": "Int64",
+      "missing_policy": "raise",
+      "model_input_type": "categorical strings"
+    },
+    "gmm": {
+      "k_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "plot_min_k": 2,
+      "final_k": 2,
+      "covariance_type": "full",
+      "n_init": 10,
+      "stability_n_init": 3,
+      "max_iter": 500,
+      "confidence_thresholds": {
+        "high": 0.9,
+        "ambiguous": 0.6
+      },
+      "extra_component_check_k": 4
+    },
+    "stability": {
+      "n_runs": 30,
+      "seed_step": 7,
+      "nmi_threshold": 0.8
+    },
+    "segment_labels": {
+      "id_column": "student_segment",
+      "label_column": "student_segment_label",
+      "positive_label": "Highly Engaged (Active) Learners",
+      "moderate_label": "Moderately Engaged (Passive) Learners",
+      "low_label": "Low Engaged Learners",
+      "middle_label": "Moderately Engaged Learners",
+      "negative_vars": [
+        "tech_issues_freq"
+      ],
+      "reverse_score_min": 1,
+      "reverse_score_max": 5,
+      "preferred_order": [
+        "Moderately Engaged (Passive) Learners",
+        "Highly Engaged (Active) Learners",
+        "Low Engaged Learners",
+        "Moderately Engaged Learners"
+      ],
+      "saved_label_template": "{segment_label}",
+      "axis_label_template": "{segment_label}"
+    },
+    "profiling": {
+      "age_col": "age",
+      "categorical_vars": [
+        "gender",
+        "education_level",
+        "department",
+        "itc_campus",
+        "prefer_more_blended",
+        "ideal_balance",
+        "enrollment_status"
+      ],
+      "ordinal_vars": [
+        "social_media_hours",
+        "academic_year"
+      ],
+      "multi_select_groups": [
+        "challenges",
+        "devices"
+      ],
+      "modal_profile_heatmap": {
+        "figsize": [
+          16,
+          5.6
+        ],
+        "dpi": 200,
+        "cmap": "Blues",
+        "vmin": 1,
+        "vmax": 5,
+        "cbar_label": "Modal item score"
+      }
+    },
+    "satisfaction_bin": {
+      "source_col": "overall_satisfaction",
+      "output_col": "sat_bin",
+      "bins": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "labels": [
+        "Low (1-2)",
+        "Medium (3)",
+        "High (4-5)"
+      ],
+      "categories": [
+        "Low (1-2)",
+        "Medium (3)",
+        "High (4-5)"
+      ],
+      "include_lowest": true
+    },
+    "correspondence_analysis": {
+      "n_components": 2,
+      "n_iter": 10,
+      "engine": "sklearn",
+      "copy": true,
+      "short_label_maxlen": 18,
+      "pairs": [
+        [
+          "student_segment_label",
+          "gender",
+          "Student Segment × Gender"
+        ],
+        [
+          "student_segment_label",
+          "education_level",
+          "Student Segment × Education Level"
+        ],
+        [
+          "student_segment_label",
+          "ideal_balance",
+          "Student Segment × Ideal Blend"
+        ],
+        [
+          "student_segment_label",
+          "prefer_more_blended",
+          "Student Segment × Prefer More Blended"
+        ],
+        [
+          "student_segment_label",
+          "sat_bin",
+          "Student Segment × Satisfaction"
+        ]
+      ]
+    },
+    "bar_charts": {
+      "variables": [
+        [
+          "sat_bin",
+          "Satisfaction"
+        ],
+        [
+          "ideal_balance",
+          "Ideal Blended Learning Balance"
+        ],
+        [
+          "prefer_more_blended",
+          "Preference for More Blended Learning"
+        ]
+      ],
+      "display_maps": {
+        "sat_bin": {
+          "Low (1-2)": "Low",
+          "Medium (3)": "Medium",
+          "High (4-5)": "High"
+        },
+        "ideal_balance": {
+          "Balanced Half and Half (50% In-person, 50% Online)": "Balanced 50/50",
+          "More Face-to-Face than Online (e.g., 60% In-person, 40% Online)": "More F2F (60/40)",
+          "More Online than Face-to-Face (e.g., 40% In-person, 60% Online)": "More Online (40/60)",
+          "Mostly Face-to-Face (e.g., 80% In-person, 20% Online)": "Mostly F2F (80/20)",
+          "Mostly Online (e.g., 20% In-person, 80% Online)": "Mostly Online (20/80)"
+        },
+        "prefer_more_blended": {
+          "Neutral/Unsure": "Neutral",
+          "No": "No",
+          "Yes": "Yes"
+        }
+      },
+      "segment_color_map": {
+        "Moderately Engaged (Passive) Learners": "#e74c3c",
+        "Highly Engaged (Active) Learners": "#54C571",
+        "Low Engaged Learners": "#95a5a6",
+        "Moderately Engaged Learners": "#f39c12"
+      },
+      "default_color": "#3498db",
+      "figsize": [
+        17,
+        5.2
+      ],
+      "dpi": 200,
+      "min_bar_label_percent": 8
+    },
+    "pca_visualisation": {
+      "n_components_2d": 2,
+      "n_components_3d": 3,
+      "scatter_size": 22,
+      "alpha": 0.6,
+      "figsize_2d_single": [
+        7,
+        5
+      ],
+      "figsize_2d_comparison": [
+        13,
+        5
+      ],
+      "figsize_3d_comparison": [
+        15,
+        6
+      ],
+      "dpi": 200,
+      "cluster_palette": {
+        "Moderately Engaged (Passive) Learners": "#e74c3c",
+        "Highly Engaged (Active) Learners": "#2ecc71",
+        "Low Engaged Learners": "#95a5a6",
+        "Moderately Engaged Learners": "#f39c12"
+      }
+    },
+    "model_output": {
+      "model_dir": "models",
+      "kmodes_model_filename": "kmodes_model.pkl",
+      "feature_columns_filename": "kmodes_feature_columns.json",
+      "cluster_label_map_filename": "kmodes_cluster_label_map.json",
+      "preprocessing_info_filename": "kmodes_preprocessing_info.json",
+      "preprocessing_description": "K-Modes input preprocessing",
+      "preprocessing_steps": [
+        "Select the configured clustering features",
+        "Convert each feature to integer nullable dtype",
+        "Convert each feature to string",
+        "Pass the resulting array to kmodes_model.predict()",
+        "Add the configured label offset because the saved K-Modes model returns zero-based labels"
+      ]
+    }
+  },
+  "translation_preprocessing": {
+    "io": {
+      "input_path_key": "output_cluster_path",
+      "output_path": "data/processed/nlp_translated_responses.csv",
+      "read_csv_options": {},
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "columns": {
+      "selected_columns": [
+        "student_id",
+        "open_strengths",
+        "open_challenges_suggestions",
+        "student_segment",
+        "student_segment_label"
+      ],
+      "text_columns": [
+        "open_strengths",
+        "open_challenges_suggestions"
+      ],
+      "language_suffix": "_lang",
+      "translated_suffix": "_en"
+    },
+    "filtering": {
+      "require_complete_text": true,
+      "missing_tokens": [
+        "",
+        "nan",
+        "none",
+        "null"
+      ]
+    },
+    "language_detection": {
+      "regex": {
+        "khmer": "[\\u1780-\\u17FF]",
+        "english": "[A-Za-z]"
+      },
+      "labels": {
+        "empty": "empty",
+        "khmer": "kh",
+        "english": "en",
+        "mixed": "mixed",
+        "other": "other"
+      },
+      "summary_order": [
+        "kh",
+        "mixed",
+        "en",
+        "other"
+      ]
+    },
+    "translation": {
+      "languages_requiring_translation": [
+        "kh",
+        "mixed"
+      ],
+      "src_lang": "kh",
+      "tgt_lang": "eng",
+      "cache_enabled": true,
+      "fallback_to_original_on_empty_translation": false
+    },
+    "translate_kh_service": {
+      "env": {
+        "api_url": "TRANSLATE_KH_API_URL",
+        "username": "TRANSLATE_KH_USERNAME",
+        "password": "TRANSLATE_KH_PASSWORD"
+      },
+      "default_api_url": "https://www.translate.kh/api",
+      "timeout_seconds": 30,
+      "valid_langs": [
+        "kh",
+        "eng"
+      ]
+    },
+    "display": {
+      "preview_rows": 5,
+      "missing_preview_rows": 5,
+      "translation_preview_rows": 10,
+      "summary_separator_width": 60
+    }
+  },
+  "nlp": {
+    "io": {
+      "input_path": "data/processed/nlp_translated_responses.csv",
+      "output_path": "data/processed/student_recommendation_features.csv",
+      "read_csv_options": {
+        "encoding": "utf-8-sig"
+      },
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "columns": {
+      "text": {
+        "strength_source": "open_strengths_en",
+        "challenge_source": "open_challenges_suggestions_en",
+        "strength_clean": "open_strengths_clean",
+        "challenge_clean": "open_challenges_clean"
+      },
+      "cluster": "student_segment",
+      "cluster_label": "student_segment_label",
+      "export_columns": [
+        "student_id",
+        "student_segment",
+        "student_segment_label",
+        "cluster_label",
+        "open_strengths_en",
+        "open_challenges_suggestions_en",
+        "strength_sentiment_label",
+        "challenge_sentiment_label",
+        "strength_compound",
+        "challenge_compound",
+        "strength_themes",
+        "challenge_themes",
+        "strength_tags",
+        "challenge_tags",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "json_columns": [
+        "strength_themes",
+        "challenge_themes",
+        "strength_tags",
+        "challenge_tags",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ]
+    },
+    "text_cleaning": {
+      "lowercase": true,
+      "strip": true,
+      "whitespace_regex": "\\s+",
+      "punctuation_regex": "[^\\w\\s]",
+      "phrase_replacements": {
+        "face to face": "in_person",
+        "face-to-face": "in_person",
+        "face face": "in_person",
+        "self study": "self_study",
+        "self studying": "self_study",
+        "self learning": "self_learning",
+        "time management": "time_management",
+        "internet connection": "internet_connection",
+        "internet access": "internet_access",
+        "technical issues": "technical_issues",
+        "online learning": "online_learning",
+        "blended learning": "blended_learning",
+        "saving time": "save_time"
+      }
+    },
+    "stopwords": {
+      "include_sklearn_english": true,
+      "custom_stopwords_config_key": "custom_stopwords",
+      "expand_multiword_stopwords": true
+    },
+    "tfidf": {
+      "top_n_keywords": 20,
+      "ngram_range": [
+        2,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 0.9,
+      "cluster_theme_top_n_keywords": 30,
+      "cluster_keyword_top_n_keywords": 15
+    },
+    "theme_maps": {
+      "strength_config_key": "strength_theme_map",
+      "challenge_config_key": "challenge_theme_map",
+      "theme_to_recommendation_config_key": "theme_to_recommendation_map"
+    },
+    "cluster_analysis": {
+      "min_students_per_cluster": 2,
+      "sort_columns": [
+        "cluster",
+        "total_score"
+      ],
+      "sort_ascending": [
+        true,
+        false
+      ]
+    },
+    "tagging": {
+      "non_meaningful_responses": [
+        "",
+        "no",
+        "none",
+        "nothing",
+        "no comment",
+        "not sure",
+        "no idea",
+        "don t know",
+        "dont know",
+        "don t have",
+        "dont have",
+        "not yet",
+        "n a",
+        "na",
+        "nil",
+        "ok",
+        "okay",
+        "agree",
+        "all good",
+        "everything is good",
+        "it already great",
+        "nope",
+        "math",
+        "french",
+        "coding",
+        "sad",
+        "uyu",
+        "uu",
+        "nuh uhh",
+        "dunno yet"
+      ],
+      "segment_default_tags": [
+        {
+          "segment": "Moderately Engaged (Passive) Learners",
+          "match_any": [
+            "moderately engaged",
+            "passive"
+          ],
+          "tags": [
+            "motivation",
+            "interaction",
+            "learning_support",
+            "self_paced"
+          ]
+        },
+        {
+          "segment": "Highly Engaged (Active) Learners",
+          "match_any": [
+            "highly engaged",
+            "active"
+          ],
+          "tags": [
+            "content_access",
+            "engagement",
+            "digital_skill",
+            "self_paced"
+          ]
+        }
+      ],
+      "use_segment_fallback_when_nlp_tags_empty": true
+    },
+    "recommendation_rule_bank": {
+      "tech_issue": {
+        "title": "Improve technical access and reliability",
+        "recommendation": "Provide stable internet access, offline materials, clear platform instructions, and technical support."
+      },
+      "motivation": {
+        "title": "Support motivation and self-discipline",
+        "recommendation": "Use weekly check-ins, reminders, progress tracking, and structured study schedules."
+      },
+      "interaction": {
+        "title": "Increase interaction and communication",
+        "recommendation": "Add Q&A sessions, group discussion, peer collaboration, and faster lecturer feedback."
+      },
+      "learning_support": {
+        "title": "Improve clarity and learning support",
+        "recommendation": "Provide clearer instructions, examples, recorded explanations, and step-by-step learning guides."
+      },
+      "learning_environment": {
+        "title": "Improve learning resources and environment",
+        "recommendation": "Organize materials clearly, update resources, improve study spaces, and support classroom comfort."
+      },
+      "workload_support": {
+        "title": "Manage workload and assessment pressure",
+        "recommendation": "Balance assignments, clarify deadlines, and align online tasks with in-person sessions."
+      },
+      "self_paced": {
+        "title": "Support self-paced learning",
+        "recommendation": "Provide recorded lessons, weekly learning paths, and materials students can review at their own pace."
+      },
+      "content_access": {
+        "title": "Strengthen access to learning materials",
+        "recommendation": "Upload slides, videos, references, exercises, and course materials early."
+      },
+      "digital_skill": {
+        "title": "Develop digital learning skills",
+        "recommendation": "Provide guidance on LMS tools, online resources, digital research, and educational technologies."
+      },
+      "engagement": {
+        "title": "Increase learner engagement",
+        "recommendation": "Use quizzes, games, practical tasks, discussions, and interactive activities."
+      },
+      "learning_effectiveness": {
+        "title": "Improve learning effectiveness",
+        "recommendation": "Combine online review materials with in-person explanation, practice, and feedback."
+      }
+    },
+    "visualisation": {
+      "keyword_top_n": 15,
+      "theme_top_n": 10,
+      "cluster_keyword_top_n": 10,
+      "cluster_theme_top_n": 10,
+      "keyword_figsize": [
+        10,
+        6
+      ],
+      "theme_figsize": [
+        10,
+        6
+      ],
+      "cluster_theme_figsize": [
+        12,
+        6
+      ],
+      "heatmap_figsize": [
+        10,
+        7
+      ],
+      "heatmap_cmap": "Reds",
+      "titles": {
+        "strength_keywords": "Top Mentioned Strength Keywords / Phrases",
+        "challenge_keywords": "Top Mentioned Challenge / Suggestion Keywords / Phrases",
+        "strength_themes": "Most Important Strength Themes",
+        "challenge_themes": "Most Important Challenge / Suggestion Themes",
+        "cluster_strength_keywords": "Top Strength Keywords by Cluster",
+        "cluster_challenge_keywords": "Top Challenge / Suggestion Keywords by Cluster",
+        "cluster_strength_themes": "Strength Themes by Learner Cluster",
+        "cluster_challenge_themes": "Challenge / Suggestion Themes by Learner Cluster",
+        "cluster_strength_heatmap": "Strength Theme Intensity by Cluster",
+        "cluster_challenge_heatmap": "Challenge Theme Intensity by Cluster"
+      }
+    },
+    "display": {
+      "preview_rows": 10
+    },
+    "json_serialisation": {
+      "ensure_ascii": false
+    }
+  },
+  "llm": {
+    "io": {
+      "input_path": "data/processed/student_recommendation_features.csv",
+      "legacy_resume_csv": "data/processed/student_recommendation_reports.csv",
+      "clean_output_csv": "data/processed/student_recommendation_reports_clean.csv",
+      "store_csv": "data/processed/student_recommendation_reports_store.csv",
+      "current_output_csv": "data/processed/student_recommendation_reports_current.csv",
+      "read_csv_options": {
+        "encoding": "utf-8-sig"
+      },
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "openrouter": {
+      "env": {
+        "api_key": "OPENROUTER_API_KEY",
+        "model": "OPENROUTER_MODEL",
+        "base_url": "OPENROUTER_BASE_URL",
+        "app_title": "OPENROUTER_APP_TITLE",
+        "http_referer": "OPENROUTER_HTTP_REFERER"
+      },
+      "defaults": {
+        "model": "openai/gpt-oss-120b:free",
+        "base_url": "https://openrouter.ai/api/v1",
+        "app_title": "Blended Learning Prototype",
+        "http_referer": "http://localhost"
+      },
+      "prompt_path": "src/blended_learning/llm/prompts/student_recommendation_prompt.txt"
+    },
+    "generation": {
+      "clean_batch": {
+        "enabled": true,
+        "limit": null,
+        "resume": true,
+        "save_each_student": true,
+        "temperature": 0.3,
+        "max_tokens": 900
+      },
+      "incremental": {
+        "enabled": true,
+        "limit": null,
+        "temperature": 0.3,
+        "max_tokens": 900,
+        "save_after_each_new_student": true
+      }
+    },
+    "data": {
+      "student_id_column": "student_id",
+      "segment_label_column": "student_segment_label",
+      "report_column": "llm_recommendation_report",
+      "json_columns": [
+        "strength_themes",
+        "challenge_themes",
+        "strength_tags",
+        "challenge_tags",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "student_package_fields": [
+        "student_id",
+        "student_segment",
+        "student_segment_label",
+        "cluster_label",
+        "open_strengths_clean",
+        "open_challenges_clean",
+        "strength_sentiment_label",
+        "challenge_sentiment_label",
+        "strength_compound",
+        "challenge_compound",
+        "strength_themes",
+        "challenge_themes",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "list_default_fields": [
+        "strength_themes",
+        "challenge_themes",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "output_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report"
+      ],
+      "store_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report",
+        "generation_source",
+        "generation_error",
+        "generated_at"
+      ]
+    },
+    "prompt_building": {
+      "task_instruction": "Create a personalized blended learning recommendation report for this student.",
+      "evidence_heading": "Student evidence:",
+      "rules": [
+        "Use only the provided evidence.",
+        "Do not invent facts.",
+        "Keep it concise.",
+        "Mention the student segment.",
+        "The rule-based recommendations are the source of truth.",
+        "If open-ended evidence is weak or empty, explain that the recommendation is based mainly on the segment profile."
+      ]
+    },
+    "fallback_report": {
+      "title": "# Personalized Blended Learning Recommendation Report",
+      "profile_heading": "## 1. Student Learning Profile",
+      "profile_template": "The student belongs to the **{segment}** profile.",
+      "strength_heading": "## 2. Main Strengths",
+      "challenge_heading": "## 3. Main Challenges",
+      "recommendation_heading": "## 4. Personalized Recommendations",
+      "action_plan_heading": "## 5. Short Action Plan",
+      "no_strength_text": "No clear strength theme was detected from the open-ended response.",
+      "no_challenge_text": "No clear challenge theme was detected from the open-ended response.",
+      "no_recommendation_text": "Use the student's segment profile to provide general blended learning support.",
+      "default_segment": "Unknown segment",
+      "action_plan_items": [
+        "Review learning materials regularly.",
+        "Follow a weekly study schedule.",
+        "Ask questions during in-person or online sessions.",
+        "Use available digital resources and recorded lessons for revision."
+      ]
+    },
+    "safety": {
+      "missing_api_key_source": "rule_based_fallback_no_api_key",
+      "missing_api_key_error": "OPENROUTER_API_KEY is not configured.",
+      "openrouter_success_source": "openrouter_llm",
+      "openrouter_error_source": "rule_based_fallback_openrouter_error",
+      "missing_openai_package_error": "The openai package is not installed, so OpenRouter generation is unavailable."
+    },
+    "saving": {
+      "timestamp_format": "%Y%m%d_%H%M%S",
+      "backup_prefix": ".backup_",
+      "temp_suffix": ".tmp",
+      "generated_at_format": "%Y-%m-%d %H:%M:%S",
+      "student_key_column": "_student_id_key",
+      "order_column": "_order",
+      "input_order_column": "_input_order"
+    },
+    "segment_label_fix": {
+      "enabled": true,
+      "files": [
+        "store_csv",
+        "current_output_csv"
+      ],
+      "segment_column": "student_segment_label",
+      "student_id_column": "student_id",
+      "backup_suffix": ".backup_before_label_fix",
+      "deduplicate_student_id": true,
+      "deduplicate_keep": "last",
+      "rules": [
+        {
+          "label": "Moderately Engaged (Passive) Learners",
+          "match_any": [
+            "passive",
+            "moderately",
+            "moderate"
+          ]
+        },
+        {
+          "label": "Highly Engaged (Active) Learners",
+          "match_any": [
+            "active",
+            "highly",
+            "high"
+          ]
+        }
+      ]
+    },
+    "markdown_export": {
+      "enabled": true,
+      "input_path": "data/processed/student_recommendation_reports_current.csv",
+      "output_ipynb_path": "notebook/student_recommendation_reports_markdown.ipynb",
+      "output_md_path": "notebook/student_recommendation_reports_markdown.md",
+      "required_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report"
+      ],
+      "title": "Student Recommendation Reports",
+      "fields": {
+        "student_id": "student_id",
+        "segment": "student_segment_label",
+        "tags": "final_recommendation_tags",
+        "report": "llm_recommendation_report"
+      },
+      "notebook_metadata": {
+        "kernelspec": {
+          "display_name": "Python 3",
+          "language": "python",
+          "name": "python3"
+        },
+        "language_info": {
+          "name": "python",
+          "version": "3.x"
+        }
+      }
+    },
+    "display": {
+      "max_colwidth": 250,
+      "max_columns": 100
+    }
+  },
+  "api": {
+    "database": {
+      "env": "DATABASE_URL",
+      "default_url": "postgresql://postgres:postgres@localhost:5432/blended_learning_db",
+      "pool_pre_ping": true,
+      "echo": false
+    },
+    "seed": {
+      "enabled": true,
+      "csv_path": "data/processed/student_recommendation_reports_current.csv",
+      "required_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report"
+      ],
+      "student_id_column": "student_id",
+      "deduplicate_keep": "last",
+      "replace_when_count_differs": true,
+      "log_prefix": "[seed]"
+    },
+    "model": {
+      "model_dir": "models",
+      "kmodes_model_filename": "kmodes_model.pkl",
+      "feature_columns_filename": "kmodes_feature_columns.json",
+      "cluster_label_map_filename": "kmodes_cluster_label_map.json",
+      "label_offset": 1,
+      "input_dtype": "Int64",
+      "tie_break_strategy": "highest_centroid_average"
+    },
+    "segments": {
+      "unknown_label": "Unknown",
+      "normalization_rules": [
+        {
+          "label": "Moderately Engaged (Passive) Learners",
+          "match_any": [
+            "passive",
+            "moderately engaged",
+            "moderately",
+            "moderate"
+          ]
+        },
+        {
+          "label": "Highly Engaged (Active) Learners",
+          "match_any": [
+            "highly engaged",
+            "highly",
+            "active",
+            "high"
+          ]
+        }
+      ],
+      "raw_cluster_id_strategy": "model_label_map",
+      "strip_cluster_prefix_regex": "\\bCluster\\s+\\d+\\s*[:\\-–—]\\s*"
+    },
+    "llm_runtime": {
+      "temperature": 0.3,
+      "max_tokens": 900
+    },
+    "nlp_runtime": {
+      "translation_enabled": true,
+      "fallback_to_original_on_translation_error": true
+    },
+    "app": {
+      "title": "Blended Learning Recommendation API",
+      "description": "FastAPI backend for student segmentation and personalized recommendation prototype",
+      "version": "1.0.0"
+    }
+  },
+  "web": {
+    "api": {
+      "base_url_env": "API_BASE_URL",
+      "default_base_url": "http://127.0.0.1:8000",
+      "default_get_timeout_seconds": 20,
+      "default_post_timeout_seconds": 300
+    },
+    "admin": {
+      "email_env": "ADMIN_EMAIL",
+      "password_env": "ADMIN_PASSWORD",
+      "default_email": "admin@example.com",
+      "default_password": "admin123"
+    },
+    "page": {
+      "title": "Blended Learning Recommendation System",
+      "logo_filename": "itc_logo.png",
+      "subtitles": {
+        "ITC Student Lookup": "Search an official ITC student ID and view the learner recommendation report.",
+        "Saved Record Lookup": "Search any stored recommendation record, including demo, external, and ITC IDs.",
+        "New Student Input": "Submit blended learning survey responses and generate a new recommendation.",
+        "Dashboard": "Monitor total records, learner segments, and recommendation system summary.",
+        "Student Records": "Review stored student and respondent recommendation records.",
+        "Survey Analytics": "Explore preprocessing, survey features, learner clusters, and recommendation tags.",
+        "About Prototype": "Understand the system architecture, thesis positioning, and data flow."
+      }
+    },
+    "segment_display": {
+      "order": [
+        "Highly Engaged (Active) Learners",
+        "Moderately Engaged (Passive) Learners"
+      ],
+      "colors": {
+        "Highly Engaged (Active) Learners": "#22c55e",
+        "Moderately Engaged (Passive) Learners": "#ef4444",
+        "Unknown": "#94a3b8"
+      }
+    },
+    "data_summary": {
+      "raw_responses": 644,
+      "cleaned_responses": 592,
+      "excluded_responses": 52,
+      "clustering_features": 33,
+      "stored_recommendation_records": 567,
+      "note": "Values reflect the current project files in ml/data. Update this block when the data lock changes."
+    },
+    "theme": {
+      "mode": "dark",
+      "streamlit": {
+        "base": "dark",
+        "primaryColor": "#ef4444",
+        "backgroundColor": "#020617",
+        "secondaryBackgroundColor": "#111827",
+        "textColor": "#f8fafc",
+        "font": "sans serif"
+      },
+      "colors": {
+        "primary": "#ef4444",
+        "primary_hover": "#dc2626",
+        "accent": "#f97316",
+        "background_start": "#020617",
+        "background_mid": "#0f172a",
+        "background_end": "#111827",
+        "sidebar_start": "#020617",
+        "sidebar_end": "#111827",
+        "card_background": "rgba(15, 23, 42, 0.92)",
+        "card_background_soft": "rgba(15, 23, 42, 0.55)",
+        "input_background": "#111827",
+        "text": "#f8fafc",
+        "heading": "#ffffff",
+        "muted_text": "#cbd5e1",
+        "subtle_text": "#94a3b8",
+        "border": "rgba(255,255,255,0.09)",
+        "border_strong": "#334155",
+        "success": "#22c55e",
+        "success_text": "#bbf7d0",
+        "danger": "#ef4444",
+        "danger_text": "#fecaca"
+      },
+      "layout": {
+        "max_width_px": 1280,
+        "desktop_padding_top_rem": 3.8,
+        "mobile_padding_top_rem": 4.8,
+        "small_mobile_padding_top_rem": 5.2
+      },
+      "plotly": {
+        "template": "plotly_dark",
+        "paper_bgcolor": "rgba(0,0,0,0)",
+        "plot_bgcolor": "rgba(0,0,0,0)",
+        "gridcolor": "rgba(148,163,184,0.15)",
+        "linecolor": "rgba(148,163,184,0.25)"
+      }
+    },
+    "ux": {
+      "hero_badges": [
+        "Personalized UX",
+        "FastAPI",
+        "K-Modes",
+        "LLM-ready"
+      ],
+      "page_eyebrows": {
+        "ITC Student Lookup": "Student-facing lookup",
+        "Saved Record Lookup": "Record retrieval",
+        "New Student Input": "Guided recommendation flow",
+        "Dashboard": "Admin overview",
+        "Student Records": "Database monitoring",
+        "Survey Analytics": "Research analytics",
+        "About Prototype": "System design"
+      },
+      "student_lookup_steps": [
+        {
+          "title": "Enter ID",
+          "body": "Use an official ITC student ID."
+        },
+        {
+          "title": "Retrieve profile",
+          "body": "The frontend requests the saved recommendation from FastAPI."
+        },
+        {
+          "title": "Review guidance",
+          "body": "Read the learner segment, tags, and recommendation report."
+        }
+      ],
+      "new_input_steps": [
+        {
+          "title": "Identify respondent",
+          "body": "Choose ITC, external, or demo mode."
+        },
+        {
+          "title": "Answer survey",
+          "body": "Complete the 33 model-aligned blended learning items."
+        },
+        {
+          "title": "Generate report",
+          "body": "FastAPI predicts a segment and stores the recommendation."
+        }
+      ],
+      "about_architecture": [
+        "Streamlit frontend for student/admin experience",
+        "FastAPI backend for prediction, records, and recommendation endpoints",
+        "PostgreSQL database for persistent recommendation storage",
+        "K-Modes model for learner segment assignment",
+        "Config-driven NLP/LLM recommendation pipeline"
+      ],
+      "about_capabilities": [
+        "ITC student lookup using official student IDs",
+        "New input flow using the same 33 survey features",
+        "External/demo respondent support with generated internal IDs",
+        "Admin dashboard and student record monitoring",
+        "Survey analytics and segment interpretation for thesis defense"
+      ]
+    }
+  }
 }

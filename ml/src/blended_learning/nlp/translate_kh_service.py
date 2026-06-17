@@ -4,69 +4,102 @@ from __future__ import annotations
 
 import os
 import time
-from typing import Iterable
+from typing import Any, Iterable
 
 import requests
+
+from blended_learning.config.settings import settings
 
 
 class TranslateKHService:
     """
     Service for TranslateKH API.
 
-    Official API format:
+    Runtime secrets stay in `.env` / environment variables:
+        - TRANSLATE_KH_USERNAME
+        - TRANSLATE_KH_PASSWORD
+        - TRANSLATE_KH_API_URL, optional
 
-    Endpoint:
-        POST https://www.translate.kh/api
-
-    Authentication:
-        Basic Authentication
-
-    Request:
-        {
-            "input_text": ["hello"],
-            "src_lang": "eng",
-            "tgt_lang": "kh"
-        }
-
-    Response:
-        {
-            "translate_text": ["សួស្តី"]
-        }
-
-    Supported languages:
-        - "kh"  : Khmer
-        - "eng" : English
+    Non-secret behavior is controlled from `ml/config/config.json`:
+        translation_preprocessing.translate_kh_service
     """
 
-    VALID_LANGS = {"kh", "eng"}
+    DEFAULT_CONFIG: dict[str, Any] = {
+        "env": {
+            "api_url": "TRANSLATE_KH_API_URL",
+            "username": "TRANSLATE_KH_USERNAME",
+            "password": "TRANSLATE_KH_PASSWORD",
+        },
+        "default_api_url": "https://www.translate.kh/api",
+        "timeout_seconds": 30,
+        "valid_langs": ["kh", "eng"],
+    }
 
     def __init__(
         self,
         username: str | None = None,
         password: str | None = None,
         api_url: str | None = None,
-        timeout: int = 30,
+        timeout: int | None = None,
+        config: dict[str, Any] | None = None,
     ) -> None:
-        self.api_url = api_url or os.getenv(
-            "TRANSLATE_KH_API_URL",
-            "https://www.translate.kh/api"
+        self.cfg = self._merged_config(config=config)
+        env_cfg = self.cfg["env"]
+
+        self.api_url = (
+            api_url
+            or os.getenv(env_cfg["api_url"])
+            or self.cfg["default_api_url"]
         )
-        self.username = username or os.getenv("TRANSLATE_KH_USERNAME")
-        self.password = password or os.getenv("TRANSLATE_KH_PASSWORD")
-        self.timeout = timeout
+        self.username = username or os.getenv(env_cfg["username"])
+        self.password = password or os.getenv(env_cfg["password"])
+        self.timeout = timeout if timeout is not None else self.cfg["timeout_seconds"]
+        self.valid_langs = set(self.cfg["valid_langs"])
 
         if not self.username or not self.password:
             raise ValueError(
                 "TranslateKH username or password is missing. "
-                "Please set TRANSLATE_KH_USERNAME and TRANSLATE_KH_PASSWORD in your .env file."
+                f"Please set {env_cfg['username']} and {env_cfg['password']} "
+                "in your .env file or shell environment."
             )
 
-    def _validate_langs(self, src_lang: str, tgt_lang: str) -> None:
-        if src_lang not in self.VALID_LANGS:
-            raise ValueError("src_lang must be either 'kh' or 'eng'.")
+    def _merged_config(self, config: dict[str, Any] | None = None) -> dict[str, Any]:
+        """Merge defaults with config.json and optional explicit overrides."""
+        merged = self._deep_copy(self.DEFAULT_CONFIG)
+        project_config = (
+            getattr(settings, "translation_preprocessing", {})
+            .get("translate_kh_service", {})
+        )
+        self._deep_update(merged, project_config)
+        if config:
+            self._deep_update(merged, config)
+        return merged
 
-        if tgt_lang not in self.VALID_LANGS:
-            raise ValueError("tgt_lang must be either 'kh' or 'eng'.")
+    @staticmethod
+    def _deep_copy(value: dict[str, Any]) -> dict[str, Any]:
+        return {
+            key: TranslateKHService._deep_copy(item) if isinstance(item, dict) else item
+            for key, item in value.items()
+        }
+
+    @staticmethod
+    def _deep_update(base: dict[str, Any], updates: dict[str, Any]) -> None:
+        for key, value in updates.items():
+            if isinstance(value, dict) and isinstance(base.get(key), dict):
+                TranslateKHService._deep_update(base[key], value)
+            else:
+                base[key] = value
+
+    def _validate_langs(self, src_lang: str, tgt_lang: str) -> None:
+        if src_lang not in self.valid_langs:
+            raise ValueError(
+                f"src_lang must be one of {sorted(self.valid_langs)}."
+            )
+
+        if tgt_lang not in self.valid_langs:
+            raise ValueError(
+                f"tgt_lang must be one of {sorted(self.valid_langs)}."
+            )
 
         if src_lang == tgt_lang:
             raise ValueError("src_lang and tgt_lang cannot be the same.")
@@ -83,19 +116,11 @@ class TranslateKHService:
         Parameters
         ----------
         texts:
-            Single text or list of texts.
-            The API requires input_text to be an array.
-
+            Single text or list of texts. The API requires `input_text` to be an array.
         src_lang:
-            Source language: "kh" or "eng".
-
+            Source language. Defaults to Khmer.
         tgt_lang:
-            Target language: "kh" or "eng".
-
-        Returns
-        -------
-        list[str]
-            Translated texts in the same order as the cleaned input.
+            Target language. Defaults to English.
         """
 
         self._validate_langs(src_lang, tgt_lang)
@@ -161,10 +186,7 @@ class TranslateKHService:
         src_lang: str = "kh",
         tgt_lang: str = "eng",
     ) -> str:
-        """
-        Translate one text and return one translated string.
-        """
-
+        """Translate one text and return one translated string."""
         result = self.translate_texts(
             texts=[text],
             src_lang=src_lang,
@@ -181,11 +203,7 @@ class TranslateKHService:
         batch_size: int = 10,
         delay: float = 1.0,
     ) -> list[str]:
-        """
-        Translate many texts in small batches.
-
-        This helps avoid duplicate, looping, or excessive API requests.
-        """
+        """Translate many texts in small batches."""
 
         if batch_size <= 0:
             raise ValueError("batch_size must be greater than 0.")
@@ -203,7 +221,6 @@ class TranslateKHService:
 
             all_results.extend(translated_batch)
 
-            # Sleep only if there is another batch remaining
             if start + batch_size < len(texts):
                 time.sleep(delay)
 

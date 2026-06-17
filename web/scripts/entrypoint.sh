@@ -11,7 +11,7 @@ import sys
 
 host = "${BACKEND_HOST}"
 port = int("${BACKEND_PORT}")
-deadline = time.time() + 90
+deadline = time.time() + int("${BACKEND_WAIT_TIMEOUT:-90}")
 
 while time.time() < deadline:
     try:
