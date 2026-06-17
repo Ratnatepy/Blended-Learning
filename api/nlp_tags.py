@@ -20,7 +20,7 @@ from typing import Any
 
 import pandas as pd
 
-from blended_learning.config.settings import settings
+from ml.src.blended_learning.config.settings import settings
 
 
 # ---------------------------------------------------

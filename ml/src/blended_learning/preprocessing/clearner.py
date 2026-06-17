@@ -12,8 +12,8 @@ import uuid
 import pandas as pd
 from pandas import isna
 
-from blended_learning.config.settings import Settings
-from blended_learning.utils.decorator import execution_time
+from ml.src.blended_learning.config.settings import Settings
+from ml.src.blended_learning.utils.decorator import execution_time
 
 
 class DataCleaner:

@@ -1,0 +1,27 @@
+# Runtime backend dependencies generated from requirements.txt and pyproject.toml
+pandas
+numpy
+scikit-learn
+kmodes
+gower
+joblib
+nltk
+vaderSentiment
+langdetect
+wordcloud
+torch
+transformers
+sentencepiece
+deep_translator
+openai
+fastapi
+uvicorn[standard]
+gunicorn
+sqlalchemy
+psycopg2-binary
+alembic
+tqdm
+requests
+python-dotenv
+pyarrow
+openpyxl
