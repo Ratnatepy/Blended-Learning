@@ -1,31 +1,120 @@
+name: blended-learning
+
 services:
   postgres:
-    image: postgres:16
+    image: postgres:16-alpine
     container_name: blended_learning_postgres
     restart: unless-stopped
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: blended_learning_db
-    ports:
-      - "5432:5432"
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_me_strong_password}
+      POSTGRES_DB: ${POSTGRES_DB:-blended_learning_db}
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - blended_internal
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    security_opt:
+      - no-new-privileges:true
 
-  pgadmin:
-    image: dpage/pgadmin4:latest
-    container_name: blended_learning_pgadmin
+  backend:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    container_name: blended_learning_backend
     restart: unless-stopped
+    env_file:
+      - .env
     environment:
-      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
-    ports:
-      - "5050:80"
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-change_me_strong_password}@postgres:5432/${POSTGRES_DB:-blended_learning_db}
+
+      PYTHONPATH: /app:/app/ml/src
+
+      MODEL_DIR: /app/ml/models
+      CONFIG_PATH: /app/ml/config/config.json
+      SEED_CSV_PATH: /app/ml/data/processed/student_recommendation_reports_current.csv
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
+    expose:
+      - "8000"
     volumes:
-      - pgadmin_data:/var/lib/pgadmin
+      - ./ml/data:/app/ml/data:rw
+      - ./ml/models:/app/ml/models:ro
+      - ./ml/config:/app/ml/config:ro
+    networks:
+      - blended_internal
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8000/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 90s
+    security_opt:
+      - no-new-privileges:true
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+    container_name: blended_learning_streamlit
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      API_BASE_URL: http://backend:8000
+      STREAMLIT_SERVER_HEADLESS: "true"
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+    depends_on:
+      backend:
+        condition: service_healthy
+    expose:
+      - "8501"
+    networks:
+      - blended_internal
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8501/_stcore/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+    security_opt:
+      - no-new-privileges:true
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: blended_learning_nginx
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+      streamlit:
+        condition: service_healthy
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    networks:
+      - blended_internal
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/nginx-health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    security_opt:
+      - no-new-privileges:true
+
+networks:
+  blended_internal:
+    driver: bridge
 
 volumes:
   postgres_data:
-  pgadmin_data:

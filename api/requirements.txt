@@ -1,0 +1,13 @@
+# FastAPI backend runtime dependencies
+fastapi
+uvicorn[standard]
+gunicorn
+sqlalchemy
+psycopg2-binary
+pandas
+numpy
+kmodes
+joblib
+openai
+requests
+python-dotenv

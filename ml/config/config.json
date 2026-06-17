@@ -1,0 +1,2712 @@
+{
+  "path": {
+    "input_path": "data/raw/kobo_latest_raw.xlsx",
+    "output_cleaned_path": "data/processed/cleaned_data.csv",
+    "output_cluster_path": "data/processed/cluster_data.csv",
+    "prompts_path": "src/blended_learning/llm/prompts"
+  },
+  "scales": {
+    "AGREE5": {
+      "Strongly Disagree": 1,
+      "Disagree": 2,
+      "Neutral": 3,
+      "Agree": 4,
+      "Strongly Agree": 5
+    },
+    "FREQ5": {
+      "Never": 1,
+      "Rarely": 2,
+      "Sometimes": 3,
+      "Often": 4,
+      "Always": 5
+    },
+    "HELPFUL5": {
+      "Not very helpful": 1,
+      "Slightly helpful": 2,
+      "Neutral": 3,
+      "Helpful": 4,
+      "Very helpful": 5
+    },
+    "TECH_FREQ5": {
+      "Never": 1,
+      "Rarely": 2,
+      "Occasionally": 3,
+      "Often": 4,
+      "Very Often": 5
+    },
+    "LMS5": {
+      "Very Poor": 1,
+      "Poor": 2,
+      "Neutral": 3,
+      "Good": 4,
+      "Excellent": 5
+    },
+    "SATISFY5": {
+      "Very dissatisfied": 1,
+      "Dissatisfied": 2,
+      "Neutral": 3,
+      "Satisfied": 4,
+      "Very satisfied": 5
+    },
+    "BENEFIT5": {
+      "Not beneficial": 1,
+      "Slightly beneficial": 2,
+      "Neutral": 3,
+      "Beneficial": 4,
+      "Extremely beneficial": 5
+    },
+    "EXTENT5": {
+      "Not at all": 1,
+      "A little": 2,
+      "A moderate amount": 3,
+      "A lot": 4,
+      "A great deal": 5
+    },
+    "SOCIAL_MEDIA_HOURS": [
+      "Less than 1 hour",
+      "1 Hour",
+      "2 hours",
+      "3 hours",
+      "4 hours",
+      "More than 5 hours"
+    ],
+    "ACADEMIC_YEAR": [
+      "Year 1 - Freshman",
+      "Year 2 - Sophomore",
+      "Year 3 - Junior",
+      "Year 4 - Senior",
+      "Year 5 - Final Year",
+      "Master",
+      "PHD",
+      "Other"
+    ],
+    "PREFER_BLENDED": [
+      "No",
+      "Neutral/Unsure",
+      "Yes"
+    ]
+  },
+  "categorical_cols": [
+    "gender",
+    "is_itc_student",
+    "education_level",
+    "major",
+    "department",
+    "province",
+    "itc_campus",
+    "ideal_balance",
+    "prefer_more_blended",
+    "enrollment_status"
+  ],
+  "ordinal_categorical_cols": [
+    "academic_year",
+    "social_media_hours"
+  ],
+  "multi_select_cols": {
+    "devices": [
+      "device_mobile",
+      "device_tablet",
+      "device_laptop",
+      "device_desktop",
+      "device_other"
+    ],
+    "internet_access": [
+      "inet_mobile_data",
+      "inet_home_wifi",
+      "inet_public_wifi",
+      "inet_university_wifi"
+    ],
+    "coping_mechanisms": [
+      "miss_resend_announcement",
+      "miss_request_recording",
+      "miss_ask_classmates",
+      "miss_one_on_one",
+      "miss_deadline_extension",
+      "miss_self_study",
+      "miss_ignore",
+      "miss_other"
+    ],
+    "challenges": [
+      "ch_internet",
+      "ch_no_instructor_support",
+      "ch_motivation",
+      "ch_limited_interaction",
+      "ch_time_management",
+      "ch_isolation",
+      "ch_misunderstanding",
+      "ch_delayed_feedback",
+      "ch_asking_questions",
+      "ch_info_overload",
+      "ch_other"
+    ]
+  },
+  "numeric_vars": [
+    "age"
+  ],
+  "ordinal_column_scales": {
+    "use_lecture_slides": "FREQ5",
+    "use_video_lectures": "FREQ5",
+    "use_quizzes": "FREQ5",
+    "use_articles": "FREQ5",
+    "use_forums": "FREQ5",
+    "use_simulations": "FREQ5",
+    "online_discussion_participation": "FREQ5",
+    "peer_collaboration": "FREQ5",
+    "comfort_asking_questions": "AGREE5",
+    "sense_of_community": "AGREE5",
+    "integration_quality": "AGREE5",
+    "overall_understanding": "AGREE5",
+    "lect_clear_instructions": "AGREE5",
+    "lect_responsive": "AGREE5",
+    "lect_diverse_tools": "AGREE5",
+    "lect_timely_feedback": "AGREE5",
+    "lect_foster_interaction": "AGREE5",
+    "self_prioritize_deadlines": "AGREE5",
+    "self_study_schedule": "AGREE5",
+    "self_prepare_class": "AGREE5",
+    "self_responsibility": "AGREE5",
+    "career_preparation": "AGREE5",
+    "video_helpfulness": "HELPFUL5",
+    "digital_literacy_improvement": "EXTENT5",
+    "tech_issues_freq": "TECH_FREQ5",
+    "lms_usability": "LMS5",
+    "overall_satisfaction": "SATISFY5",
+    "benefit_flexibility": "BENEFIT5",
+    "benefit_variety": "BENEFIT5",
+    "benefit_recorded_access": "BENEFIT5",
+    "benefit_self_study_time": "BENEFIT5",
+    "benefit_life_balance": "BENEFIT5",
+    "benefit_self_directed": "BENEFIT5"
+  },
+  "custom_stopwords": [
+    "",
+    ".",
+    "..",
+    "...",
+    "-",
+    "--",
+    "n/a",
+    "na",
+    "none",
+    "no",
+    "no!",
+    "no.",
+    "nope",
+    "nothing",
+    "not yet",
+    "not sure",
+    "no idea",
+    "i have no idea",
+    "don't know",
+    "dont know",
+    "do not know",
+    "i don't know",
+    "i dont know",
+    "don’t know",
+    "don understand",
+    "don't understand",
+    "not have",
+    "don't have",
+    "dont have",
+    "does not exist",
+    "there is no",
+    "no comment",
+    "all good",
+    "ok",
+    "okay",
+    "agree",
+    "yes",
+    "yess",
+    "math",
+    "french",
+    "sad",
+    "t",
+    "uyu",
+    "uu",
+    "nuh uhh",
+    "dunno yet",
+    "choose your opinion",
+    "គ្មាន",
+    "👍",
+    "🤷",
+    "💤",
+    "😴",
+    "very good excellent",
+    "will try hard",
+    "getting more experience",
+    "it already great",
+    "study hard",
+    "hard listening",
+    "coding",
+    "technology use",
+    "guides",
+    "notification",
+    "nothing nothing",
+    "good positive",
+    "biggest",
+    "strength",
+    "strengths",
+    "challenge",
+    "challenges",
+    "positive",
+    "aspect",
+    "aspects",
+    "approach",
+    "suggestion",
+    "suggestions",
+    "improve",
+    "improvement",
+    "think",
+    "opinion",
+    "personally",
+    "feel",
+    "like",
+    "good",
+    "great",
+    "really",
+    "maybe",
+    "probably",
+    "student",
+    "students",
+    "teacher",
+    "teachers",
+    "lecturer",
+    "lecturers",
+    "university",
+    "school",
+    "class",
+    "classes",
+    "course",
+    "courses",
+    "lesson",
+    "lessons",
+    "need",
+    "needs",
+    "want",
+    "wants",
+    "make",
+    "makes",
+    "give",
+    "gives",
+    "help",
+    "helps",
+    "able",
+    "allow",
+    "allows",
+    "big",
+    "thing",
+    "things",
+    "way",
+    "ways",
+    "lot",
+    "lots",
+    "use",
+    "using",
+    "used",
+    "provide",
+    "provides",
+    "provided",
+    "better",
+    "clear",
+    "clearer",
+    "easy",
+    "easier",
+    "hard",
+    "difficult",
+    "main",
+    "major",
+    "blended",
+    "learning",
+    "face",
+    "blended_learning",
+    "time self",
+    "wifi comfortable",
+    "record",
+    "wi",
+    "fi",
+    "live",
+    "online physical",
+    "focused online",
+    "video",
+    "lecture"
+  ],
+  "strength_theme_map": {
+    "Flexibility & Time Management": [
+      "flexibility",
+      "flexible",
+      "flexible learning",
+      "time and place",
+      "time flexibility",
+      "manage time",
+      "time management",
+      "time_management",
+      "own pace",
+      "learning pace",
+      "study pace",
+      "learn at own pace",
+      "learn anytime",
+      "anytime",
+      "anywhere",
+      "learn anywhere",
+      "study anywhere",
+      "study from home",
+      "from home",
+      "save time",
+      "save_time",
+      "cuts on travel time",
+      "travel time",
+      "travelling",
+      "traveling",
+      "commute",
+      "traffic",
+      "gas",
+      "gasoline",
+      "balance",
+      "work and life balance",
+      "life balance",
+      "convenient",
+      "convenience",
+      "schedule",
+      "flexible schedule",
+      "free time",
+      "personal comfort",
+      "comfortable place",
+      "remote",
+      "remotely"
+    ],
+    "Access to Learning Materials": [
+      "material",
+      "materials",
+      "learning material",
+      "learning materials",
+      "study material",
+      "study materials",
+      "lesson",
+      "lessons",
+      "lecture",
+      "lectures",
+      "recorded",
+      "record",
+      "recording",
+      "recorded lesson",
+      "recorded lecture",
+      "video record",
+      "video recorded",
+      "recorded video",
+      "recorded videos",
+      "review",
+      "rewatch",
+      "re watch",
+      "replay",
+      "revisit",
+      "retrieve",
+      "retrive",
+      "access",
+      "easy access",
+      "accessible",
+      "accessibility",
+      "access learning",
+      "access materials",
+      "online resource",
+      "online resources",
+      "resource",
+      "resources",
+      "video",
+      "videos",
+      "document",
+      "documents",
+      "doc",
+      "docs",
+      "slides",
+      "files",
+      "references",
+      "books",
+      "moodle",
+      "platform",
+      "syllabus",
+      "course"
+    ],
+    "Digital Skills Development": [
+      "digital",
+      "digital skill",
+      "digital skills",
+      "digital literacy",
+      "technology",
+      "technical skill",
+      "technical skills",
+      "computer",
+      "online platform",
+      "platform",
+      "tools",
+      "digital tools",
+      "new systems",
+      "software",
+      "technology world",
+      "online_learning",
+      "ai",
+      "chat gpt",
+      "chatgpt",
+      "research online",
+      "use computers",
+      "future job",
+      "future study"
+    ],
+    "Student Engagement": [
+      "engage",
+      "engagement",
+      "interesting",
+      "fun",
+      "interactive",
+      "active learning",
+      "participate",
+      "participation",
+      "ask question",
+      "ask questions",
+      "discussion",
+      "group work",
+      "communicate",
+      "communication",
+      "teacher",
+      "lecturer",
+      "professor",
+      "class activity",
+      "activities",
+      "classmate",
+      "classmates",
+      "collaboration",
+      "collaborative",
+      "in_person interaction",
+      "human connection"
+    ],
+    "Learning Convenience & Effectiveness": [
+      "easy to learn",
+      "easier to learn",
+      "easy",
+      "understand",
+      "understanding",
+      "better understanding",
+      "clear explanation",
+      "effective",
+      "effectiveness",
+      "efficient",
+      "useful",
+      "helpful",
+      "good",
+      "great",
+      "excellent",
+      "experience",
+      "improve study",
+      "improve studying",
+      "improve learning",
+      "track study",
+      "self_study",
+      "self study",
+      "self_learning",
+      "self learning",
+      "independent",
+      "responsible",
+      "preparation",
+      "prepare",
+      "learn more",
+      "more knowledge",
+      "new knowledge",
+      "knowledge",
+      "personalized learning"
+    ]
+  },
+  "challenge_theme_map": {
+    "Internet & Technical Issues": [
+      "internet",
+      "internet problem",
+      "internet problems",
+      "internet issue",
+      "internet issues",
+      "internet connection",
+      "internet_connection",
+      "internet connectivity",
+      "unstable internet",
+      "slow internet",
+      "internet slow",
+      "poor internet",
+      "bad internet",
+      "low internet",
+      "network",
+      "network connection",
+      "connection",
+      "connection issue",
+      "connection issues",
+      "connectivity",
+      "weak connection",
+      "wifi",
+      "wi fi",
+      "campus wifi",
+      "school wifi",
+      "mobile data",
+      "data",
+      "technical",
+      "technical problem",
+      "technical problems",
+      "technical issue",
+      "technical issues",
+      "technical_issues",
+      "platform problem",
+      "platform stability",
+      "lms",
+      "moodle",
+      "server",
+      "server downtime",
+      "device",
+      "devices",
+      "computer",
+      "projector",
+      "software",
+      "technology access",
+      "digital device",
+      "crashing",
+      "cannot access",
+      "can't access",
+      "access problem"
+    ],
+    "Motivation & Self-Discipline": [
+      "motivation",
+      "motivated",
+      "self motivation",
+      "self motivated",
+      "lack motivation",
+      "lack of motivation",
+      "low motivation",
+      "reduced motivation",
+      "discipline",
+      "self discipline",
+      "self_discipline",
+      "lack discipline",
+      "lack of discipline",
+      "lack of self discipline",
+      "poor self discipline",
+      "lazy",
+      "laziness",
+      "focus",
+      "focused",
+      "hard to focus",
+      "staying focused",
+      "concentrate",
+      "concentration",
+      "concentratation",
+      "attention",
+      "lack of attention",
+      "pay attention",
+      "distracted",
+      "distraction",
+      "distractions",
+      "notification",
+      "notifications",
+      "social media",
+      "tiktok",
+      "game",
+      "games",
+      "procrastinate",
+      "procrastination",
+      "forget",
+      "forgot",
+      "sleepy",
+      "fall asleep",
+      "boring",
+      "bored",
+      "isolation",
+      "isolated",
+      "lost track"
+    ],
+    "Interaction & Communication": [
+      "interaction",
+      "lack interaction",
+      "lack of interaction",
+      "limited interaction",
+      "less interaction",
+      "reduced interaction",
+      "communication",
+      "lack communication",
+      "lack of communication",
+      "communicate",
+      "discussion",
+      "ask question",
+      "ask questions",
+      "hard to ask",
+      "difficult to ask",
+      "unable to ask",
+      "teacher",
+      "lecturer",
+      "lecturers",
+      "professor",
+      "professors",
+      "support",
+      "lack of support",
+      "feedback",
+      "delayed feedback",
+      "teacher feedback",
+      "conversation",
+      "peer",
+      "peers",
+      "friend",
+      "friends",
+      "classmate",
+      "classmates",
+      "group",
+      "team",
+      "online class",
+      "online classes",
+      "less interactive",
+      "interactive activities",
+      "q a",
+      "qa",
+      "discussion",
+      "breakout",
+      "breakout room",
+      "communication with lecturers",
+      "direct communication",
+      "real life communication"
+    ],
+    "Learning Difficulty & Clarity": [
+      "difficult",
+      "difficulty",
+      "hard",
+      "hard to understand",
+      "difficult to understand",
+      "difficulty understanding",
+      "understand",
+      "misunderstanding",
+      "misunderstand",
+      "unclear",
+      "unclear instruction",
+      "unclear instructions",
+      "unclear materials",
+      "unclear lesson",
+      "confusing",
+      "confused",
+      "lost",
+      "feel lost",
+      "clarity",
+      "clear",
+      "clearer",
+      "instruction",
+      "instructions",
+      "guidance",
+      "guide",
+      "guides",
+      "explanation",
+      "explain",
+      "explaining",
+      "explain clearly",
+      "clear explanation",
+      "lesson difficult",
+      "material difficult",
+      "learning difficulty",
+      "direct instructor support",
+      "teacher direct help",
+      "without direct help",
+      "slow teaching",
+      "teaching slowly",
+      "more example",
+      "examples",
+      "practice",
+      "practical",
+      "outline",
+      "objective",
+      "objectives",
+      "hard listening",
+      "not well explained"
+    ],
+    "Learning Resources & Environment": [
+      "resource",
+      "resources",
+      "lack of resources",
+      "learning source",
+      "learning sources",
+      "materials",
+      "lack of materials",
+      "insufficient material",
+      "limited video",
+      "video resources",
+      "outdated",
+      "update",
+      "up to date",
+      "not update",
+      "record video",
+      "recording video",
+      "study space",
+      "study place",
+      "space for studying",
+      "environment",
+      "learning environment",
+      "classroom",
+      "room",
+      "comfortable room",
+      "comfortable rooms",
+      "air conditioner",
+      "air conditioning",
+      "quiet",
+      "noise",
+      "home",
+      "school",
+      "university",
+      "facility",
+      "facilities",
+      "lab",
+      "labs",
+      "library",
+      "comfortable environment",
+      "proper place",
+      "place to study",
+      "platform layout",
+      "ui",
+      "interface",
+      "navigation",
+      "homepage",
+      "course organization",
+      "organized",
+      "unorganized"
+    ],
+    "Assessment & Workload": [
+      "assignment",
+      "assignments",
+      "homework",
+      "quiz",
+      "quizzes",
+      "exam",
+      "exams",
+      "test",
+      "deadline",
+      "deadlines",
+      "workload",
+      "overload",
+      "overloaded",
+      "double workload",
+      "double burden",
+      "extra burden",
+      "task",
+      "tasks",
+      "project",
+      "projects",
+      "submission",
+      "submissions",
+      "workload balance",
+      "too many files",
+      "too many assignments",
+      "heavy workload",
+      "overwhelming",
+      "time limit",
+      "schedule",
+      "timetable",
+      "overlapping",
+      "information overload"
+    ]
+  },
+  "theme_to_recommendation_map": {
+    "Internet & Technical Issues": "tech_issue",
+    "Motivation & Self-Discipline": "motivation",
+    "Interaction & Communication": "interaction",
+    "Learning Difficulty & Clarity": "learning_support",
+    "Learning Resources & Environment": "learning_environment",
+    "Assessment & Workload": "workload_support",
+    "Flexibility & Time Management": "self_paced",
+    "Access to Learning Materials": "content_access",
+    "Digital Skills Development": "digital_skill",
+    "Student Engagement": "engagement",
+    "Learning Convenience & Effectiveness": "learning_effectiveness"
+  },
+  "drop_columns": [
+    "This note can be read out loud",
+    "👋 😊 📢 Welcome! You are invited to participate in a research survey on blended learning. Blended learning is an educational approach that combines traditional face-to-face classroom methods with online learning activities. This survey aims to understand your experiences and perceptions to help improve this learning method for greater efficiency and flexibility. The survey is anonymous and will take approximately 10-15 minutes to complete. Your participation is greatly appreciated.",
+    "5. In which province are you currently studying?",
+    "Please specify",
+    "province_auto",
+    "Please specify.1",
+    "Please specify.2",
+    "Please specify other faculty or college",
+    "Please specify.3",
+    "Please specify.4",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/Other, Please specify:",
+    "Please specify:",
+    "For the following questions, please rate your experience based on this scale:",
+    "22.  How often do you use the following learning materials?",
+    "Please specify.5",
+    "Please indicate your level of agreement with the following statements.",
+    "Please indicate your level of agreement with the following statements..1",
+    "🙏​ Thank you for your valuable time and contribution to this research! Your responses are greatly appreciated.",
+    "_uuid",
+    "_validation_status",
+    "_notes",
+    "_status",
+    "_submitted_by",
+    "__version__",
+    "_tags",
+    "meta/rootUuid",
+    "_id",
+    "_submission_time",
+    "_index",
+    "6. Student ID (if applicable):"
+  ],
+  "rename_map": {
+    "start": "survey_start",
+    "end": "survey_end",
+    "1. Please provide your gender:": "gender",
+    "2. What's your age?": "age",
+    "3. Are you an ITC student?": "is_itc_student",
+    "4. Which ITC campus are you currently studying at?": "itc_campus",
+    "final_province": "province",
+    "6. ITC Student ID:": "itc_student_id",
+    "7. What is your current level of education?": "education_level",
+    "8. Which department do you belong to?": "department",
+    "9. Which faculty or college are you currently enrolled in?": "faculty",
+    "10. Which academic year does this study period belong to?": "academic_year",
+    "11. What is your field of study / major?": "major",
+    "12. What is your current enrollment status?": "enrollment_status",
+    "13. Are your responses based on your experience during the selected academic year?": "responses_based_on_year",
+    "14. Which digital devices do you primarily use for learning? (Select all that apply)": "devices_used_raw",
+    "14. Which digital devices do you primarily use for learning? (Select all that apply)/Mobile Phone": "device_mobile",
+    "14. Which digital devices do you primarily use for learning? (Select all that apply)/Tablet (e.g., iPad, Samsung Galaxy Tab, Huawei MatePad,etc.)": "device_tablet",
+    "14. Which digital devices do you primarily use for learning? (Select all that apply)/Laptop": "device_laptop",
+    "14. Which digital devices do you primarily use for learning? (Select all that apply)/Desktop PC": "device_desktop",
+    "14. Which digital devices do you primarily use for learning? (Select all that apply)/Other": "device_other",
+    "15. What type of internet connection do you use most often for learning?  (Select all that apply)": "internet_used_raw",
+    "15. What type of internet connection do you use most often for learning?  (Select all that apply)/Mobile Data": "inet_mobile_data",
+    "15. What type of internet connection do you use most often for learning?  (Select all that apply)/Home WIFI": "inet_home_wifi",
+    "15. What type of internet connection do you use most often for learning?  (Select all that apply)/Public WIFI": "inet_public_wifi",
+    "15. What type of internet connection do you use most often for learning?  (Select all that apply)/University WIFI": "inet_university_wifi",
+    "16. How many hours per day do you spend on social media (e.g., Facebook, TikTok)?": "social_media_hours",
+    "17. How often do you experience technical issues (e.g., internet disruption, software problems, device malfunction) that interfere with your online learning?": "tech_issues_freq",
+    "18. How user-friendly is the Learning Management System (LMS) provided by your institution (e.g., Moodle, Canvas, Google Classroom)?": "lms_usability",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)": "missed_solution_raw",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/Request the professor to resend the announcement.": "miss_resend_announcement",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/Request recording the class session video to review later.": "miss_request_recording",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/Reach out to classmates or group chats to get updates.": "miss_ask_classmates",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/Schedule a one-on-one session with the teacher .": "miss_one_on_one",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/Ask for extra time or deadline extension.": "miss_deadline_extension",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/Figure out missed points by myself (reading documents/research).": "miss_self_study",
+    "19. If you miss an online lecture or activity due to poor internet access, what do you typically do?  (Select all you agree with)/I don't really pay attention (sometimes friends remind me).": "miss_ignore",
+    "20. How helpful do you find recorded video lectures for your learning?": "video_helpfulness",
+    "21.\t To what extent has blended learning improved your digital literacy skills (e.g., using new software, online collaboration tools, managing digital files)?": "digital_literacy_improvement",
+    "Lecture Slides (PDF, PowerPoint)": "use_lecture_slides",
+    "Recorded Video Lectures": "use_video_lectures",
+    "Interactive Quizzes and Exercises": "use_quizzes",
+    "Online Articles and Journals": "use_articles",
+    "Discussion Forums (Moodle, etc.)": "use_forums",
+    "Simulations or Virtual Labs": "use_simulations",
+    "23. How often do you actively participate in online discussions or forums?": "online_discussion_participation",
+    "24. How often do you collaborate with peers online for group projects or study sessions?": "peer_collaboration",
+    "25. I feel comfortable asking questions or seeking help in an online learning environment.": "comfort_asking_questions",
+    "26. I feel a sense of community with my classmates in the online portions of my courses.": "sense_of_community",
+    "27. The online and face-to-face components of my courses are well-integrated.": "integration_quality",
+    "Flexibility in learning pace": "benefit_flexibility",
+    "Variety of learning materials": "benefit_variety",
+    "Access to recorded lectures": "benefit_recorded_access",
+    "More time for self-study": "benefit_self_study_time",
+    "Better balance between personal and academic life": "benefit_life_balance",
+    "Development of self-directed learning skills": "benefit_self_directed",
+    "29. Overall, blended learning helps me understand the subject matter better.": "overall_understanding",
+    "30. What challenges do you face in blended learning? (Select all that apply)": "challenges_raw",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Internet connectivity issues.": "ch_internet",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Difficulty understanding content without direct instructor support.": "ch_no_instructor_support",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Lack of motivation and self-discipline.": "ch_motivation",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Limited interaction with classmates.": "ch_limited_interaction",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Difficulty managing time between online and face-to-face schedules.": "ch_time_management",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Feeling isolated.": "ch_isolation",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Misunderstanding assignments or announcements.": "ch_misunderstanding",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Delayed feedback from instructors.": "ch_delayed_feedback",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Difficulty asking questions in online class.": "ch_asking_questions",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Information overload.": "ch_info_overload",
+    "30. What challenges do you face in blended learning? (Select all that apply)/Other": "ch_other",
+    "31. The lecturers provide clear instructions for online activities.": "lect_clear_instructions",
+    "32. The lecturers are responsive and supportive.": "lect_responsive",
+    "33. The lecturers use diverse digital tools to make learning engaging.": "lect_diverse_tools",
+    "34. The lecturers provide timely feedback on assignments and questions.": "lect_timely_feedback",
+    "35. The lecturers effectively foster interaction among students.": "lect_foster_interaction",
+    "36. I prioritize my assignments and tasks based on deadlines.": "self_prioritize_deadlines",
+    "37. I create and follow a personal study schedule.": "self_study_schedule",
+    "38. I actively prepare for class by reviewing materials beforehand.": "self_prepare_class",
+    "39. I take responsibility for my own learning outcomes.": "self_responsibility",
+    "40. How satisfied are you with the blended learning approach at your institution?": "overall_satisfaction",
+    "41. To what extent do you agree that blended learning prepares you well for your future career?": "career_preparation",
+    "42. What is your ideal balance between online and face-to-face components in a blended course?": "ideal_balance",
+    "43. Would you prefer to take more blended learning courses in the future?": "prefer_more_blended",
+    "44. In your opinion, what are the biggest *strengths* or most positive aspects of the blended learning approach?": "open_strengths",
+    "45. What are your biggest *challenges* with blended learning, and what specific suggestions do you have for the university and lecturers to improve it?": "open_challenges_suggestions"
+  },
+  "pretty_print_columns": {
+    "student_id": "Student ID",
+    "age": "Age",
+    "survey_start": "Survey Start Time",
+    "survey_end": "Survey End Time",
+    "duration_minutes": "Completion Time (min)",
+    "flag_speeder": "Speeder Flag",
+    "flag_id_anomaly": "ID Anomaly Flag",
+    "open_strengths": "Perceived Strengths (Open)",
+    "open_challenges_suggestions": "Challenges & Suggestions (Open)",
+    "gender": "Gender",
+    "is_itc_student": "ITC Student",
+    "education_level": "Education Level",
+    "major": "Major",
+    "department": "Department",
+    "faculty": "Faculty",
+    "province": "Province",
+    "itc_campus": "ITC Campus",
+    "academic_year": "Academic Year",
+    "enrollment_status": "Enrollment Status",
+    "responses_based_on_year": "Responses Based on Year",
+    "ideal_balance": "Ideal Blended Learning Balance",
+    "prefer_more_blended": "Preference for More Blended Learning",
+    "social_media_hours": "Daily Social Media Usage (hrs)",
+    "video_helpfulness": "Video Helpfulness",
+    "digital_literacy_improvement": "Digital Literacy Improvement",
+    "tech_issues_freq": "Frequency of Technical Issues",
+    "lms_usability": "LMS Usability",
+    "use_lecture_slides": "Use of Lecture Slides",
+    "use_video_lectures": "Use of Video Lectures",
+    "use_quizzes": "Use of Online Quizzes",
+    "use_articles": "Use of Reading Materials",
+    "use_forums": "Use of Discussion Forums",
+    "use_simulations": "Use of Interactive Simulations",
+    "online_discussion_participation": "Online Discussion Participation",
+    "peer_collaboration": "Peer Collaboration",
+    "comfort_asking_questions": "Comfort Asking Questions",
+    "sense_of_community": "Sense of Community",
+    "integration_quality": "Online-Offline Integration Quality",
+    "benefit_flexibility": "Flexibility",
+    "benefit_variety": "Variety of Learning Methods",
+    "benefit_recorded_access": "Access to Recorded Materials",
+    "benefit_self_study_time": "Self-Study Time",
+    "benefit_life_balance": "Life Balance",
+    "benefit_self_directed": "Self-Directed Learning",
+    "overall_understanding": "Overall Understanding",
+    "overall_satisfaction": "Overall Satisfaction",
+    "career_preparation": "Career Preparation",
+    "lect_clear_instructions": "Clear Instructions",
+    "lect_responsive": "Lecturer Responsiveness",
+    "lect_diverse_tools": "Use of Diverse Tools",
+    "lect_timely_feedback": "Timely Feedback",
+    "lect_foster_interaction": "Encourages Interaction",
+    "self_prioritize_deadlines": "Prioritising Deadlines",
+    "self_study_schedule": "Study Schedule",
+    "self_prepare_class": "Preparation Before Class",
+    "self_responsibility": "Learning Responsibility",
+    "device_mobile": "Uses Mobile Phone",
+    "device_tablet": "Uses Tablet",
+    "device_laptop": "Uses Laptop",
+    "device_desktop": "Uses Desktop Computer",
+    "device_other": "Uses Other Device",
+    "inet_mobile_data": "Uses Mobile Data",
+    "inet_home_wifi": "Uses Home Wi-Fi",
+    "inet_public_wifi": "Uses Public Wi-Fi",
+    "inet_university_wifi": "Uses University Wi-Fi",
+    "miss_resend_announcement": "Request Resent Announcement",
+    "miss_request_recording": "Request Recording",
+    "miss_ask_classmates": "Ask Classmates",
+    "miss_one_on_one": "Seek One-on-One Support",
+    "miss_deadline_extension": "Request Deadline Extension",
+    "miss_self_study": "Self-Study",
+    "miss_ignore": "Ignore / Do Nothing",
+    "miss_other": "Other",
+    "ch_internet": "Internet Connectivity",
+    "ch_no_instructor_support": "Lack of Instructor Support",
+    "ch_motivation": "Maintaining Motivation",
+    "ch_limited_interaction": "Limited Interaction",
+    "ch_time_management": "Time Management",
+    "ch_isolation": "Feeling of Isolation",
+    "ch_misunderstanding": "Misunderstanding Content",
+    "ch_delayed_feedback": "Delayed Feedback",
+    "ch_asking_questions": "Difficulty Asking Questions",
+    "ch_info_overload": "Information Overload",
+    "ch_other": "Other"
+  },
+  "student_id_pattern": "^[eE]\\d{7,9}([A-Za-z]{2,3})?$|^[pP]\\d{7,9}$|^[mM]\\d{6}$|^kpe\\d{8,9}$|^tk\\d{8,9}$",
+  "speeder_threshold_minutes": 3,
+  "data_collection": {
+    "kobo": {
+      "env": {
+        "base_url": "KOBO_BASE_URL",
+        "token": "KOBO_TOKEN",
+        "asset_uid": "KOBO_ASSET_UID"
+      },
+      "export_settings_endpoint": "/api/v2/assets/{asset_uid}/export-settings/",
+      "preferred_export_key": "data_url_xlsx",
+      "request_timeout_seconds": {
+        "export_settings": 30,
+        "download": 120
+      },
+      "excel_read_options": {
+        "engine": "openpyxl",
+        "dtype": "str",
+        "keep_default_na": false,
+        "na_filter": false
+      },
+      "output": {
+        "raw_dir": "data/raw",
+        "archive_dir": "data/archive",
+        "processed_dir": "data/processed",
+        "latest_parquet": "kobo_latest_raw.parquet",
+        "latest_xlsx": "kobo_latest_raw.xlsx",
+        "archive_prefix": "kobo_raw",
+        "timestamp_format": "%Y%m%d_%H%M%S"
+      }
+    }
+  },
+  "preprocessing": {
+    "io": {
+      "input_path": "data/raw/kobo_latest_raw.xlsx",
+      "output_cleaned_path": "data/processed/cleaned_data.csv",
+      "read_excel_options": {
+        "engine": "openpyxl"
+      },
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "valid_response": {
+      "column": "responses_based_on_year",
+      "accepted_values": [
+        "yes"
+      ]
+    },
+    "response_time": {
+      "start_column": "survey_start",
+      "end_column": "survey_end",
+      "output_column": "response_time_minutes",
+      "unit": "minutes"
+    },
+    "student_id": {
+      "source_column": "itc_student_id",
+      "valid_flag_column": "is_itc_student",
+      "output_column": "student_id",
+      "pattern_config_key": "student_id_pattern",
+      "external_prefix": "ext_",
+      "external_uuid_length": 10,
+      "missing_tokens": [
+        "",
+        "nan",
+        "none",
+        "null"
+      ]
+    },
+    "duplicates": {
+      "subset_column": "itc_student_id",
+      "sort_column": "response_time_minutes",
+      "ascending": true,
+      "keep": "first"
+    },
+    "categorical_standardization": {
+      "title_case_columns": [
+        "gender"
+      ],
+      "replace_then_title_case": {
+        "province": {
+          "old": "_",
+          "new": " "
+        }
+      },
+      "strip_columns": [
+        "enrollment_status",
+        "academic_year",
+        "education_level",
+        "major",
+        "department",
+        "faculty"
+      ]
+    },
+    "speeder": {
+      "output_column": "flag_speeder",
+      "threshold_minutes": 3
+    },
+    "ordinal_encoding": {
+      "column_scales_config_key": "ordinal_column_scales",
+      "scales_config_key": "scales",
+      "warn_unmapped": true
+    },
+    "pipeline_steps": [
+      "drop_columns",
+      "rename_columns",
+      "remove_invalid_responses",
+      "compute_response_time",
+      "verify_student_itc",
+      "remove_duplicates",
+      "standardise_categoricals",
+      "flag_speeder",
+      "encode_ordinals"
+    ]
+  },
+  "eda": {
+    "io": {
+      "input_path_key": "output_cleaned_path",
+      "read_csv_options": {}
+    },
+    "random_state": 42,
+    "data_quality": {
+      "columns": {
+        "faculty": "faculty",
+        "department": "department",
+        "duration": "response_time_minutes",
+        "speeder_flag": "flag_speeder",
+        "itc_flag": "is_itc_student"
+      },
+      "duration_upper_hours": 24,
+      "typical_duration_quantile": 0.95,
+      "top_missing_n": 15
+    },
+    "likert": {
+      "scale_min": 1,
+      "scale_max": 5,
+      "hist_bin_start": 0.5,
+      "hist_bin_stop": 6,
+      "hist_bin_step": 1,
+      "facet_columns": 5
+    },
+    "ordinal_orders": {
+      "social_media_hours": [
+        "Less than 1 hour",
+        "1 Hour",
+        "2 hours",
+        "3 hours",
+        "4 hours",
+        "More than 5 hours"
+      ],
+      "academic_year": [
+        "Year 1 - Freshman",
+        "Year 2 - Sophomore",
+        "Year 3 - Junior",
+        "Year 4 - Senior",
+        "Year 5 - Final Year",
+        "Master",
+        "PHD",
+        "Other"
+      ],
+      "prefer_more_blended": [
+        "No",
+        "Neutral/Unsure",
+        "Yes"
+      ]
+    },
+    "plotting": {
+      "missing_matrix_figsize": [
+        14,
+        6
+      ],
+      "missing_bar_figsize": [
+        14,
+        6
+      ],
+      "missing_heatmap_figsize": [
+        12,
+        8
+      ],
+      "ordinal_missing_figsize": [
+        12,
+        5
+      ],
+      "default_dpi": 120,
+      "top_category_n": 12,
+      "top_missing_n": 15,
+      "top_major_n": 8,
+      "wrap_width_short": 18,
+      "wrap_width_medium": 28,
+      "wrap_width_long": 34,
+      "default_plot_color": "#4c72b0"
+    },
+    "columns": {
+      "gender": "gender",
+      "age": "age",
+      "education_level": "education_level",
+      "enrollment_status": "enrollment_status",
+      "department": "department",
+      "major": "major",
+      "academic_year": "academic_year",
+      "province": "province",
+      "itc_campus": "itc_campus",
+      "ideal_balance": "ideal_balance",
+      "prefer_more_blended": "prefer_more_blended",
+      "overall_satisfaction": "overall_satisfaction"
+    },
+    "technology_access": {
+      "device_group": "devices",
+      "internet_group": "internet_access",
+      "device_order": [
+        "device_laptop",
+        "device_mobile",
+        "device_tablet",
+        "device_desktop",
+        "device_other"
+      ],
+      "device_labels": {
+        "device_laptop": "Laptop",
+        "device_mobile": "Mobile Phone",
+        "device_tablet": "Tablet",
+        "device_desktop": "Desktop",
+        "device_other": "Other"
+      },
+      "internet_order": [
+        "inet_mobile_data",
+        "inet_university_wifi",
+        "inet_home_wifi",
+        "inet_public_wifi"
+      ],
+      "internet_labels": {
+        "inet_mobile_data": "Mobile Data",
+        "inet_university_wifi": "University WiFi",
+        "inet_home_wifi": "Home WiFi",
+        "inet_public_wifi": "Public WiFi"
+      },
+      "social_media_numeric_map": {
+        "Less than 1 hour": 1,
+        "1 Hour": 2,
+        "2 hours": 3,
+        "3 hours": 4,
+        "4 hours": 5,
+        "More than 5 hours": 6
+      },
+      "heavy_social_media_min_score": 5
+    },
+    "non_itc_profile": {
+      "panels": [
+        [
+          "gender",
+          "Gender"
+        ],
+        [
+          "education_level",
+          "Education Level"
+        ],
+        [
+          "major",
+          "Field of Study"
+        ],
+        [
+          "academic_year",
+          "Academic Year"
+        ],
+        [
+          "province",
+          "Province"
+        ],
+        [
+          "age",
+          "Age"
+        ]
+      ],
+      "top_category_n": 8
+    },
+    "bivariate": {
+      "rating_col": "overall_satisfaction",
+      "education_order": [
+        "Year1 - Freshman",
+        "Year2 - Sophomore",
+        "Year3 - Junior",
+        "Year4 - Senior",
+        "Year5 - Final Year",
+        "Master",
+        "PHD",
+        "Other"
+      ],
+      "prefer_blended_order": [
+        "Yes",
+        "Neutral/Unsure",
+        "No"
+      ],
+      "ideal_balance_order": [
+        "Mostly Face-to-Face (e.g., 80% In-person, 20% Online)",
+        "More Face-to-Face than Online (e.g., 60% In-person, 40% Online)",
+        "Balanced Half and Half (50% In-person, 50% Online)",
+        "More Online than Face-to-Face (e.g., 40% In-person, 60% Online)",
+        "Mostly Online (e.g., 20% In-person, 80% Online)",
+        "80% F2F 20% Online",
+        "60% F2F 40% Online",
+        "50/50",
+        "40% F2F 60% Online",
+        "20% F2F 80% Online"
+      ],
+      "ideal_balance_label_map": {
+        "Mostly Face-to-Face (e.g., 80% In-person, 20% Online)": "Mostly Face-to-Face\n(80% In-person, 20% Online)",
+        "More Face-to-Face than Online (e.g., 60% In-person, 40% Online)": "More Face-to-Face\n(60% In-person, 40% Online)",
+        "Balanced Half and Half (50% In-person, 50% Online)": "Balanced 50/50",
+        "More Online than Face-to-Face (e.g., 40% In-person, 60% Online)": "More Online\n(40% In-person, 60% Online)",
+        "Mostly Online (e.g., 20% In-person, 80% Online)": "Mostly Online\n(20% In-person, 80% Online)",
+        "80% F2F 20% Online": "Mostly Face-to-Face\n(80% F2F, 20% Online)",
+        "60% F2F 40% Online": "More Face-to-Face\n(60% F2F, 40% Online)",
+        "50/50": "Balanced 50/50",
+        "40% F2F 60% Online": "More Online\n(40% F2F, 60% Online)",
+        "20% F2F 80% Online": "Mostly Online\n(20% F2F, 80% Online)"
+      },
+      "face_to_face_patterns": [
+        "Mostly Face-to-Face",
+        "More Face-to-Face",
+        "80% F2F",
+        "60% F2F"
+      ]
+    },
+    "group_comparison": {
+      "itc_flag_col": "is_itc_student",
+      "group_col": "itc_group",
+      "labels": {
+        "itc": "ITC",
+        "non_itc": "Non-ITC",
+        "unknown": "Unknown"
+      },
+      "challenge_group": "challenges",
+      "key_outcomes": [
+        [
+          "overall_satisfaction",
+          "Overall Satisfaction"
+        ],
+        [
+          "overall_understanding",
+          "Overall Understanding"
+        ],
+        [
+          "career_preparation",
+          "Career Preparation"
+        ],
+        [
+          "lect_foster_interaction",
+          "Lecturer Interaction"
+        ],
+        [
+          "self_responsibility",
+          "Self Responsibility"
+        ],
+        [
+          "sense_of_community",
+          "Sense of Community"
+        ]
+      ],
+      "palette": {
+        "ITC": "#2980b9",
+        "Non-ITC": "#e67e22",
+        "Unknown": "#888888"
+      }
+    },
+    "correspondence_analysis": {
+      "pairs": [
+        [
+          "gender",
+          "education_level",
+          "Gender × Education Level"
+        ],
+        [
+          "gender",
+          "ideal_balance",
+          "Gender × Ideal Blend"
+        ],
+        [
+          "education_level",
+          "ideal_balance",
+          "Education Level × Ideal Blend"
+        ],
+        [
+          "education_level",
+          "prefer_more_blended",
+          "Education Level × Prefer More Blended"
+        ]
+      ],
+      "short_label_maxlen": 14,
+      "alpha": 0.05,
+      "layout": [
+        2,
+        2
+      ]
+    },
+    "correlation": {
+      "features": "ordinal_columns",
+      "method": "spearman",
+      "heatmap_width": 1400,
+      "heatmap_height": 1200,
+      "color_scale": "RdBu_r",
+      "zmin": -1,
+      "zmax": 1
+    },
+    "pca": {
+      "features": "ordinal_columns",
+      "variance_threshold": 0.8,
+      "biplot_components": 2,
+      "biplot_selected_vars": [
+        "online_discussion_participation",
+        "benefit_variety",
+        "benefit_flexibility"
+      ],
+      "biplot_label_map": {
+        "online_discussion_participation": "Online Discussion",
+        "benefit_variety": "Variety of Learning",
+        "benefit_flexibility": "Flexibility"
+      },
+      "biplot_offsets": {
+        "Online Discussion": [
+          0.2,
+          0.4
+        ],
+        "Variety of Learning": [
+          0.4,
+          -0.1
+        ],
+        "Flexibility": [
+          0.2,
+          -0.8
+        ]
+      },
+      "arrow_scale": 4.8,
+      "full_heatmap_max_components": 19,
+      "readable_heatmap_components": 2
+    },
+    "gower_hierarchical": {
+      "enabled": true,
+      "features_source": "ordinal_column_scales",
+      "output_cluster_column": "gower_cluster",
+      "random_state_key": "eda.random_state",
+      "scale_min": 1,
+      "scale_max": 5,
+      "missing_strategy": "median",
+      "distance": {
+        "method": "numeric_gower",
+        "chunk_size": 128
+      },
+      "hierarchical": {
+        "linkage_method": "average",
+        "criterion": "maxclust",
+        "k_range": [
+          2,
+          6
+        ],
+        "final_k": 2
+      },
+      "diagnostics": {
+        "metrics": [
+          "silhouette",
+          "largest_cluster_pct",
+          "smallest_cluster_pct"
+        ],
+        "cluster_sizes_column": "cluster_sizes"
+      },
+      "visualisation": {
+        "likert_distribution_figsize": [
+          8,
+          4.5
+        ],
+        "silhouette_figsize": [
+          8.5,
+          6
+        ],
+        "dendrogram_figsize": [
+          10,
+          4.8
+        ],
+        "dpi": 160,
+        "silhouette_dpi": 180,
+        "histogram_bins": [
+          0.5,
+          1.5,
+          2.5,
+          3.5,
+          4.5,
+          5.5
+        ]
+      },
+      "profile": {
+        "aggregation": "median",
+        "round_digits": 2,
+        "top_differences": 15,
+        "difference_label": "cluster_2_minus_cluster_1"
+      },
+      "interpretation_note": "Gower distance with hierarchical clustering is retained as an exploratory validation approach rather than the main segmentation model. The final thesis segmentation remains based on K-Modes because it is simpler to deploy and easier to align with categorical student profiles."
+    }
+  },
+  "reliability": {
+    "io": {
+      "input_path_key": "output_cleaned_path",
+      "output_dir": "data/processed/reliability",
+      "read_csv_options": {},
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "overall_construct_name": "Overall Likert-Scale Item Pool",
+    "constructs": {
+      "Learning Material Use": [
+        "use_lecture_slides",
+        "use_video_lectures",
+        "use_quizzes",
+        "use_articles",
+        "use_forums",
+        "use_simulations"
+      ],
+      "Engagement and Interaction": [
+        "online_discussion_participation",
+        "peer_collaboration",
+        "comfort_asking_questions",
+        "sense_of_community"
+      ],
+      "Course Integration and Learning Understanding": [
+        "integration_quality",
+        "overall_understanding"
+      ],
+      "Lecturer Support": [
+        "lect_clear_instructions",
+        "lect_responsive",
+        "lect_diverse_tools",
+        "lect_timely_feedback",
+        "lect_foster_interaction"
+      ],
+      "Self-Regulation": [
+        "self_prioritize_deadlines",
+        "self_study_schedule",
+        "self_prepare_class",
+        "self_responsibility"
+      ],
+      "Perceived Benefits": [
+        "benefit_flexibility",
+        "benefit_variety",
+        "benefit_recorded_access",
+        "benefit_self_study_time",
+        "benefit_life_balance",
+        "benefit_self_directed"
+      ],
+      "Digital Learning Readiness and Usability": [
+        "video_helpfulness",
+        "digital_literacy_improvement",
+        "lms_usability"
+      ],
+      "Learning Outcome and Future Readiness": [
+        "overall_satisfaction",
+        "career_preparation"
+      ]
+    },
+    "overall_likert_items": [
+      "video_helpfulness",
+      "digital_literacy_improvement",
+      "use_lecture_slides",
+      "use_video_lectures",
+      "use_quizzes",
+      "use_articles",
+      "use_forums",
+      "use_simulations",
+      "online_discussion_participation",
+      "peer_collaboration",
+      "comfort_asking_questions",
+      "sense_of_community",
+      "integration_quality",
+      "benefit_flexibility",
+      "benefit_variety",
+      "benefit_recorded_access",
+      "benefit_self_study_time",
+      "benefit_life_balance",
+      "benefit_self_directed",
+      "overall_understanding",
+      "lect_clear_instructions",
+      "lect_responsive",
+      "lect_diverse_tools",
+      "lect_timely_feedback",
+      "lect_foster_interaction",
+      "self_prioritize_deadlines",
+      "self_study_schedule",
+      "self_prepare_class",
+      "self_responsibility",
+      "overall_satisfaction",
+      "career_preparation",
+      "tech_issues_freq",
+      "lms_usability"
+    ],
+    "reverse_coding": {
+      "tech_issues_freq": {
+        "output_column": "tech_issues_freq_reversed",
+        "min_value": 1,
+        "max_value": 5,
+        "description": "Reverse-coded because higher original values indicate more frequent technical issues."
+      }
+    },
+    "alpha_interpretation_thresholds": [
+      {
+        "min": 0.9,
+        "label": "Excellent"
+      },
+      {
+        "min": 0.8,
+        "label": "Good"
+      },
+      {
+        "min": 0.7,
+        "label": "Acceptable"
+      },
+      {
+        "min": 0.6,
+        "label": "Questionable / moderate"
+      },
+      {
+        "min": null,
+        "label": "Low / questionable"
+      }
+    ],
+    "alpha_if_item_deleted": {
+      "enabled": true,
+      "minimum_items": 3,
+      "overall_filename": "alpha_if_item_deleted_overall_33_items.csv",
+      "construct_filename_prefix": "alpha_if_item_deleted_",
+      "skipped_constructs_filename": "alpha_if_item_deleted_skipped_constructs.csv",
+      "interpretation_filename": "alpha_if_item_deleted_interpretation.csv",
+      "decision_thresholds": {
+        "clear_improvement": 0.02,
+        "small_increase": 0.005,
+        "very_small_increase": 0.0
+      }
+    },
+    "outputs": {
+      "results_csv": "cronbach_alpha_results.csv",
+      "results_latex": "cronbach_alpha_table.tex"
+    },
+    "latex": {
+      "caption": "Cronbach's Alpha Reliability Results for Likert-Scale Constructs",
+      "label": "tab:cronbach-alpha",
+      "column_format": "lcccl",
+      "float_format": "%.3f",
+      "escape": false
+    }
+  },
+  "segmentation": {
+    "io": {
+      "input_path_key": "output_cleaned_path",
+      "output_cluster_path_key": "output_cluster_path",
+      "read_csv_options": {},
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "feature_sources": {
+      "cluster_vars_key": "ordinal_column_scales",
+      "multi_groups_key": "multi_select_cols",
+      "pretty_label_key": "pretty_print_columns"
+    },
+    "random_state": 42,
+    "kmodes": {
+      "elbow_k_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "diagnostic_k_values": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "elbow_n_runs": 10,
+      "diagnostic_n_runs": 10,
+      "candidate_n_init": 5,
+      "final_k": 2,
+      "final_init": "Huang",
+      "final_n_init": 10,
+      "final_random_state": 43,
+      "init_for_k1": "Cao",
+      "init_default": "Huang",
+      "label_offset": 1,
+      "input_dtype": "Int64",
+      "missing_policy": "raise",
+      "model_input_type": "categorical strings"
+    },
+    "gmm": {
+      "k_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "plot_min_k": 2,
+      "final_k": 2,
+      "covariance_type": "full",
+      "n_init": 10,
+      "stability_n_init": 3,
+      "max_iter": 500,
+      "confidence_thresholds": {
+        "high": 0.9,
+        "ambiguous": 0.6
+      },
+      "extra_component_check_k": 4
+    },
+    "stability": {
+      "n_runs": 30,
+      "seed_step": 7,
+      "nmi_threshold": 0.8
+    },
+    "segment_labels": {
+      "id_column": "student_segment",
+      "label_column": "student_segment_label",
+      "positive_label": "Highly Engaged (Active) Learners",
+      "moderate_label": "Moderately Engaged (Passive) Learners",
+      "low_label": "Low Engaged Learners",
+      "middle_label": "Moderately Engaged Learners",
+      "negative_vars": [
+        "tech_issues_freq"
+      ],
+      "reverse_score_min": 1,
+      "reverse_score_max": 5,
+      "preferred_order": [
+        "Moderately Engaged (Passive) Learners",
+        "Highly Engaged (Active) Learners",
+        "Low Engaged Learners",
+        "Moderately Engaged Learners"
+      ],
+      "saved_label_template": "{segment_label}",
+      "axis_label_template": "{segment_label}"
+    },
+    "profiling": {
+      "age_col": "age",
+      "categorical_vars": [
+        "gender",
+        "education_level",
+        "department",
+        "itc_campus",
+        "prefer_more_blended",
+        "ideal_balance",
+        "enrollment_status"
+      ],
+      "ordinal_vars": [
+        "social_media_hours",
+        "academic_year"
+      ],
+      "multi_select_groups": [
+        "challenges",
+        "devices"
+      ],
+      "modal_profile_heatmap": {
+        "figsize": [
+          16,
+          5.6
+        ],
+        "dpi": 200,
+        "cmap": "Blues",
+        "vmin": 1,
+        "vmax": 5,
+        "cbar_label": "Modal item score"
+      }
+    },
+    "satisfaction_bin": {
+      "source_col": "overall_satisfaction",
+      "output_col": "sat_bin",
+      "bins": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "labels": [
+        "Low (1-2)",
+        "Medium (3)",
+        "High (4-5)"
+      ],
+      "categories": [
+        "Low (1-2)",
+        "Medium (3)",
+        "High (4-5)"
+      ],
+      "include_lowest": true
+    },
+    "correspondence_analysis": {
+      "n_components": 2,
+      "n_iter": 10,
+      "engine": "sklearn",
+      "copy": true,
+      "short_label_maxlen": 18,
+      "pairs": [
+        [
+          "student_segment_label",
+          "gender",
+          "Student Segment × Gender"
+        ],
+        [
+          "student_segment_label",
+          "education_level",
+          "Student Segment × Education Level"
+        ],
+        [
+          "student_segment_label",
+          "ideal_balance",
+          "Student Segment × Ideal Blend"
+        ],
+        [
+          "student_segment_label",
+          "prefer_more_blended",
+          "Student Segment × Prefer More Blended"
+        ],
+        [
+          "student_segment_label",
+          "sat_bin",
+          "Student Segment × Satisfaction"
+        ]
+      ]
+    },
+    "bar_charts": {
+      "variables": [
+        [
+          "sat_bin",
+          "Satisfaction"
+        ],
+        [
+          "ideal_balance",
+          "Ideal Blended Learning Balance"
+        ],
+        [
+          "prefer_more_blended",
+          "Preference for More Blended Learning"
+        ]
+      ],
+      "display_maps": {
+        "sat_bin": {
+          "Low (1-2)": "Low",
+          "Medium (3)": "Medium",
+          "High (4-5)": "High"
+        },
+        "ideal_balance": {
+          "Balanced Half and Half (50% In-person, 50% Online)": "Balanced 50/50",
+          "More Face-to-Face than Online (e.g., 60% In-person, 40% Online)": "More F2F (60/40)",
+          "More Online than Face-to-Face (e.g., 40% In-person, 60% Online)": "More Online (40/60)",
+          "Mostly Face-to-Face (e.g., 80% In-person, 20% Online)": "Mostly F2F (80/20)",
+          "Mostly Online (e.g., 20% In-person, 80% Online)": "Mostly Online (20/80)"
+        },
+        "prefer_more_blended": {
+          "Neutral/Unsure": "Neutral",
+          "No": "No",
+          "Yes": "Yes"
+        }
+      },
+      "segment_color_map": {
+        "Moderately Engaged (Passive) Learners": "#e74c3c",
+        "Highly Engaged (Active) Learners": "#54C571",
+        "Low Engaged Learners": "#95a5a6",
+        "Moderately Engaged Learners": "#f39c12"
+      },
+      "default_color": "#3498db",
+      "figsize": [
+        17,
+        5.2
+      ],
+      "dpi": 200,
+      "min_bar_label_percent": 8
+    },
+    "pca_visualisation": {
+      "n_components_2d": 2,
+      "n_components_3d": 3,
+      "scatter_size": 22,
+      "alpha": 0.6,
+      "figsize_2d_single": [
+        7,
+        5
+      ],
+      "figsize_2d_comparison": [
+        13,
+        5
+      ],
+      "figsize_3d_comparison": [
+        15,
+        6
+      ],
+      "dpi": 200,
+      "cluster_palette": {
+        "Moderately Engaged (Passive) Learners": "#e74c3c",
+        "Highly Engaged (Active) Learners": "#2ecc71",
+        "Low Engaged Learners": "#95a5a6",
+        "Moderately Engaged Learners": "#f39c12"
+      }
+    },
+    "model_output": {
+      "model_dir": "models",
+      "kmodes_model_filename": "kmodes_model.pkl",
+      "feature_columns_filename": "kmodes_feature_columns.json",
+      "cluster_label_map_filename": "kmodes_cluster_label_map.json",
+      "preprocessing_info_filename": "kmodes_preprocessing_info.json",
+      "preprocessing_description": "K-Modes input preprocessing",
+      "preprocessing_steps": [
+        "Select the configured clustering features",
+        "Convert each feature to integer nullable dtype",
+        "Convert each feature to string",
+        "Pass the resulting array to kmodes_model.predict()",
+        "Add the configured label offset because the saved K-Modes model returns zero-based labels"
+      ]
+    }
+  },
+  "translation_preprocessing": {
+    "io": {
+      "input_path_key": "output_cluster_path",
+      "output_path": "data/processed/nlp_translated_responses.csv",
+      "read_csv_options": {},
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "columns": {
+      "selected_columns": [
+        "student_id",
+        "open_strengths",
+        "open_challenges_suggestions",
+        "student_segment",
+        "student_segment_label"
+      ],
+      "text_columns": [
+        "open_strengths",
+        "open_challenges_suggestions"
+      ],
+      "language_suffix": "_lang",
+      "translated_suffix": "_en"
+    },
+    "filtering": {
+      "require_complete_text": true,
+      "missing_tokens": [
+        "",
+        "nan",
+        "none",
+        "null"
+      ]
+    },
+    "language_detection": {
+      "regex": {
+        "khmer": "[\\u1780-\\u17FF]",
+        "english": "[A-Za-z]"
+      },
+      "labels": {
+        "empty": "empty",
+        "khmer": "kh",
+        "english": "en",
+        "mixed": "mixed",
+        "other": "other"
+      },
+      "summary_order": [
+        "kh",
+        "mixed",
+        "en",
+        "other"
+      ]
+    },
+    "translation": {
+      "languages_requiring_translation": [
+        "kh",
+        "mixed"
+      ],
+      "src_lang": "kh",
+      "tgt_lang": "eng",
+      "cache_enabled": true,
+      "fallback_to_original_on_empty_translation": false
+    },
+    "translate_kh_service": {
+      "env": {
+        "api_url": "TRANSLATE_KH_API_URL",
+        "username": "TRANSLATE_KH_USERNAME",
+        "password": "TRANSLATE_KH_PASSWORD"
+      },
+      "default_api_url": "https://www.translate.kh/api",
+      "timeout_seconds": 30,
+      "valid_langs": [
+        "kh",
+        "eng"
+      ]
+    },
+    "display": {
+      "preview_rows": 5,
+      "missing_preview_rows": 5,
+      "translation_preview_rows": 10,
+      "summary_separator_width": 60
+    }
+  },
+  "nlp": {
+    "io": {
+      "input_path": "data/processed/nlp_translated_responses.csv",
+      "output_path": "data/processed/student_recommendation_features.csv",
+      "read_csv_options": {
+        "encoding": "utf-8-sig"
+      },
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "columns": {
+      "text": {
+        "strength_source": "open_strengths_en",
+        "challenge_source": "open_challenges_suggestions_en",
+        "strength_clean": "open_strengths_clean",
+        "challenge_clean": "open_challenges_clean"
+      },
+      "cluster": "student_segment",
+      "cluster_label": "student_segment_label",
+      "export_columns": [
+        "student_id",
+        "student_segment",
+        "student_segment_label",
+        "cluster_label",
+        "open_strengths_en",
+        "open_challenges_suggestions_en",
+        "strength_sentiment_label",
+        "challenge_sentiment_label",
+        "strength_compound",
+        "challenge_compound",
+        "strength_themes",
+        "challenge_themes",
+        "strength_tags",
+        "challenge_tags",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "json_columns": [
+        "strength_themes",
+        "challenge_themes",
+        "strength_tags",
+        "challenge_tags",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ]
+    },
+    "text_cleaning": {
+      "lowercase": true,
+      "strip": true,
+      "whitespace_regex": "\\s+",
+      "punctuation_regex": "[^\\w\\s]",
+      "phrase_replacements": {
+        "face to face": "in_person",
+        "face-to-face": "in_person",
+        "face face": "in_person",
+        "self study": "self_study",
+        "self studying": "self_study",
+        "self learning": "self_learning",
+        "time management": "time_management",
+        "internet connection": "internet_connection",
+        "internet access": "internet_access",
+        "technical issues": "technical_issues",
+        "online learning": "online_learning",
+        "blended learning": "blended_learning",
+        "saving time": "save_time"
+      }
+    },
+    "stopwords": {
+      "include_sklearn_english": true,
+      "custom_stopwords_config_key": "custom_stopwords",
+      "expand_multiword_stopwords": true
+    },
+    "tfidf": {
+      "top_n_keywords": 20,
+      "ngram_range": [
+        2,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 0.9,
+      "cluster_theme_top_n_keywords": 30,
+      "cluster_keyword_top_n_keywords": 15
+    },
+    "theme_maps": {
+      "strength_config_key": "strength_theme_map",
+      "challenge_config_key": "challenge_theme_map",
+      "theme_to_recommendation_config_key": "theme_to_recommendation_map"
+    },
+    "cluster_analysis": {
+      "min_students_per_cluster": 2,
+      "sort_columns": [
+        "cluster",
+        "total_score"
+      ],
+      "sort_ascending": [
+        true,
+        false
+      ]
+    },
+    "tagging": {
+      "non_meaningful_responses": [
+        "",
+        "no",
+        "none",
+        "nothing",
+        "no comment",
+        "not sure",
+        "no idea",
+        "don t know",
+        "dont know",
+        "don t have",
+        "dont have",
+        "not yet",
+        "n a",
+        "na",
+        "nil",
+        "ok",
+        "okay",
+        "agree",
+        "all good",
+        "everything is good",
+        "it already great",
+        "nope",
+        "math",
+        "french",
+        "coding",
+        "sad",
+        "uyu",
+        "uu",
+        "nuh uhh",
+        "dunno yet"
+      ],
+      "segment_default_tags": [
+        {
+          "segment": "Moderately Engaged (Passive) Learners",
+          "match_any": [
+            "moderately engaged",
+            "passive"
+          ],
+          "tags": [
+            "motivation",
+            "interaction",
+            "learning_support",
+            "self_paced"
+          ]
+        },
+        {
+          "segment": "Highly Engaged (Active) Learners",
+          "match_any": [
+            "highly engaged",
+            "active"
+          ],
+          "tags": [
+            "content_access",
+            "engagement",
+            "digital_skill",
+            "self_paced"
+          ]
+        }
+      ],
+      "use_segment_fallback_when_nlp_tags_empty": true
+    },
+    "recommendation_rule_bank": {
+      "tech_issue": {
+        "title": "Improve technical access and reliability",
+        "recommendation": "Provide stable internet access, offline materials, clear platform instructions, and technical support."
+      },
+      "motivation": {
+        "title": "Support motivation and self-discipline",
+        "recommendation": "Use weekly check-ins, reminders, progress tracking, and structured study schedules."
+      },
+      "interaction": {
+        "title": "Increase interaction and communication",
+        "recommendation": "Add Q&A sessions, group discussion, peer collaboration, and faster lecturer feedback."
+      },
+      "learning_support": {
+        "title": "Improve clarity and learning support",
+        "recommendation": "Provide clearer instructions, examples, recorded explanations, and step-by-step learning guides."
+      },
+      "learning_environment": {
+        "title": "Improve learning resources and environment",
+        "recommendation": "Organize materials clearly, update resources, improve study spaces, and support classroom comfort."
+      },
+      "workload_support": {
+        "title": "Manage workload and assessment pressure",
+        "recommendation": "Balance assignments, clarify deadlines, and align online tasks with in-person sessions."
+      },
+      "self_paced": {
+        "title": "Support self-paced learning",
+        "recommendation": "Provide recorded lessons, weekly learning paths, and materials students can review at their own pace."
+      },
+      "content_access": {
+        "title": "Strengthen access to learning materials",
+        "recommendation": "Upload slides, videos, references, exercises, and course materials early."
+      },
+      "digital_skill": {
+        "title": "Develop digital learning skills",
+        "recommendation": "Provide guidance on LMS tools, online resources, digital research, and educational technologies."
+      },
+      "engagement": {
+        "title": "Increase learner engagement",
+        "recommendation": "Use quizzes, games, practical tasks, discussions, and interactive activities."
+      },
+      "learning_effectiveness": {
+        "title": "Improve learning effectiveness",
+        "recommendation": "Combine online review materials with in-person explanation, practice, and feedback."
+      }
+    },
+    "visualisation": {
+      "keyword_top_n": 15,
+      "theme_top_n": 10,
+      "cluster_keyword_top_n": 10,
+      "cluster_theme_top_n": 10,
+      "keyword_figsize": [
+        10,
+        6
+      ],
+      "theme_figsize": [
+        10,
+        6
+      ],
+      "cluster_theme_figsize": [
+        12,
+        6
+      ],
+      "heatmap_figsize": [
+        10,
+        7
+      ],
+      "heatmap_cmap": "Reds",
+      "titles": {
+        "strength_keywords": "Top Mentioned Strength Keywords / Phrases",
+        "challenge_keywords": "Top Mentioned Challenge / Suggestion Keywords / Phrases",
+        "strength_themes": "Most Important Strength Themes",
+        "challenge_themes": "Most Important Challenge / Suggestion Themes",
+        "cluster_strength_keywords": "Top Strength Keywords by Cluster",
+        "cluster_challenge_keywords": "Top Challenge / Suggestion Keywords by Cluster",
+        "cluster_strength_themes": "Strength Themes by Learner Cluster",
+        "cluster_challenge_themes": "Challenge / Suggestion Themes by Learner Cluster",
+        "cluster_strength_heatmap": "Strength Theme Intensity by Cluster",
+        "cluster_challenge_heatmap": "Challenge Theme Intensity by Cluster"
+      }
+    },
+    "display": {
+      "preview_rows": 10
+    },
+    "json_serialisation": {
+      "ensure_ascii": false
+    }
+  },
+  "llm": {
+    "io": {
+      "input_path": "data/processed/student_recommendation_features.csv",
+      "legacy_resume_csv": "data/processed/student_recommendation_reports.csv",
+      "clean_output_csv": "data/processed/student_recommendation_reports_clean.csv",
+      "store_csv": "data/processed/student_recommendation_reports_store.csv",
+      "current_output_csv": "data/processed/student_recommendation_reports_current.csv",
+      "read_csv_options": {
+        "encoding": "utf-8-sig"
+      },
+      "write_csv_options": {
+        "index": false,
+        "encoding": "utf-8-sig"
+      }
+    },
+    "openrouter": {
+      "env": {
+        "api_key": "OPENROUTER_API_KEY",
+        "model": "OPENROUTER_MODEL",
+        "base_url": "OPENROUTER_BASE_URL",
+        "app_title": "OPENROUTER_APP_TITLE",
+        "http_referer": "OPENROUTER_HTTP_REFERER"
+      },
+      "defaults": {
+        "model": "openai/gpt-oss-120b:free",
+        "base_url": "https://openrouter.ai/api/v1",
+        "app_title": "Blended Learning Prototype",
+        "http_referer": "http://localhost"
+      },
+      "prompt_path": "src/blended_learning/llm/prompts/student_recommendation_prompt.txt"
+    },
+    "generation": {
+      "clean_batch": {
+        "enabled": true,
+        "limit": null,
+        "resume": true,
+        "save_each_student": true,
+        "temperature": 0.3,
+        "max_tokens": 900
+      },
+      "incremental": {
+        "enabled": true,
+        "limit": null,
+        "temperature": 0.3,
+        "max_tokens": 900,
+        "save_after_each_new_student": true
+      }
+    },
+    "data": {
+      "student_id_column": "student_id",
+      "segment_label_column": "student_segment_label",
+      "report_column": "llm_recommendation_report",
+      "json_columns": [
+        "strength_themes",
+        "challenge_themes",
+        "strength_tags",
+        "challenge_tags",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "student_package_fields": [
+        "student_id",
+        "student_segment",
+        "student_segment_label",
+        "cluster_label",
+        "open_strengths_clean",
+        "open_challenges_clean",
+        "strength_sentiment_label",
+        "challenge_sentiment_label",
+        "strength_compound",
+        "challenge_compound",
+        "strength_themes",
+        "challenge_themes",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "list_default_fields": [
+        "strength_themes",
+        "challenge_themes",
+        "recommendation_tags",
+        "segment_default_tags",
+        "final_recommendation_tags",
+        "rule_based_recommendations"
+      ],
+      "output_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report"
+      ],
+      "store_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report",
+        "generation_source",
+        "generation_error",
+        "generated_at"
+      ]
+    },
+    "prompt_building": {
+      "task_instruction": "Create a personalized blended learning recommendation report for this student.",
+      "evidence_heading": "Student evidence:",
+      "rules": [
+        "Use only the provided evidence.",
+        "Do not invent facts.",
+        "Keep it concise.",
+        "Mention the student segment.",
+        "The rule-based recommendations are the source of truth.",
+        "If open-ended evidence is weak or empty, explain that the recommendation is based mainly on the segment profile."
+      ]
+    },
+    "fallback_report": {
+      "title": "# Personalized Blended Learning Recommendation Report",
+      "profile_heading": "## 1. Student Learning Profile",
+      "profile_template": "The student belongs to the **{segment}** profile.",
+      "strength_heading": "## 2. Main Strengths",
+      "challenge_heading": "## 3. Main Challenges",
+      "recommendation_heading": "## 4. Personalized Recommendations",
+      "action_plan_heading": "## 5. Short Action Plan",
+      "no_strength_text": "No clear strength theme was detected from the open-ended response.",
+      "no_challenge_text": "No clear challenge theme was detected from the open-ended response.",
+      "no_recommendation_text": "Use the student's segment profile to provide general blended learning support.",
+      "default_segment": "Unknown segment",
+      "action_plan_items": [
+        "Review learning materials regularly.",
+        "Follow a weekly study schedule.",
+        "Ask questions during in-person or online sessions.",
+        "Use available digital resources and recorded lessons for revision."
+      ]
+    },
+    "safety": {
+      "missing_api_key_source": "rule_based_fallback_no_api_key",
+      "missing_api_key_error": "OPENROUTER_API_KEY is not configured.",
+      "openrouter_success_source": "openrouter_llm",
+      "openrouter_error_source": "rule_based_fallback_openrouter_error",
+      "missing_openai_package_error": "The openai package is not installed, so OpenRouter generation is unavailable."
+    },
+    "saving": {
+      "timestamp_format": "%Y%m%d_%H%M%S",
+      "backup_prefix": ".backup_",
+      "temp_suffix": ".tmp",
+      "generated_at_format": "%Y-%m-%d %H:%M:%S",
+      "student_key_column": "_student_id_key",
+      "order_column": "_order",
+      "input_order_column": "_input_order"
+    },
+    "segment_label_fix": {
+      "enabled": true,
+      "files": [
+        "store_csv",
+        "current_output_csv"
+      ],
+      "segment_column": "student_segment_label",
+      "student_id_column": "student_id",
+      "backup_suffix": ".backup_before_label_fix",
+      "deduplicate_student_id": true,
+      "deduplicate_keep": "last",
+      "rules": [
+        {
+          "label": "Moderately Engaged (Passive) Learners",
+          "match_any": [
+            "passive",
+            "moderately",
+            "moderate"
+          ]
+        },
+        {
+          "label": "Highly Engaged (Active) Learners",
+          "match_any": [
+            "active",
+            "highly",
+            "high"
+          ]
+        }
+      ]
+    },
+    "markdown_export": {
+      "enabled": true,
+      "input_path": "data/processed/student_recommendation_reports_current.csv",
+      "output_ipynb_path": "notebook/student_recommendation_reports_markdown.ipynb",
+      "output_md_path": "notebook/student_recommendation_reports_markdown.md",
+      "required_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report"
+      ],
+      "title": "Student Recommendation Reports",
+      "fields": {
+        "student_id": "student_id",
+        "segment": "student_segment_label",
+        "tags": "final_recommendation_tags",
+        "report": "llm_recommendation_report"
+      },
+      "notebook_metadata": {
+        "kernelspec": {
+          "display_name": "Python 3",
+          "language": "python",
+          "name": "python3"
+        },
+        "language_info": {
+          "name": "python",
+          "version": "3.x"
+        }
+      }
+    },
+    "display": {
+      "max_colwidth": 250,
+      "max_columns": 100
+    }
+  },
+  "api": {
+    "database": {
+      "env": "DATABASE_URL",
+      "default_url": "postgresql://postgres:postgres@localhost:5432/blended_learning_db",
+      "pool_pre_ping": true,
+      "echo": false
+    },
+    "seed": {
+      "enabled": true,
+      "csv_path": "data/processed/student_recommendation_reports_current.csv",
+      "required_columns": [
+        "student_id",
+        "student_segment_label",
+        "final_recommendation_tags",
+        "llm_recommendation_report"
+      ],
+      "student_id_column": "student_id",
+      "deduplicate_keep": "last",
+      "replace_when_count_differs": true,
+      "log_prefix": "[seed]"
+    },
+    "model": {
+      "model_dir": "models",
+      "kmodes_model_filename": "kmodes_model.pkl",
+      "feature_columns_filename": "kmodes_feature_columns.json",
+      "cluster_label_map_filename": "kmodes_cluster_label_map.json",
+      "label_offset": 1,
+      "input_dtype": "Int64",
+      "tie_break_strategy": "highest_centroid_average"
+    },
+    "segments": {
+      "unknown_label": "Unknown",
+      "normalization_rules": [
+        {
+          "label": "Moderately Engaged (Passive) Learners",
+          "match_any": [
+            "passive",
+            "moderately engaged",
+            "moderately",
+            "moderate"
+          ]
+        },
+        {
+          "label": "Highly Engaged (Active) Learners",
+          "match_any": [
+            "highly engaged",
+            "highly",
+            "active",
+            "high"
+          ]
+        }
+      ],
+      "raw_cluster_id_strategy": "model_label_map",
+      "strip_cluster_prefix_regex": "\\bCluster\\s+\\d+\\s*[:\\-–—]\\s*"
+    },
+    "llm_runtime": {
+      "temperature": 0.3,
+      "max_tokens": 900
+    },
+    "nlp_runtime": {
+      "translation_enabled": true,
+      "fallback_to_original_on_translation_error": true
+    },
+    "app": {
+      "title": "Blended Learning Recommendation API",
+      "description": "FastAPI backend for student segmentation and personalized recommendation prototype",
+      "version": "1.0.0"
+    }
+  },
+  "web": {
+    "api": {
+      "base_url_env": "API_BASE_URL",
+      "default_base_url": "http://127.0.0.1:8000",
+      "default_get_timeout_seconds": 20,
+      "default_post_timeout_seconds": 300
+    },
+    "admin": {
+      "email_env": "ADMIN_EMAIL",
+      "password_env": "ADMIN_PASSWORD",
+      "default_email": "admin@example.com",
+      "default_password": "admin123"
+    },
+    "page": {
+      "title": "Blended Learning Recommendation System",
+      "logo_filename": "itc_logo.png",
+      "subtitles": {
+        "ITC Student Lookup": "Search an official ITC student ID and view the learner recommendation report.",
+        "Saved Record Lookup": "Search any stored recommendation record, including demo, external, and ITC IDs.",
+        "New Student Input": "Submit blended learning survey responses and generate a new recommendation.",
+        "Dashboard": "Monitor total records, learner segments, and recommendation system summary.",
+        "Student Records": "Review stored student and respondent recommendation records.",
+        "Survey Analytics": "Explore preprocessing, survey features, learner clusters, and recommendation tags.",
+        "About Prototype": "Understand the system architecture, thesis positioning, and data flow."
+      }
+    },
+    "segment_display": {
+      "order": [
+        "Highly Engaged (Active) Learners",
+        "Moderately Engaged (Passive) Learners"
+      ],
+      "colors": {
+        "Highly Engaged (Active) Learners": "#22c55e",
+        "Moderately Engaged (Passive) Learners": "#ef4444",
+        "Unknown": "#94a3b8"
+      }
+    },
+    "data_summary": {
+      "raw_responses": 644,
+      "cleaned_responses": 592,
+      "excluded_responses": 52,
+      "clustering_features": 33,
+      "stored_recommendation_records": 567,
+      "note": "Values reflect the current project files in ml/data. Update this block when the data lock changes."
+    },
+    "theme": {
+      "mode": "dark",
+      "streamlit": {
+        "base": "dark",
+        "primaryColor": "#ef4444",
+        "backgroundColor": "#020617",
+        "secondaryBackgroundColor": "#111827",
+        "textColor": "#f8fafc",
+        "font": "sans serif"
+      },
+      "colors": {
+        "primary": "#ef4444",
+        "primary_hover": "#dc2626",
+        "accent": "#f97316",
+        "background_start": "#020617",
+        "background_mid": "#0f172a",
+        "background_end": "#111827",
+        "sidebar_start": "#020617",
+        "sidebar_end": "#111827",
+        "card_background": "rgba(15, 23, 42, 0.92)",
+        "card_background_soft": "rgba(15, 23, 42, 0.55)",
+        "input_background": "#111827",
+        "text": "#f8fafc",
+        "heading": "#ffffff",
+        "muted_text": "#cbd5e1",
+        "subtle_text": "#94a3b8",
+        "border": "rgba(255,255,255,0.09)",
+        "border_strong": "#334155",
+        "success": "#22c55e",
+        "success_text": "#bbf7d0",
+        "danger": "#ef4444",
+        "danger_text": "#fecaca"
+      },
+      "layout": {
+        "max_width_px": 1280,
+        "desktop_padding_top_rem": 3.8,
+        "mobile_padding_top_rem": 4.8,
+        "small_mobile_padding_top_rem": 5.2
+      },
+      "plotly": {
+        "template": "plotly_dark",
+        "paper_bgcolor": "rgba(0,0,0,0)",
+        "plot_bgcolor": "rgba(0,0,0,0)",
+        "gridcolor": "rgba(148,163,184,0.15)",
+        "linecolor": "rgba(148,163,184,0.25)"
+      }
+    },
+    "ux": {
+      "hero_badges": [
+        "Personalized UX",
+        "FastAPI",
+        "K-Modes",
+        "LLM-ready"
+      ],
+      "page_eyebrows": {
+        "ITC Student Lookup": "Student-facing lookup",
+        "Saved Record Lookup": "Record retrieval",
+        "New Student Input": "Guided recommendation flow",
+        "Dashboard": "Admin overview",
+        "Student Records": "Database monitoring",
+        "Survey Analytics": "Research analytics",
+        "About Prototype": "System design"
+      },
+      "student_lookup_steps": [
+        {
+          "title": "Enter ID",
+          "body": "Use an official ITC student ID."
+        },
+        {
+          "title": "Retrieve profile",
+          "body": "The frontend requests the saved recommendation from FastAPI."
+        },
+        {
+          "title": "Review guidance",
+          "body": "Read the learner segment, tags, and recommendation report."
+        }
+      ],
+      "new_input_steps": [
+        {
+          "title": "Identify respondent",
+          "body": "Choose ITC, external, or demo mode."
+        },
+        {
+          "title": "Answer survey",
+          "body": "Complete the 33 model-aligned blended learning items."
+        },
+        {
+          "title": "Generate report",
+          "body": "FastAPI predicts a segment and stores the recommendation."
+        }
+      ],
+      "about_architecture": [
+        "Streamlit frontend for student/admin experience",
+        "FastAPI backend for prediction, records, and recommendation endpoints",
+        "PostgreSQL database for persistent recommendation storage",
+        "K-Modes model for learner segment assignment",
+        "Config-driven NLP/LLM recommendation pipeline"
+      ],
+      "about_capabilities": [
+        "ITC student lookup using official student IDs",
+        "New input flow using the same 33 survey features",
+        "External/demo respondent support with generated internal IDs",
+        "Admin dashboard and student record monitoring",
+        "Survey analytics and segment interpretation for thesis defense"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Runtime frontend dependencies for Streamlit UI
+streamlit
+pandas
+plotly
+requests
+python-dotenv

@@ -1,72 +1,91 @@
-from pathlib import Path
+"""Seed stored recommendation reports from the configured CSV file."""
+
+from __future__ import annotations
+
 import pandas as pd
 from sqlalchemy.orm import Session
 
+from api.core.config import get_api_config, resolve_ml_path
+from api.core.segments import clean_report_text, normalize_segment_label
 from api.models import StudentRecommendation
 
-# This file must have 588 rows
-CSV_PATH = Path("data/processed/student_recommendation_reports_current.csv")
+
+def _seed_cfg() -> dict:
+    return get_api_config().get("seed", {})
 
 
-def seed_student_recommendations(db: Session):
-    print("Checking database seed...")
+def _log(message: str) -> None:
+    prefix = _seed_cfg().get("log_prefix", "[seed]")
+    print(f"{prefix} {message}")
 
-    if not CSV_PATH.exists():
-        print(f"CSV file not found: {CSV_PATH.resolve()}")
+
+def load_seed_dataframe() -> pd.DataFrame | None:
+    """Load and validate the configured seed CSV."""
+    cfg = _seed_cfg()
+    csv_path = resolve_ml_path(cfg.get("csv_path", "data/processed/student_recommendation_reports_current.csv"))
+
+    if not csv_path.exists():
+        _log(f"CSV file not found: {csv_path}")
+        return None
+
+    df = pd.read_csv(csv_path)
+    required_columns = cfg.get("required_columns", [])
+    missing_columns = [column for column in required_columns if column not in df.columns]
+    if missing_columns:
+        raise ValueError(f"Missing required columns in seed CSV: {missing_columns}")
+
+    student_id_col = cfg.get("student_id_column", "student_id")
+    df[student_id_col] = df[student_id_col].astype(str).str.strip()
+    df = df[df[student_id_col] != ""].copy()
+    df = df.drop_duplicates(
+        subset=student_id_col,
+        keep=cfg.get("deduplicate_keep", "last"),
+    )
+
+    return df
+
+
+def seed_student_recommendations(db: Session) -> None:
+    """Synchronize the recommendation table with the configured report CSV."""
+    cfg = _seed_cfg()
+    if not cfg.get("enabled", True):
+        _log("Seeding is disabled in config. Skipping.")
         return
 
-    df = pd.read_csv(CSV_PATH)
-
-    required_columns = [
-        "student_id",
-        "student_segment_label",
-        "final_recommendation_tags",
-        "llm_recommendation_report",
-    ]
-
-    missing_columns = [col for col in required_columns if col not in df.columns]
-
-    if missing_columns:
-        raise ValueError(f"Missing required columns in CSV: {missing_columns}")
-
-    # Clean duplicate student_id in CSV
-    df["student_id"] = df["student_id"].astype(str).str.strip()
-    df = df[df["student_id"] != ""].copy()
-    df = df.drop_duplicates(subset="student_id", keep="last")
+    _log("Checking database seed...")
+    df = load_seed_dataframe()
+    if df is None:
+        return
 
     existing_count = db.query(StudentRecommendation).count()
     csv_count = len(df)
+    _log(f"Database student records: {existing_count}")
+    _log(f"CSV student records: {csv_count}")
 
-    print(f"Database student records: {existing_count}")
-    print(f"CSV student records: {csv_count}")
-
-    # Only skip if database count matches CSV count
     if existing_count == csv_count:
-        print(f"Database already matches CSV with {existing_count} records. Skipping seed.")
+        _log(f"Database already matches CSV with {existing_count} records. Skipping seed.")
         return
 
-    print("Database count does not match CSV. Reseeding...")
+    if not cfg.get("replace_when_count_differs", True):
+        _log("Database count differs from CSV, but replacement is disabled. Skipping seed.")
+        return
 
-    # Clear old records
+    _log("Database count does not match CSV. Reseeding...")
     db.query(StudentRecommendation).delete()
     db.commit()
 
     inserted = 0
-
     for _, row in df.iterrows():
         student = StudentRecommendation(
             student_id=str(row["student_id"]),
-            student_segment_label=str(row["student_segment_label"]),
+            student_segment_label=normalize_segment_label(row["student_segment_label"]),
             final_recommendation_tags=str(row["final_recommendation_tags"]),
-            llm_recommendation_report=str(row["llm_recommendation_report"]),
+            llm_recommendation_report=clean_report_text(str(row["llm_recommendation_report"])),
         )
-
         db.add(student)
         inserted += 1
 
     db.commit()
-
     final_count = db.query(StudentRecommendation).count()
-
-    print(f"Seeded {inserted} student recommendation records into PostgreSQL.")
-    print(f"Database now has {final_count} student recommendation records.")
+    _log(f"Seeded {inserted} student recommendation records into the database.")
+    _log(f"Database now has {final_count} student recommendation records.")
