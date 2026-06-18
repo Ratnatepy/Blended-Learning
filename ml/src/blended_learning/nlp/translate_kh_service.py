@@ -55,6 +55,8 @@ class TranslateKHService:
         self.password = password or os.getenv(env_cfg["password"])
         self.timeout = timeout if timeout is not None else self.cfg["timeout_seconds"]
         self.valid_langs = set(self.cfg["valid_langs"])
+        
+     
 
         if not self.username or not self.password:
             raise ValueError(
