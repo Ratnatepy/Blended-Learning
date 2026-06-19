@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+<<<<<<< HEAD
 from components.assets import icon_title, image_to_base64
 from components.auth import require_admin_login
 from components.theme import apply_custom_theme, configure_page
@@ -14,6 +15,23 @@ from components.ui import (
     render_tags,
     show_api_error,
     style_plotly,
+=======
+load_dotenv()
+
+API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+APP_ICON_PATH = "assets/itc_logo.png"
+APP_DIR = Path(__file__).resolve().parent          # web/app
+WEB_DIR = APP_DIR.parent                           # web
+ASSETS_DIR = WEB_DIR / "assets"                    # web/assets
+ICONS_DIR = ASSETS_DIR / "icons"                   # web/assets/icons
+APP_ICON_PATH = ASSETS_DIR / "itc_logo.png"
+
+st.set_page_config(
+    page_title="Blended Learning Recommendation System",
+    page_icon=str(APP_ICON_PATH) if APP_ICON_PATH.exists() else None,
+    layout="wide",
+    initial_sidebar_state="expanded"
+>>>>>>> c5241ef (deploy)
 )
 from components.ux import (
     render_feature_group_intro,
@@ -23,6 +41,7 @@ from components.ux import (
     render_section_header,
     render_split_card,
 )
+<<<<<<< HEAD
 from core.api_client import ApiClient
 from core.config import load_web_settings
 from core.recommendations import (
@@ -50,12 +69,503 @@ api_post = api_client.post
 
 configure_page(settings)
 apply_custom_theme(settings)
+=======
+
+
+# -----------------------------
+# Helper functions
+# -----------------------------
+
+def image_to_base64(image_path: str):
+    path = Path(image_path)
+
+    if not path.exists():
+        return ""
+    
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode()
+
+
+def icon_svg(svg_path: str, size: int = 18, color: str = "#f8fafc") -> str:
+    """
+    Return an SVG loaded from a file as an HTML string.
+    Use with st.markdown(..., unsafe_allow_html=True).
+    """
+
+    path = Path(svg_path)
+
+    if not path.exists():
+        return ""
+
+    svg = path.read_text(encoding="utf-8")
+
+    # Set width and height
+    if "width=" in svg:
+        svg = svg.replace('width="24"', f'width="{size}"')
+    else:
+        svg = svg.replace("<svg", f'<svg width="{size}"', 1)
+
+    if "height=" in svg:
+        svg = svg.replace('height="24"', f'height="{size}"')
+    else:
+        svg = svg.replace("<svg", f'<svg height="{size}"', 1)
+
+    # Set stroke color when the SVG uses common stroke values
+    safe_color = html.escape(color)
+    svg = svg.replace('stroke="currentColor"', f'stroke="{safe_color}"')
+    svg = svg.replace('stroke="#f8fafc"', f'stroke="{safe_color}"')
+    svg = svg.replace('stroke="black"', f'stroke="{safe_color}"')
+
+    # Add inline style
+    svg = svg.replace(
+        "<svg",
+        '<svg style="vertical-align:-3px; margin-right:6px;"',
+        1,
+    )
+
+    return svg
+
+
+def icon_span(name: str, text: str, size: int = 18, color: str = "#f8fafc") -> str:
+    path = ICONS_DIR / f"{name}.svg"
+    return f'{icon_svg(path, size=size, color=color)}<span>{html.escape(text)}</span>'
+
+
+def icon_title(name: str, text: str, level: int = 3, color: str = "#f8fafc") -> str:
+    level = max(1, min(level, 6))
+    path = ICONS_DIR / f"{name}.svg"
+
+    return f"""
+    <h{level} style="display:flex; align-items:center; gap:0.35rem; color:{color};">
+        {icon_svg(path, size=22, color=color)}
+        <span>{html.escape(text)}</span>
+    </h{level}>
+    """
+
+def api_get(endpoint: str, timeout: int = 20):
+    """
+    GET request helper.
+
+    Returns:
+        response, error_type, error_message
+    """
+    try:
+        response = requests.get(
+            f"{API_BASE_URL}{endpoint}",
+            timeout=timeout
+        )
+        return response, None, None
+
+    except requests.exceptions.ConnectionError as error:
+        return None, "connection_error", str(error)
+
+    except requests.exceptions.Timeout as error:
+        return None, "timeout_error", str(error)
+
+    except requests.exceptions.RequestException as error:
+        return None, "request_error", str(error)
+
+
+def api_post(endpoint: str, payload: dict, timeout: int = 300):
+    """
+    POST request helper.
+
+    OpenRouter LLM generation can take time, so this separates real
+    connection problems from timeout problems.
+    """
+    try:
+        response = requests.post(
+            f"{API_BASE_URL}{endpoint}",
+            json=payload,
+            timeout=timeout
+        )
+        return response, None, None
+
+    except requests.exceptions.ConnectionError as error:
+        return None, "connection_error", str(error)
+
+    except requests.exceptions.Timeout as error:
+        return None, "timeout_error", str(error)
+
+    except requests.exceptions.RequestException as error:
+        return None, "request_error", str(error)
+
+
+def show_api_error(error_type: str, error_message: str = ""):
+    """
+    Show accurate API/frontend errors instead of always saying
+    'Could not connect to FastAPI backend.'
+    """
+    if error_type == "connection_error":
+        st.error(
+            "Could not connect to FastAPI backend."
+        )
+
+    elif error_type == "timeout_error":
+        st.warning(
+            "FastAPI received the request, but the frontend waited too long for the response. "
+            "Because OpenRouter LLM generation can be slow, the recommendation may already be saved. "
+            "Please search the student ID before clicking Generate again."
+        )
+
+    elif error_type == "request_error":
+        st.error("A request error occurred while contacting FastAPI.")
+        if error_message:
+            st.code(error_message)
+
+    else:
+        st.error("An unknown frontend/API error occurred.")
+        if error_message:
+            st.code(error_message)
+
+
+def render_metric_card(label, value, subtext=""):
+    st.markdown(
+        f"""
+        <div class="metric-card">
+            <div class="metric-label">{html.escape(str(label))}</div>
+            <div class="metric-value">{html.escape(str(value))}</div>
+            <div class="metric-small">{html.escape(str(subtext))}</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+def render_tags(tags):
+    if not tags:
+        st.info("No recommendation tags available.")
+        return
+
+    try:
+        parsed = json.loads(tags) if isinstance(tags, str) else tags
+
+        if isinstance(parsed, list):
+            cleaned_tags = [str(tag).strip() for tag in parsed]
+        else:
+            cleaned_tags = [str(parsed)]
+
+    except Exception:
+        cleaned_tags = (
+            str(tags)
+            .replace("[", "")
+            .replace("]", "")
+            .replace('"', "")
+            .replace("'", "")
+            .split(",")
+        )
+        cleaned_tags = [tag.strip() for tag in cleaned_tags if tag.strip()]
+
+    html_tags = "".join(
+        [f'<span class="tag-pill">{html.escape(tag)}</span>' for tag in cleaned_tags]
+    )
+
+    st.markdown(html_tags, unsafe_allow_html=True)
+
+
+def style_plotly(fig):
+    fig.update_layout(
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#f8fafc"),
+        title_font=dict(size=18, color="#f8fafc"),
+        legend=dict(
+            bgcolor="rgba(0,0,0,0)",
+            font=dict(color="#f8fafc")
+        )
+    )
+
+    fig.update_xaxes(
+        gridcolor="rgba(148,163,184,0.15)",
+        linecolor="rgba(148,163,184,0.25)"
+    )
+
+    fig.update_yaxes(
+        gridcolor="rgba(148,163,184,0.15)",
+        linecolor="rgba(148,163,184,0.25)"
+    )
+
+    return fig
+
+
+def parse_tags_to_list(tags):
+    if not tags:
+        return []
+
+    try:
+        parsed = json.loads(tags) if isinstance(tags, str) else tags
+        if isinstance(parsed, list):
+            return [str(tag).strip() for tag in parsed if str(tag).strip()]
+        return [str(parsed)]
+    except Exception:
+        return [
+            tag.strip()
+            for tag in str(tags)
+            .replace("[", "")
+            .replace("]", "")
+            .replace('"', "")
+            .replace("'", "")
+            .split(",")
+            if tag.strip()
+        ]
+
+
+def is_valid_itc_student_id(student_id: str) -> bool:
+    """
+    Validate official ITC student ID formats.
+
+    Supported examples:
+    - Undergraduate: e20123456
+    - Master: M061211
+    - PhD: e2012345NKH
+    - International Program: p20123456
+    - ITC Kep Campus: kpe20123456
+    - ITC Tbong Khmum Campus: tk20123456
+    """
+    if not student_id:
+        return False
+
+    student_id = student_id.strip()
+
+    patterns = [
+        r"^e\d{8}$",
+        r"^M\d{6}$",
+        r"^e\d{7}[A-Za-z]{3}$",
+        r"^p\d{8}$",
+        r"^kpe\d{8}$",
+        r"^tk\d{8}$",
+    ]
+
+    return any(re.match(pattern, student_id, re.IGNORECASE) for pattern in patterns)
+
+
+def normalize_itc_student_id(student_id: str) -> str:
+    """
+    Normalize ITC student ID before database lookup.
+    This helps match the stored ID format.
+    """
+    cleaned_id = student_id.strip()
+
+    if cleaned_id.lower().startswith(("kpe", "tk")):
+        return cleaned_id.lower()
+
+    if cleaned_id.lower().startswith(("e", "p")):
+        prefix = cleaned_id[0].lower()
+        rest = cleaned_id[1:]
+        digits = "".join([char for char in rest if char.isdigit()])
+        letters = "".join([char for char in rest if char.isalpha()])
+        return prefix + digits + letters.upper()
+
+    if cleaned_id.lower().startswith("m"):
+        return cleaned_id.upper()
+
+    return cleaned_id
+
+def get_nested_recommendation_tags(data: dict):
+    """
+    Read recommendation tags from either the old flat API response
+    or the newer nested NLP extraction response.
+    """
+    if not isinstance(data, dict):
+        return []
+
+    direct_tags = data.get("final_recommendation_tags")
+    if direct_tags:
+        return direct_tags
+
+    nlp_extraction = data.get("nlp_extraction", {})
+    if isinstance(nlp_extraction, dict):
+        nested_tags = nlp_extraction.get("final_recommendation_tags")
+        if nested_tags:
+            return nested_tags
+
+        recommendation_tags = nlp_extraction.get("recommendation_tags")
+        if recommendation_tags:
+            return recommendation_tags
+
+    return []
+
+
+def get_recommendation_report(data: dict):
+    """
+    Read the recommendation report safely from different possible API response shapes.
+    """
+    if not isinstance(data, dict):
+        return ""
+
+    possible_keys = [
+        "llm_recommendation_report",
+        "recommendation_report",
+        "report",
+        "generated_report"
+    ]
+
+    for key in possible_keys:
+        value = data.get(key)
+        if value:
+            return value
+
+    return ""
+
+def clean_recommendation_text(text):
+    """
+    Clean recommendation report text before showing it in Streamlit.
+
+    This fixes cases where <br>• appears directly in the UI by allowing
+    <br> to render as a real line break inside Markdown tables.
+    """
+    if not text:
+        return ""
+
+    cleaned = str(text)
+
+    # Decode escaped HTML if backend/database saved it as text
+    cleaned = cleaned.replace("&lt;br&gt;", "<br>")
+    cleaned = cleaned.replace("&lt;br/&gt;", "<br>")
+    cleaned = cleaned.replace("&lt;br /&gt;", "<br>")
+
+    # Normalize all break formats
+    cleaned = cleaned.replace("<br />", "<br>")
+    cleaned = cleaned.replace("<br/>", "<br>")
+
+    return cleaned.strip()
+
+
+def render_recommendation_report(report):
+    """
+    Render the recommendation report correctly in Streamlit.
+    """
+    cleaned_report = clean_recommendation_text(report)
+
+    if cleaned_report:
+        st.markdown(cleaned_report, unsafe_allow_html=True)
+
+def render_generated_recommendation_result(data: dict, final_student_id: str, respondent_type: str):
+    """
+    Render successful recommendation generation result.
+    Works with both flat and nested API response formats.
+    """
+    if not isinstance(data, dict):
+        st.error("FastAPI returned an invalid response format.")
+        st.code(str(data))
+        return
+
+    already_exists = data.get("already_exists", False)
+
+    if already_exists:
+        st.warning("This ID already exists. Showing the saved recommendation instead of creating a duplicate.")
+    else:
+        st.success("Recommendation generated and saved successfully.")
+
+    if respondent_type == "Non-ITC / External Respondent":
+        st.info(
+            f"Generated internal external respondent ID: `{final_student_id}`. "
+            "This ID is stored for database tracking and future model tuning, "
+            "but the public lookup page is limited to ITC student IDs."
+        )
+
+    student_id_value = data.get("student_id", final_student_id)
+
+    segment_value = (
+        data.get("student_segment_label")
+        or data.get("segment_label")
+        or data.get("segment")
+        or "-"
+    )
+
+    generation_source = data.get("llm_generation_source")
+
+    col1, col2 = st.columns([1, 1])
+
+    with col1:
+        st.markdown("### Assigned Learner Segment")
+        st.markdown(
+            f"""
+            <div class="info-card">
+                <b>ID:</b> {html.escape(str(student_id_value))}<br><br>
+                <b>Segment:</b> {html.escape(str(segment_value))}<br><br>
+                <b>Generation Source:</b> {html.escape(str(generation_source or "-"))}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+    with col2:
+        st.markdown("### Recommendation Tags")
+        tags = get_nested_recommendation_tags(data)
+        render_tags(tags)
+
+    st.markdown("### Generated Recommendation Report")
+
+    if generation_source == "openrouter_llm":
+        st.success("Generated using OpenRouter LLM.")
+    elif generation_source:
+        st.warning(
+            "Generated using the safe rule-based fallback "
+            f"because LLM generation was unavailable: `{generation_source}`."
+        )
+
+    generated_report = get_recommendation_report(data)
+
+    if generated_report:
+        render_recommendation_report(generated_report)
+    else:
+        st.info(
+            "The backend returned NLP extraction and recommendation tags, "
+            "but no final recommendation report field was found."
+        )
+
+        with st.expander("Show raw FastAPI response"):
+            st.json(data)
+
+
+# -----------------------------
+# Simple Admin Authentication
+# -----------------------------
+ADMIN_EMAIL = os.getenv("ADMIN_EMAIL", "admin@example.com")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin123")
+
+
+def require_admin_login():
+    if "admin_logged_in" not in st.session_state:
+        st.session_state["admin_logged_in"] = False
+
+    if st.session_state["admin_logged_in"]:
+        st.sidebar.success("Admin logged in")
+        if st.sidebar.button("Logout Admin"):
+            st.session_state["admin_logged_in"] = False
+            st.rerun()
+        return True
+
+    st.markdown(icon_title("lock", "Admin Login Required", level=3), unsafe_allow_html=True)
+    st.info("Please log in to access the Admin dashboard.")
+
+    with st.form("admin_login_form"):
+        email = st.text_input("Admin Email")
+        password = st.text_input("Admin Password", type="password")
+        login_clicked = st.form_submit_button("Login")
+
+    if login_clicked:
+        if email == ADMIN_EMAIL and password == ADMIN_PASSWORD:
+            st.session_state["admin_logged_in"] = True
+            st.success("Admin login successful.")
+            st.rerun()
+        else:
+            st.error("Invalid admin email or password.")
+
+    return False
+>>>>>>> c5241ef (deploy)
 
 # -----------------------------
 # Sidebar Navigation
 # -----------------------------
+<<<<<<< HEAD
 logo_path = settings.logo_path
 logo_base64 = image_to_base64(logo_path)
+=======
+logo_base64 = image_to_base64(APP_ICON_PATH)
+>>>>>>> c5241ef (deploy)
 st.sidebar.markdown(
     f"""
     <div class="sidebar-brand">

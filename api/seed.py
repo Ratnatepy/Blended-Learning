@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 """Seed stored recommendation reports from the configured CSV file."""
 
 from __future__ import annotations
 
+=======
+import os
+from pathlib import Path
+>>>>>>> c5241ef (deploy)
 import pandas as pd
 from sqlalchemy.orm import Session
 
@@ -9,10 +14,20 @@ from api.core.config import get_api_config, resolve_ml_path
 from api.core.segments import clean_report_text, normalize_segment_label
 from api.models import StudentRecommendation
 
+<<<<<<< HEAD
 
 def _seed_cfg() -> dict:
     return get_api_config().get("seed", {})
 
+=======
+# This file must have 588 rows
+CSV_PATH = Path(
+    os.getenv(
+        "SEED_CSV_PATH",
+        "/app/ml/data/processed/student_recommendation_reports_current.csv"
+    )
+)
+>>>>>>> c5241ef (deploy)
 
 def _log(message: str) -> None:
     prefix = _seed_cfg().get("log_prefix", "[seed]")

@@ -1,4 +1,20 @@
+<<<<<<< HEAD
 # FastAPI backend runtime dependencies
+=======
+# Runtime backend dependencies generated from requirements.txt and pyproject.toml
+pandas
+numpy
+scikit-learn
+kmodes
+gower
+joblib
+nltk
+langdetect
+wordcloud
+sentencepiece
+deep_translator
+openai
+>>>>>>> c5241ef (deploy)
 fastapi
 uvicorn[standard]
 gunicorn
