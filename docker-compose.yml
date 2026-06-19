@@ -34,9 +34,7 @@ services:
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
       DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-change_me_strong_password}@postgres:5432/${POSTGRES_DB:-blended_learning_db}
-
       PYTHONPATH: /app:/app/ml/src
-
       MODEL_DIR: /app/ml/models
       CONFIG_PATH: /app/ml/config/config.json
       SEED_CSV_PATH: /app/ml/data/processed/student_recommendation_reports_current.csv
@@ -45,6 +43,8 @@ services:
         condition: service_healthy
     expose:
       - "8000"
+    ports:
+      - "8000:8000"
     volumes:
       - ./ml/data:/app/ml/data:rw
       - ./ml/models:/app/ml/models:ro
@@ -77,6 +77,8 @@ services:
         condition: service_healthy
     expose:
       - "8501"
+    ports:
+      - "8501:8501"
     networks:
       - blended_internal
     healthcheck:

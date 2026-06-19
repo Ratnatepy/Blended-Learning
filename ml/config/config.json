@@ -2187,47 +2187,47 @@
     "recommendation_rule_bank": {
       "tech_issue": {
         "title": "Improve technical access and reliability",
-        "recommendation": "Provide stable internet access, offline materials, clear platform instructions, and technical support."
+        "recommendation": "Test your internet connection before online sessions, prepare a backup option, download offline materials when possible, follow platform instructions, and contact technical support when problems occur."
       },
       "motivation": {
         "title": "Support motivation and self-discipline",
-        "recommendation": "Use weekly check-ins, reminders, progress tracking, and structured study schedules."
+        "recommendation": "Use weekly check-ins, reminders, progress tracking, and a structured study schedule to stay consistent."
       },
       "interaction": {
         "title": "Increase interaction and communication",
-        "recommendation": "Add Q&A sessions, group discussion, peer collaboration, and faster lecturer feedback."
+        "recommendation": "Join Q&A sessions, participate in group discussions, collaborate with peers, post questions, and request feedback from lecturers when needed."
       },
       "learning_support": {
         "title": "Improve clarity and learning support",
-        "recommendation": "Provide clearer instructions, examples, recorded explanations, and step-by-step learning guides."
+        "recommendation": "Use available examples, recorded explanations, and step-by-step guides. If instructions are unclear, ask the lecturer or classmates for clarification."
       },
       "learning_environment": {
         "title": "Improve learning resources and environment",
-        "recommendation": "Organize materials clearly, update resources, improve study spaces, and support classroom comfort."
+        "recommendation": "Organize your learning materials clearly, keep your notes and files updated, and choose a comfortable study space that helps you focus."
       },
       "workload_support": {
         "title": "Manage workload and assessment pressure",
-        "recommendation": "Balance assignments, clarify deadlines, and align online tasks with in-person sessions."
+        "recommendation": "List all deadlines, break large assignments into smaller tasks, plan online and face-to-face work together, and ask for clarification early."
       },
       "self_paced": {
         "title": "Support self-paced learning",
-        "recommendation": "Provide recorded lessons, weekly learning paths, and materials students can review at their own pace."
+        "recommendation": "Use recorded lessons, weekly learning paths, and downloadable materials to review content at your own pace."
       },
       "content_access": {
         "title": "Strengthen access to learning materials",
-        "recommendation": "Upload slides, videos, references, exercises, and course materials early."
+        "recommendation": "Check the LMS or course platform early, download slides, videos, references, and exercises, organize them by week or topic, and request missing materials when needed."
       },
       "digital_skill": {
         "title": "Develop digital learning skills",
-        "recommendation": "Provide guidance on LMS tools, online resources, digital research, and educational technologies."
+        "recommendation": "Use available LMS guides, online resources, digital research tools, and educational technologies to improve your confidence with digital learning."
       },
       "engagement": {
         "title": "Increase learner engagement",
-        "recommendation": "Use quizzes, games, practical tasks, discussions, and interactive activities."
+        "recommendation": "Participate in quizzes, practical tasks, discussions, interactive activities, and peer learning opportunities."
       },
       "learning_effectiveness": {
         "title": "Improve learning effectiveness",
-        "recommendation": "Combine online review materials with in-person explanation, practice, and feedback."
+        "recommendation": "Combine online review materials with in-person explanation, practice activities, and feedback to strengthen understanding."
       }
     },
     "visualisation": {
@@ -2253,16 +2253,16 @@
       ],
       "heatmap_cmap": "Reds",
       "titles": {
-        "strength_keywords": "Top Mentioned Strength Keywords / Phrases",
-        "challenge_keywords": "Top Mentioned Challenge / Suggestion Keywords / Phrases",
-        "strength_themes": "Most Important Strength Themes",
-        "challenge_themes": "Most Important Challenge / Suggestion Themes",
-        "cluster_strength_keywords": "Top Strength Keywords by Cluster",
-        "cluster_challenge_keywords": "Top Challenge / Suggestion Keywords by Cluster",
-        "cluster_strength_themes": "Strength Themes by Learner Cluster",
-        "cluster_challenge_themes": "Challenge / Suggestion Themes by Learner Cluster",
-        "cluster_strength_heatmap": "Strength Theme Intensity by Cluster",
-        "cluster_challenge_heatmap": "Challenge Theme Intensity by Cluster"
+        "strength_keywords": "Top Strength Keywords from Open-Ended Feedback",
+        "challenge_keywords": "Top Challenge and Suggestion Keywords from Open-Ended Feedback",
+        "strength_themes": "Main Strength Themes from Open-Ended Feedback",
+        "challenge_themes": "Main Challenge and Suggestion Themes from Open-Ended Feedback",
+        "cluster_strength_keywords": "Top Strength Keywords by Learner Segment",
+        "cluster_challenge_keywords": "Top Challenge and Suggestion Keywords by Learner Segment",
+        "cluster_strength_themes": "Strength Themes by Learner Segment",
+        "cluster_challenge_themes": "Challenge and Suggestion Themes by Learner Segment",
+        "cluster_strength_heatmap": "Strength Theme Intensity by Learner Segment",
+        "cluster_challenge_heatmap": "Challenge Theme Intensity by Learner Segment"
       }
     },
     "display": {
@@ -2381,17 +2381,27 @@
       "evidence_heading": "Student evidence:",
       "rules": [
         "Use only the provided evidence.",
-        "Do not invent facts.",
-        "Keep it concise.",
+        "Do not invent facts, problems, or recommendations.",
+        "Keep the report concise and easy for a university student to understand.",
         "Mention the student segment.",
         "The rule-based recommendations are the source of truth.",
-        "If open-ended evidence is weak or empty, explain that the recommendation is based mainly on the segment profile."
+        "The primary audience is the student/respondent receiving an individual report.",
+        "Write directly to the student using 'you'.",
+        "Do not write the individual report as if it is addressed to admins, educators, lecturers, or system managers.",
+        "Do not tell the student to perform actions controlled by lecturers, admins, or the institution.",
+        "Convert institution-facing recommendations into student-controlled actions.",
+        "For example, change 'upload materials early' into 'check the LMS early, download materials, organize them, and request missing resources'.",
+        "For example, change 'provide tutorials' into 'use available tutorials or ask for guidance'.",
+        "For example, change 'schedule Q&A sessions' into 'join Q&A sessions, post questions, or request clarification'.",
+        "For example, change 'ensure technical support' into 'prepare backup internet access, download offline materials, and contact technical support when needed'.",
+        "If open-ended evidence is weak or empty, explain that the recommendation is based mainly on the segment profile and detected tags.",
+        "The short action plan must contain realistic actions the student can do by themselves."
       ]
     },
     "fallback_report": {
       "title": "# Personalized Blended Learning Recommendation Report",
       "profile_heading": "## 1. Student Learning Profile",
-      "profile_template": "The student belongs to the **{segment}** profile.",
+      "profile_template": "You belong to the **{segment}** profile.",
       "strength_heading": "## 2. Main Strengths",
       "challenge_heading": "## 3. Main Challenges",
       "recommendation_heading": "## 4. Personalized Recommendations",
@@ -2705,7 +2715,7 @@
         "New input flow using the same 33 survey features",
         "External/demo respondent support with generated internal IDs",
         "Admin dashboard and student record monitoring",
-        "Survey analytics and segment interpretation for thesis defense"
+        "Survey analytics and segment interpretation"
       ]
     }
   }
