@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# FastAPI backend runtime dependencies
-=======
 # Runtime backend dependencies generated from requirements.txt and pyproject.toml
 pandas
 numpy
@@ -14,16 +11,11 @@ wordcloud
 sentencepiece
 deep_translator
 openai
->>>>>>> c5241ef (deploy)
 fastapi
 uvicorn[standard]
 gunicorn
 sqlalchemy
 psycopg2-binary
-pandas
-numpy
-kmodes
 joblib
-openai
 requests
 python-dotenv
