@@ -2661,8 +2661,10 @@
     },
     "ux": {
       "hero_badges": [
+        "Personalized UX",
         "FastAPI",
-        "K-Modes"
+        "K-Modes",
+        "LLM-ready"
       ],
       "page_eyebrows": {
         "ITC Student Lookup": "Student-facing lookup",
@@ -2677,12 +2679,28 @@
         {
           "title": "Enter ID",
           "body": "Use an official ITC student ID."
+        },
+        {
+          "title": "Retrieve profile",
+          "body": "The frontend requests the saved recommendation from FastAPI."
+        },
+        {
+          "title": "Review guidance",
+          "body": "Read the learner segment, tags, and recommendation report."
         }
       ],
       "new_input_steps": [
         {
           "title": "Identify respondent",
           "body": "Choose ITC, external, or demo mode."
+        },
+        {
+          "title": "Answer survey",
+          "body": "Complete the 33 model-aligned blended learning items."
+        },
+        {
+          "title": "Generate report",
+          "body": "FastAPI predicts a segment and stores the recommendation."
         }
       ],
       "about_architecture": [

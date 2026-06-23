@@ -172,8 +172,8 @@ ux_cfg = settings.ux or {}
 page_eyebrows = ux_cfg.get("page_eyebrows", {}) if isinstance(ux_cfg, dict) else {}
 hero_badges = ux_cfg.get(
     "hero_badges",
-    ["Personalized UX", "FastAPI", "K-Modes", "LLM-ready"],
-) if isinstance(ux_cfg, dict) else ["Personalized UX", "FastAPI", "K-Modes", "LLM-ready"]
+    ["FastAPI", "K-Modes"],
+) if isinstance(ux_cfg, dict) else ["FastAPI", "K-Modes"]
 
 render_page_hero(
     title=page,
@@ -234,7 +234,7 @@ if page == "Dashboard":
                 "K-Modes + rule-based tags"
             )
 
-        render_section_header("Student Segment Distribution", "Compare learner profile counts and proportions from the saved recommendation records.")
+        # render_section_header("Student Segment Distribution", "Compare learner profile counts and proportions from the saved recommendation records.")
 
         if segment_distribution:
             segment_df = pd.DataFrame(
